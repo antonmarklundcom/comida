@@ -53,13 +53,14 @@ for(const image of images){const files=variants(image);if(!files.length)throw Er
 const commonHeader=header(),footer=normalize(read('templates/footer.html'));
 for(const route of routes.filter(r=>r.published)){
  const page=pages.find(p=>p.id===route.id);if(!page)throw Error('Missing page module '+route.id);
+ const pageWhatsApp=html=>html.replace(/href="https:\/\/wa\.me\/[^" ]+"/g,()=>`href="${attr(wa(page.waMessage))}"`);
  let content;
  if(route.kind==='home')content=normalize(read('templates/home.html'));
  else {const render=(await import(pathToFileURL(path.join(root,'templates',route.kind+'.mjs')).href)).default;content=render({page,route,routes,picture,wa,config})}
  const hero=route.kind==='home'?images.find(i=>i.file==='catering-buffet-evento-salon-asuncion'):images.find(i=>i.id===page.image);
  const preload=hero?`<link rel="preload" as="image" type="image/avif" imagesrcset="${variants(hero).filter(f=>f.type==='avif').map(f=>'/assets/img/'+f.file+' '+f.width+'w').join(', ')}" imagesizes="${route.kind==='home'?'100vw':'(min-width:900px) 1200px, 100vw'}">`:'';
  const html=`<!doctype html><html lang="${config.locale}"><head><meta charset="utf-8"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23C8472B'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23FAF6F0' text-anchor='middle'%3Ec%3C/text%3E%3C/svg%3E"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(route.title)}</title><meta name="description" content="${attr(route.meta)}"><link rel="canonical" href="${config.origin+route.path}">${route.indexable?'':'<meta name="robots" content="noindex, follow">'}<meta name="theme-color" content="#FAF6F0"><meta property="og:type" content="website"><meta property="og:title" content="${attr(route.title)}"><meta property="og:description" content="${attr(route.meta)}"><meta property="og:url" content="${config.origin+route.path}"><meta property="og:locale" content="es_PY">${preload}<link rel="stylesheet" href="/css/tokens.css"><link rel="stylesheet" href="/css/fonts.css"><link rel="stylesheet" href="/css/site.css"><script type="application/ld+json">${jsonLd(schemas(route))}</script><script src="/js/site.js" defer></script></head><body><a class="skip" href="#top">Saltar al contenido</a>${commonHeader}${content}${footer}</body></html>`;
- const file=fileFor(out,route.path);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,html);
+ const file=fileFor(out,route.path);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,pageWhatsApp(html));
 }
 const indexable=routes.filter(r=>r.published&&r.indexable&&r.kind!=='404');
 fs.writeFileSync(path.join(out,'sitemap.xml'),buildSitemap(config,indexable.map(r=>({...r,slug:r.path,updated:r.updatedAt}))));
