@@ -1,0 +1,16 @@
+You are working on comida.com.py in C:\Claude 1\comida-com-py. This dispatch is P2: the viandas line, ordered by Anton's Fable directive and justified in plan/11-REVENUE-AND-VALUATION.md sections 0 to 2.
+
+Read first: docs/log/build.md (state and standing overrides), plan/11-REVENUE-AND-VALUATION.md, plan/08-V2-DECISIONS.md, plan/04-BUILD-SPEC.md, AGENTS.md.
+
+Context: viandas are weekly meal-plan subscriptions sold on behalf of a partner vianda business. comida.com.py refers; the partner cooks, delivers and invoices. No vianda partner is signed, so this line is built but not published to search.
+
+Tasks:
+1. Add to sites/comida/routes.mjs: /viandas/ (hub), /viandas/saludables/, /viandas/para-oficina/, /viandas/precios/. Each with published true and indexable false, and hidden from navigation and the sitemap, exactly as /chef-a-domicilio/ is handled today. They flip to indexable only when plan/P0-ANSWERS.md contains viandasPartnerSigned: yes; implement that as a single config gate, not four hard-coded values.
+2. Write unique Spanish copy (Paraguay, voseo) for the four pages using the existing content envelope and templates: what a vianda plan is, weekly plan comparison as a structure not as numbers, zones served, how delivery and pauses usually work, who cooks and who invoices, and six to eight unique FAQ per page. /viandas/precios/ explains what changes the cost per meal and renders no number while no price entry is published.
+3. Add a viandas option to the form: an Ocasión or tipo de servicio value that carries through to the lead payload with its own lead type, so a viandas enquiry is distinguishable in the CRM. Keep the WhatsApp fallback with a prefilled voseo message specific to viandas.
+4. Related links in both directions between viandas and the catering hub must resolve to published routes.
+5. No image may be invented. Use docs/imagery-manifest.json; if no image fits a viandas page, leave the slot empty and flag it rather than reusing a catering photo that misrepresents the service.
+
+Commands before reporting: node engine/build-site.mjs --site=comida, node engine/verify.mjs --site=comida, node scripts/check-duplicates.mjs. All exit 0. Print the HTML count and the sitemap URL count and confirm the sitemap count did not change.
+
+Definition of done: report under 250 words with files changed, counts, the verify summary, Assumptions and Flagged. Do not paste file contents. Do not commit.

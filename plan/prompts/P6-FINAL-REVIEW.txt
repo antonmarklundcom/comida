@@ -1,0 +1,13 @@
+You are reviewing comida.com.py in C:\Claude 1\comida-com-py. This dispatch is P6: a final independent look before Anton publishes. Ideas only. You may create exactly one file, docs/log/codex-final-review.md, and change nothing else.
+
+Read first: docs/log/build.md, docs/log/qa-report.md, docs/log/codex-review-opus-1.md, plan/11-REVENUE-AND-VALUATION.md, plan/10-FOOD-PORTFOLIO-STRATEGY.md sections 4 and 11, plan/08-V2-DECISIONS.md, plan/02-SEO-AND-SITEMAP.md, AGENTS.md, then the built output in dist/comida.com.py and the source modules.
+
+Note that a previous review of the home design produced docs/log/codex-review-opus-1.md. Do not repeat its items. Say explicitly which of its recommendations are now fixed, which were deliberately rejected by the manager, and which are still open.
+
+Report improvements grouped under: conversion and lead capture, copy and Paraguayan Spanish, SEO and internal linking, structured data, performance, accessibility, legal and compliance with AGENTS.md rule 5, maintainability of the content modules, and readiness for the restaurants, carne, asado and recetas modules described in plan/10 section 11.
+
+For every item give: what to change, the file and section, why it helps, and a priority of high, medium or low. Mark anything that blocks publication as BLOCKER on its own line at the top of the file.
+
+Constraints on your suggestions: static HTML, CSS and vanilla JS plus the one PHP handler, no framework, no build-time network calls, no CI. No suggestion may require publishing a price, a guarantee, a response time in hours, a testimonial, a partner name or a review count. No suggestion may require generating images; flag image gaps instead.
+
+Definition of done: docs/log/codex-final-review.md exists with the grouped list and any BLOCKER lines at the top, and your final chat message summarises the ten highest-value items as short bullets plus every BLOCKER. Do not edit any other file. Do not commit.

@@ -1,0 +1,16 @@
+You are working on comida.com.py in C:\Claude 1\comida-com-py. This dispatch is P3: future-proof the information architecture without publishing any content. Ordered by Anton's Fable directive; rationale in plan/10-FOOD-PORTFOLIO-STRATEGY.md section 11.
+
+Read first: docs/log/build.md, plan/10-FOOD-PORTFOLIO-STRATEGY.md section 11, plan/04-BUILD-SPEC.md section 3, AGENTS.md.
+
+Background you must respect: the decision is one hub, no new domains. Restaurants, meat and recipes become modules of comida.com.py in months 2 to 9. asado.com.py, which Anton owns, will 301 to comida.com.py/asado/ rather than become a separate site. Nothing in this dispatch may become indexable or appear in navigation or the sitemap.
+
+Tasks:
+1. In sites/comida/routes.mjs reserve /restaurantes/, /carne/, /asado/ and /recetas/ as new route kinds with published false. The build must handle an unpublished kind safely: no file emitted, no link rendered, no sitemap entry, and the build must not fail because a kind has no content module yet.
+2. Extend the content envelope in the engine so a page can carry kind restaurant, cut or recipe alongside the existing kinds, with the same id, source, verifiedAt and published fields the price entries use. Do not author any entry.
+3. Add a verifier rule: any entry of these kinds that renders a fact, a price or a quantity without source and verifiedAt fails the build, the same way unpublished prices are handled today.
+4. In public/.htaccess add the asado.com.py to comida.com.py/asado/ 301 rule, commented out, with a one-line comment saying it is enabled only once DNS points the domain here. It must not affect current routing.
+5. Add a short section to README.md describing how to add a restaurant, a cut or a recipe later, so the next dispatch does not have to re-derive the pattern.
+
+Commands before reporting: node engine/build-site.mjs --site=comida, node engine/verify.mjs --site=comida, node scripts/check-duplicates.mjs. All exit 0, and both the HTML count and the sitemap URL count must be unchanged from before this dispatch.
+
+Definition of done: report under 200 words with files changed, the unchanged counts, the verify summary, Assumptions and Flagged. Do not paste file contents. Do not commit.

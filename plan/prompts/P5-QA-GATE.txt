@@ -1,0 +1,16 @@
+You are working on comida.com.py in C:\Claude 1\comida-com-py. This dispatch is P5: the QA gate before Anton receives the Hostinger zip. Ordered by Anton's Fable directive.
+
+Read first: docs/log/build.md, AGENTS.md, plan/04-BUILD-SPEC.md section 8, plan/08-V2-DECISIONS.md.
+
+You cannot open a browser from your sandbox. Do the machine-checkable half and report precisely; the manager does the visual half.
+
+Tasks:
+1. Write scripts/qa-gate.mjs that runs against dist/comida.com.py and fails with a non-zero exit and a list of offending files and lines on any of: a forbidden word from AGENTS.md rule 5; any guaraní amount in rendered text; a wa.me link whose href has no prefilled text (a form action is not a link); an img without alt, width or height; a page without a canonical, a title over 60 characters or a meta description over 155; a broken internal link; an unpublished price or quantity rendering a number; mojibake or a byte order mark; a secret-looking string; a page in the sitemap that is noindex, or a noindex page missing from the sitemap only when it should be there.
+2. Run it and fix everything it reports, in the source modules and never by editing dist.
+3. Verify the deploy zip end to end: run deploy/make-zip.ps1, then list the archive contents and confirm it contains index.html, .htaccess, the php handler and the assets, and contains no logs, no private config, no plan or docs folder, no node_modules and no source maps. Report the archive size.
+4. Check every page for a single H1, a heading order with no skipped level, and a lang attribute of es-PY.
+5. Produce docs/log/qa-report.md: one table of check, result and file count, plus a list of anything you could not check without a browser, explicitly including the visual and tap-target checks that belong to the manager.
+
+Commands before reporting: node engine/build-site.mjs --site=comida, node engine/verify.mjs --site=comida, node scripts/check-duplicates.mjs, node scripts/qa-gate.mjs. All exit 0.
+
+Definition of done: report under 250 words with files changed, every check and its result, the zip contents summary and size, Assumptions and Flagged. Do not paste file contents. Do not commit.

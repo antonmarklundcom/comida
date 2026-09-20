@@ -1,0 +1,15 @@
+You are working on comida.com.py in C:\Claude 1\comida-com-py. This file supersedes P1e-APPLY-DESIGN.txt, which names docs/design-canvas-export.html; that file never existed. The approved design is docs/design-exports/opus-1.html and its tokens, components and home layout were already applied in P1a. This dispatch is therefore a PARITY AND CLEANUP pass, not a re-skin.
+
+Read first: AGENTS.md, plan/08-V2-DECISIONS.md, plan/04-BUILD-SPEC.md, docs/log/build.md (state and standing overrides), docs/log/codex-review-opus-1.md (section Flagged).
+
+Do not change content, copy, routes, the form logic or the PHP handler.
+
+Tasks:
+1. Compare every template in templates/ against docs/design-exports/opus-1.html. Any component that exists in the design but is missing or diverging on inner pages (header with the Catering dropdown and mobile drawer, footer, buttons, cards, chips, scrim treatments, captions, breadcrumbs, FAQ accordion, sticky mobile bar, floating WhatsApp button) must match the design's markup and classes.
+2. Fix the token departures listed under Flagged in docs/log/codex-review-opus-1.md: paprika used outside primary CTAs and the single per-screen highlight; non-token radii and borders; type sizes off the 1.25 scale from 17px; any tap target under 48px on mobile, including carousel dots, the flexible-date row and footer links. The added tokens --gold and --char stay: they are pulled from the photography and approved by Anton. Record each fix in one line in docs/log/build.md.
+3. Every inner page that has an image slot uses an image from docs/imagery-manifest.json with the manifest's Spanish alt text, explicit width and height, AVIF plus WebP sources, and the caption Imagen ilustrativa. Never invent a filename. Never generate a new image; if a slot has no suitable image, leave it empty and flag it.
+4. Confirm the locked tokens from plan/prompts/DESIGN-1.txt still hold: no gradients, WhatsApp green only inside the glyph, two-layer shadows, 6px input and 14px card and 24px panel radii.
+
+Commands before reporting: node engine/build-site.mjs --site=comida, node engine/verify.mjs --site=comida, node scripts/check-duplicates.mjs. All exit 0.
+
+Definition of done: report under 250 words with files changed, which Flagged items you fixed and which you rejected with the reason, the counts, Assumptions and Flagged. Do not paste file contents. Do not commit.

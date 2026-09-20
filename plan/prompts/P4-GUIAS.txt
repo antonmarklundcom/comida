@@ -1,0 +1,23 @@
+You are working on comida.com.py in C:\Claude 1\comida-com-py. This dispatch is P4: the first three guides. Ordered by Anton's Fable directive; the quality bar is plan/10-FOOD-PORTFOLIO-STRATEGY.md section 4 and it is not negotiable.
+
+Read first: docs/log/build.md, plan/10-FOOD-PORTFOLIO-STRATEGY.md section 4 in full, plan/02-SEO-AND-SITEMAP.md, plan/04-BUILD-SPEC.md, AGENTS.md.
+
+Build these three under /guias/, plus the /guias/ index:
+- /guias/cuanta-comida-por-persona-en-un-evento/
+- /guias/cuantos-bocaditos-por-persona/
+- /guias/que-preguntar-a-un-catering-antes-de-contratar/
+
+Every guide must carry all five items of the quality bar or it stays unpublished:
+1. A Paraguayan number: grams per person, pieces per person or a headcount table. No guaraní price may appear while no price entry is published. Quantities are editorial estimates and must be labelled as such in visible text.
+2. A source line and a verification date, stored in the content module the same way prices.mjs stores source and verifiedAt, and rendered on the page.
+3. A tool the reader can act on: a quantity table, a checklist or a simple calculator in vanilla JS with no dependency.
+4. A real photo from docs/imagery-manifest.json where a photo carries information, with the manifest's alt text and the caption Imagen ilustrativa. Never invent a filename and never generate a new image.
+5. One next action tied to the intent: the form with the occasion prefilled, or WhatsApp with a prefilled voseo message.
+
+Editorial spine, from section 4: "El número que necesitás para decidir." These are not recipes and not how-to-cook articles. Write Paraguayan Spanish with voseo, no filler, no invented statistics, no claim that cannot be sourced.
+
+Also: guides are indexable and appear in the sitemap; add breadcrumbs and internal links from each guide to the most relevant occasion page and back; extend the route manifest with a guia kind.
+
+Commands before reporting: node engine/build-site.mjs --site=comida, node engine/verify.mjs --site=comida, node scripts/check-duplicates.mjs. All exit 0 with zero shared paragraphs. Print the HTML count and the sitemap URL count.
+
+Definition of done: report under 250 words with files changed, counts, the verify summary, which of the five bar items each guide satisfies and how, Assumptions and Flagged. Do not paste file contents. Do not commit.
