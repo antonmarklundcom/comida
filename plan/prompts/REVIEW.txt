@@ -1,0 +1,25 @@
+You are reviewing a business, SEO and build plan for comida.com.py before any code is written. The plan is in C:\Claude 1\comida-com-py\plan\ (files 00-README.md through 06-OPEN-QUESTIONS.md and prompts/P1.txt). It was written by another model (Claude Fable 5.1). Your job is to critique and improve it as a sceptical operator who knows Paraguay, SEO for small Spanish-language markets, lead-gen economics and static-site builds. Read every file fully before writing. You may also read the sister plans for context: C:\Claude 1\babyshower\plan\ and C:\Claude 1\ASADO-PLAN.md, and the engine the build will copy: C:\Claude 1\prestamo-com-py\engine\.
+
+Do not modify files 00 to 06 or P1.txt. Write exactly one new file: C:\Claude 1\comida-com-py\plan\codex-input\CODEX-CRITIQUE.md. This file goes back to the manager, who will merge accepted points, so it must be self-contained and actionable.
+
+Context to assume: the owner runs more than ten .com.py static lead-gen sites on Hostinger with a static generator, a WhatsApp-first funnel and his own CRM (VenderCRM). He does not cook; the site is an intermediary. Short-term goal is cash flow from catering leads with long-tail occasion pages (bodas, 15 anos, cumpleanos, baby shower, asado, eventos empresariales, fin de ano, coffee break and more) plus chef a domicilio, viandas and delivery leads. Long-term goal is food media or a delivery or viandas product on the same domain. Sister domains asado.com.py and babyshower.com.py exist as plans.
+
+Write the report with these numbered sections, in this order, using markdown headings:
+
+1. Verdict. Three sentences: is the plan sound, what is the biggest weakness, what is the single most valuable change.
+2. Fatal flaws. Up to five things that would make the plan fail, each with the concrete fix and which plan file and section to change.
+3. Business model. Is commission concierge the right launch layer for Paraguay, or flat lead fees, or paid listings from day one? Recommend one with reasoning about caterer behaviour, bypass risk and admin load. Give a commission or fee number you would use.
+4. SEO. (a) Rank the occasion pages in 02 section 2 by expected commercial value for Paraguay, top to bottom. (b) Name any page not worth building. (c) Add up to ten missing occasion or query pages, specific to Paraguayan usage. (d) Point out keyword phrasing that is Argentine or Spanish rather than Paraguayan.
+5. Sitemap and information architecture. Cannibalisation risks, folder choices, city page strategy, occasion times city combos, and whether chef a domicilio and viandas belong under /catering/ or at root.
+6. Pricing table. Which per-person ranges in 01 section 4 look wrong for 2026 Gran Asuncion, what you would put instead, and which you cannot judge (say unknown).
+7. Funnel and partner terms. Changes to the brief form, the A/B/C qualification rule, the forwarding template and the partner agreement that would raise close rate and reduce bypass. Flag anything a Paraguayan caterer would refuse to sign.
+8. Legal and operational risks specific to Paraguay that the plan under-weights: INAN or SENAVE, municipal habilitacion, factura and RUC, consumer protection, intermediary liability, data protection for the form.
+9. Build spec review. Read 04-BUILD-SPEC.md and prompts/P1.txt against the prestamo engine. List anything that will break, is underspecified, or will cost the worker time: content schema gaps, verify rules that are impossible or too loose, the PHP forwarder, the calculators, the launch.json entry, page count mismatches between 02 and 04 and P1.
+10. Long-term path. Which of media, viandas subscription, marketplace or delivery is the most credible follow-on from this launch, and what must be built or avoided now so that path is not blocked later.
+11. Scope cuts. What to remove from the launch set to ship two weeks earlier without losing more than ten percent of expected leads.
+12. Top ten changes. Ordered by impact, one line each, each naming the file and section to edit.
+13. Questions for the owner. Only questions whose answer changes the plan.
+
+Rules: be specific, use numbers, prefer Paraguayan terms and give the Spanish wording when you suggest copy or keywords. Say unknown when you do not know a Paraguayan fact rather than guessing. Do not restate the plan back. Do not write code except short snippets needed to explain a build issue. Keep the report between 2500 and 5000 words.
+
+Before reporting, confirm the file exists and print its word count. Your final reply to the terminal must be under 150 words: the file path, the word count, and the three most important findings.

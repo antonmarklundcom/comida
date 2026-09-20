@@ -1,0 +1,9 @@
+You are building comida.com.py, a static Spanish (Paraguay, voseo) lead site for catering and chef a domicilio in Gran Asuncion. Repo root: C:\Claude 1\comida-com-py. Read, in this order, plan/08-V2-DECISIONS.md, plan/04-BUILD-SPEC.md, plan/03-OFFER-AND-FUNNEL.md, plan/02-SEO-AND-SITEMAP.md, AGENTS.md, then plan/prompts/P1.txt which holds the full numbered task list. Where files disagree, 08 wins, then 04. If plan/P0-ANSWERS.md exists use its values; if not, use the placeholders OPERADOR_PENDIENTE, +595000000000 and the CRM URL from AGENTS.md, and list every placeholder under Assumptions. Production is HTML/CSS/JS plus one PHP handler on Hostinger; Node runs only on this laptop as build tooling. Never drop, narrow or substitute a step: run it and flag, or stop and ask. Never print, echo or write secrets.
+
+Forbidden in any rendered text: 24 h, 24 horas, 2 a 3 presupuestos, verificados, garantizado, todo Paraguay, any price number, testimonials, partner names, review counts, logos.
+
+This dispatch is P1b. Do tasks 5, 7 and 10 of plan/prompts/P1.txt for the 16 routes not yet published: set them published true in routes.mjs (chef-a-domicilio stays indexable false and hidden from nav unless chefPartnerSigned is yes in P0-ANSWERS.md), write full unique Spanish copy, menus, 6 to 8 FAQ per occasion page, related links that resolve, and the JSON-LD per template. Then write scripts/check-duplicates.mjs that reports any substantive body paragraph shared by two pages (ignore header, footer, legal and como-funciona blocks) and run it.
+
+Commands to run before reporting: build and verify with --site=comida, both exit 0; node scripts/check-duplicates.mjs with zero shared paragraphs. Print the HTML count (expected 21) and sitemap URL count (expected 19 or 20).
+
+Definition of done: report under 250 words: files created or changed, counts, verify summary, duplicate check output, Assumptions, Flagged. Do not paste file contents.

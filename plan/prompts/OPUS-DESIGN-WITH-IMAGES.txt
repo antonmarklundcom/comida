@@ -1,0 +1,32 @@
+You are an Opus 5 Claude Code session working locally in C:\Claude 1\comida-com-py on this Windows laptop. Load these skills before anything else: web-design-system, higgsfield-image-pipeline, higgsfield-web-imagery, webimg-pipeline. Do not spawn Fable. Do not delegate to Codex; this is design work you do yourself.
+
+ANSWERS FROM ANTON (fill in before pasting; if a line is left blank use the default in brackets and flag it in the report):
+whatsappNumber: +595 992 279599
+hours: [Lun a Vie 8:00 a 18:00, Sáb 8:00 a 12:00]
+chefPartnerSigned: [no, so Chef a domicilio stays out of the nav and the chef image is still generated]
+operatorLegalName for the footer line: [OPERADOR_PENDIENTE]
+creditBudgetCap for this session: [60 credits; stop and ask if the preflight cost is higher]
+whatsappNumber is also used for every wa.me link
+
+Goal: one home page design for comida.com.py that makes a visitor want to eat, built image-first. No images exist yet. Generate the food photography with the Higgsfield MCP first, look at it, then design the page around the photos. Deliver one standalone HTML file with inline CSS and the images placed, responsive from 390px to 1440px, plus screenshots at both widths. Five earlier Claude Design attempts without images looked flat; appetite is the first criterion, structure the second.
+
+Model per the higgsfield-image-pipeline skill Rule 1 (standing rule since 2026-09-19): Higgsfield model id gpt-image-2-5-sunburst, quality medium, resolution 1k by default and 2k only for the hero. Before generating, run models_explore and confirm that exact model id and its quality and resolution options exist. If they do not, stop and report the catalog names you found; never substitute a model on your own. Never pass use_unlim.
+
+Step 1, preflight: run Rule 0 from the pipeline skill (check docs/imagery-manifest.json and assets/img; both should be empty, confirm it). Run get_cost for the full set below, write the number into docs/imagery-manifest.json under _notes.cost_preflight, and compare it with creditBudgetCap. If higher, stop and ask.
+
+Step 2, photography. Read plan/prompts/DESIGN-1.txt for the page content, section order and the hard content rules (no prices, no 24 h, no verificados, no testimonials, no logos, no faces, form primary and WhatsApp secondary, voseo Spanish). Write prompts for these slots in one consistent style: editorial food photography, natural warm light, shallow depth of field, visible texture (crust, char, glaze, steam, condensation), Paraguayan context (quincho, chipa, sopa paraguaya, asado, bocaditos, tereré on the table), hands allowed, no faces, no text in the image.
+hero, 16:9, 2k: an abundant buffet table at golden hour, foreground platter in sharp focus, asado and salads behind, one hand reaching in
+appetite strip, three 1:1 at 1k: a glazed bocadito being lifted; a slice of sopa paraguaya with steam; a chorizo split open on the grill with char
+occasion tiles, seven 4:3 at 1k: corporate lunch on a meeting table; fin de ano dinner with string lights; wedding served plate; fiesta de 15 sweet table; coffee break tray with medialunas and chipa; bocaditos salados y dulces on a wooden board; adult birthday spread
+formats, 3:1 at 1k: parrillero at the grill, side view, smoke in backlight
+chef a domicilio, 3:2 at 1k: a chef's hands plating in a home kitchen
+cobertura, 3:2 at 1k: leafy Asuncion street at dusk with a catering van
+proveedores, 3:2 at 1k: catering kitchen team from behind, trays in motion
+contact, 3:2 at 1k: hand-written event plan next to a coffee cup
+That is 16 images. Decide every file name and Spanish alt text before generating and write them into the manifest. Generate as one batch with model, quality and resolution passed explicitly, jobs_wait, then verify with transactions that the ledger shows the expected model and credits and record it under _notes.ledger_checked. Download the result URLs directly (local machine, the CDN is reachable), convert with the webimg pipeline into assets/img with the planned slugs and alt text, and complete docs/imagery-manifest.json with prompt, url, job_id, width, height and model per image.
+
+Step 3, design. Open the finished images (Read tool or browser) before choosing colours: pull the palette from the photos, the accent must be a colour that already appears in the food, such as the char red or the chipa gold. Use the web-design-system skill for tokens, type pairing, depth, motion and the pattern library, and the section order and copy from plan/prompts/DESIGN-1.txt exactly, with the WhatsApp number, hours, footer operator line and chef nav decision from the answers above. Rules that matter for appetite: images are large and edge-bleeding, never small thumbnails inside cards; the hero image covers at least 60 percent of the viewport at 1440 and the full width at 390; the appetite strip sits directly under the hero as three square close-ups touching edge to edge; text over images always sits on a scrim; one message per section; one oversized display statement; no two consecutive sections share a layout; no decorative SVG diagrams; the caption Imagen ilustrativa in small text under each image. Mobile first at 390: one column, 48px tap targets, 16px gutters, sticky bottom bar with Pedir presupuesto and WhatsApp. All wa.me links carry a prefilled voseo message.
+
+Step 4, verify and iterate once. Save docs/design-exports/opus-1.html with images referenced by relative path to assets/img. Open it in the browser tool at 1440 and 390, screenshot both to docs/design-exports/opus-1-desktop.png and opus-1-mobile.png, check for overflow and console errors, then judge honestly: does the fold make someone hungry? If not, change the hero crop, the image sizes or the palette once and re-screenshot. Do not run a second iteration without reporting.
+
+Report under 250 words: model id and options confirmed from the catalog, credits preflight versus actual spend, the manifest path, the three output paths, any blank answer you defaulted, and what you would change in a second round.

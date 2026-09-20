@@ -1,0 +1,9 @@
+You are building comida.com.py, a static Spanish (Paraguay, voseo) lead site for catering and chef a domicilio in Gran Asuncion. Repo root: C:\Claude 1\comida-com-py. Read, in this order, plan/08-V2-DECISIONS.md, plan/04-BUILD-SPEC.md, plan/03-OFFER-AND-FUNNEL.md, plan/02-SEO-AND-SITEMAP.md, AGENTS.md, then plan/prompts/P1.txt which holds the full numbered task list. Where files disagree, 08 wins, then 04. If plan/P0-ANSWERS.md exists use its values; if not, use the placeholders OPERADOR_PENDIENTE, +595000000000 and the CRM URL from AGENTS.md, and list every placeholder under Assumptions. Production is HTML/CSS/JS plus one PHP handler on Hostinger; Node runs only on this laptop as build tooling. Never drop, narrow or substitute a step: run it and flag, or stop and ask. Never print, echo or write secrets.
+
+Forbidden in any rendered text: 24 h, 24 horas, 2 a 3 presupuestos, verificados, garantizado, todo Paraguay, any price number, testimonials, partner names, review counts, logos.
+
+This dispatch is P1d. Do task 12 and the deploy and launch.json parts of task 11 of plan/prompts/P1.txt: README.md with build, verify, preview, the private config path, the CRM contract fields still to confirm and a link to docs/php-tests.md; deploy/make-zip.ps1 that zips the contents of dist/comida.com.py including .htaccess and php/ and excludes logs, research and credentials; add a comida-preview entry (port 8093, serving dist/comida.com.py) to C:\Claude 1\.claude\launch.json keeping every existing entry and the file structure unchanged. Then run a final full build and verify.
+
+Commands to run before reporting: build and verify with --site=comida, both exit 0; run make-zip.ps1 and list the zip top-level entries.
+
+Definition of done: report under 200 words: files created or changed, zip entry list, verify summary, Assumptions, Flagged. Do not paste file contents.

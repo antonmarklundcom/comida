@@ -1,0 +1,1206 @@
+{
+  "generated_at": "2026-09-19T22:32:07.549Z",
+  "images": [
+    {
+      "filename_base": "mesa-buffet-catering-evento-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/1.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 1",
+      "alt_text": "Mesa de buffet al atardecer con bandejas de asado, ensaladas y chipa, y una mano sirviéndose",
+      "naming_source": "fallback",
+      "aspect_ratio": "16:9",
+      "files": [
+        {
+          "file": "mesa-buffet-catering-evento-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 360,
+          "kb": 39.1
+        },
+        {
+          "file": "mesa-buffet-catering-evento-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 360,
+          "kb": 46.5
+        },
+        {
+          "file": "mesa-buffet-catering-evento-asuncion-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 720,
+          "kb": 99.3
+        },
+        {
+          "file": "mesa-buffet-catering-evento-asuncion-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 720,
+          "kb": 128.5
+        },
+        {
+          "file": "mesa-buffet-catering-evento-asuncion-1920.avif",
+          "format": "avif",
+          "width": 1920,
+          "height": 1080,
+          "kb": 160
+        },
+        {
+          "file": "mesa-buffet-catering-evento-asuncion-1920.webp",
+          "format": "webp",
+          "width": 1920,
+          "height": 1080,
+          "kb": 219.9
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/mesa-buffet-catering-evento-asuncion-640.avif 640w, assets/img/mesa-buffet-catering-evento-asuncion-1280.avif 1280w, assets/img/mesa-buffet-catering-evento-asuncion-1920.avif 1920w\">\n  <source type=\"image/webp\" srcset=\"assets/img/mesa-buffet-catering-evento-asuncion-640.webp 640w, assets/img/mesa-buffet-catering-evento-asuncion-1280.webp 1280w, assets/img/mesa-buffet-catering-evento-asuncion-1920.webp 1920w\">\n  <img src=\"assets/img/mesa-buffet-catering-evento-asuncion-1280.webp\" alt=\"Mesa de buffet al atardecer con bandejas de asado, ensaladas y chipa, y una mano sirviéndose\" width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "bocadito-glaseado-catering-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/2.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 2",
+      "alt_text": "Dedos levantando un bocadito glaseado con brillo de caramelo sobre una bandeja de fiesta",
+      "naming_source": "fallback",
+      "aspect_ratio": "1:1",
+      "files": [
+        {
+          "file": "bocadito-glaseado-catering-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 640,
+          "kb": 28.6
+        },
+        {
+          "file": "bocadito-glaseado-catering-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 640,
+          "kb": 37.8
+        },
+        {
+          "file": "bocadito-glaseado-catering-asuncion-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 1024,
+          "kb": 48.1
+        },
+        {
+          "file": "bocadito-glaseado-catering-asuncion-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 1024,
+          "kb": 71.3
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/bocadito-glaseado-catering-asuncion-640.avif 640w, assets/img/bocadito-glaseado-catering-asuncion-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/bocadito-glaseado-catering-asuncion-640.webp 640w, assets/img/bocadito-glaseado-catering-asuncion-1024.webp 1024w\">\n  <img src=\"assets/img/bocadito-glaseado-catering-asuncion-640.webp\" alt=\"Dedos levantando un bocadito glaseado con brillo de caramelo sobre una bandeja de fiesta\" width=\"640\" height=\"640\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "sopa-paraguaya-porcion-caliente",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/3.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 3",
+      "alt_text": "Porción de sopa paraguaya recién horneada con vapor y corteza dorada",
+      "naming_source": "fallback",
+      "aspect_ratio": "1:1",
+      "files": [
+        {
+          "file": "sopa-paraguaya-porcion-caliente-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 640,
+          "kb": 43.5
+        },
+        {
+          "file": "sopa-paraguaya-porcion-caliente-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 640,
+          "kb": 53.9
+        },
+        {
+          "file": "sopa-paraguaya-porcion-caliente-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 1024,
+          "kb": 74
+        },
+        {
+          "file": "sopa-paraguaya-porcion-caliente-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 1024,
+          "kb": 101.5
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/sopa-paraguaya-porcion-caliente-640.avif 640w, assets/img/sopa-paraguaya-porcion-caliente-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/sopa-paraguaya-porcion-caliente-640.webp 640w, assets/img/sopa-paraguaya-porcion-caliente-1024.webp 1024w\">\n  <img src=\"assets/img/sopa-paraguaya-porcion-caliente-640.webp\" alt=\"Porción de sopa paraguaya recién horneada con vapor y corteza dorada\" width=\"640\" height=\"640\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "chorizo-parrilla-asado-paraguayo",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/4.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 4",
+      "alt_text": "Chorizo abierto a la mitad sobre la parrilla con marcas de brasa y jugos",
+      "naming_source": "fallback",
+      "aspect_ratio": "1:1",
+      "files": [
+        {
+          "file": "chorizo-parrilla-asado-paraguayo-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 640,
+          "kb": 55.5
+        },
+        {
+          "file": "chorizo-parrilla-asado-paraguayo-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 640,
+          "kb": 65.7
+        },
+        {
+          "file": "chorizo-parrilla-asado-paraguayo-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 1024,
+          "kb": 95.6
+        },
+        {
+          "file": "chorizo-parrilla-asado-paraguayo-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 1024,
+          "kb": 124.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/chorizo-parrilla-asado-paraguayo-640.avif 640w, assets/img/chorizo-parrilla-asado-paraguayo-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/chorizo-parrilla-asado-paraguayo-640.webp 640w, assets/img/chorizo-parrilla-asado-paraguayo-1024.webp 1024w\">\n  <img src=\"assets/img/chorizo-parrilla-asado-paraguayo-640.webp\" alt=\"Chorizo abierto a la mitad sobre la parrilla con marcas de brasa y jugos\" width=\"640\" height=\"640\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "almuerzo-empresarial-catering-oficina-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/5.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 5",
+      "alt_text": "Almuerzo de catering servido sobre una mesa de reuniones en una oficina de Asunción",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "almuerzo-empresarial-catering-oficina-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 32.3
+        },
+        {
+          "file": "almuerzo-empresarial-catering-oficina-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 39
+        },
+        {
+          "file": "almuerzo-empresarial-catering-oficina-asuncion-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 59.4
+        },
+        {
+          "file": "almuerzo-empresarial-catering-oficina-asuncion-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 83.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/almuerzo-empresarial-catering-oficina-asuncion-640.avif 640w, assets/img/almuerzo-empresarial-catering-oficina-asuncion-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/almuerzo-empresarial-catering-oficina-asuncion-640.webp 640w, assets/img/almuerzo-empresarial-catering-oficina-asuncion-1160.webp 1160w\">\n  <img src=\"assets/img/almuerzo-empresarial-catering-oficina-asuncion-640.webp\" alt=\"Almuerzo de catering servido sobre una mesa de reuniones en una oficina de Asunción\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "cena-fin-de-ano-catering-luces",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/6.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 6",
+      "alt_text": "Mesa larga de cena de fin de año con luces colgantes y platos servidos al aire libre",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "cena-fin-de-ano-catering-luces-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 34.8
+        },
+        {
+          "file": "cena-fin-de-ano-catering-luces-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 43.3
+        },
+        {
+          "file": "cena-fin-de-ano-catering-luces-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 64.7
+        },
+        {
+          "file": "cena-fin-de-ano-catering-luces-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 91.2
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/cena-fin-de-ano-catering-luces-640.avif 640w, assets/img/cena-fin-de-ano-catering-luces-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/cena-fin-de-ano-catering-luces-640.webp 640w, assets/img/cena-fin-de-ano-catering-luces-1160.webp 1160w\">\n  <img src=\"assets/img/cena-fin-de-ano-catering-luces-640.webp\" alt=\"Mesa larga de cena de fin de año con luces colgantes y platos servidos al aire libre\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "plato-servido-boda-catering-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/7.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 7",
+      "alt_text": "Plato servido de boda con carne glaseada y guarnición sobre mantel blanco",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "plato-servido-boda-catering-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 25.3
+        },
+        {
+          "file": "plato-servido-boda-catering-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 33.5
+        },
+        {
+          "file": "plato-servido-boda-catering-asuncion-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 48.3
+        },
+        {
+          "file": "plato-servido-boda-catering-asuncion-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 71.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/plato-servido-boda-catering-asuncion-640.avif 640w, assets/img/plato-servido-boda-catering-asuncion-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/plato-servido-boda-catering-asuncion-640.webp 640w, assets/img/plato-servido-boda-catering-asuncion-1160.webp 1160w\">\n  <img src=\"assets/img/plato-servido-boda-catering-asuncion-640.webp\" alt=\"Plato servido de boda con carne glaseada y guarnición sobre mantel blanco\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "mesa-dulce-fiesta-de-15-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/8.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 8",
+      "alt_text": "Mesa dulce de fiesta de 15 con torta, macarons y bocaditos dulces en tonos pastel",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "mesa-dulce-fiesta-de-15-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 33
+        },
+        {
+          "file": "mesa-dulce-fiesta-de-15-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 41
+        },
+        {
+          "file": "mesa-dulce-fiesta-de-15-asuncion-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 61.9
+        },
+        {
+          "file": "mesa-dulce-fiesta-de-15-asuncion-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 86.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/mesa-dulce-fiesta-de-15-asuncion-640.avif 640w, assets/img/mesa-dulce-fiesta-de-15-asuncion-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/mesa-dulce-fiesta-de-15-asuncion-640.webp 640w, assets/img/mesa-dulce-fiesta-de-15-asuncion-1160.webp 1160w\">\n  <img src=\"assets/img/mesa-dulce-fiesta-de-15-asuncion-640.webp\" alt=\"Mesa dulce de fiesta de 15 con torta, macarons y bocaditos dulces en tonos pastel\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "coffee-break-medialunas-chipa-empresa",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/9.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 9",
+      "alt_text": "Bandeja de coffee break con medialunas, chipa y café para una reunión de empresa",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "coffee-break-medialunas-chipa-empresa-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 32.6
+        },
+        {
+          "file": "coffee-break-medialunas-chipa-empresa-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 41.8
+        },
+        {
+          "file": "coffee-break-medialunas-chipa-empresa-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 62.9
+        },
+        {
+          "file": "coffee-break-medialunas-chipa-empresa-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 89.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/coffee-break-medialunas-chipa-empresa-640.avif 640w, assets/img/coffee-break-medialunas-chipa-empresa-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/coffee-break-medialunas-chipa-empresa-640.webp 640w, assets/img/coffee-break-medialunas-chipa-empresa-1160.webp 1160w\">\n  <img src=\"assets/img/coffee-break-medialunas-chipa-empresa-640.webp\" alt=\"Bandeja de coffee break con medialunas, chipa y café para una reunión de empresa\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "bocaditos-salados-dulces-tabla-madera",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/10.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 10",
+      "alt_text": "Tabla de madera con bocaditos salados y dulces: empanaditas, chipa y alfajores",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "bocaditos-salados-dulces-tabla-madera-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 40.5
+        },
+        {
+          "file": "bocaditos-salados-dulces-tabla-madera-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 49.4
+        },
+        {
+          "file": "bocaditos-salados-dulces-tabla-madera-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 82
+        },
+        {
+          "file": "bocaditos-salados-dulces-tabla-madera-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 109.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/bocaditos-salados-dulces-tabla-madera-640.avif 640w, assets/img/bocaditos-salados-dulces-tabla-madera-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/bocaditos-salados-dulces-tabla-madera-640.webp 640w, assets/img/bocaditos-salados-dulces-tabla-madera-1160.webp 1160w\">\n  <img src=\"assets/img/bocaditos-salados-dulces-tabla-madera-640.webp\" alt=\"Tabla de madera con bocaditos salados y dulces: empanaditas, chipa y alfajores\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "cumpleanos-adultos-catering-mesa",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/11.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 11",
+      "alt_text": "Mesa de cumpleaños para adultos con picada, asado y copas en un quincho",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "cumpleanos-adultos-catering-mesa-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 30.3
+        },
+        {
+          "file": "cumpleanos-adultos-catering-mesa-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 38.1
+        },
+        {
+          "file": "cumpleanos-adultos-catering-mesa-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 58.1
+        },
+        {
+          "file": "cumpleanos-adultos-catering-mesa-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 82.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/cumpleanos-adultos-catering-mesa-640.avif 640w, assets/img/cumpleanos-adultos-catering-mesa-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/cumpleanos-adultos-catering-mesa-640.webp 640w, assets/img/cumpleanos-adultos-catering-mesa-1160.webp 1160w\">\n  <img src=\"assets/img/cumpleanos-adultos-catering-mesa-640.webp\" alt=\"Mesa de cumpleaños para adultos con picada, asado y copas en un quincho\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "parrillero-asado-humo-contraluz",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/12.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 12",
+      "alt_text": "Parrillero de perfil dando vuelta la carne en la parrilla con humo a contraluz",
+      "naming_source": "fallback",
+      "aspect_ratio": "3:1",
+      "files": [
+        {
+          "file": "parrillero-asado-humo-contraluz-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 213,
+          "kb": 15.6
+        },
+        {
+          "file": "parrillero-asado-humo-contraluz-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 213,
+          "kb": 19.5
+        },
+        {
+          "file": "parrillero-asado-humo-contraluz-1344.avif",
+          "format": "avif",
+          "width": 1344,
+          "height": 448,
+          "kb": 38.1
+        },
+        {
+          "file": "parrillero-asado-humo-contraluz-1344.webp",
+          "format": "webp",
+          "width": 1344,
+          "height": 448,
+          "kb": 52.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/parrillero-asado-humo-contraluz-640.avif 640w, assets/img/parrillero-asado-humo-contraluz-1344.avif 1344w\">\n  <source type=\"image/webp\" srcset=\"assets/img/parrillero-asado-humo-contraluz-640.webp 640w, assets/img/parrillero-asado-humo-contraluz-1344.webp 1344w\">\n  <img src=\"assets/img/parrillero-asado-humo-contraluz-640.webp\" alt=\"Parrillero de perfil dando vuelta la carne en la parrilla con humo a contraluz\" width=\"640\" height=\"213\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "chef-a-domicilio-emplatado-cocina",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/13.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 13",
+      "alt_text": "Manos de chef emplatando un plato en la cocina de una casa en Asunción",
+      "naming_source": "fallback",
+      "aspect_ratio": "3:2",
+      "files": [
+        {
+          "file": "chef-a-domicilio-emplatado-cocina-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 427,
+          "kb": 19.8
+        },
+        {
+          "file": "chef-a-domicilio-emplatado-cocina-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 427,
+          "kb": 26.6
+        },
+        {
+          "file": "chef-a-domicilio-emplatado-cocina-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 683,
+          "kb": 32.3
+        },
+        {
+          "file": "chef-a-domicilio-emplatado-cocina-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 683,
+          "kb": 47.5
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/chef-a-domicilio-emplatado-cocina-640.avif 640w, assets/img/chef-a-domicilio-emplatado-cocina-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/chef-a-domicilio-emplatado-cocina-640.webp 640w, assets/img/chef-a-domicilio-emplatado-cocina-1024.webp 1024w\">\n  <img src=\"assets/img/chef-a-domicilio-emplatado-cocina-640.webp\" alt=\"Manos de chef emplatando un plato en la cocina de una casa en Asunción\" width=\"640\" height=\"427\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "calle-arbolada-asuncion-furgoneta-catering",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/14.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 14",
+      "alt_text": "Calle arbolada de Asunción al atardecer con una furgoneta de catering estacionada",
+      "naming_source": "fallback",
+      "aspect_ratio": "3:2",
+      "files": [
+        {
+          "file": "calle-arbolada-asuncion-furgoneta-catering-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 427,
+          "kb": 27.3
+        },
+        {
+          "file": "calle-arbolada-asuncion-furgoneta-catering-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 427,
+          "kb": 36
+        },
+        {
+          "file": "calle-arbolada-asuncion-furgoneta-catering-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 683,
+          "kb": 45.6
+        },
+        {
+          "file": "calle-arbolada-asuncion-furgoneta-catering-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 683,
+          "kb": 65.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/calle-arbolada-asuncion-furgoneta-catering-640.avif 640w, assets/img/calle-arbolada-asuncion-furgoneta-catering-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/calle-arbolada-asuncion-furgoneta-catering-640.webp 640w, assets/img/calle-arbolada-asuncion-furgoneta-catering-1024.webp 1024w\">\n  <img src=\"assets/img/calle-arbolada-asuncion-furgoneta-catering-640.webp\" alt=\"Calle arbolada de Asunción al atardecer con una furgoneta de catering estacionada\" width=\"640\" height=\"427\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "cocina-catering-equipo-bandejas",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/15.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 15",
+      "alt_text": "Equipo de cocina de catering de espaldas llevando bandejas de comida",
+      "naming_source": "fallback",
+      "aspect_ratio": "3:2",
+      "files": [
+        {
+          "file": "cocina-catering-equipo-bandejas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 427,
+          "kb": 19.8
+        },
+        {
+          "file": "cocina-catering-equipo-bandejas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 427,
+          "kb": 25.4
+        },
+        {
+          "file": "cocina-catering-equipo-bandejas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 683,
+          "kb": 30.4
+        },
+        {
+          "file": "cocina-catering-equipo-bandejas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 683,
+          "kb": 43.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/cocina-catering-equipo-bandejas-640.avif 640w, assets/img/cocina-catering-equipo-bandejas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/cocina-catering-equipo-bandejas-640.webp 640w, assets/img/cocina-catering-equipo-bandejas-1024.webp 1024w\">\n  <img src=\"assets/img/cocina-catering-equipo-bandejas-640.webp\" alt=\"Equipo de cocina de catering de espaldas llevando bandejas de comida\" width=\"640\" height=\"427\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "plan-evento-manuscrito-cafe",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/16.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slot 16",
+      "alt_text": "Plan de evento escrito a mano junto a una taza de café sobre una mesa de madera",
+      "naming_source": "fallback",
+      "aspect_ratio": "3:2",
+      "files": [
+        {
+          "file": "plan-evento-manuscrito-cafe-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 427,
+          "kb": 22.1
+        },
+        {
+          "file": "plan-evento-manuscrito-cafe-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 427,
+          "kb": 29.2
+        },
+        {
+          "file": "plan-evento-manuscrito-cafe-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 683,
+          "kb": 36.5
+        },
+        {
+          "file": "plan-evento-manuscrito-cafe-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 683,
+          "kb": 52.3
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/plan-evento-manuscrito-cafe-640.avif 640w, assets/img/plan-evento-manuscrito-cafe-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/plan-evento-manuscrito-cafe-640.webp 640w, assets/img/plan-evento-manuscrito-cafe-1024.webp 1024w\">\n  <img src=\"assets/img/plan-evento-manuscrito-cafe-640.webp\" alt=\"Plan de evento escrito a mano junto a una taza de café sobre una mesa de madera\" width=\"640\" height=\"427\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "catering-buffet-evento-salon-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/17.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slide 17",
+      "alt_text": "Buffet de catering en un salón de eventos de Asunción con sopa paraguaya, chipa, ensaladas y un mozo sirviendo",
+      "naming_source": "fallback",
+      "aspect_ratio": "16:9",
+      "files": [
+        {
+          "file": "catering-buffet-evento-salon-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 360,
+          "kb": 39.3
+        },
+        {
+          "file": "catering-buffet-evento-salon-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 360,
+          "kb": 47
+        },
+        {
+          "file": "catering-buffet-evento-salon-asuncion-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 720,
+          "kb": 91.3
+        },
+        {
+          "file": "catering-buffet-evento-salon-asuncion-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 720,
+          "kb": 121.4
+        },
+        {
+          "file": "catering-buffet-evento-salon-asuncion-1920.avif",
+          "format": "avif",
+          "width": 1920,
+          "height": 1080,
+          "kb": 140
+        },
+        {
+          "file": "catering-buffet-evento-salon-asuncion-1920.webp",
+          "format": "webp",
+          "width": 1920,
+          "height": 1080,
+          "kb": 201.5
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/catering-buffet-evento-salon-asuncion-640.avif 640w, assets/img/catering-buffet-evento-salon-asuncion-1280.avif 1280w, assets/img/catering-buffet-evento-salon-asuncion-1920.avif 1920w\">\n  <source type=\"image/webp\" srcset=\"assets/img/catering-buffet-evento-salon-asuncion-640.webp 640w, assets/img/catering-buffet-evento-salon-asuncion-1280.webp 1280w, assets/img/catering-buffet-evento-salon-asuncion-1920.webp 1920w\">\n  <img src=\"assets/img/catering-buffet-evento-salon-asuncion-1280.webp\" alt=\"Buffet de catering en un salón de eventos de Asunción con sopa paraguaya, chipa, ensaladas y un mozo sirviendo\" width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "bocaditos-evento-empresarial-conferencia-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/18.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slide 18",
+      "alt_text": "Bocaditos gourmet, empanaditas y chipa sobre una mesa de cóctel en una conferencia empresarial en Asunción",
+      "naming_source": "fallback",
+      "aspect_ratio": "16:9",
+      "files": [
+        {
+          "file": "bocaditos-evento-empresarial-conferencia-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 360,
+          "kb": 25.1
+        },
+        {
+          "file": "bocaditos-evento-empresarial-conferencia-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 360,
+          "kb": 32.1
+        },
+        {
+          "file": "bocaditos-evento-empresarial-conferencia-asuncion-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 720,
+          "kb": 57
+        },
+        {
+          "file": "bocaditos-evento-empresarial-conferencia-asuncion-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 720,
+          "kb": 79.8
+        },
+        {
+          "file": "bocaditos-evento-empresarial-conferencia-asuncion-1920.avif",
+          "format": "avif",
+          "width": 1920,
+          "height": 1080,
+          "kb": 89.4
+        },
+        {
+          "file": "bocaditos-evento-empresarial-conferencia-asuncion-1920.webp",
+          "format": "webp",
+          "width": 1920,
+          "height": 1080,
+          "kb": 137.8
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/bocaditos-evento-empresarial-conferencia-asuncion-640.avif 640w, assets/img/bocaditos-evento-empresarial-conferencia-asuncion-1280.avif 1280w, assets/img/bocaditos-evento-empresarial-conferencia-asuncion-1920.avif 1920w\">\n  <source type=\"image/webp\" srcset=\"assets/img/bocaditos-evento-empresarial-conferencia-asuncion-640.webp 640w, assets/img/bocaditos-evento-empresarial-conferencia-asuncion-1280.webp 1280w, assets/img/bocaditos-evento-empresarial-conferencia-asuncion-1920.webp 1920w\">\n  <img src=\"assets/img/bocaditos-evento-empresarial-conferencia-asuncion-1280.webp\" alt=\"Bocaditos gourmet, empanaditas y chipa sobre una mesa de cóctel en una conferencia empresarial en Asunción\" width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "asado-a-domicilio-para-20-personas",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/19.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium slide 19",
+      "alt_text": "Bandejas de asado, chorizo, mandioca y sopa paraguaya entregadas a domicilio para 20 personas en un quincho",
+      "naming_source": "fallback",
+      "aspect_ratio": "16:9",
+      "files": [
+        {
+          "file": "asado-a-domicilio-para-20-personas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 360,
+          "kb": 36.1
+        },
+        {
+          "file": "asado-a-domicilio-para-20-personas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 360,
+          "kb": 45.2
+        },
+        {
+          "file": "asado-a-domicilio-para-20-personas-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 720,
+          "kb": 91.1
+        },
+        {
+          "file": "asado-a-domicilio-para-20-personas-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 720,
+          "kb": 123.1
+        },
+        {
+          "file": "asado-a-domicilio-para-20-personas-1920.avif",
+          "format": "avif",
+          "width": 1920,
+          "height": 1080,
+          "kb": 149.2
+        },
+        {
+          "file": "asado-a-domicilio-para-20-personas-1920.webp",
+          "format": "webp",
+          "width": 1920,
+          "height": 1080,
+          "kb": 212.9
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/asado-a-domicilio-para-20-personas-640.avif 640w, assets/img/asado-a-domicilio-para-20-personas-1280.avif 1280w, assets/img/asado-a-domicilio-para-20-personas-1920.avif 1920w\">\n  <source type=\"image/webp\" srcset=\"assets/img/asado-a-domicilio-para-20-personas-640.webp 640w, assets/img/asado-a-domicilio-para-20-personas-1280.webp 1280w, assets/img/asado-a-domicilio-para-20-personas-1920.webp 1920w\">\n  <img src=\"assets/img/asado-a-domicilio-para-20-personas-1280.webp\" alt=\"Bandejas de asado, chorizo, mandioca y sopa paraguaya entregadas a domicilio para 20 personas en un quincho\" width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "catering-para-20-personas-mesa-evento",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/20.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 20",
+      "alt_text": "Mesa de evento con bandejas de asado, chorizo, mandioca y sopa paraguaya para 20 personas bajo luces colgantes",
+      "naming_source": "fallback",
+      "aspect_ratio": "16:9",
+      "files": [
+        {
+          "file": "catering-para-20-personas-mesa-evento-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 360,
+          "kb": 39.6
+        },
+        {
+          "file": "catering-para-20-personas-mesa-evento-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 360,
+          "kb": 47.6
+        },
+        {
+          "file": "catering-para-20-personas-mesa-evento-1280.avif",
+          "format": "avif",
+          "width": 1280,
+          "height": 720,
+          "kb": 102.2
+        },
+        {
+          "file": "catering-para-20-personas-mesa-evento-1280.webp",
+          "format": "webp",
+          "width": 1280,
+          "height": 720,
+          "kb": 131.1
+        },
+        {
+          "file": "catering-para-20-personas-mesa-evento-1920.avif",
+          "format": "avif",
+          "width": 1920,
+          "height": 1080,
+          "kb": 170.5
+        },
+        {
+          "file": "catering-para-20-personas-mesa-evento-1920.webp",
+          "format": "webp",
+          "width": 1920,
+          "height": 1080,
+          "kb": 234.8
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/catering-para-20-personas-mesa-evento-640.avif 640w, assets/img/catering-para-20-personas-mesa-evento-1280.avif 1280w, assets/img/catering-para-20-personas-mesa-evento-1920.avif 1920w\">\n  <source type=\"image/webp\" srcset=\"assets/img/catering-para-20-personas-mesa-evento-640.webp 640w, assets/img/catering-para-20-personas-mesa-evento-1280.webp 1280w, assets/img/catering-para-20-personas-mesa-evento-1920.webp 1920w\">\n  <img src=\"assets/img/catering-para-20-personas-mesa-evento-1280.webp\" alt=\"Mesa de evento con bandejas de asado, chorizo, mandioca y sopa paraguaya para 20 personas bajo luces colgantes\" width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "bocaditos-bandeja-mozo-fiesta",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/21.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 21",
+      "alt_text": "Bandeja de bocaditos y empanaditas servida por un mozo en una fiesta",
+      "naming_source": "fallback",
+      "aspect_ratio": "1:1",
+      "files": [
+        {
+          "file": "bocaditos-bandeja-mozo-fiesta-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 640,
+          "kb": 25.4
+        },
+        {
+          "file": "bocaditos-bandeja-mozo-fiesta-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 640,
+          "kb": 33
+        },
+        {
+          "file": "bocaditos-bandeja-mozo-fiesta-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 1024,
+          "kb": 40.1
+        },
+        {
+          "file": "bocaditos-bandeja-mozo-fiesta-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 1024,
+          "kb": 57.9
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/bocaditos-bandeja-mozo-fiesta-640.avif 640w, assets/img/bocaditos-bandeja-mozo-fiesta-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/bocaditos-bandeja-mozo-fiesta-640.webp 640w, assets/img/bocaditos-bandeja-mozo-fiesta-1024.webp 1024w\">\n  <img src=\"assets/img/bocaditos-bandeja-mozo-fiesta-640.webp\" alt=\"Bandeja de bocaditos y empanaditas servida por un mozo en una fiesta\" width=\"640\" height=\"640\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "sopa-paraguaya-buffet-evento",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/22.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 22",
+      "alt_text": "Porción de sopa paraguaya servida desde el buffet de un evento con pinzas",
+      "naming_source": "fallback",
+      "aspect_ratio": "1:1",
+      "files": [
+        {
+          "file": "sopa-paraguaya-buffet-evento-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 640,
+          "kb": 36.2
+        },
+        {
+          "file": "sopa-paraguaya-buffet-evento-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 640,
+          "kb": 45.9
+        },
+        {
+          "file": "sopa-paraguaya-buffet-evento-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 1024,
+          "kb": 57.7
+        },
+        {
+          "file": "sopa-paraguaya-buffet-evento-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 1024,
+          "kb": 80.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/sopa-paraguaya-buffet-evento-640.avif 640w, assets/img/sopa-paraguaya-buffet-evento-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/sopa-paraguaya-buffet-evento-640.webp 640w, assets/img/sopa-paraguaya-buffet-evento-1024.webp 1024w\">\n  <img src=\"assets/img/sopa-paraguaya-buffet-evento-640.webp\" alt=\"Porción de sopa paraguaya servida desde el buffet de un evento con pinzas\" width=\"640\" height=\"640\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "estacion-de-asado-evento-catering",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/23.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 23",
+      "alt_text": "Estación de asado en un evento: manos del chef cortando carne jugosa sobre la tabla",
+      "naming_source": "fallback",
+      "aspect_ratio": "1:1",
+      "files": [
+        {
+          "file": "estacion-de-asado-evento-catering-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 640,
+          "kb": 38
+        },
+        {
+          "file": "estacion-de-asado-evento-catering-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 640,
+          "kb": 47.6
+        },
+        {
+          "file": "estacion-de-asado-evento-catering-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 1024,
+          "kb": 65.1
+        },
+        {
+          "file": "estacion-de-asado-evento-catering-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 1024,
+          "kb": 88.2
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/estacion-de-asado-evento-catering-640.avif 640w, assets/img/estacion-de-asado-evento-catering-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/estacion-de-asado-evento-catering-640.webp 640w, assets/img/estacion-de-asado-evento-catering-1024.webp 1024w\">\n  <img src=\"assets/img/estacion-de-asado-evento-catering-640.webp\" alt=\"Estación de asado en un evento: manos del chef cortando carne jugosa sobre la tabla\" width=\"640\" height=\"640\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "parrillero-evento-catering-noche",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/24.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 24",
+      "alt_text": "Parrillero de catering trabajando en la parrilla durante un evento nocturno con luces",
+      "naming_source": "fallback",
+      "aspect_ratio": "3:1",
+      "files": [
+        {
+          "file": "parrillero-evento-catering-noche-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 213,
+          "kb": 15.7
+        },
+        {
+          "file": "parrillero-evento-catering-noche-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 213,
+          "kb": 19.3
+        },
+        {
+          "file": "parrillero-evento-catering-noche-1344.avif",
+          "format": "avif",
+          "width": 1344,
+          "height": 448,
+          "kb": 35.3
+        },
+        {
+          "file": "parrillero-evento-catering-noche-1344.webp",
+          "format": "webp",
+          "width": 1344,
+          "height": 448,
+          "kb": 49
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/parrillero-evento-catering-noche-640.avif 640w, assets/img/parrillero-evento-catering-noche-1344.avif 1344w\">\n  <source type=\"image/webp\" srcset=\"assets/img/parrillero-evento-catering-noche-640.webp 640w, assets/img/parrillero-evento-catering-noche-1344.webp 1344w\">\n  <img src=\"assets/img/parrillero-evento-catering-noche-640.webp\" alt=\"Parrillero de catering trabajando en la parrilla durante un evento nocturno con luces\" width=\"640\" height=\"213\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "cumpleanos-adultos-fiesta-salon",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/25.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 25",
+      "alt_text": "Mesa de cumpleaños de adultos en una terraza de fiesta con picada, asado y torta con velas",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "cumpleanos-adultos-fiesta-salon-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 31.2
+        },
+        {
+          "file": "cumpleanos-adultos-fiesta-salon-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 38.5
+        },
+        {
+          "file": "cumpleanos-adultos-fiesta-salon-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 55.7
+        },
+        {
+          "file": "cumpleanos-adultos-fiesta-salon-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 78.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/cumpleanos-adultos-fiesta-salon-640.avif 640w, assets/img/cumpleanos-adultos-fiesta-salon-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/cumpleanos-adultos-fiesta-salon-640.webp 640w, assets/img/cumpleanos-adultos-fiesta-salon-1160.webp 1160w\">\n  <img src=\"assets/img/cumpleanos-adultos-fiesta-salon-640.webp\" alt=\"Mesa de cumpleaños de adultos en una terraza de fiesta con picada, asado y torta con velas\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "coffee-break-conferencia-hotel-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/26.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 26",
+      "alt_text": "Mesa de coffee break en una conferencia de hotel con chipa, medialunas y termos de café",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "coffee-break-conferencia-hotel-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 21
+        },
+        {
+          "file": "coffee-break-conferencia-hotel-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 27.5
+        },
+        {
+          "file": "coffee-break-conferencia-hotel-asuncion-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 38.4
+        },
+        {
+          "file": "coffee-break-conferencia-hotel-asuncion-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 56.8
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/coffee-break-conferencia-hotel-asuncion-640.avif 640w, assets/img/coffee-break-conferencia-hotel-asuncion-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/coffee-break-conferencia-hotel-asuncion-640.webp 640w, assets/img/coffee-break-conferencia-hotel-asuncion-1160.webp 1160w\">\n  <img src=\"assets/img/coffee-break-conferencia-hotel-asuncion-640.webp\" alt=\"Mesa de coffee break en una conferencia de hotel con chipa, medialunas y termos de café\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "bocaditos-salados-dulces-fiesta-mesa",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/27.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 27",
+      "alt_text": "Tabla de bocaditos salados y dulces sobre una mesa de fiesta decorada",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "bocaditos-salados-dulces-fiesta-mesa-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 28.9
+        },
+        {
+          "file": "bocaditos-salados-dulces-fiesta-mesa-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 36.8
+        },
+        {
+          "file": "bocaditos-salados-dulces-fiesta-mesa-1160.avif",
+          "format": "avif",
+          "width": 1160,
+          "height": 870,
+          "kb": 54.6
+        },
+        {
+          "file": "bocaditos-salados-dulces-fiesta-mesa-1160.webp",
+          "format": "webp",
+          "width": 1160,
+          "height": 870,
+          "kb": 78.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/bocaditos-salados-dulces-fiesta-mesa-640.avif 640w, assets/img/bocaditos-salados-dulces-fiesta-mesa-1160.avif 1160w\">\n  <source type=\"image/webp\" srcset=\"assets/img/bocaditos-salados-dulces-fiesta-mesa-640.webp 640w, assets/img/bocaditos-salados-dulces-fiesta-mesa-1160.webp 1160w\">\n  <img src=\"assets/img/bocaditos-salados-dulces-fiesta-mesa-640.webp\" alt=\"Tabla de bocaditos salados y dulces sobre una mesa de fiesta decorada\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "plan-de-evento-escritorio-cafe",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/28.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 28",
+      "alt_text": "Cuaderno con el plan del evento y una taza de café sobre un escritorio",
+      "naming_source": "fallback",
+      "aspect_ratio": "3:2",
+      "files": [
+        {
+          "file": "plan-de-evento-escritorio-cafe-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 427,
+          "kb": 17.7
+        },
+        {
+          "file": "plan-de-evento-escritorio-cafe-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 427,
+          "kb": 24.3
+        },
+        {
+          "file": "plan-de-evento-escritorio-cafe-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 683,
+          "kb": 27.6
+        },
+        {
+          "file": "plan-de-evento-escritorio-cafe-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 683,
+          "kb": 42.8
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/plan-de-evento-escritorio-cafe-640.avif 640w, assets/img/plan-de-evento-escritorio-cafe-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/plan-de-evento-escritorio-cafe-640.webp 640w, assets/img/plan-de-evento-escritorio-cafe-1024.webp 1024w\">\n  <img src=\"assets/img/plan-de-evento-escritorio-cafe-640.webp\" alt=\"Cuaderno con el plan del evento y una taza de café sobre un escritorio\" width=\"640\" height=\"427\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "furgoneta-catering-entrada-salon-asuncion",
+      "source": "../../Users/anton/AppData/Local/Temp/claude/C--Claude-1/722c99c2-5e4a-4f82-8e0f-705badc88028/scratchpad/raw/29.png",
+      "prompt": "higgsfield gpt_image_2_5 sunburst medium event round3 slot 29",
+      "alt_text": "Furgoneta de catering con bandejas en la entrada iluminada de un salón de eventos de Asunción",
+      "naming_source": "fallback",
+      "aspect_ratio": "3:2",
+      "files": [
+        {
+          "file": "furgoneta-catering-entrada-salon-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 427,
+          "kb": 35.1
+        },
+        {
+          "file": "furgoneta-catering-entrada-salon-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 427,
+          "kb": 44.9
+        },
+        {
+          "file": "furgoneta-catering-entrada-salon-asuncion-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 683,
+          "kb": 60.5
+        },
+        {
+          "file": "furgoneta-catering-entrada-salon-asuncion-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 683,
+          "kb": 86.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/furgoneta-catering-entrada-salon-asuncion-640.avif 640w, assets/img/furgoneta-catering-entrada-salon-asuncion-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/furgoneta-catering-entrada-salon-asuncion-640.webp 640w, assets/img/furgoneta-catering-entrada-salon-asuncion-1024.webp 1024w\">\n  <img src=\"assets/img/furgoneta-catering-entrada-salon-asuncion-640.webp\" alt=\"Furgoneta de catering con bandejas en la entrada iluminada de un salón de eventos de Asunción\" width=\"640\" height=\"427\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    }
+  ]
+}

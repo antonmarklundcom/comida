@@ -1,0 +1,16 @@
+You are working on comida.com.py in C:\Claude 1\comida-com-py. Read AGENTS.md, plan/08-V2-DECISIONS.md and plan/04-BUILD-SPEC.md. The site already builds (phases P1a to P1d are done). Never drop, narrow or substitute a step; run it and flag, or stop and ask. Never print or write secrets.
+
+This dispatch is P1e: apply the chosen design to the built site without changing content, routes, the form logic or the PHP handler.
+
+Inputs: docs/design-canvas-export.html is the approved home page design (a standalone HTML with inline CSS and images under assets/img). docs/imagery-manifest.json lists every image with file, alt text, width and height.
+
+Tasks:
+1. Extract the design tokens (fonts, colours, radii, type scale, spacing, shadows, grain) from the export into public/css/tokens.css and the shared components (header, footer, buttons, cards, sticky mobile bar, form card) into public/css/site.css. Remove the placeholder tokens from P1a.
+2. Restructure the home template to match the export section by section, same order, same layout patterns, using the site's real copy from the content modules, not the copy inside the export. Where the export and the content modules disagree on wording, the content modules win; flag the difference.
+3. Copy the images from assets/img into public/img with the same file names, and place them in every template slot: home per the export; occasion pages use their matching occasion tile as hero; chef, proveedores, precios and contacto use their named slots; every img has width, height, alt from the manifest and the caption Imagen ilustrativa. Remove the placeholder assets that are no longer referenced.
+4. Apply the same tokens and components to every other template so all 20 routes look like one site. Do not invent new sections.
+5. Verify that no forbidden string from AGENTS.md was introduced by the export.
+
+Commands to run before reporting: node engine/build-site.mjs --site=comida and node engine/verify.mjs --site=comida, both exit 0. Print HTML count (expected 21) and sitemap count (expected 19 or 20). List any image slot that has no matching manifest entry.
+
+Definition of done: report under 250 words: files changed, counts, verify summary, wording differences flagged, slots without images, Assumptions, Flagged. Do not paste file contents.

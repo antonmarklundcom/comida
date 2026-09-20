@@ -1,0 +1,35 @@
+Design the home page of comida.com.py, a Paraguayan referral service for catering and chef a domicilio in Gran Asunción. Visitors describe their event in a short form; the service reviews it and introduces checked catering providers who quote, contract and invoice directly. Audience: two groups on one page, office managers and HR staff booking corporate events (coffee breaks, fin de año dinners, almuerzos), and families booking bodas, fiestas de 15 and cumpleaños. Most visits are Android phones on mobile data. All UI text in Paraguayan Spanish with voseo (Contanos, Pedí, Elegí, Escribinos).
+
+Deliver one artifact with two frames stacked vertically: a desktop frame 1440 wide on top, then the same page as a mobile frame 390 wide directly below it. Same content in both, not a cropped version.
+
+Hard content rules, these are legal and business constraints, do not soften them:
+never show a price, a number of guaranteed quotes, a response time in hours, the words verificados or garantizado, or coverage beyond Gran Asunción;
+no testimonials, star ratings, review counts, client logos or provider names;
+image areas are soft tinted blocks with the caption Imagen ilustrativa, no faces;
+WhatsApp is the secondary action everywhere, the form is the primary action.
+
+Locked tokens, use exactly these values:
+display font Fraunces 500 with optical size on, text font Inter (fallback system sans);
+base #FAF6F0, ink #23201C, accent #C8472B (paprika) only for primary CTAs and one highlight per screen, surface #FFFFFF, olive #5B6B3F for eyebrow labels and small icons;
+tints for section fills and cards only: cream #F3EBDD, sage #E4E9DC, terracotta #F1DED5;
+WhatsApp green #25D366 only inside the WhatsApp button glyph, never as a fill;
+type scale ratio 1.25 from 17px body, H1 clamp(42px, 5.5vw, 72px) line-height 1.04 weight 500, eyebrows 12px uppercase letter-spacing 0.12em;
+radii 6px inputs, 14px cards and images, 24px feature panels; borders at 10 percent ink opacity; soft two-layer shadows; no gradients.
+
+Section order, do not reorder or drop:
+1 sticky header: brand text comida.com.py, nav Catering, Chef a domicilio, Precios, Cómo funciona, Proveedores, primary button Pedir presupuesto, small WhatsApp icon button
+2 hero: eyebrow Catering y chef a domicilio en Gran Asunción; H1 Comida para tu evento, sin perseguir presupuestos; sub Contanos qué celebrás, para cuántas personas y dónde. Revisamos tu solicitud y confirmamos disponibilidad con proveedores de catering en nuestro horario de atención. Gratis y sin compromiso.; primary CTA Pedir presupuesto; secondary CTA Escribinos por WhatsApp; large image slot
+3 mini form embedded in or right under the hero, five fields: Ocasión (chips: Empresarial, Fin de año, Boda, 15 años, Coffee break, Bocaditos, Cumpleaños, Otro), Fecha o fecha flexible, Zona, Cantidad de personas (numeric), botón Continuar
+4 cómo funciona, three steps: Contanos tu evento; Revisamos y consultamos disponibilidad; Recibís propuestas y elegís con quién contratar
+5 occasions grid, seven tiles with tinted backgrounds and one line each: Eventos empresariales, Fin de año, Bodas, Fiesta de 15, Coffee break, Bocaditos, Cumpleaños
+6 formats strip, six compact items: Bocaditos salados y dulces, Coffee break, Almuerzo empresarial, Asado con parrillero, Buffet y menú servido, Chef a domicilio
+7 precios teaser: title Cuánto cuesta un catering; body Depende del menú, la cantidad de personas y el servicio (vajilla, mozos, traslado). En la guía de precios explicamos qué cambia el costo para 50 o 100 personas.; link Ver guía de precios
+8 cobertura: Asunción y Gran Asunción with a short list of zones as text: Asunción, Luque, San Lorenzo, Fernando de la Mora, Lambaré, Villa Elisa, Capiatá, Ñemby, Mariano Roque Alonso
+9 para proveedores band: ¿Tenés un servicio de catering? Recibí solicitudes calificadas. Cobrás vos, comisión solo si cerrás. CTA Sumar mi servicio
+10 FAQ accordion, six items: ¿Tiene costo pedir presupuesto?; ¿Quién me cotiza y factura?; ¿Con cuánta anticipación conviene pedir?; ¿Atienden eventos chicos?; ¿Qué pasa si ningún proveedor tiene disponibilidad?; ¿Cómo eligen a los proveedores?
+11 contact split: short reassurance text and WhatsApp block on the left, the same five-field form plus Nombre and WhatsApp on the right
+12 footer: brand, nav, Horario de atención Lun a Vie 8:00 a 18:00, Sáb 8:00 a 12:00, Términos, Privacidad, line Servicio de referencia y coordinación. Cada proveedor contrata y factura directamente.
+plus a floating WhatsApp button bottom right and, on mobile, a sticky bottom bar with Pedir presupuesto primary and WhatsApp secondary.
+
+Constraints: no two consecutive sections share the same layout pattern; at least one element crosses a section boundary; one oversized display statement at 4rem or more (suggest the word Gratis or the H1 fragment sin perseguir); at least three distinct card treatments; hero is not a centred text block; no more than one row of identical cards; no abstract decorative diagrams; body contrast at least 4.5:1; mobile at 390 is one column, 48px tap targets, 16px gutters, no horizontal scroll.
+Direction: warm mercado. The feeling of a Paraguayan market stall and a family quincho, not a tech startup. Hero as a full-width image band with a cream 24px-radius panel anchored bottom-left holding eyebrow, H1, sub and both CTAs; the mini form sits in a terracotta-tinted card that hangs off the hero bottom into section 4 with a subtle paper-grain overlay. Occasions as seven stamp-like cards with slightly rotated tinted labels, arranged in a 4 plus 3 rhythm on desktop and a two-column grid on mobile. Formats strip as a chalk-menu style list on the ink colour with cream text and hairline dividers. Cómo funciona as a vertical timeline on the left with a large illustrative block on the right. Precios teaser as a wide sage panel with the title oversized. Proveedores band as a cream panel with an olive border and a hand-drawn underline on the CTA. Section padding 104px desktop, 56px mobile. Show where the oversized statement goes.
