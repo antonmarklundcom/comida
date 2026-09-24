@@ -42,7 +42,9 @@ gate('Mercado settings match the PHP allowlist (zones, days, products)',async c=
 const zip=path.join(root,'deploy/comida.com.py.zip');
 gate('Deploy zip contents (run deploy/make-zip.ps1 first)',c=>{
   if(!fs.existsSync(zip)){c(false,'deploy/comida.com.py.zip missing');return}
-  const list=spawnSync('tar',['-tf',zip],{encoding:'utf8'});if(list.status!==0){c(false,'cannot list zip: '+list.stderr);return}
+  // Windows' bsdtar reads zip files; GNU tar from Git Bash would treat "C:" as a remote host.
+  const tarBin=fs.existsSync('C:/Windows/System32/tar.exe')?'C:/Windows/System32/tar.exe':'tar';
+  const list=spawnSync(tarBin,['-tf',zip],{encoding:'utf8'});if(list.status!==0){c(false,'cannot list zip: '+list.stderr);return}
   const entries=list.stdout.split(/\r?\n/).filter(Boolean);
   for(const need of ['index.html','.htaccess','php/lead-forward.php','sitemap.xml','robots.txt','css/site.css','js/forms.js'])c(entries.includes(need),'zip missing '+need);
   c(entries.some(e=>e.startsWith('assets/img/')),'zip has no images');
