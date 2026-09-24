@@ -1,6 +1,6 @@
-# AGENTS.md — house rules for Codex on comida.com.py
+# AGENTS.md — house rules for any worker on comida.com.py (Codex or Claude)
 
-You are the implementation worker. A Claude Code manager session dispatches phases, audits by running the build, and sends errors back. Do the task as written.
+You are the implementation worker. A Claude Code manager session dispatches phases, audits by running the build, and sends errors back. Do the task as written. Since 2026-09-24 the site is a Paraguayan food hub (recipes, guides, meat cuts) with catering as the revenue layer; content writers follow `plan/prompts/CONTENT-WRITER.md`.
 
 ## Rules
 1. Never drop, narrow or substitute a step on your own judgment. Run it and flag it, or stop and ask.
@@ -12,8 +12,10 @@ You are the implementation worker. A Claude Code manager session dispatches phas
 7. Static output only: HTML, CSS, vanilla JS and one PHP handler. No frameworks, no build-time network calls, no CI files under `.github/`.
 
 ## Environment
-- Build: `node engine/build-site.mjs --site=comida` · verify: `node engine/verify.mjs --site=comida` · preview: served by the manager from `.claude/launch.json` on port 8093.
-- Node 24 is installed; if `node` is not on PATH use the runtime path noted in the manager's memory (ask the manager).
+- Build: `node engine/build-site.mjs --site=comida` · verify: `node engine/verify.mjs --site=comida` · content: `node scripts/validate-content.mjs` · duplicates: `node scripts/check-duplicates.mjs` · QA: `node scripts/qa-gate.mjs` · PHP: `node scripts/php-handler-test.mjs` · preview: `comida-preview` in `C:Claude 1.claudelaunch.json`, port 8093.
+- Content modules live in `sites/comida/content/{recipes,guides,cuts,viandas}/`, one file per page; the route manifest loads them. Parallel writers must not run the build (it wipes `dist/`); they run the content validator only.
+- Node 24 is installed. PHP 8.3 is at `C:/php/php.exe`.
+- The Bash tool on this laptop drops backslashes inside heredocs: write code with regexes through file-writing tools, not heredocs.
 - No Docker, no zip tool on PATH: use PowerShell `Compress-Archive` in `deploy/make-zip.ps1`.
 - VenderCRM leads endpoint base: `https://crm.clientes.com.py/api/v1/leads` (confirm in `plan/P0-ANSWERS.md`).
 - Windows: avoid embedded double quotes in shell arguments; prefer files for long text.

@@ -6,3 +6,4 @@ logs/
 .env.*
 private-config*.php
 config.private.*
+deploy/*.zip

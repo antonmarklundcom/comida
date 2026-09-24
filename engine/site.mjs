@@ -13,7 +13,7 @@ export async function loadSite(){
  const ids=new Set(),paths=new Set();
  for(const r of routes){if(ids.has(r.id)||paths.has(r.path))throw Error('Duplicate route: '+r.id);ids.add(r.id);paths.add(r.path);if(normalizeSlug(r.path)!==r.path)throw Error('Noncanonical route: '+r.path);for(const field of ['title','meta','kind'])if(!r[field])throw Error('Missing route '+field);if(typeof r.published!=='boolean'||typeof r.indexable!=='boolean')throw Error('Invalid publication flags')}
  if(!config.chefPartnerSigned&&routes.some(r=>r.kind==='line'&&r.indexable))throw Error('Chef indexability requires signed partner');
- for(const p of pages)for(const id of p.related||[])if(!routes.some(r=>r.id===id&&r.published))throw Error('Unpublished related route: '+id);
+ for(const p of pages.filter(p=>!p._file))for(const id of p.related||[])if(!routes.some(r=>r.id===id&&r.published))throw Error('Unpublished related route: '+id);
  for(const p of prices)for(const field of ['unit','minGuests','minCharge','tax','transport','inclusions','source','verifiedAt','published'])if(!(field in p))throw Error('Price missing '+field);
  const out=path.resolve(root,'dist',config.build.outputDomain);if(!out.startsWith(path.join(root,'dist')+path.sep))throw Error('Unsafe output directory');
  return {config,routes,pages,authors,providers,prices,out};

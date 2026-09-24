@@ -41,6 +41,8 @@ for(const route of published){
    if(!raw.startsWith('/')&&!raw.startsWith('#'))continue;
    const u=new URL(raw,config.origin+route.path),p=u.pathname,internal=htmlByPath.get(p);
    check(Boolean(internal)||fs.existsSync(path.join(out,p.slice(1))),label+'missing link/asset '+p);
+   // Gated lines (chef, viandas) stay invisible: an indexable page never links to a noindex page.
+   const target=published.find(r=>r.path===p);if(m[0].startsWith('<a')&&route.indexable&&target)check(target.indexable||target.kind==='gracias',label+'links to noindex page '+p);
    if(u.hash&&internal)check(internal.includes(`id="${decodeURIComponent(u.hash.slice(1))}"`),label+'missing fragment '+raw);
   }
  }
@@ -56,12 +58,12 @@ for(const route of published){
  }
  const graphBlocks=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];check(graphBlocks.length>0,label+'missing JSON-LD');
  for(const m of graphBlocks){try{const doc=JSON.parse(m[1]);check(doc['@context']==='https://schema.org',label+'schema context');const graph=doc['@graph']||[doc];
-  const required={Organization:['name','url'],WebSite:['name','url'],Service:['name','url','provider','areaServed'],BreadcrumbList:['itemListElement']};
+  const required={Organization:['name','url'],WebSite:['name','url'],Service:['name','url','provider','areaServed'],BreadcrumbList:['itemListElement'],Recipe:['name','recipeIngredient','recipeInstructions','author','totalTime'],Article:['headline','dateModified','author']};
   for(const entry of graph){check(!['Offer','FAQPage','HowTo','LocalBusiness'].includes(entry['@type'])&&!('priceRange'in entry),label+'unsupported food-site schema');for(const f of required[entry['@type']]||[])check(Boolean(entry[f]),label+'schema missing '+f);
    if(entry['@type']==='BreadcrumbList')check(entry.itemListElement?.every((i,n)=>i['@type']==='ListItem'&&i.position===n+1&&i.name&&published.some(r=>config.origin+r.path===i.item)),label+'invalid breadcrumbs');
    if(entry['@type']==='Service')check(Boolean(entry.provider.name)&&entry.provider.url===config.origin+'/'&&entry.areaServed.length>0,label+'invalid Service provider/coverage');
   }
-  const types=graph.map(n=>n['@type']);check(types.includes('BreadcrumbList'),label+'missing BreadcrumbList');if(route.kind==='home')check(types.includes('Organization')&&types.includes('WebSite'),label+'missing home schema');if(['occasion','city','line'].includes(route.kind))check(types.includes('Service'),label+'missing Service');
+  const types=graph.map(n=>n['@type']);check(types.includes('BreadcrumbList'),label+'missing BreadcrumbList');if(route.kind==='home')check(types.includes('Organization')&&types.includes('WebSite'),label+'missing home schema');if(['occasion','city','line'].includes(route.kind))check(types.includes('Service'),label+'missing Service');if(route.kind==='recipe')check(types.includes('Recipe'),label+'missing Recipe');if(['guide','cut'].includes(route.kind))check(types.includes('Article'),label+'missing Article');
  }catch{check(false,label+'invalid JSON-LD')}}
  for(const m of html.matchAll(/data-price-id="([^"]+)"/g))check(prices.some(p=>p.id===m[1]&&p.published),label+'unpublished price reference');
  for(const p of prices.filter(p=>!p.published))for(const value of p.referenceRange||[])check(!new RegExp('(?<![0-9])'+String(value).replace(/\B(?=(\d{3})+(?!\d))/g,'[., ]?')+'(?![0-9])').test(body),label+'internal price leaked');
@@ -69,6 +71,9 @@ for(const route of published){
  let main=html.match(/<main[\s\S]*?<\/main>/)?.[0]||'';main=main.replace(/<section[^>]*data-shared="(?:legal|process)"[\s\S]*?<\/section>/g,'').replace(/<section class="how"[\s\S]*?<\/section>/g,'');
  for(const m of main.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/g)){const p=text(m[1]);if(p.length<100)continue;check(!paragraphs.has(p)||paragraphs.get(p)===route.path,label+'duplicate substantive paragraph');paragraphs.set(p,route.path)}
 }
+// Content envelope (P3): every collection page carries id, source, verifiedAt and published; facts need a source.
+for(const p of pages.filter(p=>['recipe','guide','cut','vianda','restaurant'].includes(p.kind))){const tag=(p._file||p.id)+': ';for(const k of ['id','slug','kind','label','seoTitle','meta','h1','source','verifiedAt','updatedAt'])check(Boolean(p[k]),tag+'missing '+k);check(typeof p.published==='boolean',tag+'published must be boolean');check(/^\d{4}-\d{2}-\d{2}$/.test(p.verifiedAt||''),tag+'verifiedAt must be YYYY-MM-DD');const r=routes.find(r=>r.id===p.id);check(Boolean(r),tag+'no route');if(r&&!r.published)check(!fs.existsSync(fileFor(out,r.path)),tag+'unpublished page was emitted');}
+for(const r of routes.filter(r=>!r.published))check(!fs.existsSync(fileFor(out,r.path)),'Unpublished route emitted: '+r.path);
 const sitemap=read(path.join(out,'sitemap.xml')),urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]),expected=published.filter(r=>r.indexable&&r.kind!=='404').map(r=>config.origin+r.path);
 check(urls.length===expected.length&&new Set(urls).size===urls.length&&expected.every(u=>urls.includes(u)),'Sitemap differs from indexable published routes');
 for(const f of files.filter(f=>/\.(html|css|js|json|xml|txt|php)$/.test(f))){const bytes=fs.readFileSync(f);let s='';try{s=new TextDecoder('utf-8',{fatal:true}).decode(bytes)}catch{check(false,'Invalid UTF-8 '+path.relative(out,f));continue}check(!bytes.subarray(0,3).equals(Buffer.from([239,187,191])),'UTF-8 BOM '+path.relative(out,f));check(!/\uFFFD|Ã[\u0080-\u00BF]|Â[\u0080-\u00BF]|â€|ðŸ/.test(s),'Mojibake '+path.relative(out,f));check(!/(?:sk-[A-Za-z0-9_-]{16,}|AIza[A-Za-z0-9_-]{30,}|Bearer\s+[A-Za-z0-9._-]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY-----|(?:api[_-]?key|secret|access[_-]?token)\s*[:=]\s*["'][A-Za-z0-9_./+-]{16,})/i.test(s),'Possible secret in '+path.relative(out,f))}

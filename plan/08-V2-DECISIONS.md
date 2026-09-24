@@ -74,7 +74,7 @@ Backlog, in Codex's ranked order: almuerzo-empresarial, asado (capture → asado
 
 ## Open questions carried forward (need Anton)
 
-1. KWP settings: location, language, network, date range. Were Paraguay and Gran Asunción measured separately?
+1. ~~KWP settings~~ **Answered 2026-09-24 (Anton):** both rounds are Paraguay data, pulled from a Swedish Google Ads account (hence Swedish labels and SEK bids). Gran Asunción was not measured separately; round 3 (`research/kwp-round3-seeds.md`) adds an Asunción + Central run.
 2. Which suppliers have agreed, for which formats and zones, with what minimums and response times?
 3. Referral commission (assumed) vs contracting as the event seller?
 4. Weekly hours available for qualification and quote chasing, and minimum acceptable return per hour.
