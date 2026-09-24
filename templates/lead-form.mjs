@@ -65,3 +65,58 @@ ${consent(p+'-consent','Acepto que comida.com.py use estos datos para evaluar un
 ${status}
 </form>`;
 }
+
+/** Fresh-food order (form type "pedido"). No prices: the total is confirmed on WhatsApp. */
+export function orderForm({mercado,wa,source,preselect=[],waMessage}){
+ const p='of',zones=[...mercado.zones,'Otra zona (consultar)'];
+ const product=it=>`<div class="order-item"><label class="check" for="${p}-${attr(it.id)}"><input id="${p}-${attr(it.id)}" type="checkbox" name="productos[]" value="${attr(it.id)}"${preselect.includes(it.id)?' checked':''}> <span><strong>${esc(it.label)}</strong>${it.note?` <span class="opt">${esc(it.note)}</span>`:''}${it.available?'':' <span class="tag">A consultar</span>'}</span></label></div>`;
+ return `<form class="card-form lead-form order-form" data-lead-form data-single action="${ENDPOINT}" method="post" novalidate>
+<div class="lf-head"><h2 id="${p}-h">${mercado.open?'Hacé tu pedido':'Anotate para el próximo reparto'}</h2><p class="hint">Cierre de pedidos: ${esc(mercado.cutoff)}. Entregas: ${esc(mercado.deliveryDays.join(' y ').toLowerCase())}. Te confirmamos el total por WhatsApp antes de comprar.</p></div>
+${hidden('pedido',source)}
+<fieldset><legend>Qué querés recibir</legend><div class="order-items">${mercado.products.map(product).join('')}</div></fieldset>
+<div class="fields">
+<div class="field"><label class="lbl" for="${p}-zona">Zona de entrega</label><select id="${p}-zona" name="zona" required><option value="">Elegí tu zona</option>${zones.map(z=>`<option>${esc(z)}</option>`).join('')}</select></div>
+<div class="field"><label class="lbl" for="${p}-dia">Día de entrega</label><select id="${p}-dia" name="dia" required>${mercado.deliveryDays.map(d=>`<option>${esc(d)}</option>`).join('')}</select></div>
+<div class="field"><label class="lbl" for="${p}-barrio">Barrio o referencia</label><input id="${p}-barrio" name="barrio" type="text" maxlength="120" placeholder="Ej.: Villa Morra, cerca de…"></div>
+<div class="field"><label class="lbl" for="${p}-nombre">Nombre</label><input id="${p}-nombre" name="nombre" type="text" autocomplete="name" maxlength="120" required></div>
+<div class="field"><label class="lbl" for="${p}-wa">WhatsApp</label><input id="${p}-wa" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" required placeholder="0981 123 456"></div>
+<div class="field full"><label class="lbl" for="${p}-nota">Algo más para tu pedido <span class="opt">(opcional)</span></label><textarea id="${p}-nota" name="nota" rows="4" maxlength="1500" placeholder="Ej.: sin cebolla; sumar 2 kg de mandioca"></textarea></div>
+</div>
+${consent(p+'-consent','Acepto que comida.com.py use estos datos para confirmar y entregar mi pedido.')}
+<div class="form-foot"><button class="btn btn-primary" type="submit">${mercado.open?'Enviar pedido':'Anotarme'}</button><a class="lf-wa" href="${attr(wa(waMessage))}">Prefiero pedir por WhatsApp</a></div>
+<p class="note">Pagás recién cuando confirmás por WhatsApp: ${esc(mercado.payment.join(' o ').toLowerCase())}.</p>
+${status}
+</form>`;
+}
+
+/** "Receta de la semana" WhatsApp list (form type "suscripcion"). */
+export function subscribeForm({source,prefix='sf'}){
+ const p=prefix;
+ return `<form class="card-form lead-form subscribe-form" data-lead-form data-single action="${ENDPOINT}" method="post" novalidate>
+<div class="lf-head"><h2 id="${p}-h">Una receta por semana, por WhatsApp</h2><p class="hint">Una receta paraguaya o casera cada semana, con cantidades por kilo. Te das de baja cuando quieras.</p></div>
+${hidden('suscripcion',source)}
+<div class="fields">
+<div class="field"><label class="lbl" for="${p}-nombre">Nombre</label><input id="${p}-nombre" name="nombre" type="text" autocomplete="name" maxlength="120" required></div>
+<div class="field"><label class="lbl" for="${p}-wa">WhatsApp</label><input id="${p}-wa" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" required placeholder="0981 123 456"></div>
+</div>
+${consent(p+'-consent','Acepto recibir una receta por semana por WhatsApp de comida.com.py.')}
+<div class="form-foot"><button class="btn btn-primary" type="submit">Quiero las recetas</button></div>
+${status}
+</form>`;
+}
+
+/** Printable seasonal recetario in exchange for a WhatsApp contact (form type "recetario"). */
+export function recetarioForm({slug,title,blurb,source}){
+ const p='rf';
+ return `<form class="card-form lead-form recetario-form" data-lead-form data-single action="${ENDPOINT}" method="post" novalidate>
+<div class="lf-head"><h2 id="${p}-h">${esc(title)}</h2><p class="hint">${esc(blurb)} Dejanos tu WhatsApp y abrís la versión para imprimir o guardar en PDF.</p></div>
+${hidden('recetario',source)}<input type="hidden" name="recetario" value="${attr(slug)}">
+<div class="fields">
+<div class="field"><label class="lbl" for="${p}-nombre">Nombre</label><input id="${p}-nombre" name="nombre" type="text" autocomplete="name" maxlength="120" required></div>
+<div class="field"><label class="lbl" for="${p}-wa">WhatsApp</label><input id="${p}-wa" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" required placeholder="0981 123 456"></div>
+</div>
+${consent(p+'-consent','Acepto que comida.com.py me escriba por WhatsApp con recetas y novedades.')}
+<div class="form-foot"><button class="btn btn-primary" type="submit">Abrir el recetario</button></div>
+${status}
+</form>`;
+}

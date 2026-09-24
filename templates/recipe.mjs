@@ -1,6 +1,8 @@
 import {esc,attr} from '../engine/escape.mjs';
 import {breadcrumbs} from './content.mjs';
 import {ingredientLine,minutes,sectionHtml,faqHtml,sourceLine,cardGrid,tableHtml,qtyText} from './recipe-lib.mjs';
+import {subscribeForm} from './lead-form.mjs';
+import mercado from '../sites/comida/mercado.mjs';
 // Recipe page: built for cooking with the phone in the kitchen (scaler, checklists, timers, screen awake).
 export default function recipe({page:r,route,routes,pages,picture,wa}){
   const y=r.yield,total=(r.times.prep||0)+(r.times.cook||0)+(r.times.rest||0);
@@ -15,15 +17,17 @@ export default function recipe({page:r,route,routes,pages,picture,wa}){
 <dl class="facts"><div><dt>Preparación</dt><dd>${esc(minutes(r.times.prep))}</dd></div><div><dt>Cocción</dt><dd>${esc(minutes(r.times.cook)||'Sin cocción')}</dd></div>${r.times.rest?`<div><dt>Reposo</dt><dd>${esc(minutes(r.times.rest))}</dd></div>`:''}<div><dt>Total</dt><dd>${esc(minutes(total))}</dd></div><div><dt>Rinde</dt><dd>${esc(y.yieldText)}</dd></div><div><dt>Dificultad</dt><dd>${esc(r.difficulty)}</dd></div></dl>
 <nav class="jump" aria-label="En esta receta"><a href="#ingredientes">Ingredientes</a><a href="#preparacion">Preparación</a>${r.tips?.length?'<a href="#consejos">Consejos</a>':''}${r.faq?.length?'<a href="#preguntas">Preguntas</a>':''}<button type="button" class="linkish" data-print>Imprimir</button></nav></header>
 ${r.image?`<figure class="page-image">${picture(r.image,'(min-width:900px) 820px, 100vw',true)}<figcaption class="cap">Imagen ilustrativa</figcaption></figure>`:''}
-<div class="recipe-grid"><section class="ingredients" id="ingredientes" aria-labelledby="ing-h"><h2 id="ing-h">Ingredientes</h2>${scaler}${ingredients}<button type="button" class="linkish" data-clear>Desmarcar todo</button></section>
+<div class="recipe-grid"><section class="ingredients" id="ingredientes" aria-labelledby="ing-h"><h2 id="ing-h">Ingredientes</h2>${scaler}${ingredients}<div class="ing-actions"><a class="btn btn-primary" data-order-recipe href="/mercado/?receta=${attr(r.slug)}">${mercado.open?'Pedí los ingredientes':'Consultá por los ingredientes'}</a><button type="button" class="linkish" data-save-recipe data-id="${attr(r.id)}" aria-pressed="false">Guardar receta</button><button type="button" class="linkish" data-clear>Desmarcar todo</button></div><p class="ing-hint">Te llevamos a casa lo que te falta; te confirmamos el total por WhatsApp.</p></section>
 <section class="method" id="preparacion" aria-labelledby="prep-h"><div class="method-head"><h2 id="prep-h">Preparación</h2><button type="button" class="btn btn-ghost cook-mode" data-cook aria-pressed="false">Modo cocina</button></div><p class="cook-hint">El modo cocina mantiene la pantalla encendida y agranda la letra mientras cocinás.</p>${steps}</section></div>
 ${kiloTable?`<section class="art-sec" id="por-kilo"><h2>${esc(r.kiloTable.title)}</h2>${kiloTable}</section>`:''}
 ${r.tips?.length?`<section class="art-sec" id="consejos"><h2>${esc(r.tipsTitle||'Consejos para que salga bien')}</h2><ul class="ticks">${r.tips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></section>`:''}
 ${(r.sections||[]).map(sectionHtml).join('')}
 ${r.variations?.length?`<section class="art-sec"><h2>Variantes</h2><div class="content-grid">${r.variations.map(([h,p])=>`<article class="content-card"><h3>${esc(h)}</h3><p>${esc(p)}</p></article>`).join('')}</div></section>`:''}
 ${r.storage?`<section class="art-sec"><h2>Cómo conservar</h2><p>${esc(r.storage)}</p></section>`:''}
+<section class="rx-feedback" data-feedback data-recipe="${attr(r.slug)}" aria-labelledby="fb-h"><h2 id="fb-h">¿La hiciste?</h2><p class="hint">Contanos cómo te salió. No publicamos las respuestas: las usamos para mejorar la receta.</p><div class="chips" role="group" aria-label="Cómo te salió"><button type="button" class="chip-btn" data-vote="salio-bien">Me salió bien</button><button type="button" class="chip-btn" data-vote="ajuste">Tuve que ajustarla</button><button type="button" class="chip-btn" data-vote="no-salio">No me salió</button></div><div class="fb-more" hidden><label class="lbl" for="fb-c">¿Qué cambiarías? <span class="opt">(opcional)</span></label><textarea id="fb-c" rows="2" maxlength="500"></textarea><button type="button" class="btn btn-ghost" data-fb-send>Enviar comentario</button></div><p class="note" role="status" aria-live="polite" data-fb-status></p></section>
 ${faqHtml(r.faq,'Preguntas frecuentes')}
 ${sourceLine(r)}
+<section class="page-form" data-shared="process" aria-labelledby="sf-h">${subscribeForm({source:route.path})}</section>
 ${guides.length?`<section class="art-sec">${cardGrid(guides,routes,{heading:'Para saber más'})}</section>`:''}
 ${related.length?`<section class="art-sec">${cardGrid(related,routes,{heading:'Otras recetas que te pueden gustar'})}</section>`:''}
 <section class="soft-cta" data-shared="process"><h2>¿Lo necesitás para muchas personas?</h2><p>Si es para un evento, te ayudamos a consultar catering en Gran Asunción. Contanos la fecha, la zona y cuántos son.</p><div class="cta-row"><a class="btn btn-primary" href="/presupuesto/${r.cateringOccasion?'?ocasion='+encodeURIComponent(r.cateringOccasion):''}">Pedí un presupuesto</a><a class="btn btn-ghost" href="${attr(wa(r.waMessage||'Hola, quiero consultar catering para un evento.'))}">Escribinos por WhatsApp</a></div></section>

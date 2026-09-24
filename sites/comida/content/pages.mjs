@@ -7,7 +7,7 @@ import {fileURLToPath} from 'node:url';
 import {loadCollection} from '../../../engine/collections.mjs';
 import hubs from './hubs.mjs';
 const siteDir=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const collections=[];for(const name of ['recipes','guides','cuts','viandas','restaurants'])collections.push(...await loadCollection(siteDir,name));
+const collections=[];for(const name of ['recipes','guides','cuts','viandas','restaurants','ingredients','seasons','products'])collections.push(...await loadCollection(siteDir,name));
 const existing = [
   {
     "id": "home"
@@ -122,4 +122,5 @@ const existing = [
     ]
   }
 ];
-export default [...existing,...occasions,...cities,...lines,...support,...hubs,...collections];
+const recetarios=collections.filter(c=>c.kind==='collection'&&c.recetario).map(c=>({id:'recetario-'+c.slug,collectionId:c.id,_file:'recetario:'+c.slug,waMessage:c.waMessage}));
+export default [...existing,...occasions,...cities,...lines,...support,...hubs,...collections,...recetarios];

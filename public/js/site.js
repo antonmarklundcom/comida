@@ -1,7 +1,6 @@
 
 (function(){
-  // Load the approved display font without blocking rendering or the build.
-  var font=document.createElement('link');font.rel='stylesheet';font.href='https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&display=swap';document.head.appendChild(font);
+  // Fraunces is self-hosted (public/css/fonts.css); no third-party font request.
   // Catering dropdown: click to toggle, Escape or outside click to close
   var btn=document.querySelector('.nav-btn'), sub=document.getElementById('sub-catering');
   if(btn&&sub){
@@ -48,3 +47,6 @@ document.querySelectorAll('.quick form').forEach(function(form){
   });
 });
 document.addEventListener('keydown',function(e){var drawer=document.querySelector('.mnav[open]');if(e.key==='Escape'&&drawer){drawer.open=false;drawer.querySelector('summary').focus()}});
+
+// Offline recipes (installable app): register the service worker on HTTPS or localhost.
+if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost'))window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){})});

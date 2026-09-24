@@ -6,6 +6,6 @@ window.comidaMockSubmit=function(body){
   return new Promise(function(resolve){setTimeout(function(){
     if(mode==='fail')return resolve({ok:false,error:'upstream'});
     if(mode==='rate')return resolve({ok:false,error:'rate'});
-    resolve({ok:true,redirect:'/gracias/?estado=recibida'});
+    var kind=body.get('form');resolve({ok:true,redirect:kind==='recetario'?'/recetario/'+body.get('recetario')+'/':'/gracias/?estado=recibida'+(kind&&kind!=='cliente'?'&tipo='+kind:'')});
   },400)});
 };

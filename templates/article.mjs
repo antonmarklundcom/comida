@@ -1,31 +1,39 @@
 import {esc,attr,jsonLd} from '../engine/escape.mjs';
 import {breadcrumbs,briefHref} from './content.mjs';
 import {sectionHtml,faqHtml,sourceLine,cardGrid,tableHtml} from './recipe-lib.mjs';
-import {leadForm} from './lead-form.mjs';
+import {leadForm,orderForm,recetarioForm,subscribeForm} from './lead-form.mjs';
+import mercado from '../sites/comida/mercado.mjs';
+// Which product the order form preselects on each /mercado/ page.
+const PRESELECT={'producto-canasta':['canasta-mediana'],'producto-queso':['queso-1'],'producto-carne':['pack-asado']};
 // Guides, meat cuts and viandas share one long-form layout: facts box, sections, optional tool, FAQ, related.
 export function article({page:a,route,routes,pages,picture,wa,config}){
   const facts=a.facts?.length?`<dl class="facts facts-wide">${a.facts.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>`:'';
   const toc=(a.sections||[]).filter(s=>s.id).length>2?`<nav class="toc" aria-label="En esta guía"><p class="eyebrow">En esta guía</p><ol>${a.sections.filter(s=>s.id).map(s=>`<li><a href="#${attr(s.id)}">${esc(s.title)}</a></li>`).join('')}${a.faq?.length?'<li><a href="#preguntas">Preguntas frecuentes</a></li>':''}</ol></nav>`:'';
   const related=(a.related||[]).map(id=>pages.find(p=>p.id===id)).filter(Boolean);
-  const recipes=(a.recipes||[]).map(id=>pages.find(p=>p.id===id)).filter(Boolean);
-  const form=a.form==='viandas'?`<section class="page-form" id="formulario" aria-labelledby="vf-h">${viandasForm({config,wa,source:route.path,waMessage:a.waMessage})}</section>`:'';
-  const cta=a.cta===false?'':`<section class="soft-cta" data-shared="process"><h2>${esc(a.ctaTitle||'¿Organizás un evento?')}</h2><p>${esc(a.ctaText||'Contanos la fecha, la zona y cuántas personas esperás. Te ayudamos a consultar catering en Gran Asunción.')}</p><div class="cta-row"><a class="btn btn-primary" href="${attr(a.form==='viandas'?'#formulario':briefHref(route,a))}">${esc(a.ctaLabel||'Pedí un presupuesto')}</a><a class="btn btn-ghost" href="${attr(wa(a.waMessage))}">Escribinos por WhatsApp</a></div></section>`;
+  const recipes=a.kind==='ingredient'?matchRecipes(a,pages):(a.recipes||[]).map(id=>pages.find(p=>p.id===id)).filter(Boolean);
+  const products=a.kind==='product'&&a.hub?pages.filter(p=>p.kind==='product'&&!p.hub).sort((x,y)=>(x.order??99)-(y.order??99)):[];
+  const form=a.kind==='product'?`<section class="page-form" data-shared="process" id="formulario" aria-labelledby="of-h">${orderForm({mercado,wa,source:route.path,preselect:PRESELECT[a.id]||[],waMessage:a.waMessage})}</section>`:a.kind==='collection'&&a.recetario?`<section class="page-form" data-shared="process" id="recetario" aria-labelledby="rf-h">${recetarioForm({slug:a.slug,title:a.recetario.title,blurb:a.recetario.blurb,source:route.path})}</section>`:a.form==='viandas'?`<section class="page-form" data-shared="process" id="formulario" aria-labelledby="vf-h">${viandasForm({config,wa,source:route.path,waMessage:a.waMessage})}</section>`:'';
+  const cta=a.cta===false||a.kind==='product'?'':a.kind==='collection'||a.kind==='ingredient'?`<section class="page-form" data-shared="process" aria-labelledby="sf-h">${subscribeForm({source:route.path})}</section>`:`<section class="soft-cta" data-shared="process"><h2>${esc(a.ctaTitle||'¿Organizás un evento?')}</h2><p>${esc(a.ctaText||'Contanos la fecha, la zona y cuántas personas esperás. Te ayudamos a consultar catering en Gran Asunción.')}</p><div class="cta-row"><a class="btn btn-primary" href="${attr(a.form==='viandas'?'#formulario':briefHref(route,a))}">${esc(a.ctaLabel||'Pedí un presupuesto')}</a><a class="btn btn-ghost" href="${attr(wa(a.waMessage))}">Escribinos por WhatsApp</a></div></section>`;
   return `<main id="top" class="content-page article-page"><div class="wrap narrow">${breadcrumbs(route,routes)}
-<header class="recipe-head"><p class="eyebrow">${esc(a.eyebrow||(a.kind==='cut'?'Cortes de carne':a.kind==='vianda'?'Viandas':'Guía'))}</p><h1>${esc(a.h1)}</h1>${a.intro.map(p=>`<p class="lead">${esc(p)}</p>`).join('')}${facts}</header>
+<header class="recipe-head"><p class="eyebrow">${esc(a.eyebrow||({cut:'Cortes de carne',vianda:'Viandas',ingredient:'Recetas por ingrediente',collection:'Recetas de temporada',product:'Mercado'}[a.kind]||'Guía'))}</p><h1>${esc(a.h1)}</h1>${a.intro.map(p=>`<p class="lead">${esc(p)}</p>`).join('')}${facts}</header>
 ${a.image?`<figure class="page-image">${picture(a.image,'(min-width:900px) 820px, 100vw',true)}<figcaption class="cap">Imagen ilustrativa</figcaption></figure>`:''}
 ${a.estimate?`<p class="estimate-note">${esc(a.estimate)}</p>`:''}
+${a.kind==='ingredient'&&recipes.length?`<section class="art-sec" id="recetas">${cardGrid(recipes,routes,{heading:a.recipesTitle||a.label})}</section>`:''}
+${products.length?`<section class="art-sec">${cardGrid(products,routes,{heading:'Qué podés pedir'})}</section>`:''}
 ${toc}
 ${a.tool?toolHtml(a.tool):''}
 ${(a.sections||[]).map(sectionHtml).join('')}
 ${form}
 ${faqHtml(a.faq,a.faqTitle||'Preguntas frecuentes')}
 ${sourceLine(a)}
-${recipes.length?`<section class="art-sec">${cardGrid(recipes,routes,{heading:a.recipesTitle||'Recetas relacionadas'})}</section>`:''}
+${recipes.length&&a.kind!=='ingredient'?`<section class="art-sec">${cardGrid(recipes,routes,{heading:a.recipesTitle||'Recetas relacionadas'})}</section>`:''}
 ${related.length?`<section class="art-sec">${cardGrid(related,routes,{heading:'Seguí leyendo'})}</section>`:''}
 ${cta}
 </div></main>`;
 }
 export default article;
+/** Recipes whose ingredient names contain any of the page's match terms. */
+export function matchRecipes(a,pages){const terms=(a.match||[]).map(t=>t.toLowerCase());return pages.filter(p=>p.kind==='recipe'&&p.published!==false&&p.ingredients?.some(g=>g.items.some(i=>terms.some(t=>i.item.toLowerCase().includes(t))))).sort((x,y)=>(x.order??999)-(y.order??999)||x.label.localeCompare(y.label,'es'))}
 
 /** Calculators. Every number shown is an editorial estimate carried in the page module (tool.data). */
 export function toolHtml(tool){

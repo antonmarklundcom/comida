@@ -11,6 +11,9 @@ export const COLLECTIONS={
   guides:{kind:'guide',prefix:'/guias/',parent:'guias'},
   cuts:{kind:'cut',prefix:'/carne/',parent:'carne'},
   viandas:{kind:'vianda',prefix:'/viandas/',parent:'viandas'},
+  ingredients:{kind:'ingredient',prefix:'/recetas-con/',parent:'recetas'},
+  seasons:{kind:'collection',prefix:'/recetas/para/',parent:'recetas'},
+  products:{kind:'product',prefix:'/mercado/',parent:'mercado'},
   // Reserved (plan/10 §11): kinds exist so the engine and verifier handle them; nothing is published yet.
   restaurants:{kind:'restaurant',prefix:'/restaurantes/',parent:'restaurantes'},
 };
