@@ -151,3 +151,7 @@ All 20 ideas from the growth list are built; content by 7 parallel Opus writers 
 
 Fixed along the way: service worker must be network-first for CSS/JS (cache-first would pin old files after deploys); planner listed only 60 of 120 recipes; /recetas/ hub trimmed from 89.9 to 78.8 KB (100 KB limit).
 Counts: **195 HTML / 183 sitemap URLs**; PHP test 24/24; QA gate 17/17 (new gate: mercado settings match the PHP allowlist).
+
+## 2026-09-24 (end of session)
+
+PRs #1 (launch build) and #2 (growth ideas 1-20) merged into master by Anton's explicit request; merged master re-checked green (195 HTML / 183 sitemap URLs, verify 59,409 checks, 0 shared paragraphs). Deploy branch `hostinger` pushed (built site only). Social cards: 56 of 120 generated when the session ended; rerun `node scripts/social-cards.mjs`. Continuation prompt for the next chat: `docs/log/next-session-prompt.md`.
