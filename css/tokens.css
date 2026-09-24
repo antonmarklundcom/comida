@@ -1,0 +1,18 @@
+/* Extracted from the approved docs/design-exports/opus-1.html. */
+
+:root{
+  /* locked tokens (DESIGN-1) */
+  --base:#FAF6F0; --ink:#23201C; --accent:#C8472B; --surface:#FFFFFF; --olive:#5B6B3F;
+  --cream:#F3EBDD; --sage:#E4E9DC; --terra:#F1DED5; --wa:#25D366;
+  /* pulled from the photos: chipa / golden-hour gold, ember char */
+  --gold:#D9A441; --char:#1C1511;
+  --scrim:rgba(28,21,17,.66); --scrim-soft:rgba(28,21,17,.5);
+  --line:rgba(35,32,28,.10); --muted:#5E564D;
+  --f-display:"Fraunces",Georgia,serif; --f-text:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --s-body:17px; --s-lead:21.25px; --s-h3:26.5px; --s-h2:clamp(33px,3.6vw,52px);
+  --r-input:6px; --r-card:14px; --r-panel:24px;
+  --shadow:0 1px 2px rgba(35,32,28,.06),0 12px 32px rgba(35,32,28,.10);
+  --shadow-lg:0 2px 4px rgba(35,32,28,.06),0 24px 60px rgba(35,32,28,.16);
+  --gutter:16px; --pad:64px; --header:60px;
+}
+@media (min-width:900px){ :root{ --gutter:48px; --pad:120px; --header:72px; } }
