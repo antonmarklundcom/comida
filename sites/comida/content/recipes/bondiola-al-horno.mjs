@@ -1,6 +1,6 @@
 // Recipe module: bondiola de cerdo al horno. Companion of corte-bondiola-de-cerdo. Shape: sites/comida/content/recipes/sopa-paraguaya.mjs
 export default {
-  id:'receta-bondiola-al-horno', slug:'bondiola-al-horno', kind:'recipe',
+  id:'receta-bondiola-al-horno', slug:'bondiola-al-horno', kind:'recipe', image:53,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la cocina casera de Paraguay y el Río de la Plata',
   label:'Bondiola al horno',

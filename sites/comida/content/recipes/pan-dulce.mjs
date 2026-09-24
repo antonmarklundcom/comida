@@ -1,5 +1,5 @@
 export default {
-  id:'receta-pan-dulce', slug:'pan-dulce', kind:'recipe', order:41,
+  id:'receta-pan-dulce', slug:'pan-dulce', kind:'recipe', image:48, order:41,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera tradicional',
   label:'Pan dulce casero',

@@ -1,5 +1,5 @@
 export default {
-  id:'receta-chipa', slug:'chipa', kind:'recipe', order:2,
+  id:'receta-chipa', slug:'chipa', kind:'recipe', image:36, order:2,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación tradicional paraguaya',
   label:'Chipa',

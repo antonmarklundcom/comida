@@ -50,6 +50,10 @@ for(const [file,m] of all){
     if(m.kind==='collection'&&(m.recipes||[]).length<6)err('collection needs at least 6 recipe ids');
     const words=text.split(/\s+/).length;if(words<350)warn('thin content: ~'+words+' words');
   }
+  if(m.kind==='restaurant'){
+    if(!/visita/i.test(m.source||''))err('restaurant source must name the visit and its date');
+    if(!(m.facts||[]).some(f=>f[0]==='Horario'))err('restaurant needs an Horario fact with the check date');
+  }
   if(['guide','cut','vianda'].includes(m.kind)){
     if((m.sections||[]).length<3)err('at least 3 sections');if((m.faq||[]).length<4)err('at least 4 FAQ');
     const words=text.split(/\s+/).length;if(words<500)warn('thin content: ~'+words+' words');

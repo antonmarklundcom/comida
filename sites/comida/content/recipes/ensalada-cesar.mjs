@@ -1,5 +1,5 @@
 export default {
-  id:'receta-ensalada-cesar', slug:'ensalada-cesar', kind:'recipe', order:30,
+  id:'receta-ensalada-cesar', slug:'ensalada-cesar', kind:'recipe', image:38, order:30,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera de la ensalada César con pollo',
   label:'Ensalada César',

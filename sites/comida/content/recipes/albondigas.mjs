@@ -1,5 +1,5 @@
 export default {
-  id:'receta-albondigas', slug:'albondigas', kind:'recipe',
+  id:'receta-albondigas', slug:'albondigas', kind:'recipe', image:46,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera tradicional',
   label:'Albóndigas en salsa',

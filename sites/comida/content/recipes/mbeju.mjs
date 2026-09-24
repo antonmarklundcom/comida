@@ -1,5 +1,5 @@
 export default {
-  id:'receta-mbeju', slug:'mbeju', kind:'recipe', order:4,
+  id:'receta-mbeju', slug:'mbeju', kind:'recipe', image:32, order:4,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación tradicional paraguaya',
   label:'Mbeju',

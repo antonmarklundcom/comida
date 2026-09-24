@@ -1,5 +1,5 @@
 export default {
-  id:'receta-asado-a-la-olla', slug:'asado-a-la-olla', kind:'recipe',
+  id:'receta-asado-a-la-olla', slug:'asado-a-la-olla', kind:'recipe', image:40,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera paraguaya',
   label:'Asado a la olla',

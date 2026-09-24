@@ -1,5 +1,5 @@
 export default {
-  id:'receta-chipa-guazu', slug:'chipa-guazu', kind:'recipe', order:3,
+  id:'receta-chipa-guazu', slug:'chipa-guazu', kind:'recipe', image:31, order:3,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación tradicional paraguaya',
   label:'Chipa guazú',

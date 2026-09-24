@@ -1,5 +1,5 @@
 export default {
-  id:'receta-pastel-mandio', slug:'pastel-mandio', kind:'recipe',
+  id:'receta-pastel-mandio', slug:'pastel-mandio', kind:'recipe', image:42,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación tradicional paraguaya',
   label:'Pastel mandi\'o',

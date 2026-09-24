@@ -28,7 +28,9 @@ for(const route of published){
  check(html.includes(`<link rel="canonical" href="${config.origin+route.path}">`),label+'canonical mismatch');
  check(html.includes('lang="es-PY"'),label+'locale mismatch');
  check(!/24\s*(?:h\b|horas)|2\s*(?:a|–|-)\s*3\s*presupuestos|verificados|garantizado|todo Paraguay|testimonios|reseñas|testimonials/i.test(body),label+'forbidden content');
- check(!/(?:Gs\.?|₲|\$|USD)\s*[\d]|[\d][\d.,]*\s*(?:Gs\.?|₲|dólares|guaraníes)\b/i.test(body),label+'numeric public price');
+ // Prices are allowed only on the official Abasto price table, and only with a source and a list date on the page.
+ if(route.kind==='price-table')check(/Fuente: \S/.test(body)&&/<time datetime="\d{4}-\d{2}-\d{2}">/.test(html),label+'price table without source/date');
+ else check(!/(?:Gs\.?|₲|\$|USD)\s*[\d]|[\d][\d.,]*\s*(?:Gs\.?|₲|dólares|guaraníes)\b/i.test(body),label+'numeric public price');
  check(!/OPERADOR_PENDIENTE|\+595000000000|Sitio operado por|RUC\s*\d/.test(body),label+'operator placeholder/unsupported identity');
  check(body.includes(config.operator.hours),label+'incorrect hours');
  check(body.includes('Servicio de referencia y coordinacion. Cada proveedor contrata y factura directamente.'),label+'missing referral notice');

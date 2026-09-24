@@ -1,5 +1,5 @@
 export default {
-  id:'receta-tortilla-paraguaya', slug:'tortilla-paraguaya', kind:'recipe', order:11,
+  id:'receta-tortilla-paraguaya', slug:'tortilla-paraguaya', kind:'recipe', image:37, order:11,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación tradicional paraguaya',
   label:'Tortilla paraguaya',

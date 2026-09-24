@@ -13,6 +13,11 @@ node scripts/validate-content.mjs            # schema, length and voseo checks f
 node scripts/php-handler-test.mjs            # PHP handler end-to-end against a mock VenderCRM (needs PHP 8.1+)
 node scripts/qa-gate.mjs --report            # pre-deploy gate; writes docs/log/qa-report.md
 powershell -File deploy/make-zip.ps1         # build + verify + deploy/comida.com.py.zip
+node scripts/deploy-branch.mjs               # build + all gates, commit dist to branch `hostinger`, push (Hostinger Git deploy)
+node scripts/gsc-report.mjs <csv-folder>     # monthly Search Console review → docs/log/gsc-report-<date>.md
+node scripts/abasto-precios.mjs <csv> --source "…" [--publish]   # weekly Abasto price table (off by default)
+node scripts/social-cards.mjs [slug…]        # Instagram/Pinterest cards + captions → social/ (gitignored)
+node scripts/kwp-merge.mjs                   # merge all Keyword Planner rounds → plan/research/kwp-all.csv
 ```
 
 Preview: the `comida-preview` entry in `C:\Claude 1\.claude\launch.json` serves `dist/comida.com.py` on http://localhost:8093 (`node engine/serve.mjs --site=comida --port=8093`). On localhost the forms use `public/js/form-mock.js`; add `?mock=fail` or `?mock=rate` to a form URL to test the WhatsApp fallback.
@@ -33,6 +38,16 @@ Preview: the `comida-preview` entry in `C:\Claude 1\.claude\launch.json` serves 
 | `public/` | CSS, JS, fonts, `.htaccess` (copied into dist). |
 | `plan/` | Strategy, KWP research (`plan/research/`), dispatch prompts. Never deployed. |
 | `docs/log/build.md` | Build log and standing overrides. |
+
+## Mercado (fresh-food orders)
+
+Every operational setting is in `sites/comida/mercado.mjs`: `open`, zones, cut-off, delivery days, payment methods and the product list. If you change zones, days or product ids, update the three constants at the top of `php/lead-forward.php` too; the QA gate fails when they differ. No prices are shown anywhere: the order form collects the request and the total is confirmed on WhatsApp (lead type `pedido` in VenderCRM). Recipes link to `/mercado/?receta=<slug>` and prefill the order with the scaled ingredient list; the planner and the asado calculator do the same.
+
+Other lead types: `suscripcion` (weekly recipe by WhatsApp, on recipe, ingredient and season pages) and `recetario` (unlocks `/recetario/<season>/`, a printable page, noindex). Recipe feedback ("¿La hiciste?") goes to `php/feedback.php`, which appends to `feedback.jsonl` in the private `state_dir`; it is never displayed.
+
+## Deploy with Git instead of zips
+
+`node scripts/deploy-branch.mjs` builds, runs every gate, and commits only `dist/comida.com.py` to the orphan branch `hostinger` (plus a `.deploy-source` file naming the source commit), then pushes it. In hPanel → Advanced → Git: repository `https://github.com/antonmarklundcom/comida.git`, branch `hostinger`, install path `public_html` (empty folder the first time). Add the deploy key hPanel shows to the GitHub repo if it is private, and turn on auto-deploy (webhook). The private config stays outside `public_html` as before.
 
 ## Adding content
 

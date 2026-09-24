@@ -1,5 +1,5 @@
 export default {
-  id:'receta-torta-de-cumpleanos', slug:'torta-de-cumpleanos', kind:'recipe', order:74,
+  id:'receta-torta-de-cumpleanos', slug:'torta-de-cumpleanos', kind:'recipe', image:52, order:74,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la torta de cumpleaños casera de bizcochuelo, dulce de leche y crema',
   label:'Torta de cumpleaños',

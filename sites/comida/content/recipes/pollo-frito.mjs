@@ -1,5 +1,5 @@
 export default {
-  id:'receta-pollo-frito', slug:'pollo-frito', kind:'recipe', order:41,
+  id:'receta-pollo-frito', slug:'pollo-frito', kind:'recipe', image:49, order:41,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la cocina casera',
   label:'Pollo frito',

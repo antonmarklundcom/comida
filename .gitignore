@@ -7,3 +7,5 @@ logs/
 private-config*.php
 config.private.*
 deploy/*.zip
+social/
+.deploy-worktree/

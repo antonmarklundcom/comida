@@ -1,5 +1,5 @@
 export default {
-  id:'receta-matambre-a-la-pizza', slug:'matambre-a-la-pizza', kind:'recipe',
+  id:'receta-matambre-a-la-pizza', slug:'matambre-a-la-pizza', kind:'recipe', image:45,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera tradicional',
   label:'Matambre a la pizza',
