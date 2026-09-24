@@ -1,5 +1,5 @@
 export default {
-  id:'receta-ensalada-rusa', slug:'ensalada-rusa', kind:'recipe', order:24,
+  id:'receta-ensalada-rusa', slug:'ensalada-rusa', kind:'recipe', image:35, order:24,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera de las fiestas de fin de año',
   label:'Ensalada rusa',

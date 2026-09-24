@@ -18,11 +18,11 @@
   document.querySelectorAll('[data-show-when]').forEach(function(el){var p=el.getAttribute('data-show-when').split('=');if(new URLSearchParams(location.search).get(p[0])===p[1])el.hidden=false});
 
   function brief(form){
-    var d=new FormData(form),lines=[form.elements.form.value==='proveedor'?'Hola, quiero presentar mi servicio en comida.com.py.':'Hola, quiero pedir un presupuesto desde comida.com.py.'];
-    var labels={ocasion:'Ocasión',fecha:'Fecha',zona:'Zona',personas:'Personas',presupuesto:'Presupuesto orientativo',nombre:'Nombre',empresa:'Empresa',negocio:'Negocio',capacidad:'Capacidad',mensaje:'Mensaje',plan:'Plan',frecuencia:'Frecuencia'};
+    var d=new FormData(form),kind=form.elements.form.value,lines=[{proveedor:'Hola, quiero presentar mi servicio en comida.com.py.',pedido:'Hola, quiero hacer un pedido del mercado de comida.com.py.',suscripcion:'Hola, quiero recibir la receta de la semana de comida.com.py.',recetario:'Hola, quiero el recetario de comida.com.py.',viandas:'Hola, quiero consultar por viandas desde comida.com.py.'}[kind]||'Hola, quiero pedir un presupuesto desde comida.com.py.'];
+    var labels={ocasion:'Ocasión',fecha:'Fecha',zona:'Zona',dia:'Día de entrega',barrio:'Barrio',personas:'Personas',presupuesto:'Presupuesto orientativo',nombre:'Nombre',empresa:'Empresa',negocio:'Negocio',capacidad:'Capacidad',mensaje:'Mensaje',plan:'Plan',frecuencia:'Frecuencia',nota:'Nota'};
     Object.keys(labels).forEach(function(k){var v=d.get(k);if(v)lines.push(labels[k]+': '+String(v).slice(0,300))});
     if(d.get('flexible'))lines.push('Fecha flexible');
-    ['formatos[]','zonas[]'].forEach(function(k){var v=d.getAll(k);if(v.length)lines.push((k==='zonas[]'?'Zonas':'Formatos')+': '+v.join(', '))});
+    ['formatos[]','zonas[]','productos[]'].forEach(function(k){var v=d.getAll(k);if(v.length)lines.push(({'zonas[]':'Zonas','formatos[]':'Formatos','productos[]':'Productos'})[k]+': '+v.join(', '))});
     return 'https://wa.me/'+WA+'?text='+encodeURIComponent(lines.join('\n'));
   }
   function showStatus(form,html,kind){var s=form.querySelector('.form-status');s.hidden=false;s.className='form-status '+(kind||'');s.innerHTML=html;s.scrollIntoView({block:'nearest',behavior:'smooth'});}

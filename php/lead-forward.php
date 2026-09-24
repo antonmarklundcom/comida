@@ -22,7 +22,11 @@ const COMIDA_WHATSAPP = '595992279599';
 const COMIDA_MAX_BYTES = 16384;
 const COMIDA_RATE_MAX = 6;          // submissions per window per IP
 const COMIDA_RATE_WINDOW = 600;     // seconds
-const COMIDA_FORMS = ['cliente', 'proveedor', 'viandas'];
+const COMIDA_FORMS = ['cliente', 'proveedor', 'viandas', 'pedido', 'suscripcion', 'recetario'];
+// Keep in sync with sites/comida/mercado.mjs (zones and product ids).
+const COMIDA_ORDER_ZONES = ['Asunción', 'Fernando de la Mora', 'Luque', 'San Lorenzo', 'Lambaré', 'Otra zona (consultar)'];
+const COMIDA_ORDER_DAYS = ['Viernes', 'Sábado'];
+const COMIDA_PRODUCTS = ['canasta-chica', 'canasta-mediana', 'canasta-grande', 'queso-1', 'queso-2', 'huevos', 'pack-asado', 'pack-semana'];
 
 $wantsJson = str_contains($_SERVER['HTTP_ACCEPT'] ?? '', 'application/json');
 
@@ -72,12 +76,19 @@ function whatsapp_link(array $lines): string {
 }
 
 function brief_lines(string $form, array $f): array {
-    $lines = [$form === 'proveedor'
-        ? 'Hola, quiero presentar mi servicio en comida.com.py.'
-        : ($form === 'viandas' ? 'Hola, quiero consultar por viandas desde comida.com.py.' : 'Hola, quiero pedir un presupuesto desde comida.com.py.')];
-    $labels = ['ocasion' => 'Ocasión', 'fecha' => 'Fecha', 'zona' => 'Zona', 'personas' => 'Personas',
-        'presupuesto' => 'Presupuesto orientativo', 'nombre' => 'Nombre', 'empresa' => 'Empresa', 'negocio' => 'Negocio',
-        'capacidad' => 'Capacidad', 'plan' => 'Plan', 'frecuencia' => 'Frecuencia', 'mensaje' => 'Mensaje'];
+    $openers = [
+        'proveedor' => 'Hola, quiero presentar mi servicio en comida.com.py.',
+        'viandas' => 'Hola, quiero consultar por viandas desde comida.com.py.',
+        'pedido' => 'Hola, quiero hacer un pedido del mercado de comida.com.py.',
+        'suscripcion' => 'Hola, quiero recibir la receta de la semana de comida.com.py.',
+        'recetario' => 'Hola, quiero el recetario de comida.com.py.',
+    ];
+    $lines = [$openers[$form] ?? 'Hola, quiero pedir un presupuesto desde comida.com.py.'];
+    $labels = ['ocasion' => 'Ocasión', 'fecha' => 'Fecha', 'zona' => 'Zona', 'dia' => 'Día de entrega', 'barrio' => 'Barrio',
+        'personas' => 'Personas', 'presupuesto' => 'Presupuesto orientativo', 'nombre' => 'Nombre', 'empresa' => 'Empresa',
+        'negocio' => 'Negocio', 'capacidad' => 'Capacidad', 'plan' => 'Plan', 'frecuencia' => 'Frecuencia', 'recetario' => 'Recetario',
+        'mensaje' => 'Mensaje', 'nota' => 'Nota'];
+    if (!empty($f['productos'])) $lines[] = 'Productos: ' . implode(', ', $f['productos']);
     foreach ($labels as $key => $label) {
         if (!empty($f[$key])) $lines[] = $label . ': ' . $f[$key];
     }
@@ -146,6 +157,19 @@ if ($form === 'proveedor') {
     $f['capacidad'] = $cap === false ? '' : (string)$cap;
     $f['mensaje'] = clean($_POST['mensaje'] ?? '', 1000);
     $required = ['nombre', 'negocio'];
+} elseif ($form === 'pedido') {
+    $f['productos'] = clean_list($_POST['productos'] ?? [], COMIDA_PRODUCTS);
+    $f['zona'] = in_array($z = clean($_POST['zona'] ?? '', 60), COMIDA_ORDER_ZONES, true) ? $z : '';
+    $f['dia'] = in_array($d = clean($_POST['dia'] ?? '', 20), COMIDA_ORDER_DAYS, true) ? $d : '';
+    $f['barrio'] = clean($_POST['barrio'] ?? '', 120);
+    $f['nota'] = clean($_POST['nota'] ?? '', 1500);
+    $required = ['nombre', 'zona', 'dia'];
+    if (!$f['productos'] && $f['nota'] === '') $required[] = 'productos';
+} elseif ($form === 'suscripcion') {
+    $required = ['nombre'];
+} elseif ($form === 'recetario') {
+    $f['recetario'] = preg_match('/^[a-z0-9-]{2,40}$/', $r = clean($_POST['recetario'] ?? '', 40)) ? $r : '';
+    $required = ['nombre', 'recetario'];
 } elseif ($form === 'viandas') {
     $f['zona'] = in_array($z = clean($_POST['zona'] ?? '', 60), $zones, true) ? $z : '';
     $f['plan'] = clean($_POST['plan'] ?? '', 60);
@@ -198,7 +222,7 @@ $pick = static function (string $key) use ($attr): string {
 };
 $fields = array_filter(array_diff_key($f, ['nombre' => 1, 'email' => 1, 'source' => 1]), static fn($v) => $v !== '' && $v !== []);
 $fields['tipo'] = $form;
-foreach (['formatos', 'zonas'] as $k) if (isset($fields[$k])) $fields[$k] = implode(', ', $fields[$k]);
+foreach (['formatos', 'zonas', 'productos'] as $k) if (isset($fields[$k])) $fields[$k] = implode(', ', $fields[$k]);
 
 $payload = [
     'phone' => $phone,
@@ -234,7 +258,14 @@ curl_close($ch);
 // VenderCRM contract (vendercrm-lead-endpoints.md, 2026-09-23): 200/201 = accepted, contact and deal exist.
 $persisted = ($status === 201 || $status === 200) && $curlError === 0;
 if ($persisted) {
-    respond(true, ['redirect' => $form === 'proveedor' ? '/gracias/?estado=recibida&tipo=proveedor' : '/gracias/?estado=recibida']);
+    $redirect = match ($form) {
+        'proveedor' => '/gracias/?estado=recibida&tipo=proveedor',
+        'pedido' => '/gracias/?estado=recibida&tipo=pedido',
+        'suscripcion' => '/gracias/?estado=recibida&tipo=suscripcion',
+        'recetario' => '/recetario/' . $f['recetario'] . '/',
+        default => '/gracias/?estado=recibida',
+    };
+    respond(true, ['redirect' => $redirect]);
 }
 
 // Log status and the CRM's error body (it names the invalid field), never the visitor's data.

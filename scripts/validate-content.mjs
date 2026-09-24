@@ -7,7 +7,7 @@ import {UNIT_KEYS} from '../templates/recipe-lib.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base=path.join(root,'sites/comida/content');
 const args=process.argv.slice(2);
-const targets=(args.length?args:['recipes','guides','cuts','viandas'].map(d=>path.join(base,d))).flatMap(t=>{const p=path.resolve(t);return fs.statSync(p).isDirectory()?fs.readdirSync(p).filter(f=>f.endsWith('.mjs')&&!f.startsWith('_')).map(f=>path.join(p,f)):[p]});
+const targets=(args.length?args:['recipes','guides','cuts','viandas','ingredients','seasons','products'].map(d=>path.join(base,d))).flatMap(t=>{const p=path.resolve(t);return fs.statSync(p).isDirectory()?fs.readdirSync(p).filter(f=>f.endsWith('.mjs')&&!f.startsWith('_')).map(f=>path.join(p,f)):[p]});
 const FORBIDDEN=/24\s*(?:h\b|horas)|2\s*(?:a|–|-)\s*3\s*presupuestos|verificad[oa]s?|garantizad[oa]|todo Paraguay|testimonios|reseñas|(?:Gs\.?|₲|\$|USD)\s*\d|\d[\d.,]*\s*(?:Gs\.?|₲|dólares|guaraníes)\b/i;
 // Common tuteo forms; the site writes in Paraguayan voseo (podés, tenés, agregá, mezclá).
 const TUTEO=/(?<![a-záéíóúñ])(puedes|tienes|debes|quieres|necesitas|sabes|prefieres|añade|añádele|agrégale|mezcla bien|deja reposar|tú)(?![a-záéíóúñ])/i;
@@ -19,7 +19,7 @@ const ids=new Set();for(const [,m] of all)ids.add(m.id);
 // Core pages (catering, support) from the manifest's static part.
 {const src=fs.readFileSync(path.join(root,'sites/comida/routes.mjs'),'utf8');for(const m of src.matchAll(/"id": "([^"]+)"/g))ids.add(m[1])}
 // Other writers may be mid-save: a file that does not parse yet is skipped here (it fails its own validation).
-for(const dir of ['recipes','guides','cuts','viandas'])if(fs.existsSync(path.join(base,dir)))for(const f of fs.readdirSync(path.join(base,dir)).filter(f=>f.endsWith('.mjs'))){try{ids.add((await import(pathToFileURL(path.join(base,dir,f)).href)).default.id)}catch{}}
+for(const dir of ['recipes','guides','cuts','viandas','ingredients','seasons','products','_incoming/recipes','_incoming/ingredients','_incoming/seasons'])if(fs.existsSync(path.join(base,dir)))for(const f of fs.readdirSync(path.join(base,dir)).filter(f=>f.endsWith('.mjs'))){try{ids.add((await import(pathToFileURL(path.join(base,dir,f)).href)).default.id)}catch{}}
 for(const [file,m] of all){
   n++;const tag=path.relative(root,file)+': ',err=s=>errors.push(tag+s),warn=s=>warnings.push(tag+s);
   for(const k of ['id','slug','kind','label','seoTitle','meta','h1','source','verifiedAt','updatedAt','intro'])if(!m[k])err('missing '+k);
@@ -43,6 +43,16 @@ for(const [file,m] of all){
     if((m.faq||[]).length<4)err('at least 4 FAQ');if((m.tips||[]).length<3)err('at least 3 tips');
     if(!m.difficulty||!m.course)err('difficulty and course required');
     if(m.kiloTable)for(const ref of m.kiloTable.items)if(!items.some(i=>i.item===ref))err('kiloTable item not in ingredients: '+ref);
+  }
+  if(['ingredient','collection'].includes(m.kind)){
+    if((m.sections||[]).length<2)err('at least 2 sections');if((m.faq||[]).length<4)err('at least 4 FAQ');
+    if(m.kind==='ingredient'&&!(m.match||[]).length)err('ingredient needs match terms');
+    if(m.kind==='collection'&&(m.recipes||[]).length<6)err('collection needs at least 6 recipe ids');
+    const words=text.split(/\s+/).length;if(words<350)warn('thin content: ~'+words+' words');
+  }
+  if(m.kind==='restaurant'){
+    if(!/visita/i.test(m.source||''))err('restaurant source must name the visit and its date');
+    if(!(m.facts||[]).some(f=>f[0]==='Horario'))err('restaurant needs an Horario fact with the check date');
   }
   if(['guide','cut','vianda'].includes(m.kind)){
     if((m.sections||[]).length<3)err('at least 3 sections');if((m.faq||[]).length<4)err('at least 4 FAQ');

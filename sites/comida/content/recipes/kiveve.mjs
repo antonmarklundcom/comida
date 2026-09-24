@@ -1,5 +1,5 @@
 export default {
-  id:'receta-kiveve', slug:'kiveve', kind:'recipe',
+  id:'receta-kiveve', slug:'kiveve', kind:'recipe', image:43,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación tradicional paraguaya',
   label:'Kiveve',

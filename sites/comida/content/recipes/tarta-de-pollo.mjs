@@ -1,5 +1,5 @@
 export default {
-  id:'receta-tarta-de-pollo', slug:'tarta-de-pollo', kind:'recipe', order:28,
+  id:'receta-tarta-de-pollo', slug:'tarta-de-pollo', kind:'recipe', image:44, order:28,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera de tartas saladas',
   label:'Tarta de pollo',

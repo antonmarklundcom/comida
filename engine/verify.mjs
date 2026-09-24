@@ -28,7 +28,9 @@ for(const route of published){
  check(html.includes(`<link rel="canonical" href="${config.origin+route.path}">`),label+'canonical mismatch');
  check(html.includes('lang="es-PY"'),label+'locale mismatch');
  check(!/24\s*(?:h\b|horas)|2\s*(?:a|–|-)\s*3\s*presupuestos|verificados|garantizado|todo Paraguay|testimonios|reseñas|testimonials/i.test(body),label+'forbidden content');
- check(!/(?:Gs\.?|₲|\$|USD)\s*[\d]|[\d][\d.,]*\s*(?:Gs\.?|₲|dólares|guaraníes)\b/i.test(body),label+'numeric public price');
+ // Prices are allowed only on the official Abasto price table, and only with a source and a list date on the page.
+ if(route.kind==='price-table')check(/Fuente: \S/.test(body)&&/<time datetime="\d{4}-\d{2}-\d{2}">/.test(html),label+'price table without source/date');
+ else check(!/(?:Gs\.?|₲|\$|USD)\s*[\d]|[\d][\d.,]*\s*(?:Gs\.?|₲|dólares|guaraníes)\b/i.test(body),label+'numeric public price');
  check(!/OPERADOR_PENDIENTE|\+595000000000|Sitio operado por|RUC\s*\d/.test(body),label+'operator placeholder/unsupported identity');
  check(body.includes(config.operator.hours),label+'incorrect hours');
  check(body.includes('Servicio de referencia y coordinacion. Cada proveedor contrata y factura directamente.'),label+'missing referral notice');
@@ -72,7 +74,7 @@ for(const route of published){
  for(const m of main.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/g)){const p=text(m[1]);if(p.length<100)continue;check(!paragraphs.has(p)||paragraphs.get(p)===route.path,label+'duplicate substantive paragraph');paragraphs.set(p,route.path)}
 }
 // Content envelope (P3): every collection page carries id, source, verifiedAt and published; facts need a source.
-for(const p of pages.filter(p=>['recipe','guide','cut','vianda','restaurant'].includes(p.kind))){const tag=(p._file||p.id)+': ';for(const k of ['id','slug','kind','label','seoTitle','meta','h1','source','verifiedAt','updatedAt'])check(Boolean(p[k]),tag+'missing '+k);check(typeof p.published==='boolean',tag+'published must be boolean');check(/^\d{4}-\d{2}-\d{2}$/.test(p.verifiedAt||''),tag+'verifiedAt must be YYYY-MM-DD');const r=routes.find(r=>r.id===p.id);check(Boolean(r),tag+'no route');if(r&&!r.published)check(!fs.existsSync(fileFor(out,r.path)),tag+'unpublished page was emitted');}
+for(const p of pages.filter(p=>['recipe','guide','cut','vianda','restaurant','ingredient','collection','product'].includes(p.kind))){const tag=(p._file||p.id)+': ';for(const k of ['id','slug','kind','label','seoTitle','meta','h1','source','verifiedAt','updatedAt'])check(Boolean(p[k]),tag+'missing '+k);check(typeof p.published==='boolean',tag+'published must be boolean');check(/^\d{4}-\d{2}-\d{2}$/.test(p.verifiedAt||''),tag+'verifiedAt must be YYYY-MM-DD');const r=routes.find(r=>r.id===p.id);check(Boolean(r),tag+'no route');if(r&&!r.published)check(!fs.existsSync(fileFor(out,r.path)),tag+'unpublished page was emitted');}
 for(const r of routes.filter(r=>!r.published))check(!fs.existsSync(fileFor(out,r.path)),'Unpublished route emitted: '+r.path);
 const sitemap=read(path.join(out,'sitemap.xml')),urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]),expected=published.filter(r=>r.indexable&&r.kind!=='404').map(r=>config.origin+r.path);
 check(urls.length===expected.length&&new Set(urls).size===urls.length&&expected.every(u=>urls.includes(u)),'Sitemap differs from indexable published routes');

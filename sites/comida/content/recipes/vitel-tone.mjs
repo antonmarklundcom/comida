@@ -1,5 +1,5 @@
 export default {
-  id:'receta-vitel-tone', slug:'vitel-tone', kind:'recipe', order:23,
+  id:'receta-vitel-tone', slug:'vitel-tone', kind:'recipe', image:33, order:23,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera de las fiestas de fin de año',
   label:'Vitel toné',

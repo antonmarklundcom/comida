@@ -40,6 +40,16 @@ r=await post(8194,new URLSearchParams({form:'proveedor',negocio:'Cocina Test',no
 r=await post(8194,form('0981 000 001',{form:'hack'}));check('unknown form type -> 400',r.status===400,r);
 const big=form('0981 000 001',{mensaje:'x'.repeat(20000)});r=await post(8194,big);check('oversized request -> 413',r.status===413,r);
 let limited=false;for(let i=0;i<8;i++){r=await post(8197,form('0981 00'+String(1000+i)));if(r.status===429)limited=true}check('rate limit -> 429 after 6 per window',limited,r);
+// Mercado order, weekly-recipe list, recetario unlock (forms added for ideas 1-6 and 16).
+r=await post(8194,new URLSearchParams({idem:'test-'+run+'-pedido-abcdefgh',form:'pedido','productos[]':'queso-1',zona:'Luque',dia:'Viernes',nombre:'Prueba',whatsapp:'0981000006',consent:'si',nota:'Ingredientes para sopa paraguaya'}));check('pedido -> ok, redirect tipo=pedido',r.json?.ok===true&&r.json.redirect==='/gracias/?estado=recibida&tipo=pedido',r);
+r=await post(8194,new URLSearchParams({idem:'test-'+run+'-pedido-bad-zone',form:'pedido','productos[]':'queso-1',zona:'Encarnación',dia:'Viernes',nombre:'Prueba',whatsapp:'0981000006',consent:'si'}));check('pedido outside delivery zones -> 422 zona',r.status===422&&r.json?.field==='zona',r);
+r=await post(8194,new URLSearchParams({idem:'test-'+run+'-pedido-empty',form:'pedido',zona:'Luque',dia:'Viernes',nombre:'Prueba',whatsapp:'0981000006',consent:'si'}));check('pedido with nothing ordered -> 422 productos',r.status===422&&r.json?.field==='productos',r);
+r=await post(8194,new URLSearchParams({idem:'test-'+run+'-suscripcion-x',form:'suscripcion',nombre:'Prueba',whatsapp:'0981000007',consent:'si'}));check('suscripcion -> ok',r.json?.ok===true&&r.json.redirect.includes('tipo=suscripcion'),r);
+r=await post(8194,new URLSearchParams({idem:'test-'+run+'-recetario-x',form:'recetario',recetario:'navidad',nombre:'Prueba',whatsapp:'0981000008',consent:'si'}));check('recetario -> ok, redirect to the printable recetario',r.json?.ok===true&&r.json.redirect==='/recetario/navidad/',r);
+r=await post(8194,new URLSearchParams({idem:'test-'+run+'-recetario-bad',form:'recetario',recetario:'../etc',nombre:'Prueba',whatsapp:'0981000008',consent:'si'}));check('recetario with a bad slug -> 422',r.status===422,r);
+{const fb=async body=>{const x=await fetch('http://127.0.0.1:8194/php/feedback.php',{method:'POST',body:new URLSearchParams(body)});return {status:x.status,json:await x.json().catch(()=>null)}};
+ let a=await fb({receta:'sopa-paraguaya',voto:'salio-bien',comentario:'Quedó rica'});check('feedback -> stored privately',a.json?.ok===true&&fs.readFileSync(path.join(state,'feedback.jsonl'),'utf8').includes('sopa-paraguaya'),a);
+ a=await fb({receta:'sopa-paraguaya',voto:'5 estrellas'});check('feedback with an invalid answer -> 422',a.status===422,a);}
 const secret=fs.readFileSync(path.join(docroot,'php/lead-forward.php'),'utf8').includes('test-key');check('no key in the deployed handler',!secret,{});
 stop();fs.rmSync(tmp,{recursive:true,force:true});
 const failed=results.filter(([,ok])=>!ok).length;console.log(`PHP handler test ${failed?'FAILED':'OK'}: ${results.length-failed}/${results.length} passed.`);process.exit(failed?1:0);

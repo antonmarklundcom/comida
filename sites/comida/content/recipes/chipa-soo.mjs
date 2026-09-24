@@ -1,5 +1,5 @@
 export default {
-  id:'receta-chipa-soo', slug:'chipa-soo', kind:'recipe', order:5,
+  id:'receta-chipa-soo', slug:'chipa-soo', kind:'recipe', image:41, order:5,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación tradicional paraguaya',
   label:'Chipa so’o',

@@ -1,5 +1,5 @@
 export default {
-  id:'receta-estofado-de-carne', slug:'estofado-de-carne', kind:'recipe',
+  id:'receta-estofado-de-carne', slug:'estofado-de-carne', kind:'recipe', image:39,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera tradicional',
   label:'Estofado de carne',

@@ -1,5 +1,5 @@
 export default {
-  id:'receta-canelones', slug:'canelones', kind:'recipe', order:25,
+  id:'receta-canelones', slug:'canelones', kind:'recipe', image:34, order:25,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera de canelones al horno',
   label:'Canelones',

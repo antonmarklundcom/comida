@@ -34,10 +34,17 @@ gate('Indexable pages never link to noindex pages (gated lines stay hidden)',c=>
 gate('Unpublished prices render no number (estimator data empty)',c=>{for(const [f,s] of docs){const m=s.match(/id="estimator-data">([\s\S]*?)<\/script>/);if(m)c(JSON.parse(m[1]).length===0,rel(f))}});
 gate('robots.txt points to the sitemap',c=>{c(fs.readFileSync(path.join(out,'robots.txt'),'utf8').includes('Sitemap: https://comida.com.py/sitemap.xml'),'robots.txt')});
 gate('.htaccess present with 404, no listing and HTTPS',c=>{const h=fs.existsSync(path.join(out,'.htaccess'))?fs.readFileSync(path.join(out,'.htaccess'),'utf8'):'';c(/ErrorDocument 404 \/404\.html/.test(h)&&/Options -Indexes/.test(h)&&/HTTPS/.test(h),'.htaccess')});
+gate('Mercado settings match the PHP allowlist (zones, days, products)',async c=>{});
+{const mercado=(await import('../sites/comida/mercado.mjs')).default,php=fs.readFileSync(path.join(root,'php/lead-forward.php'),'utf8');const g=results.at(-1);
+ for(const z of mercado.zones){g.count++;if(!php.includes(`'${z}'`))g.problems.push('zone missing in PHP: '+z)}
+ for(const d of mercado.deliveryDays){g.count++;if(!php.includes(`'${d}'`))g.problems.push('day missing in PHP: '+d)}
+ for(const p of mercado.products){g.count++;if(!php.includes(`'${p.id}'`))g.problems.push('product missing in PHP: '+p.id)}}
 const zip=path.join(root,'deploy/comida.com.py.zip');
 gate('Deploy zip contents (run deploy/make-zip.ps1 first)',c=>{
   if(!fs.existsSync(zip)){c(false,'deploy/comida.com.py.zip missing');return}
-  const list=spawnSync('tar',['-tf',zip],{encoding:'utf8'});if(list.status!==0){c(false,'cannot list zip: '+list.stderr);return}
+  // Windows' bsdtar reads zip files; GNU tar from Git Bash would treat "C:" as a remote host.
+  const tarBin=fs.existsSync('C:/Windows/System32/tar.exe')?'C:/Windows/System32/tar.exe':'tar';
+  const list=spawnSync(tarBin,['-tf',zip],{encoding:'utf8'});if(list.status!==0){c(false,'cannot list zip: '+list.stderr);return}
   const entries=list.stdout.split(/\r?\n/).filter(Boolean);
   for(const need of ['index.html','.htaccess','php/lead-forward.php','sitemap.xml','robots.txt','css/site.css','js/forms.js'])c(entries.includes(need),'zip missing '+need);
   c(entries.some(e=>e.startsWith('assets/img/')),'zip has no images');

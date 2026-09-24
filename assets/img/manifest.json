@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:32:07.549Z",
+  "generated_at": "2026-09-24T21:59:16.287Z",
   "images": [
     {
       "filename_base": "mesa-buffet-catering-evento-asuncion",
@@ -1201,6 +1201,942 @@
         }
       ],
       "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/furgoneta-catering-entrada-salon-asuncion-640.avif 640w, assets/img/furgoneta-catering-entrada-salon-asuncion-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/furgoneta-catering-entrada-salon-asuncion-640.webp 640w, assets/img/furgoneta-catering-entrada-salon-asuncion-1024.webp 1024w\">\n  <img src=\"assets/img/furgoneta-catering-entrada-salon-asuncion-640.webp\" alt=\"Furgoneta de catering con bandejas en la entrada iluminada de un salón de eventos de Asunción\" width=\"640\" height=\"427\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "strogonoff-de-pollo-con-arroz",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_932e5b5c-695f-41dd-9de0-42ba31a6ecf1.png",
+      "prompt": "strogonoff de pollo con arroz y papas pay",
+      "alt_text": "Strogonoff de pollo cremoso con arroz blanco y papas pay en un plato hondo",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "strogonoff-de-pollo-con-arroz-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 28.9
+        },
+        {
+          "file": "strogonoff-de-pollo-con-arroz-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 37.2
+        },
+        {
+          "file": "strogonoff-de-pollo-con-arroz-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 49.4
+        },
+        {
+          "file": "strogonoff-de-pollo-con-arroz-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 68.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/strogonoff-de-pollo-con-arroz-640.avif 640w, assets/img/strogonoff-de-pollo-con-arroz-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/strogonoff-de-pollo-con-arroz-640.webp 640w, assets/img/strogonoff-de-pollo-con-arroz-1024.webp 1024w\">\n  <img src=\"assets/img/strogonoff-de-pollo-con-arroz-640.webp\" alt=\"Strogonoff de pollo cremoso con arroz blanco y papas pay en un plato hondo\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "chipa-guazu-porcion-horneada",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_44659cd9-64b5-4ac8-8bb1-81c778e9957e.png",
+      "prompt": "chipa guazu porcion",
+      "alt_text": "Porción de chipa guazú dorada con granos de choclo a la vista, recién salida del horno",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "chipa-guazu-porcion-horneada-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 29.6
+        },
+        {
+          "file": "chipa-guazu-porcion-horneada-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 37.5
+        },
+        {
+          "file": "chipa-guazu-porcion-horneada-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 50.5
+        },
+        {
+          "file": "chipa-guazu-porcion-horneada-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 69.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/chipa-guazu-porcion-horneada-640.avif 640w, assets/img/chipa-guazu-porcion-horneada-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/chipa-guazu-porcion-horneada-640.webp 640w, assets/img/chipa-guazu-porcion-horneada-1024.webp 1024w\">\n  <img src=\"assets/img/chipa-guazu-porcion-horneada-640.webp\" alt=\"Porción de chipa guazú dorada con granos de choclo a la vista, recién salida del horno\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "mbeju-en-sarten-de-hierro",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215557_8bfd0629-dbf0-4faa-ac8b-9dc1dcba0f49.png",
+      "prompt": "mbeju en sarten",
+      "alt_text": "Mbeju dorado y crocante en una sartén de hierro, con una porción levantada y un cocido al lado",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "mbeju-en-sarten-de-hierro-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 35.9
+        },
+        {
+          "file": "mbeju-en-sarten-de-hierro-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 43.9
+        },
+        {
+          "file": "mbeju-en-sarten-de-hierro-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 63.3
+        },
+        {
+          "file": "mbeju-en-sarten-de-hierro-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 85.3
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/mbeju-en-sarten-de-hierro-640.avif 640w, assets/img/mbeju-en-sarten-de-hierro-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/mbeju-en-sarten-de-hierro-640.webp 640w, assets/img/mbeju-en-sarten-de-hierro-1024.webp 1024w\">\n  <img src=\"assets/img/mbeju-en-sarten-de-hierro-640.webp\" alt=\"Mbeju dorado y crocante en una sartén de hierro, con una porción levantada y un cocido al lado\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "vitel-tone-peceto-salsa-de-atun",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_cfb6f3fa-c6de-4a00-aafd-a52097b4fa34.png",
+      "prompt": "vitel tone",
+      "alt_text": "Rodajas de peceto cubiertas con salsa de vitel toné y alcaparras en una fuente festiva",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "vitel-tone-peceto-salsa-de-atun-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 27.1
+        },
+        {
+          "file": "vitel-tone-peceto-salsa-de-atun-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 35.3
+        },
+        {
+          "file": "vitel-tone-peceto-salsa-de-atun-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 43.9
+        },
+        {
+          "file": "vitel-tone-peceto-salsa-de-atun-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 63.2
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/vitel-tone-peceto-salsa-de-atun-640.avif 640w, assets/img/vitel-tone-peceto-salsa-de-atun-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/vitel-tone-peceto-salsa-de-atun-640.webp 640w, assets/img/vitel-tone-peceto-salsa-de-atun-1024.webp 1024w\">\n  <img src=\"assets/img/vitel-tone-peceto-salsa-de-atun-640.webp\" alt=\"Rodajas de peceto cubiertas con salsa de vitel toné y alcaparras en una fuente festiva\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "canelones-de-carne-gratinados",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_08c362ba-6f28-4e1e-a79d-f76c76c7da5a.png",
+      "prompt": "canelones de carne",
+      "alt_text": "Canelones de carne gratinados con salsa blanca y salsa de tomate, con una porción servida",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "canelones-de-carne-gratinados-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 27.9
+        },
+        {
+          "file": "canelones-de-carne-gratinados-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 37.3
+        },
+        {
+          "file": "canelones-de-carne-gratinados-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 47
+        },
+        {
+          "file": "canelones-de-carne-gratinados-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 67.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/canelones-de-carne-gratinados-640.avif 640w, assets/img/canelones-de-carne-gratinados-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/canelones-de-carne-gratinados-640.webp 640w, assets/img/canelones-de-carne-gratinados-1024.webp 1024w\">\n  <img src=\"assets/img/canelones-de-carne-gratinados-640.webp\" alt=\"Canelones de carne gratinados con salsa blanca y salsa de tomate, con una porción servida\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "ensalada-rusa-casera-en-fuente",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215557_82a37990-7793-4719-bd92-20378a162170.png",
+      "prompt": "ensalada rusa",
+      "alt_text": "Ensalada rusa de papa, zanahoria y arvejas con mayonesa y huevo duro en una fuente de vidrio",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "ensalada-rusa-casera-en-fuente-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 28.4
+        },
+        {
+          "file": "ensalada-rusa-casera-en-fuente-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 36.6
+        },
+        {
+          "file": "ensalada-rusa-casera-en-fuente-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 47.9
+        },
+        {
+          "file": "ensalada-rusa-casera-en-fuente-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 67.3
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/ensalada-rusa-casera-en-fuente-640.avif 640w, assets/img/ensalada-rusa-casera-en-fuente-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/ensalada-rusa-casera-en-fuente-640.webp 640w, assets/img/ensalada-rusa-casera-en-fuente-1024.webp 1024w\">\n  <img src=\"assets/img/ensalada-rusa-casera-en-fuente-640.webp\" alt=\"Ensalada rusa de papa, zanahoria y arvejas con mayonesa y huevo duro en una fuente de vidrio\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "chipa-paraguaya-roscas-en-canasta",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_2972bb3e-0af5-4a3a-809b-413cc91b5a44.png",
+      "prompt": "chipa paraguaya en canasta",
+      "alt_text": "Chipas paraguayas en forma de rosca, doradas, apiladas en una canasta de mimbre",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "chipa-paraguaya-roscas-en-canasta-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 35.6
+        },
+        {
+          "file": "chipa-paraguaya-roscas-en-canasta-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 47.3
+        },
+        {
+          "file": "chipa-paraguaya-roscas-en-canasta-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 64.4
+        },
+        {
+          "file": "chipa-paraguaya-roscas-en-canasta-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 92.5
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/chipa-paraguaya-roscas-en-canasta-640.avif 640w, assets/img/chipa-paraguaya-roscas-en-canasta-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/chipa-paraguaya-roscas-en-canasta-640.webp 640w, assets/img/chipa-paraguaya-roscas-en-canasta-1024.webp 1024w\">\n  <img src=\"assets/img/chipa-paraguaya-roscas-en-canasta-640.webp\" alt=\"Chipas paraguayas en forma de rosca, doradas, apiladas en una canasta de mimbre\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "tortilla-paraguaya-frita-con-queso",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_8c43e15e-9fb2-4e8f-9cf2-7e3b148c8780.png",
+      "prompt": "tortilla paraguaya",
+      "alt_text": "Tortillas paraguayas fritas con queso y cebollita de hoja servidas en un plato",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "tortilla-paraguaya-frita-con-queso-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 31.4
+        },
+        {
+          "file": "tortilla-paraguaya-frita-con-queso-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 39.4
+        },
+        {
+          "file": "tortilla-paraguaya-frita-con-queso-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 57.4
+        },
+        {
+          "file": "tortilla-paraguaya-frita-con-queso-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 75.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/tortilla-paraguaya-frita-con-queso-640.avif 640w, assets/img/tortilla-paraguaya-frita-con-queso-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/tortilla-paraguaya-frita-con-queso-640.webp 640w, assets/img/tortilla-paraguaya-frita-con-queso-1024.webp 1024w\">\n  <img src=\"assets/img/tortilla-paraguaya-frita-con-queso-640.webp\" alt=\"Tortillas paraguayas fritas con queso y cebollita de hoja servidas en un plato\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "ensalada-cesar-con-pollo-grillado",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_209a0d77-05db-4104-a6bf-d3f87a895b01.png",
+      "prompt": "ensalada cesar con pollo",
+      "alt_text": "Ensalada César con pollo grillado, lechuga, croutones y queso rallado en un bol",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "ensalada-cesar-con-pollo-grillado-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 35.6
+        },
+        {
+          "file": "ensalada-cesar-con-pollo-grillado-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 43
+        },
+        {
+          "file": "ensalada-cesar-con-pollo-grillado-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 61.6
+        },
+        {
+          "file": "ensalada-cesar-con-pollo-grillado-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 82
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/ensalada-cesar-con-pollo-grillado-640.avif 640w, assets/img/ensalada-cesar-con-pollo-grillado-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/ensalada-cesar-con-pollo-grillado-640.webp 640w, assets/img/ensalada-cesar-con-pollo-grillado-1024.webp 1024w\">\n  <img src=\"assets/img/ensalada-cesar-con-pollo-grillado-640.webp\" alt=\"Ensalada César con pollo grillado, lechuga, croutones y queso rallado en un bol\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "estofado-de-carne-con-papas",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_e01cd724-0c60-43ae-b226-df0e18ada351.png",
+      "prompt": "estofado de carne",
+      "alt_text": "Estofado de carne con papas y zanahorias en salsa de tomate dentro de una olla de hierro",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "estofado-de-carne-con-papas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 25
+        },
+        {
+          "file": "estofado-de-carne-con-papas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 31.9
+        },
+        {
+          "file": "estofado-de-carne-con-papas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 44.5
+        },
+        {
+          "file": "estofado-de-carne-con-papas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 60.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/estofado-de-carne-con-papas-640.avif 640w, assets/img/estofado-de-carne-con-papas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/estofado-de-carne-con-papas-640.webp 640w, assets/img/estofado-de-carne-con-papas-1024.webp 1024w\">\n  <img src=\"assets/img/estofado-de-carne-con-papas-640.webp\" alt=\"Estofado de carne con papas y zanahorias en salsa de tomate dentro de una olla de hierro\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "asado-a-la-olla-con-mandioca",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_f9dd409d-99ba-46ef-bcda-e7337dd8225c.png",
+      "prompt": "asado a la olla",
+      "alt_text": "Rodajas de asado a la olla con salsa oscura y cebollas en una cazuela, con mandioca hervida",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "asado-a-la-olla-con-mandioca-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 31.6
+        },
+        {
+          "file": "asado-a-la-olla-con-mandioca-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 40.8
+        },
+        {
+          "file": "asado-a-la-olla-con-mandioca-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 59.1
+        },
+        {
+          "file": "asado-a-la-olla-con-mandioca-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 80.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/asado-a-la-olla-con-mandioca-640.avif 640w, assets/img/asado-a-la-olla-con-mandioca-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/asado-a-la-olla-con-mandioca-640.webp 640w, assets/img/asado-a-la-olla-con-mandioca-1024.webp 1024w\">\n  <img src=\"assets/img/asado-a-la-olla-con-mandioca-640.webp\" alt=\"Rodajas de asado a la olla con salsa oscura y cebollas en una cazuela, con mandioca hervida\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "chipa-soo-rellena-de-carne",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215505_e0cc89f4-9d6b-4ade-af31-b693ef48010e.png",
+      "prompt": "chipa soo",
+      "alt_text": "Chipa so'o abierta al medio mostrando el relleno de carne molida, con otras chipas detrás",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "chipa-soo-rellena-de-carne-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 27.8
+        },
+        {
+          "file": "chipa-soo-rellena-de-carne-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 36
+        },
+        {
+          "file": "chipa-soo-rellena-de-carne-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 48.4
+        },
+        {
+          "file": "chipa-soo-rellena-de-carne-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 67.3
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/chipa-soo-rellena-de-carne-640.avif 640w, assets/img/chipa-soo-rellena-de-carne-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/chipa-soo-rellena-de-carne-640.webp 640w, assets/img/chipa-soo-rellena-de-carne-1024.webp 1024w\">\n  <img src=\"assets/img/chipa-soo-rellena-de-carne-640.webp\" alt=\"Chipa so'o abierta al medio mostrando el relleno de carne molida, con otras chipas detrás\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "pastel-mandio-frito-relleno",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215557_02bcea08-dbc3-4e18-897d-0385e39e1ebb.png",
+      "prompt": "pastel mandio",
+      "alt_text": "Pasteles mandi'o fritos y dorados en una fuente, uno abierto con relleno de carne molida",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "pastel-mandio-frito-relleno-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 27.9
+        },
+        {
+          "file": "pastel-mandio-frito-relleno-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 37.7
+        },
+        {
+          "file": "pastel-mandio-frito-relleno-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 48.9
+        },
+        {
+          "file": "pastel-mandio-frito-relleno-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 68.9
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/pastel-mandio-frito-relleno-640.avif 640w, assets/img/pastel-mandio-frito-relleno-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/pastel-mandio-frito-relleno-640.webp 640w, assets/img/pastel-mandio-frito-relleno-1024.webp 1024w\">\n  <img src=\"assets/img/pastel-mandio-frito-relleno-640.webp\" alt=\"Pasteles mandi'o fritos y dorados en una fuente, uno abierto con relleno de carne molida\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "kiveve-de-zapallo-en-cazuela",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215557_648fab60-95a1-436d-a69b-b0a386e1af00.png",
+      "prompt": "kiveve",
+      "alt_text": "Kiveve cremoso de zapallo anaranjado con queso derretido en una cazuela de barro",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "kiveve-de-zapallo-en-cazuela-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 27.2
+        },
+        {
+          "file": "kiveve-de-zapallo-en-cazuela-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 34.7
+        },
+        {
+          "file": "kiveve-de-zapallo-en-cazuela-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 47.4
+        },
+        {
+          "file": "kiveve-de-zapallo-en-cazuela-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 66.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/kiveve-de-zapallo-en-cazuela-640.avif 640w, assets/img/kiveve-de-zapallo-en-cazuela-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/kiveve-de-zapallo-en-cazuela-640.webp 640w, assets/img/kiveve-de-zapallo-en-cazuela-1024.webp 1024w\">\n  <img src=\"assets/img/kiveve-de-zapallo-en-cazuela-640.webp\" alt=\"Kiveve cremoso de zapallo anaranjado con queso derretido en una cazuela de barro\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "tarta-de-pollo-casera-porcion",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215557_9bd9d5ee-8c6f-4b11-9fc1-a5d8f296cbfb.png",
+      "prompt": "tarta de pollo",
+      "alt_text": "Tarta de pollo casera con enrejado de masa y una porción servida mostrando el relleno",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "tarta-de-pollo-casera-porcion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 31.2
+        },
+        {
+          "file": "tarta-de-pollo-casera-porcion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 39.5
+        },
+        {
+          "file": "tarta-de-pollo-casera-porcion-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 51.8
+        },
+        {
+          "file": "tarta-de-pollo-casera-porcion-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 71.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/tarta-de-pollo-casera-porcion-640.avif 640w, assets/img/tarta-de-pollo-casera-porcion-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/tarta-de-pollo-casera-porcion-640.webp 640w, assets/img/tarta-de-pollo-casera-porcion-1024.webp 1024w\">\n  <img src=\"assets/img/tarta-de-pollo-casera-porcion-640.webp\" alt=\"Tarta de pollo casera con enrejado de masa y una porción servida mostrando el relleno\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "matambre-a-la-pizza-en-tabla",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215557_d5c0ec90-992f-4edd-9823-c5999609c599.png",
+      "prompt": "matambre a la pizza",
+      "alt_text": "Matambre a la pizza con salsa de tomate, queso derretido y aceitunas cortado sobre una tabla",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "matambre-a-la-pizza-en-tabla-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 35.8
+        },
+        {
+          "file": "matambre-a-la-pizza-en-tabla-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 44.5
+        },
+        {
+          "file": "matambre-a-la-pizza-en-tabla-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 62.3
+        },
+        {
+          "file": "matambre-a-la-pizza-en-tabla-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 83
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/matambre-a-la-pizza-en-tabla-640.avif 640w, assets/img/matambre-a-la-pizza-en-tabla-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/matambre-a-la-pizza-en-tabla-640.webp 640w, assets/img/matambre-a-la-pizza-en-tabla-1024.webp 1024w\">\n  <img src=\"assets/img/matambre-a-la-pizza-en-tabla-640.webp\" alt=\"Matambre a la pizza con salsa de tomate, queso derretido y aceitunas cortado sobre una tabla\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "albondigas-en-salsa-de-tomate",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215557_7be439de-5a89-4efa-aa26-07efc7739041.png",
+      "prompt": "albondigas en salsa",
+      "alt_text": "Albóndigas caseras en salsa de tomate con perejil servidas en una sartén",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "albondigas-en-salsa-de-tomate-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 34.2
+        },
+        {
+          "file": "albondigas-en-salsa-de-tomate-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 41.6
+        },
+        {
+          "file": "albondigas-en-salsa-de-tomate-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 61
+        },
+        {
+          "file": "albondigas-en-salsa-de-tomate-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 78.5
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/albondigas-en-salsa-de-tomate-640.avif 640w, assets/img/albondigas-en-salsa-de-tomate-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/albondigas-en-salsa-de-tomate-640.webp 640w, assets/img/albondigas-en-salsa-de-tomate-1024.webp 1024w\">\n  <img src=\"assets/img/albondigas-en-salsa-de-tomate-640.webp\" alt=\"Albóndigas caseras en salsa de tomate con perejil servidas en una sartén\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "guiso-paraguayo-de-arroz-con-carne",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215557_67b3c6b5-c211-410e-a415-e6996755baa5.png",
+      "prompt": "guiso paraguayo",
+      "alt_text": "Guiso de arroz con carne, locote y tomate servido en un plato hondo",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "guiso-paraguayo-de-arroz-con-carne-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 32.7
+        },
+        {
+          "file": "guiso-paraguayo-de-arroz-con-carne-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 41.1
+        },
+        {
+          "file": "guiso-paraguayo-de-arroz-con-carne-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 59.1
+        },
+        {
+          "file": "guiso-paraguayo-de-arroz-con-carne-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 78.2
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/guiso-paraguayo-de-arroz-con-carne-640.avif 640w, assets/img/guiso-paraguayo-de-arroz-con-carne-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/guiso-paraguayo-de-arroz-con-carne-640.webp 640w, assets/img/guiso-paraguayo-de-arroz-con-carne-1024.webp 1024w\">\n  <img src=\"assets/img/guiso-paraguayo-de-arroz-con-carne-640.webp\" alt=\"Guiso de arroz con carne, locote y tomate servido en un plato hondo\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "pan-dulce-casero-navideno",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215628_0345532e-6fc8-4454-aa70-8c833b91d527.png",
+      "prompt": "pan dulce navideno",
+      "alt_text": "Pan dulce casero con frutas abrillantadas y nueces, con una rodaja cortada en la mesa navideña",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "pan-dulce-casero-navideno-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 38.3
+        },
+        {
+          "file": "pan-dulce-casero-navideno-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 48.2
+        },
+        {
+          "file": "pan-dulce-casero-navideno-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 69.1
+        },
+        {
+          "file": "pan-dulce-casero-navideno-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 92.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/pan-dulce-casero-navideno-640.avif 640w, assets/img/pan-dulce-casero-navideno-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/pan-dulce-casero-navideno-640.webp 640w, assets/img/pan-dulce-casero-navideno-1024.webp 1024w\">\n  <img src=\"assets/img/pan-dulce-casero-navideno-640.webp\" alt=\"Pan dulce casero con frutas abrillantadas y nueces, con una rodaja cortada en la mesa navideña\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "pollo-frito-crocante-casero",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215628_461b2df3-2b3c-4cd2-a661-9e2db1b16609.png",
+      "prompt": "pollo frito",
+      "alt_text": "Presas de pollo frito crocante y dorado sobre papel en una bandeja, con gajos de limón",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "pollo-frito-crocante-casero-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 30
+        },
+        {
+          "file": "pollo-frito-crocante-casero-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 38.1
+        },
+        {
+          "file": "pollo-frito-crocante-casero-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 52.4
+        },
+        {
+          "file": "pollo-frito-crocante-casero-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 70.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/pollo-frito-crocante-casero-640.avif 640w, assets/img/pollo-frito-crocante-casero-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/pollo-frito-crocante-casero-640.webp 640w, assets/img/pollo-frito-crocante-casero-1024.webp 1024w\">\n  <img src=\"assets/img/pollo-frito-crocante-casero-640.webp\" alt=\"Presas de pollo frito crocante y dorado sobre papel en una bandeja, con gajos de limón\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "empanadas-de-mandioca-fritas",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215628_82451e61-874c-4759-b0a5-b235faff3b3b.png",
+      "prompt": "empanadas de mandioca",
+      "alt_text": "Empanadas de mandioca fritas y doradas en una fuente, una abierta mostrando el relleno",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "empanadas-de-mandioca-fritas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 28.9
+        },
+        {
+          "file": "empanadas-de-mandioca-fritas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 37.2
+        },
+        {
+          "file": "empanadas-de-mandioca-fritas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 52.4
+        },
+        {
+          "file": "empanadas-de-mandioca-fritas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 70.3
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/empanadas-de-mandioca-fritas-640.avif 640w, assets/img/empanadas-de-mandioca-fritas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/empanadas-de-mandioca-fritas-640.webp 640w, assets/img/empanadas-de-mandioca-fritas-1024.webp 1024w\">\n  <img src=\"assets/img/empanadas-de-mandioca-fritas-640.webp\" alt=\"Empanadas de mandioca fritas y doradas en una fuente, una abierta mostrando el relleno\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "vori-vori-de-pollo-en-plato",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215627_c9c5604a-91d9-4634-a5a4-f21d603dcdbf.png",
+      "prompt": "vori vori de pollo",
+      "alt_text": "Plato de vori vori de pollo con bolitas de harina de maíz y queso en caldo humeante",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "vori-vori-de-pollo-en-plato-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 28
+        },
+        {
+          "file": "vori-vori-de-pollo-en-plato-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 36.6
+        },
+        {
+          "file": "vori-vori-de-pollo-en-plato-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 49.5
+        },
+        {
+          "file": "vori-vori-de-pollo-en-plato-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 69.9
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/vori-vori-de-pollo-en-plato-640.avif 640w, assets/img/vori-vori-de-pollo-en-plato-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/vori-vori-de-pollo-en-plato-640.webp 640w, assets/img/vori-vori-de-pollo-en-plato-1024.webp 1024w\">\n  <img src=\"assets/img/vori-vori-de-pollo-en-plato-640.webp\" alt=\"Plato de vori vori de pollo con bolitas de harina de maíz y queso en caldo humeante\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "torta-de-cumpleanos-con-dulce-de-leche",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215627_ed27be77-84d6-4d4e-b4cb-5db1ee3add4f.png",
+      "prompt": "torta de cumpleanos",
+      "alt_text": "Torta de cumpleaños casera con relleno de dulce de leche y velas encendidas, con una porción cortada",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "torta-de-cumpleanos-con-dulce-de-leche-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 32.7
+        },
+        {
+          "file": "torta-de-cumpleanos-con-dulce-de-leche-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 40.4
+        },
+        {
+          "file": "torta-de-cumpleanos-con-dulce-de-leche-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 53.8
+        },
+        {
+          "file": "torta-de-cumpleanos-con-dulce-de-leche-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 72.3
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/torta-de-cumpleanos-con-dulce-de-leche-640.avif 640w, assets/img/torta-de-cumpleanos-con-dulce-de-leche-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/torta-de-cumpleanos-con-dulce-de-leche-640.webp 640w, assets/img/torta-de-cumpleanos-con-dulce-de-leche-1024.webp 1024w\">\n  <img src=\"assets/img/torta-de-cumpleanos-con-dulce-de-leche-640.webp\" alt=\"Torta de cumpleaños casera con relleno de dulce de leche y velas encendidas, con una porción cortada\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "bondiola-de-cerdo-al-horno",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260924_215628_a9e49f02-cbfb-4dd5-93d6-a2f6b83fb0c3.png",
+      "prompt": "bondiola al horno",
+      "alt_text": "Bondiola de cerdo al horno cortada en rodajas jugosas sobre una tabla, con papas asadas",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "bondiola-de-cerdo-al-horno-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 35.4
+        },
+        {
+          "file": "bondiola-de-cerdo-al-horno-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 43.8
+        },
+        {
+          "file": "bondiola-de-cerdo-al-horno-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 64.9
+        },
+        {
+          "file": "bondiola-de-cerdo-al-horno-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 84.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/bondiola-de-cerdo-al-horno-640.avif 640w, assets/img/bondiola-de-cerdo-al-horno-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/bondiola-de-cerdo-al-horno-640.webp 640w, assets/img/bondiola-de-cerdo-al-horno-1024.webp 1024w\">\n  <img src=\"assets/img/bondiola-de-cerdo-al-horno-640.webp\" alt=\"Bondiola de cerdo al horno cortada en rodajas jugosas sobre una tabla, con papas asadas\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
     }
   ]
 }

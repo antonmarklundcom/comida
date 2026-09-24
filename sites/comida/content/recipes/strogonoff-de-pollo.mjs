@@ -1,5 +1,5 @@
 export default {
-  id:'receta-strogonoff-de-pollo', slug:'strogonoff-de-pollo', kind:'recipe', order:22,
+  id:'receta-strogonoff-de-pollo', slug:'strogonoff-de-pollo', kind:'recipe', image:30, order:22,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera que se sirve en Paraguay',
   label:'Strogonoff de pollo',

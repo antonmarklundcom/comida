@@ -122,3 +122,32 @@ Counts at the end of the session: **93 HTML / 86 sitemap URLs**, verify 25,843 c
 - KWP round 5 saved (`plan/research/kwp-round5.csv`); master `kwp-all.csv` = 1,713 unique keywords from 5 rounds.
 - 15 new pages from round 5 (two Opus writers): pastel mandi'o, kiveve, ka'i ladrillo, kosereva, mbaipy, locro paraguayo, pira caldo, chipa mestizo (1/2/5 kilos), cocido paraguayo, pan dulce, clericó, dulce de leche casero, tarta de choclo; guides tereré (UNESCO 2020 inscription confirmed and cited) and qué cocinar hoy.
 - Counts: **108 HTML / 101 sitemap URLs**; verify 30k+ checks; 1,807 substantive paragraphs, 0 shared; QA gate 16/16; zip 8.4 MB; 390px sweep 101/101 clean.
+
+## 2026-09-24 (night) — growth ideas 1-20 (Opus 5.5)
+
+All 20 ideas from the growth list are built; content by 7 parallel Opus writers (staged in content/_incoming, audited, then moved in).
+
+| # | Idea | Where |
+|---|---|---|
+| 1-3 | /mercado/ canasta, queso Paraguay, carne (a consultar) with order form, lead type pedido | sites/comida/mercado.mjs, content/products/, templates/lead-form.mjs orderForm |
+| 2 | "Pedí los ingredientes" on every recipe, scaled | templates/recipe.mjs, public/js/kitchen.js |
+| 4 | /planificador/ menu planner + summed shopping list | templates/planner.mjs, kitchen.js, /data/recipes.json |
+| 5 | Asado calculator offers the kit | kitchen.js |
+| 6 | Printable seasonal recetarios behind a WhatsApp form (lead type recetario) | templates/recetario.mjs, /recetario/<slug>/ (noindex) |
+| 7 | 24 recipe photos, Sunburst medium 1k 4:3, 12 credits (running total 43.5 / 60), ledger checked | docs/imagery-manifest.json ids 30-53 |
+| 8 | 12 ingredient pages /recetas-con/<ingrediente>/ with auto-matched recipes | content/ingredients/ |
+| 9 | +60 recipes (120 total) | content/recipes/ |
+| 10 | 5 seasonal collections /recetas/para/<fecha>/ | content/seasons/ |
+| 11 | Weekly Abasto price table, built and OFF (needs Anton's decision on AGENTS.md rule 5) | sites/comida/abasto-precios.mjs, scripts/abasto-precios.mjs |
+| 12 | Search Console review script | scripts/gsc-report.mjs |
+| 13 | ItemList structured data on hubs, ingredient and season pages | engine/build-site.mjs |
+| 14 | Saved recipes + installable offline app (manifest, service worker stamped per build) | public/sw.js, manifest.webmanifest |
+| 15 | Private "¿La hiciste?" feedback | php/feedback.php |
+| 16 | Weekly recipe WhatsApp signup (lead type suscripcion) | templates/lead-form.mjs subscribeForm |
+| 17 | Git deploy branch 'hostinger' | scripts/deploy-branch.mjs |
+| 18 | Fraunces self-hosted, fonts preloaded | public/fonts/, public/css/fonts.css |
+| 19 | Social cards + captions | scripts/social-cards.mjs → social/ |
+| 20 | Restaurant scaffold (template, checklist, validator rule), still reserved | content/restaurants/_template.mjs, docs/restaurant-visit-checklist.md |
+
+Fixed along the way: service worker must be network-first for CSS/JS (cache-first would pin old files after deploys); planner listed only 60 of 120 recipes; /recetas/ hub trimmed from 89.9 to 78.8 KB (100 KB limit).
+Counts: **195 HTML / 183 sitemap URLs**; PHP test 24/24; QA gate 17/17 (new gate: mercado settings match the PHP allowlist).

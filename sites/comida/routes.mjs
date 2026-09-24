@@ -4,6 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {loadCollection,routeFor} from '../../engine/collections.mjs';
 import gates from './gates.mjs';
+import abasto from './abasto-precios.mjs';
 const siteDir=path.dirname(fileURLToPath(import.meta.url));
 const base=[
     {
@@ -263,16 +264,21 @@ const hubs=[
   {id:'recetas',kind:'recipes-hub',path:'/recetas/',label:'Recetas',title:'Recetas paraguayas y caseras | comida.com.py',meta:'Recetas paraguayas y caseras con cantidades que se ajustan: sopa paraguaya, chipa, mbeju, vori vori y los platos de todos los días.',indexable:true,published:true,parent:'home',updatedAt:'2026-09-24'},
   {id:'guias',kind:'guides-hub',path:'/guias/',label:'Guías',title:'Guías de comida en Paraguay | comida.com.py',meta:'Guías prácticas para comprar, calcular y organizar comida en Paraguay: cantidades por persona, queso Paraguay, Mercado de Abasto y más.',indexable:true,published:true,parent:'home',updatedAt:'2026-09-24'},
   {id:'carne',kind:'cuts-hub',path:'/carne/',label:'Carne',title:'Cortes de carne en Paraguay: guía y recetas | comida.com.py',meta:'Conocé los cortes de carne vacuna y de cerdo que se usan en Paraguay: para qué sirve cada uno, cómo cocinarlo y cuánto calcular por persona.',indexable:true,published:true,parent:'home',updatedAt:'2026-09-24'},
+  {id:'planificador',kind:'planner',path:'/planificador/',label:'Planificador de menú',title:'Menú semanal y lista de compras | comida.com.py',meta:'Armá el menú casero de la semana con recetas paraguayas y caseras y obtené una sola lista de compras, lista para pedir, copiar o imprimir.',indexable:true,published:true,parent:'recetas',updatedAt:'2026-09-24'},
+  // Weekly Abasto prices (idea 11): only published when the data module is published with a source and date.
+  {id:'abasto-precios',kind:'price-table',path:'/mercado-de-abasto/precios/',label:'Precios del Mercado de Abasto',title:'Precios del Mercado de Abasto esta semana | comida.com.py',meta:'Lista semanal de precios de referencia de frutas y verduras del Mercado de Abasto de Asunción, con fuente oficial y fecha de la lista.',indexable:Boolean(abasto.published&&abasto.source&&abasto.verifiedAt),published:Boolean(abasto.published&&abasto.source&&abasto.verifiedAt),parent:'guia-mercado-de-abasto',updatedAt:abasto.verifiedAt||'2026-09-24'},
   // Reserved kinds (plan/10 §11): never emitted, linked or listed until published.
   {id:'asado',kind:'reserved',path:'/asado/',label:'Asado',title:'Asado | comida.com.py',meta:'Reservado para la sección de asado.',indexable:false,published:false,parent:'home',updatedAt:'2026-09-24'},
   {id:'restaurantes',kind:'reserved',path:'/restaurantes/',label:'Restaurantes',title:'Restaurantes | comida.com.py',meta:'Reservado para la guía de restaurantes.',indexable:false,published:false,parent:'home',updatedAt:'2026-09-24'},
 ];
 const collected=[];
-for(const name of ['recipes','guides','cuts','viandas','restaurants']){
+for(const name of ['recipes','guides','cuts','viandas','restaurants','ingredients','seasons','products']){
   for(const item of await loadCollection(siteDir,name)){
     const r=routeFor(item,name);
     if(name==='viandas')r.indexable=r.published&&gates.viandasPartnerSigned&&item.indexable!==false;
     collected.push(r);
   }
 }
+// Printable recetario per seasonal collection, unlocked by the recetario form (noindex, out of the sitemap).
+for(const item of await loadCollection(siteDir,'seasons'))if(item.published&&item.recetario)collected.push({id:'recetario-'+item.slug,kind:'recetario',path:'/recetario/'+item.slug+'/',label:item.recetario.title,title:(item.recetario.title+' | comida.com.py').slice(0,60),meta:('Versión para imprimir: '+item.recetario.title+'. Ingredientes y pasos de las recetas de la colección.').slice(0,155),indexable:false,published:true,parent:'recetas',updatedAt:item.updatedAt,collection:'recetario'});
 export default [...base,...hubs,...collected];

@@ -1,5 +1,5 @@
 export default {
-  id:'receta-guiso-paraguayo', slug:'guiso-paraguayo', kind:'recipe',
+  id:'receta-guiso-paraguayo', slug:'guiso-paraguayo', kind:'recipe', image:47,
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Receta de la redacción de comida.com.py, basada en la preparación casera paraguaya',
   label:'Guiso de arroz paraguayo',
