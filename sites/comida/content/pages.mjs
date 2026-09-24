@@ -2,6 +2,12 @@ import occasions from '../occasions.mjs';
 import cities from '../cities.mjs';
 import lines from '../lines.mjs';
 import support from './support.mjs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {loadCollection} from '../../../engine/collections.mjs';
+import hubs from './hubs.mjs';
+const siteDir=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const collections=[];for(const name of ['recipes','guides','cuts','viandas','restaurants'])collections.push(...await loadCollection(siteDir,name));
 const existing = [
   {
     "id": "home"
@@ -116,4 +122,4 @@ const existing = [
     ]
   }
 ];
-export default [...existing,...occasions,...cities,...lines,...support];
+export default [...existing,...occasions,...cities,...lines,...support,...hubs,...collections];

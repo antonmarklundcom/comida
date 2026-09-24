@@ -1,0 +1,1714 @@
+keyword,volume,cpc_low_sek,cpc_high_sek,rounds,topics
+restaurant cerca de mi,33100,3.54,16.42,2,restaurant-nearme
+restaurante,33100,1.97,9.44,2,restaurant-nearme
+restaurantes,33100,1.97,9.44,2,restaurant-nearme
+restaurantes cerca de mi,33100,3.54,16.42,2,restaurant-nearme
+mcdonald cerca de mi,27100,,,2,restaurant-brand
+cafetería cerca de mi,22200,0.27,3.00,2,restaurant-nearme
+supermercado,18100,1.07,7.62,2,other
+pizza cerca de mí,14800,5.75,14.58,2 4,restaurant-nearme pizza-empanada-carne
+mercados de abasto,12100,,,3,abasto-produce
+opizza,12100,4.07,10.41,4,pizza-empanada-carne
+pizza,12100,4.07,10.41,4,pizza-empanada-carne
+hamburguesas cerca de mi,8100,5.50,14.25,2,restaurant-nearme
+sopa paraguaya,8100,,,2 3,recipe recipes
+sopa paraguayas,8100,,,2 3,recipe recipes
+sopa paraguayo,8100,,,2 3,recipe recipes
+sopa py,8100,,,2 3,recipe recipes
+sopa pya,8100,,,2 3,recipe recipes
+strogonoff de pollo,8100,,,3,recipes
+chipa guazu,6600,,,2,recipe
+chipa guazú,6600,,,3 5,recipes paraguaya-chipa
+mbejû,6600,,,2,recipe
+restaurantes en asuncion,6600,0.09,16.60,2,restaurant-editorial
+comida cerca de mi,5400,4.72,19.96,2,restaurant-nearme
+empanada,5400,3.32,9.12,4,pizza-empanada-carne
+super mas,5400,4.89,10.56,2,supermarket-brand
+tereré,5400,,,5,bebidas-merienda-choclo
+churrasqueria,4400,,,2,restaurant-editorial
+comida tipica de paraguay,4400,,,2,recipe
+lomito,4400,4.07,10.81,4,pizza-empanada-carne
+pizzerias,4400,5.45,13.59,4,pizza-empanada-carne
+vitel tone,4400,,,3,recipes
+arete supermercado,3600,2.50,10.69,2,supermarket-brand
+canelones,3600,,,3,recipes
+carne,3600,,,2 4,meat-cut pizza-empanada-carne
+empanadas areco,3600,,,4,pizza-empanada-carne
+ensaladas rusa,3600,,,3,recipes
+pollerias cerca de mi,3600,5.41,14.75,2,restaurant-nearme
+yogurt griego,3600,1.69,7.25,3,dairy
+cesar ensalada,2900,,,3,recipes
+ensalada cesar,2900,,,3,recipes
+osobuco,2900,,,2 3,meat-cut recipes
+picaña,2900,,,2 3,meat-cut recipes
+pizza napolitana,2900,,,4,pizza-empanada-carne
+superseis online,2900,2.09,10.52,2,supermarket-brand
+jugo para ninos,2400,0.13,3.74,5,bebidas-merienda-choclo
+kfc cerca de mi,2400,,,2,restaurant-brand
+parrilla para asadito,2400,0.19,1.87,2,other
+pizzabrosa,2400,5.26,9.02,4,pizza-empanada-carne
+punto carne,2400,,,2 4,meat-butcher-brand pizza-empanada-carne
+supermercado edward,2400,,,2,supermarket-brand
+tacos,2400,,,4,pizza-empanada-carne
+torta de cumoleaños,2400,,,5,tortas-pan-fiestas
+torta de cumpleaños,2400,,,5,tortas-pan-fiestas
+torta de cunpleaños,2400,,,5,tortas-pan-fiestas
+tortas de cumpleaños,2400,,,5,tortas-pan-fiestas
+tortilla paraguay,2400,,,2 3,recipe recipes
+asado ala olla,1900,,,2 3,meat-cooking recipes
+asado en olla,1900,,,2 3 4,meat-cooking recipes pizza-empanada-carne
+bife de chorizo,1900,,,2,meat-cut
+bondiola de cerdo,1900,,,3,recipes
+carniceria,1900,,,2,meat-butcher-brand
+chipa soo,1900,,,3,recipes
+comida saludables,1900,,,3,recipes
+desayunos saludables,1900,0.09,6.09,3,recipes
+empanada de mandioca,1900,,,4 5,pizza-empanada-carne bebidas-merienda-choclo
+estofado de carne,1900,,,3,recipes
+kiveve,1900,,,5,paraguaya-chipa
+mbeju receta,1900,,,2 3,recipe recipes
+muslo de pollo,1900,14.88,14.88,3,recipes
+parrilladas,1900,0.20,4.26,2,restaurant-editorial
+pastel mandi o,1900,,,5,paraguaya-chipa
+peceto,1900,,,3,recipes
+pizzería,1900,4.23,12.48,2,restaurant-editorial
+pizzerías,1900,4.26,12.60,2 4,restaurant-editorial pizza-empanada-carne
+tarta de pollo,1900,,,3,recipes
+torta para hombre,1900,,,5,tortas-pan-fiestas
+tortas para hombres,1900,,,5,tortas-pan-fiestas
+albóndigas,1600,,,3,recipes
+boloñesa salsa,1600,,,3,recipes
+cena saludable,1600,0.76,5.09,3,recipes
+cenas saludables,1600,0.76,5.09,3,recipes
+cerdo,1600,,,2 4,meat-cut pizza-empanada-carne
+guiso de arroz,1600,,,3,recipes
+ingrediente para chipa,1600,,,2,recipe
+ingredientes para chipa,1600,,,3,dairy
+ingredientes para chipacitos,1600,,,3 5,dairy paraguaya-chipa
+matambre a la pizza,1600,,,3,recipes
+mercado central de abasto,1600,,,3,abasto-produce
+pollo frito,1600,3.57,14.88,3,recipes
+queso cottage,1600,1.18,2.78,3,dairy
+queso paraguay,1600,,,3 4,dairy pizza-empanada-carne
+receta de la sopa paraguaya,1600,,,2 3,recipe recipes
+sopa paraguaya receta,1600,,,2 3,recipe recipes
+yogur proteico,1600,,,3,dairy
+brasa y leña,1300,,,2,restaurant-brand
+chipa asador,1300,,,3,recipes
+chipa paraguaya,1300,,,3,recipes
+chipas paraguayas,1300,,,2,recipe
+comida paraguaya,1300,,,3,recipes
+comidas del paraguay,1300,,,2,recipe
+como en casa,1300,,,1,brand-restaurant
+el dorado restaurante,1300,,,2,restaurant-brand
+empanadas don oso,1300,,,4,pizza-empanada-carne
+entraña,1300,,,2,meat-cut
+estofado de pollo,1300,,,3,recipes
+hamburguesas caseras,1300,,,3,recipes
+miel,1300,,,2,honey-info
+ojo de bife,1300,,,2,meat-cut
+pan casero,1300,,,3,recipes
+pan con dulce,1300,,,5,tortas-pan-fiestas
+pan dulce,1300,,,5,tortas-pan-fiestas
+payagua mascada,1300,,,3,recipes
+pizza margarita,1300,,,4,pizza-empanada-carne
+receta de chipa,1300,,,2,recipe
+receta de chipas,1300,,,2,recipe
+receta de mbeju,1300,,,2 3,recipe recipes
+recetas de chipacitos,1300,,,3,dairy
+recetas de chipitas,1300,,,5,paraguaya-chipa
+recetas de mbeju,1300,,,5,paraguaya-chipa
+restaurante el dorado,1300,,,2,restaurant-brand
+sabores de mi tierra,1300,,,2,restaurant-brand
+sandwich de lomito,1300,,,4,pizza-empanada-carne
+canelones de pollo,1000,,,3,recipes
+chefs,1000,,,1,chef
+chipa guazu receta,1000,,,2 3 5,recipe recipes paraguaya-chipa
+chop suey de pollo,1000,,,3,recipes
+comidas típicas paraguay,1000,,,2,recipe
+desayunos cerca de mi,1000,,,2,restaurant-nearme
+francés pan,1000,,,5,tortas-pan-fiestas
+hamburgeses,1000,3.32,7.34,4,pizza-empanada-carne
+hamburgueseria,1000,3.29,7.27,2,restaurant-editorial
+ingredientes para mbeju,1000,,,2 3,recipe recipes
+la tarantella,1000,,,2,restaurant-brand
+lasaña de carne,1000,,,3,recipes
+milanesa de pollo,1000,,,3,recipes
+pan brioche,1000,,,5,tortas-pan-fiestas
+paraguay comida tipica,1000,,,2,recipe
+pechuga de pollo,1000,1.59,14.88,3,recipes
+pizza casera,1000,,,4,pizza-empanada-carne
+pollo a la portuguesa,1000,,,3,recipes
+pollo portuguesa,1000,,,3,recipes
+receta de pasta frola,1000,,,3,recipes
+reviro paraguay,1000,,,2,recipe
+salpicon de pollo,1000,,,3,recipes
+supermercados near me,1000,,,2,other
+tortillas,1000,,,4,pizza-empanada-carne
+yogurt natural,1000,,,3,dairy
+canelones de carne,880,,,3,recipes
+carne de vacuno,880,,,2 4,meat-cut pizza-empanada-carne
+carne magra,880,,,2 4,meat-cut pizza-empanada-carne
+cecinas,880,,,2 4,meat-cut pizza-empanada-carne
+chef ramsay gordon,880,,,1,celebrity-chef
+cocido paraguayo,880,,,5,bebidas-merienda-choclo
+croquetas,880,,,3,recipes
+deficit calorico,880,0.94,4.05,3,viandas-dieta
+don vito empanadas,880,4.66,15.67,4,pizza-empanada-carne
+ka i ladrillo,880,,,5,paraguaya-chipa
+la fortuna lacteos,880,,,3,dairy
+las teresas eventos & catering,880,,,2,catering
+magra carne,880,,,2 4,meat-cut pizza-empanada-carne
+mbeju ingredientes,880,,,2 3,recipe recipes
+merienda saludable,880,,,3,recipes
+napolitana pizza,880,,,4,pizza-empanada-carne
+pan al ajo,880,,,5,tortas-pan-fiestas
+pan casero receta,880,,,3,recipes
+paraiso restaurante,880,,,2,restaurant-brand
+pizzahouse,880,,,4,pizza-empanada-carne
+pollo al horno,880,,,3,recipes
+pollo con curry,880,,,3,recipes
+queso mozzarella,880,,,3,dairy
+reservar,880,7.61,115.12,2,other
+restaurante paraiso,880,,,2,restaurant-brand
+rica pizza,880,,,4,pizza-empanada-carne
+roquefort queso,880,,,3,dairy
+supermercado guaraní,880,,,2,supermarket-brand
+tallarin de pollo,880,,,3,recipes
+tomahawk carne,880,,,2 4,meat-cut pizza-empanada-carne
+tortas para mujer,880,,,5,tortas-pan-fiestas
+wrap de pollo,880,,,3,recipes
+asado ala parrilla,720,,,2,meat-cooking
+caldo de pollo,720,,,3,recipes
+carniceria la familia,720,,,2,meat-butcher-brand
+catering,720,4.03,5.50,1,catering
+chipa almidon,720,,,2 3 5,recipe recipes paraguaya-chipa
+chipa almidón,720,,,2 3,recipe recipes
+chipa kavure,720,,,3,recipes
+chuleta,720,,,2 3 4,meat-cut recipes pizza-empanada-carne
+chuleton,720,,,2 4,meat-cut pizza-empanada-carne
+comidas típicas del paraguay,720,,,2,recipe
+costillar de cerdo,720,,,3,recipes
+delivery cerca de mi,720,3.44,15.40,1,delivery-generic
+la familia carniceria,720,,,2,meat-butcher-brand
+la italiana pizzeria,720,5.45,12.20,4,pizza-empanada-carne
+lomito de cerdo,720,,,4,pizza-empanada-carne
+lomo de cerdo,720,,,3,recipes
+lugares para comer asuncion,720,,,2,restaurant-editorial
+lugares para comer cerca de mi,720,2.85,16.02,2,restaurant-nearme
+mbeyú,720,,,2,recipe
+miel de abeja,720,,,2,honey-info
+milanesas de carne,720,,,3,recipes
+pizza muzzarella,720,,,4,pizza-empanada-carne
+pizzeria la italiana,720,,,4,pizza-empanada-carne
+receta de chipa guazu,720,,,2 3 5,recipe recipes paraguaya-chipa
+receta de chipa paraguaya,720,,,2 3 5,recipe recipes paraguaya-chipa
+receta de chipa paraguayo,720,,,2 3 5,recipe recipes paraguaya-chipa
+receta de chipas paraguayas,720,,,2 3 5,recipe recipes paraguaya-chipa
+sicilia pizza,720,,,4,pizza-empanada-carne
+tortas de cumpleaños para mujer,720,,,5,tortas-pan-fiestas
+tortas para hombre sencillas,720,,,5,tortas-pan-fiestas
+vori vori de pollo,720,1.59,2.58,2 3,recipe recipes
+yogur proteico trebol,720,,,3,dairy
+yogur sin lactosa,720,,,3,dairy
+bifes de carne,590,,,2,meat-cut
+bizcochuelo casero,590,,,3,recipes
+bizcochuelo facil,590,,,3,recipes
+calabresa pizza,590,,,4,pizza-empanada-carne
+carne de res,590,,,2 3 4,meat-cut recipes pizza-empanada-carne
+carne molida,590,,,2 3 4,meat-cut recipes pizza-empanada-carne
+chuleta de cerdo,590,,,2 3 4,meat-cut recipes pizza-empanada-carne
+comida rapida,590,3.83,12.48,2,other
+como bajar d epeso,590,0.43,2.92,3,viandas-dieta
+corte de carnes,590,,,2,meat-cut
+cortes de carne,590,,,2 4,meat-cut pizza-empanada-carne
+croqueta de carne,590,,,3,recipes
+empanadas de carne,590,,,3 4,recipes pizza-empanada-carne
+flan de leche condensada,590,,,3,recipes
+guiso de arroz con pollo,590,,,3,recipes
+ingrediente de la sopa paraguaya,590,,,2 3,recipe recipes
+kosereva,590,,,5,paraguaya-chipa
+lugares para almorzar en asuncion,590,,,2,restaurant-editorial
+lugares para cenar,590,,,2,restaurant-editorial
+merienda,590,,,5,bebidas-merienda-choclo
+modernas tortas para mujeres,590,,,5,tortas-pan-fiestas
+mujer tortas de cumpleaños,590,,,5,tortas-pan-fiestas
+nuggets de pollo,590,,,3,recipes
+pan de carne,590,,,2 3 4,meat-cooking recipes pizza-empanada-carne
+peceto vitel tone,590,,,3,recipes
+pizza asuncion,590,5.55,17.20,2,restaurant-editorial
+pizza de pepperoni,590,,,4,pizza-empanada-carne
+pizza italiana,590,,,4,pizza-empanada-carne
+pizza mexicana,590,,,4,pizza-empanada-carne
+puchero paraguayo,590,,,2 3,recipe recipes
+receta de chipa paraguaya mestizo,590,,,2 3 5,recipe recipes paraguaya-chipa
+receta de pan casero con levadura,590,,,3,recipes
+receta strogonoff de pollo,590,,,3,recipes
+restaurante coreano,590,,,2,restaurant-editorial
+restaurante hooters,590,,,2,restaurant-brand
+restaurantes cerca,590,0.75,11.21,2,restaurant-nearme
+tacos mexicanos,590,,,4,pizza-empanada-carne
+tortas de olimpia,590,,,5,tortas-pan-fiestas
+vacio carne,590,,,2 4,meat-cut pizza-empanada-carne
+viandas,590,,,2,viandas
+yogur,590,,,3,dairy
+yogur griego trebol,590,,,3,dairy
+yogur natural,590,,,3,dairy
+areco empanadas,480,,,4,pizza-empanada-carne
+boloñesa,480,,,3,recipes
+buey,480,,,2 4,meat-cut pizza-empanada-carne
+carniceria santa ana,480,,,2,meat-butcher-brand
+cazuela de pollo,480,,,3,recipes
+cenas rapidas,480,,,3,recipes
+chef s,480,,,1,chef
+comida mexicana asuncion,480,,,2,restaurant-editorial
+comidas típicas de paraguay,480,,,2,recipe
+cuartirolo queso,480,,,3,dairy
+empanadas de pollo,480,,,3 4,recipes pizza-empanada-carne
+fugazzeta,480,,,4,pizza-empanada-carne
+ingrediente sopa paraguaya,480,,,2,recipe
+jugos ades,480,,,5,bebidas-merienda-choclo
+lacteos,480,,,3,dairy
+locro paraguayo,480,,,5,paraguaya-chipa
+lomito árabe,480,,,4,pizza-empanada-carne
+mbaipy,480,,,5,paraguaya-chipa
+mbeju mestizo,480,,,2,recipe
+mejor restaurante de asuncion,480,,,2,restaurant-editorial
+menú,480,0.57,6.88,2,other
+mercado plus,480,,,2,supermarket-brand
+mir empanadas,480,,,4,pizza-empanada-carne
+pechuga,480,,,3,recipes
+pira caldo,480,,,5,paraguaya-chipa
+pizza calabresa,480,,,4,pizza-empanada-carne
+pizza mozzarella,480,,,4,pizza-empanada-carne
+pizza rica,480,,,4,pizza-empanada-carne
+pizzeria al capone,480,,,4,pizza-empanada-carne
+pizzeria italiana,480,,,4,pizza-empanada-carne
+pollo a la mostaza,480,,,3,recipes
+queso cremosos,480,,,3,dairy
+restaurant asuncion,480,0.09,1.29,2,restaurant-editorial
+rosa negra,480,,,2,restaurant-brand
+sapore pizza,480,,,4,pizza-empanada-carne
+servicio de catering,480,3.93,5.21,1 2,catering
+solomillo,480,,,2 3 4,meat-cut recipes pizza-empanada-carne
+sopa paraguaya 1kg receta,480,,,2,recipe
+super mercado central,480,,,2,supermarket-brand
+supermercado pueblo,480,,,2,supermarket-brand
+supermercado villa sofia,480,,,2,supermarket-brand
+torta de cumpleaños para hombre,480,,,5,tortas-pan-fiestas
+torta para señora,480,,,5,tortas-pan-fiestas
+tortas de cumple para hombre,480,,,5,tortas-pan-fiestas
+tortas decoradas para mujer,480,,,5,tortas-pan-fiestas
+yogur griego lactolanda,480,,,3,dairy
+10 comidas típicas de paraguay,390,,,2,recipe
+100montaditos,390,,,2,restaurant-brand
+20 comidas típicas del paraguay,390,,,2,recipe
+bondiola de vaca,390,,,2,meat-cut
+cafetería cercana,390,,,2,restaurant-nearme
+carne de cerdo,390,,,2 4,meat-cut pizza-empanada-carne
+cena rapida y economica,390,,,5,bebidas-merienda-choclo
+chipa como hacer,390,,,2,recipe
+chipa de almidón,390,,,2,recipe
+chipa guazu ingredientes,390,,,2 5,recipe paraguaya-chipa
+chipa receta,390,,,2 3,recipe dairy
+chipacitos de almidon,390,,,5,paraguaya-chipa bebidas-merienda-choclo
+chipas receta,390,,,2,recipe
+chipitas receta,390,,,2,recipe
+comida china asuncion,390,6.98,17.50,2,restaurant-editorial
+domino's pizza cerca de mí,390,,,4,pizza-empanada-carne
+empanada casera,390,,,4,pizza-empanada-carne
+empanada de huevo,390,,,4,pizza-empanada-carne
+empanadas de choclo,390,,,4 5,pizza-empanada-carne bebidas-merienda-choclo
+ingrediente de la chipa,390,,,2,recipe
+ingrediente para sopa paraguaya,390,,,2,recipe
+ingredientes chipa guazu,390,,,5,paraguaya-chipa
+jalea real,390,,,2,honey-info
+jugo clight,390,,,5,bebidas-merienda-choclo
+la pizza nostra,390,,,2 4,restaurant-brand pizza-empanada-carne
+lugares para merendar cerca de mi,390,,,2,restaurant-nearme
+megapizza,390,,,4,pizza-empanada-carne
+miel honey,390,,,2,honey-info
+mujer crema tortas de cumpleaños,390,,,5,tortas-pan-fiestas
+pan dulce casero,390,,,5,tortas-pan-fiestas
+panes de arroz,390,,,5,tortas-pan-fiestas
+parrillada en asuncion,390,,,2,restaurant-editorial
+pernil de cerdo,390,,,2 4,meat-cut pizza-empanada-carne
+pizza cerca,390,7.14,13.29,4,pizza-empanada-carne
+pizza napoles,390,,,4,pizza-empanada-carne
+pizzerías cercanas,390,7.08,13.17,2,restaurant-nearme
+queso paraguay precio,390,,,3,dairy
+receta de chipa mestizo,390,,,2 5,recipe paraguaya-chipa
+sardo queso,390,,,3,dairy
+supermercados stock ofertas de hoy,390,,,2,supermarket-offers
+sushi club,390,,,2,restaurant-brand
+tortas para mujer originales,390,,,5,tortas-pan-fiestas
+yogurt griego natural,390,,,3,dairy
+yogurt trebol,390,,,3,dairy
+5 recetas faciles y economicas,320,,,5,bebidas-merienda-choclo
+5 recetas fáciles y económicas,320,,,5,bebidas-merienda-choclo
+beirut restaurante,320,,,2,restaurant-brand
+brasas,320,,,2,restaurant-brand
+carne de caballo,320,,,2 4,meat-cut pizza-empanada-carne
+carne de wagyu,320,,,2 4,meat-cut pizza-empanada-carne
+carni,320,,,2 4,meat-butcher-brand pizza-empanada-carne
+chipa mestizo ingredientes,320,,,2 5,recipe paraguaya-chipa
+comida coreana asuncion,320,,,2,restaurant-editorial
+comida japonesa cerca de mi,320,,,2,restaurant-nearme
+comida rapida cerca de mi,320,3.17,14.55,2,restaurant-nearme
+como hacer asado a la olla,320,,,2,meat-cooking
+donde almorzar en asuncion,320,,,2,restaurant-editorial
+donde cenar en asuncion,320,,,2,restaurant-editorial
+donde comer en asuncion,320,,,2,restaurant-editorial
+estrellas michelin,320,,,2,other
+hamburguesas de mcdonalds,320,,,2,restaurant-brand
+hamburguesas gourmet,320,,,2,other
+hipermercado luisito precios,320,,,2,supermarket-offers
+jopara receta,320,,,2,recipe
+la toscana pizzeria,320,,,4,pizza-empanada-carne
+líder supermercado,320,,,2,supermarket-brand
+lugares de comida cerca de mi,320,5.21,17.50,2,restaurant-nearme
+lugares para comer,320,,,2,restaurant-editorial
+miel negra,320,,,2,honey-info
+panes de sandwich,320,,,5,tortas-pan-fiestas
+panes para hamburguesa,320,,,5,tortas-pan-fiestas
+para bajar de peso,320,1.35,2.69,3,viandas-dieta
+pastel de cumpleaños,320,,,5,tortas-pan-fiestas
+peceto precio,320,,,2 3,meat-price meat
+pechuga de pollo precio,320,1.09,14.88,2 4,meat-price pizza-empanada-carne
+picanha,320,,,2 4,meat-cut pizza-empanada-carne
+pireca receta,320,,,2,recipe
+pizzeria argentina,320,,,4,pizza-empanada-carne
+pizzeria la argentina,320,,,4,pizza-empanada-carne
+q puedo cocinar hoy,320,,,5,bebidas-merienda-choclo
+que puedo cocinar hoy,320,,,5,bebidas-merienda-choclo
+queso burrata,320,,,3,dairy
+receta chipa guazu,320,,,2 5,recipe paraguaya-chipa
+receta de bori bori,320,0.98,1.97,2,recipe
+receta de chipa mestizo de 2 kilos,320,,,2,recipe
+receta de chipa paraguaya de 2 kilos,320,,,2 5,recipe paraguaya-chipa
+receta de mbeju mestizo,320,,,2 5,recipe paraguaya-chipa
+receta mbeju,320,,,2,recipe
+recetas mbeju,320,,,5,paraguaya-chipa
+restaurante oriental,320,,,2,restaurant-editorial
+restaurantes japoneses,320,,,2,restaurant-editorial
+spar supermercado,320,,,2,supermarket-brand
+supermercado la economica,320,,,2,supermarket-brand
+supermercado líder,320,,,2,supermarket-brand
+superseis ofertas de hoy,320,,,2,supermarket-offers
+tacos al pastor,320,,,4,pizza-empanada-carne
+tarta de choclo,320,,,5,bebidas-merienda-choclo
+torta para mama,320,,,5,tortas-pan-fiestas
+tortas para cumpleaños,320,,,5,tortas-pan-fiestas
+yogurt descremada,320,,,3,dairy
+yogurt descremado,320,,,3,dairy
+yogurt natural lactolanda,320,1.87,5.06,3,dairy
+alta pizza,260,,,4,pizza-empanada-carne
+azucar organica,260,,,3,abasto-produce
+bauducco pan dulce,260,,,5,tortas-pan-fiestas
+bolsi restaurant asuncion paraguay,260,,,2,restaurant-brand
+café bar,260,,,2,restaurant-editorial
+carne para asada,260,,,2,meat-cut
+carne para asado,260,,,2 4,meat-cut pizza-empanada-carne
+cena saludable para bajar de peso,260,2.20,7.16,3,viandas-dieta
+cena saludables para bajar de peso,260,2.20,7.16,3,viandas-dieta
+chipa en licuadora,260,,,2,recipe
+chuleton de vaca,260,,,2 4,meat-cut pizza-empanada-carne
+churrasquería en asunción,260,,,2,restaurant-editorial
+clericó,260,,,5,tortas-pan-fiestas
+corte tomahawk,260,,,2,meat-cut
+desayunos para bajar de peso,260,0.46,4.36,3,viandas-dieta
+dulce de leche casero,260,,,5,paraguaya-chipa
+entraña de vaca,260,,,2,meat-cut
+exito supermercado,260,,,2,supermarket-brand
+exito supermercados,260,,,2,supermarket-brand
+gruyere queso,260,,,3,dairy
+hamburguesa de pollo,260,,,2 4,meat-cooking pizza-empanada-carne
+hamburguesas mcdonald,260,,,2,restaurant-brand
+hamburguesas mcdonalds,260,,,2,restaurant-brand
+hamburpizza,260,,,4,pizza-empanada-carne
+ingrediente de la chipa paraguaya,260,,,2 5,recipe paraguaya-chipa
+ingrediente para chipa guazu,260,,,2,recipe
+ingrediente para chipa guazú,260,,,5,paraguaya-chipa
+jugo natural,260,,,5,bebidas-merienda-choclo
+jugos natura,260,,,5,bebidas-merienda-choclo
+jugos naturales,260,,,5,bebidas-merienda-choclo
+la cuina,260,,,2,restaurant-brand
+la pizzeria,260,,,4,pizza-empanada-carne
+las delicias restaurante,260,,,2,restaurant-brand
+lugares para almorzar cerca de mi,260,,,2,restaurant-nearme
+mia pizza,260,,,2,restaurant-brand
+miel de caña,260,,,2,honey-info
+napoles pizzeria,260,,,4,pizza-empanada-carne
+pan de papá,260,,,5,tortas-pan-fiestas
+pan dulce bauducco,260,,,5,tortas-pan-fiestas
+pastel mandi o receta,260,,,5,paraguaya-chipa
+pastel para hombre sencillo,260,,,5,tortas-pan-fiestas
+pizza peperoni,260,,,4,pizza-empanada-carne
+pizza primavera,260,,,4,pizza-empanada-carne
+pizza pulcinella,260,,,4,pizza-empanada-carne
+pizzeria cerca,260,5.85,14.38,4,pizza-empanada-carne
+pizzeria napoles,260,,,4,pizza-empanada-carne
+pizzeria o sole mio,260,,,4,pizza-empanada-carne
+queso de gouda,260,,,3,dairy
+quesos gouda,260,,,3,dairy
+quesos gruyere,260,,,3,dairy
+restaurante chino cerca de mi,260,,,2,restaurant-nearme
+restaurantes cerca de mi ubicacion,260,2.75,15.73,2,restaurant-nearme
+restobar,260,,,2,restaurant-editorial
+sopa paraguaya receta original,260,,,2,recipe
+supermercado luisito online,260,3.24,10.52,2,supermarket-brand
+supermercado stock ofertas de carnes hoy,260,,,2,supermarket-offers
+supermercados cercanos,260,,,2,other
+ternera,260,,,2 4,meat-cut pizza-empanada-carne
+torta de choclo,260,,,5,bebidas-merienda-choclo
+torta de goku,260,,,5,tortas-pan-fiestas
+torta de mariposa,260,,,5,tortas-pan-fiestas
+torta de mariposas,260,,,5,tortas-pan-fiestas
+torta para dia del padre,260,,,5,tortas-pan-fiestas
+torta para mujer joven,260,,,5,tortas-pan-fiestas
+tortas para niñas,260,,,5,tortas-pan-fiestas
+tortilla de maíz,260,,,4,pizza-empanada-carne
+tortillas de maiz,260,,,4,pizza-empanada-carne
+tortillas de maíz,260,,,4,pizza-empanada-carne
+vori vori receta,260,1.18,2.06,2,recipe
+yerba organica,260,,,3,abasto-produce
+yogur lactolanda,260,,,3,dairy
+yogurt es proteina,260,,,3,dairy
+yogurt los colonos,260,,,3,dairy
+aguja carne,210,,,2,meat-cut
+ajo con miel para que sirve,210,,,2,honey-info
+alfajores paraguayos,210,,,2,recipe
+carne aguja,210,,,2,meat-cut
+carnicería 3 hermanos,210,,,2,meat-butcher-brand
+carniceria jr,210,,,2,meat-butcher-brand
+carniceria los amigos,210,,,2,meat-butcher-brand
+cena de fin de año,210,,,5,tortas-pan-fiestas
+cena de finde año,210,,,5,tortas-pan-fiestas
+cena fin de ano,210,,,5,tortas-pan-fiestas
+cena fin de año,210,,,5,tortas-pan-fiestas
+cheffs,210,,,1,chef
+chipa guasu receta,210,,,2,recipe
+chipa ingredientes,210,,,2 5,recipe paraguaya-chipa
+chipa paraguaya receta original,210,,,2 5,recipe paraguaya-chipa
+chipa paraguayo receta original,210,,,2 5,recipe paraguaya-chipa
+chipas ingredientes,210,,,3,dairy
+comida tradicional de paraguay,210,,,2,recipe
+comidas de paraguay,210,,,2,recipe
+corte americano carne,210,,,2,meat-cut
+cortes de carne vacuna,210,,,2,meat-cut
+costillar precio,210,,,2 3,meat-price meat
+decoración de torta para hombre,210,,,5,tortas-pan-fiestas
+desayunos saludables para bajar de peso,210,0.72,3.47,3,viandas-dieta
+donde comer cerca de mi,210,,,2,restaurant-nearme
+dónde comer cerca de mí,210,,,2,restaurant-nearme
+galletas navideñas,210,,,5,tortas-pan-fiestas
+gastrobar,210,,,2,restaurant-editorial
+hamburguesas a la parrilla,210,,,2,meat-cooking
+ingrediente de chipa,210,,,2,recipe
+ingredientes de mbeju,210,,,2,recipe
+jordi cruz,210,,,1,celebrity-chef
+kit de asado,210,,,3,meat
+kiveve receta,210,,,2 5,recipe paraguaya-chipa
+la toscana catering,210,,,1,catering
+lactolanda precios,210,1.59,2.58,3,dairy
+lactolanda yogurt,210,,,3,dairy
+lapiazza,210,,,2,restaurant-brand
+los amigos carniceria,210,,,2,meat-butcher-brand
+miga de pan,210,,,5,tortas-pan-fiestas
+muslo de pollo precio,210,,,2 3,meat-price meat
+negroni restaurante,210,,,2,restaurant-brand
+pan dulce casero fácil y económico,210,,,5,tortas-pan-fiestas
+pan dulce navidad,210,,,5,tortas-pan-fiestas
+pan dulce navideño,210,,,5,tortas-pan-fiestas
+payagua mascada receta,210,,,2,recipe
+picanha grill,210,,,2,restaurant-brand
+pollo en ingles,210,,,2,other
+preparacion de chipa,210,,,2 5,recipe paraguaya-chipa
+q comer para bajar de peso,210,0.32,2.12,3,viandas-dieta
+que comer para bajar de peso,210,0.32,2.12,3,viandas-dieta
+qué comer para bajar de peso,210,0.32,2.12,3,viandas-dieta
+que desayuno para bajar de peso,210,0.40,2.63,3,viandas-dieta
+receta de chipa almidon,210,,,2 5,recipe bebidas-merienda-choclo
+receta de chipa almidón,210,,,3 5,dairy paraguaya-chipa
+receta de tortilla paraguaya,210,,,2,recipe
+receta del bori bori,210,,,2,recipe
+restaurante coreano asuncion,210,,,2,restaurant-editorial
+restaurante mexicano,210,,,2,restaurant-editorial
+solomillo de cerdo,210,,,2,meat-cut
+supermercado en asuncion,210,,,2,other
+supermercado real online,210,,,2,supermarket-brand
+supermercados en asuncion,210,,,2,other
+torta de princesita sofia,210,,,5,tortas-pan-fiestas
+torta de stitch rosa,210,,,5,tortas-pan-fiestas
+torta para el dia de la madre,210,,,5,tortas-pan-fiestas
+torta para el día de la madre,210,,,5,tortas-pan-fiestas
+torta para hombre joven,210,,,5,tortas-pan-fiestas
+torta para nena,210,,,5,tortas-pan-fiestas
+torta para varon,210,,,5,tortas-pan-fiestas
+torta para varones,210,,,5,tortas-pan-fiestas
+tortas de princesa,210,,,5,tortas-pan-fiestas
+tortas para mujeres adultas,210,,,5,tortas-pan-fiestas
+viandas saludables,210,,,2 3,viandas viandas-dieta
+viandassaludables,210,,,2 3,viandas viandas-dieta
+wagyu carne,210,,,2,meat-cut
+yogurt sin lactosa,210,,,3,dairy
+aroma pan,170,,,5,tortas-pan-fiestas
+asado de tira,170,,,2,meat-cut
+california supermercado,170,,,2,supermarket-brand
+carne de hamburguesa,170,,,2,meat-cooking
+carne de kobe,170,,,2,meat-cut
+carne de oveja,170,,,2,meat-cut
+carne de pollo,170,,,2,meat-cut
+carne de vaca partes,170,,,2,meat-cut
+carne kobe,170,,,2,meat-cut
+carne molida precio,170,,,2 3,meat-price meat
+carne vacuna,170,,,2,meat-cut
+carniceria aaa,170,,,2,meat-butcher-brand
+carnicería aaa,170,,,2,meat-butcher-brand
+carniceria el amigo,170,,,2,meat-butcher-brand
+carniceria san antonio,170,,,2,meat-butcher-brand
+cena para bajar de peso,170,1.19,4.07,3,viandas-dieta
+cerdo en ingles,170,,,2,other
+chef vip,170,,,1,other
+comida a domicilio,170,3.15,15.93,1 2,delivery-generic other
+comida japonesa asuncion,170,,,2,restaurant-editorial
+comida para bajar de peso,170,0.45,2.80,3,viandas-dieta
+comida para llevar,170,,,1,delivery-generic
+comidas saludables para bajar de peso,170,0.40,5.41,3,viandas-dieta
+costillar de cerdo precio,170,,,2 3,meat-price meat
+costillar de novillo,170,,,2,meat-cut
+croqueta de mandioca,170,,,5,bebidas-merienda-choclo
+dia supermercado,170,,,2,supermarket-brand
+el gallo,170,,,2,restaurant-brand
+hamburguesa de carne,170,,,2,meat-cooking
+ingrediente para chipa mestizo,170,,,2 5,recipe paraguaya-chipa
+ingredientes receta de chipa paraguaya,170,,,2 5,recipe paraguaya-chipa
+la estacion restaurante,170,,,2,restaurant-brand
+manteca paraguaya,170,,,2,recipe
+marucha carne,170,,,2,meat-cut
+matambre de vaca,170,,,2,meat-cut
+mcdonald cerca,170,,,2,restaurant-brand
+mejor restaurante asuncion,170,,,2,restaurant-editorial
+mejores restaurantes asuncion,170,,,2,restaurant-editorial
+meriendas saludables,170,,,5,bebidas-merienda-choclo
+miel de maple,170,,,2,honey-info
+miel maple,170,,,2,honey-info
+organicos,170,,,3,abasto-produce
+osobuco precio,170,,,2 3,meat-price meat
+panes de maiz,170,,,5,tortas-pan-fiestas
+picaña precio,170,,,2 3,meat-price meat
+queso en fetas,170,,,3,dairy
+queso light,170,,,3,dairy
+queso y miel,170,,,3,dairy
+receta de chipa de almidon,170,,,2 5,recipe paraguaya-chipa
+receta de chipa de almidón,170,,,3,dairy
+receta de chipa en guaraní,170,,,2 5,recipe paraguaya-chipa
+receta de chipacitos de almidon,170,,,5,bebidas-merienda-choclo
+receta de la chipa paraguaya,170,,,2 5,recipe paraguaya-chipa
+receta de sopa paraguaya de 500 gramos,170,,,2,recipe
+restaurant italia,170,,,2,restaurant-brand
+restaurante colombiano,170,,,2,restaurant-editorial
+restaurante italiano,170,,,2,restaurant-editorial
+restaurantes centro asuncion,170,,,2,restaurant-editorial
+restaurantes en asuncion villa morra,170,,,2,restaurant-editorial
+sopa paraguaya esponjosa,170,,,2,recipe
+supermercado dia,170,,,2,supermarket-brand
+supermercado stock online,170,,,2,supermarket-brand
+sushibar,170,,,2,restaurant-editorial
+tapa cuadril precio,170,,,2 3,meat-price meat
+taqueria cerca de mi,170,,,2,restaurant-nearme
+temaki sushi,170,,,2,restaurant-brand
+torta cumpleaños,170,,,5,tortas-pan-fiestas
+torta de cumpleaños meme,170,,,5,tortas-pan-fiestas
+torta de fútbol,170,,,5,tortas-pan-fiestas
+torta de hello kitty,170,,,5,tortas-pan-fiestas
+torta para mi papa,170,,,5,tortas-pan-fiestas
+torta paraguaya,170,,,2,recipe
+tortas cumpleaños,170,,,5,tortas-pan-fiestas
+yogurt griego sin lactosa,170,,,3,dairy
+yogurt natural sin azucar,170,,,3,dairy
+aceite de coco organico,140,,,3,abasto-produce
+almuerzo para bajar de peso,140,,,3,viandas-dieta
+bife de vacio,140,,,2,meat-cut
+canasta básica,140,,,3,abasto-produce
+canastabasica,140,,,3,abasto-produce
+carne molida de pollo,140,,,2,meat-cut
+carne para hamburguesa,140,,,2,meat-cut
+carniceria el rancho,140,,,2,meat-butcher-brand
+carnicería los hermanos,140,,,2,meat-butcher-brand
+carniceria san isidro,140,,,2,meat-butcher-brand
+carniceria san jose,140,,,2,meat-butcher-brand
+carnicería san jose,140,,,2,meat-butcher-brand
+carnicería san miguel,140,,,2,meat-butcher-brand
+carnicerias san jose,140,,,2,meat-butcher-brand
+catering para eventos,140,3.55,5.11,1 2,catering
+cerdo iberico,140,,,2,meat-cut
+chef a domicilio,140,,,1,chef
+chef domicilio,140,,,1,chef
+chipa casera,140,,,2 5,recipe paraguaya-chipa
+chipa casero,140,,,2 3,recipe dairy
+chipa como se hace,140,,,2,recipe
+chipa paraguaya ingredientes,140,,,2 5,recipe paraguaya-chipa
+chipacitos caseros,140,,,3,dairy
+churrascos,140,,,2,meat-cooking
+comida a domicilio cerca de mi,140,0.61,13.27,1,delivery-generic
+comidas navideñas,140,,,5,tortas-pan-fiestas
+como se hace asado a la olla,140,,,2,meat-cooking
+cumpleaños torta de futbol,140,,,5,tortas-pan-fiestas
+desayuno paraguayo,140,,,5,bebidas-merienda-choclo
+dulce de maní paraguaya,140,,,2,recipe
+feliz cumple torta,140,,,5,tortas-pan-fiestas
+feliz cumpleaños con torta,140,,,5,tortas-pan-fiestas
+feliz cumpleaños torta,140,,,5,tortas-pan-fiestas
+hipocalórica dieta,140,2.09,11.54,3,viandas-dieta
+ingrediente para hacer chipa,140,,,2 3,recipe dairy
+kit asador,140,,,3,meat
+la miel de abeja para que sirve,140,,,2,honey-info
+masa para chipa,140,,,2,recipe
+masa para chipacitos,140,,,3,dairy
+meal prep,140,,,3,viandas-dieta
+menú casero para la semana,140,,,3,viandas-dieta
+meriendas saludables para ninos,140,,,5,bebidas-merienda-choclo
+mil prep,140,,,3,viandas-dieta
+pan aleman,140,,,5,tortas-pan-fiestas
+pan dulce de chocolate,140,,,5,tortas-pan-fiestas
+pan navidad,140,,,5,tortas-pan-fiestas
+pan navideño,140,,,5,tortas-pan-fiestas
+para q sirve la miel de abeja,140,,,2,honey-info
+pastel de choclo,140,,,5,bebidas-merienda-choclo
+pastel de choclos,140,,,5,bebidas-merienda-choclo
+pastel para hombre joven,140,,,5,tortas-pan-fiestas
+pastel para mujer elegante,140,,,5,tortas-pan-fiestas
+pasteles para hombres,140,,,5,tortas-pan-fiestas
+picaña a la parrilla,140,,,2,meat-cooking
+platos tipicos de paraguay,140,,,2,recipe
+precio del tomate,140,,,3,abasto-produce
+precio tomateras,140,,,3,abasto-produce
+preparacion de la chipa,140,,,2 5,recipe paraguaya-chipa
+pueblo supermercado,140,,,2,supermarket-brand
+q puedo cenar hoy,140,,,5,bebidas-merienda-choclo
+q puedo desayunar para bajar de peso,140,0.46,4.31,3,viandas-dieta
+qué puedo cenar hoy,140,,,5,bebidas-merienda-choclo
+queso de cerdo,140,,,2,meat-cooking
+queso reggianito,140,,,3,dairy
+receta de pastel mandi o,140,,,5,paraguaya-chipa
+salsa de choclo,140,,,5,bebidas-merienda-choclo
+supermercado stock 24 horas,140,,,2,supermarket-brand
+supermercado stock ofertas,140,,,2,supermarket-offers
+tematica torta para papa,140,,,5,tortas-pan-fiestas
+torta navideña,140,,,5,tortas-pan-fiestas
+tortas de cumpleaños para niñas sencillas,140,,,5,tortas-pan-fiestas
+tortas para mujeres adultas con flores,140,,,5,tortas-pan-fiestas
+tortas para niñas sencillas,140,,,5,tortas-pan-fiestas
+yogur griego sin azucar,140,,,3,dairy
+yogurt lactolanda light,140,,,3,dairy
+yogurt sin azucar,140,,,3,dairy
+abejas meliponas,110,,,2,honey-info
+bolillo,110,,,5,tortas-pan-fiestas
+bondiola de cerdo precio,110,,,3,meat
+candy supermercado,110,,,2,supermarket-brand
+canela con miel,110,,,2,honey-info
+chipa almidon ingredientes,110,,,5,bebidas-merienda-choclo
+chipa almidón ingredientes,110,,,5,paraguaya-chipa
+chipa guazu paraguaya,110,,,5,paraguaya-chipa
+chipa guazu paraguayo,110,,,5,paraguaya-chipa
+chipa mestizo receta,110,,,5,paraguaya-chipa
+clerico receta,110,,,5,tortas-pan-fiestas
+como eliminar la grasa abdominal,110,0.33,3.63,3,viandas-dieta
+descuentos en supermercados hoy,110,,,2,supermarket-offers
+dulce de leche como hacerlo,110,,,5,paraguaya-chipa
+empanada de mandioca paraguaya,110,,,5,bebidas-merienda-choclo
+empanadas de choclo y queso,110,,,5,bebidas-merienda-choclo
+galletas de navidad,110,,,5,tortas-pan-fiestas
+ingrediente para chipa paraguaya,110,,,5,paraguaya-chipa
+ingredientes para la chipa,110,,,3 5,dairy paraguaya-chipa
+limon con miel,110,,,2,honey-info
+limon con miel para la tos,110,,,2,honey-info
+meliponas,110,,,2,honey-info
+mesa de dulces sencilla,110,,,5,tortas-pan-fiestas
+miel con ajo para que sirve,110,,,2,honey-info
+miel de carpincho,110,,,2,honey-info
+miel de melipona,110,,,2,honey-info
+miel en ingles,110,,,2,honey-info
+miel en inglés,110,,,2,honey-info
+nutrivital viandas saludables,110,,,3,viandas-dieta
+pan bauducco,110,,,5,tortas-pan-fiestas
+pan dulce las colonias,110,,,5,tortas-pan-fiestas
+pan dulce mazzei,110,,,5,tortas-pan-fiestas
+pan italiano,110,,,5,tortas-pan-fiestas
+pategras queso,110,,,3,dairy
+precio de carne en frigorífico,110,,,3,meat
+precio de costilla en chortitzer,110,,,3,meat
+precio de costilla en superseis,110,,,2,supermarket-offers
+propiedades de la miel de abeja,110,,,2,honey-info
+queso dambo,110,,,3,dairy
+queso fresco,110,,,3,dairy
+queso magro,110,,,3,dairy
+queso que tiene gusanos,110,,,3,dairy
+quesos manchego,110,,,3,dairy
+rapipollo,110,,,1 3,brand-restaurant meat
+receta chipa almidon,110,,,5,paraguaya-chipa
+receta chipa almidón,110,,,5,bebidas-merienda-choclo
+receta chipa paraguaya,110,,,5,paraguaya-chipa
+receta chipa paraguayo,110,,,5,paraguaya-chipa
+receta de chipa guasu,110,,,5,paraguaya-chipa
+receta de chipa guasu en licuadora,110,,,5,bebidas-merienda-choclo
+receta de empanada de mandioca,110,,,5,bebidas-merienda-choclo
+soufflé de choclo,110,,,5,bebidas-merienda-choclo
+super mas online,110,,,2,supermarket-brand
+supermercado grande,110,,,2,other
+supermercado mas,110,,,2,supermarket-brand
+supermercados mas,110,,,2,supermarket-brand
+superseis ofertas,110,,,2,supermarket-offers
+torta de corazon para mujer,110,,,5,tortas-pan-fiestas
+torta de navidad,110,,,5,tortas-pan-fiestas
+torta linda para mujer,110,,,5,tortas-pan-fiestas
+torta para dia de la madre,110,,,5,tortas-pan-fiestas
+torta para perros,110,,,5,tortas-pan-fiestas
+tortas para perros,110,,,5,tortas-pan-fiestas
+yogur descremado,110,,,3,dairy
+yogur kefir,110,,,3,dairy
+yogur light,110,,,3,dairy
+yogur probiótico,110,,,3,dairy
+yogur yogurt,110,,,3,dairy
+yogurt sin lactosa lactolanda,110,,,3,dairy
+canasta basica familiar,90,,,3,abasto-produce
+carne de cerdo precio,90,,,3,meat
+chipa kavure receta,90,,,5,paraguaya-chipa
+comida delivery,90,2.46,16.12,1,delivery-generic
+dulce de leche como se hace,90,,,5,paraguaya-chipa
+el chef,90,,,1,other
+empanada de mandioca receta,90,,,5,bebidas-merienda-choclo
+empanadas con mandioca,90,,,5,bebidas-merienda-choclo
+empanadas de choclo y queso facil,90,,,5,bebidas-merienda-choclo
+hipermercado luisito online,90,,,2,supermarket-brand
+ingrediente de chipa paraguaya,90,,,5,paraguaya-chipa
+ingrediente para chipa almidon,90,,,3 5,dairy paraguaya-chipa
+jugo para bajar de peso,90,,,5,bebidas-merienda-choclo
+jugos para bajar los triglicéridos altos rápidamente,90,,,5,bebidas-merienda-choclo
+la miel engorda,90,,,2,honey-info
+lomo de cerdo precio,90,,,3,meat
+manjar casero,90,,,5,paraguaya-chipa
+matambre precio,90,,,3,meat
+melaza de caña,90,,,2,honey-info
+menú del día,90,,,3,viandas-dieta
+menu el dia,90,,,3,viandas-dieta
+mercado real,90,,,2,supermarket-brand
+merienda keto,90,,,5,bebidas-merienda-choclo
+merienda para la tarde,90,,,5,bebidas-merienda-choclo
+miel con carpincho,90,,,2,honey-info
+pireca receta paraguaya,90,,,5,paraguaya-chipa
+preparacion de la chipa paraguaya,90,,,5,paraguaya-chipa
+productos lácteos,90,,,3,dairy
+q cocinar hoy,90,,,5,bebidas-merienda-choclo
+q podemos comer hoy,90,,,5,bebidas-merienda-choclo
+qué cocinar hoy,90,,,5,bebidas-merienda-choclo
+que comer hoy,90,,,5,bebidas-merienda-choclo
+que podemos comer hoy,90,,,5,bebidas-merienda-choclo
+queseria,90,,,3,dairy
+queso azul es roquefort,90,,,3,dairy
+queso pecorino,90,,,3,dairy
+receta de chipa mestizo de 5 kilos,90,,,5,paraguaya-chipa
+recetas para chipa,90,,,3 5,dairy paraguaya-chipa
+remedios para bajar la panza en 3 días,90,,,3,viandas-dieta
+supermercado 24 horas,90,,,2,other
+supermercado la amistad,90,,,2,supermarket-brand
+supermercado rio,90,,,2,supermarket-brand
+tomate el kilo,90,,,3,abasto-produce
+vianditas saludables,90,,,3,viandas-dieta
+yogur griego sin lactosa,90,,,3,dairy
+yogurt griego precio,90,,,3,dairy
+yogurt para bebe,90,,,3,dairy
+yogurt para bebes,90,,,3,dairy
+actimel yogur,70,,,3,dairy
+bocaditos salados para cumpleaños,70,,,2,catering
+carne wagyu precio,70,,,3,meat
+chef francis mallmann,70,,,1,celebrity-chef
+chipa a la licuadora,70,,,5,paraguaya-chipa
+chipa almidon receta,70,,,5,paraguaya-chipa
+chipa almidón receta,70,,,3,dairy
+chipa de almidón receta original,70,,,5,paraguaya-chipa
+chipa receta paraguaya,70,,,5,paraguaya-chipa
+comida con delivery cerca de mi,70,5.70,20.25,1,delivery-generic
+comida delivery cerca de mí,70,5.70,20.25,1,delivery-generic
+comidas para dietas,70,,,3,viandas-dieta
+como bajar 5 kilos en una semana,70,1.69,3.27,3,viandas-dieta
+cómo bajar la panza rápido,70,1.15,3.60,3,viandas-dieta
+como hacer deficit calorico,70,0.48,2.60,3,viandas-dieta
+como hacer pastel mandi o,70,,,5,paraguaya-chipa
+como perder grasa abdominal,70,1.21,4.60,3,viandas-dieta
+como quemar grasa de la panza,70,1.36,4.45,3,viandas-dieta
+cuantos bocaditos se calcula por persona,70,,,2,catering
+cuatro fuegos catering,70,,,1,catering
+delivery comida cerca de mi,70,4.82,16.42,1,delivery-generic
+delivery de comida cerca de mi,70,5.70,20.25,1,delivery-generic
+descuento supermercado,70,,,2,supermarket-offers
+hamburguesas delivery,70,4.52,11.80,1,delivery-generic
+ingredientes para empanada de mandioca,70,,,5,bebidas-merienda-choclo
+jengibre con limon y miel,70,,,2,honey-info
+jugo de naranja natural,70,,,5,bebidas-merienda-choclo
+kit asado tramontina,70,0.34,1.41,3,meat
+kit asador tramontina,70,0.34,1.41,3,meat
+lechón precio,70,,,3,meat
+marta elena catering,70,,,1,catering
+menus semana,70,,,3,viandas-dieta
+mercado de abastos cerca de mi,70,,,3,abasto-produce
+merienda saludable para bajar de peso,70,,,5,bebidas-merienda-choclo
+miel de caña de azucar,70,,,2,honey-info
+ofertas de carnes hoy,70,,,3,meat
+para bajar,70,,,3,viandas-dieta
+para bajar la panza,70,,,3,viandas-dieta
+parmesano reggiano,70,,,3,dairy
+pedidosya market,70,2.46,2.65,2,supermarket-brand
+pizza delivery cerca de mi,70,0.39,17.50,1,delivery-generic
+plan de alimentacion para bajar de peso,70,0.34,3.51,3,viandas-dieta
+pollo entero precio,70,,,3,meat
+precio de costilla,70,,,3,meat
+precio del queso parmesano,70,,,3,dairy
+producto derivado de la leche,70,,,3,dairy
+q puedo comer hoy,70,,,5,bebidas-merienda-choclo
+q puedo comer para bajar de peso,70,0.18,2.41,3,viandas-dieta
+que cocinar hoy fácil y rápido,70,,,5,bebidas-merienda-choclo
+que cocinar hoy rapido y facil,70,,,5,bebidas-merienda-choclo
+que puedo cocinar hoy fácil y barato,70,,,5,bebidas-merienda-choclo
+que puedo comer hoy,70,,,5,bebidas-merienda-choclo
+qué puedo comer hoy,70,,,5,bebidas-merienda-choclo
+queso descremado,70,,,3,dairy
+queso panela,70,,,3,dairy
+queso paraguay la pradera,70,,,3,dairy
+queso por salut,70,,,3,dairy
+receta chipa mestizo,70,,,5,paraguaya-chipa
+receta de chipa paraguaya barrero,70,,,5,paraguaya-chipa
+receta de mbejú de almidón,70,,,5,paraguaya-chipa bebidas-merienda-choclo
+receta de pireca paraguaya,70,,,5,paraguaya-chipa
+receta para hacer chipa,70,,,3,dairy
+recetas para bajar de peso,70,0.41,4.20,3,viandas-dieta
+souschef,70,,,1,chef
+supermercado abierto hoy,70,,,2,other
+supermercado chortitzer online,70,,,2,supermarket-brand
+supermercado guarani online,70,,,2,supermarket-brand
+supermercado mayorista,70,,,2,other
+supermercado santa teresa,70,,,2,supermarket-brand
+supermercado stock asunción,70,,,2,supermarket-brand
+supermercado tata,70,,,2,supermarket-brand
+superseis asuncion,70,,,2,supermarket-brand
+ta ta supermercado,70,,,2,supermarket-brand
+tarta de choclo y cebolla y queso,70,,,5,bebidas-merienda-choclo
+terere literario,70,,,5,bebidas-merienda-choclo
+tomate cherry precio,70,,,3,abasto-produce
+yerba mate organica,70,,,3,abasto-produce
+yogur griego para que sirve,70,,,3,dairy
+yogur natural sin azucar,70,,,3,dairy
+yogurt bebible,70,,,3,dairy
+yogurt griego natural sin azucar,70,,,3,dairy
+abasto mercado,50,,,3,abasto-produce
+abastos mercado,50,,,3,abasto-produce
+ajo con miel,50,,,2,honey-info
+almuerzo saludable para bajar de peso,50,,,3,viandas-dieta
+azucar morena organica,50,,,3,abasto-produce
+cafe organico,50,,,3,abasto-produce
+changomás,50,,,2,supermarket-brand
+chef david muñoz,50,,,1,celebrity-chef
+chef de cocina,50,,,1,chef
+chef petersen,50,,,1,celebrity-chef
+chipa almidon receta paraguaya,50,,,5,paraguaya-chipa
+chipa de almidon ingredientes,50,,,5,paraguaya-chipa
+chipa de almidon receta,50,,,5,paraguaya-chipa
+chipa de almidón receta,50,,,5,bebidas-merienda-choclo
+chipa guasu ingredientes,50,,,5,paraguaya-chipa
+chipa ingredientes y preparación,50,,,5,paraguaya-chipa
+chipa paraguaya receta,50,,,5,paraguaya-chipa
+chipa paraguayo receta,50,,,5,paraguaya-chipa
+chipa piru receta,50,,,5,paraguaya-chipa
+chipacitos de queso,50,,,5,paraguaya-chipa
+chortitzer carne precio,50,,,3,meat
+cómo bajar rápido de peso,50,,,3,viandas-dieta
+como hacer para bajar de peso,50,0.22,1.65,3,viandas-dieta
+cómo hacer para bajar de peso,50,0.22,1.65,3,viandas-dieta
+cómo se hace pastel mandi o,50,,,5,paraguaya-chipa
+cuantas calorias debo consumir para bajar de peso,50,0.50,2.75,3,viandas-dieta
+david muñoz,50,,,1,celebrity-chef
+deficit calorico como hacerlo,50,0.91,4.17,3,viandas-dieta
+delivery de comida,50,1.67,16.71,1,delivery-generic
+delivery de comida cerca de mí ubicación,50,,,1 3,delivery-generic viandas-dieta
+delivery de comidas cerca de mi ubicación,50,,,1 3,delivery-generic viandas-dieta
+delivery san lorenzo,50,3.34,10.91,1,delivery-generic
+dieta saludable para bajar de peso,50,0.23,2.00,3,viandas-dieta
+dietas rapidas para bajar de peso,50,0.92,6.28,3,viandas-dieta
+empanada de choclo paraguaya,50,,,5,bebidas-merienda-choclo
+empanada de mandioca ingredientes,50,,,5,bebidas-merienda-choclo
+engorda la miel de abeja,50,,,2,honey-info
+falda parrillera precio,50,,,3,meat
+grasa de cerdo precio,50,,,3,meat
+ingrediente para hacer chipa paraguaya,50,,,5,paraguaya-chipa
+ingrediente para la chipa paraguaya,50,,,5,paraguaya-chipa
+ingredientes de chipa almidon,50,,,5,paraguaya-chipa bebidas-merienda-choclo
+ingredientes para 5 kilos de chipa,50,,,5,paraguaya-chipa
+jengibre con miel para que sirve,50,,,2,honey-info
+jugos de apio,50,,,5,bebidas-merienda-choclo
+jugos para bajar el azúcar,50,,,5,bebidas-merienda-choclo
+jugos para bajar el colesterol,50,,,5,bebidas-merienda-choclo
+jugos para el higado graso,50,,,5,bebidas-merienda-choclo
+kit asado,50,,,3,meat
+la miel,50,,,2,honey-info
+la miel con limon para que sirve,50,,,2,honey-info
+masa para empanada de mandioca,50,,,5,bebidas-merienda-choclo
+matambre de cerdo precio,50,,,3,meat
+merienda salada,50,,,5,bebidas-merienda-choclo
+miel con propoleo,50,,,2,honey-info
+miel de abeja en ayunas,50,,,2,honey-info
+miel de abeja precio,50,,,2,honey-commerce
+miel de yatei,50,,,2,honey-info
+miel en panal,50,,,2,honey-info
+miel pura de abeja,50,,,2,honey-commerce
+mieles,50,,,2,honey-info
+molino de carne precio,50,,,3,meat
+ñoquis de mandioca,50,,,5,bebidas-merienda-choclo
+ofertas de carnes en supermercados hoy,50,,,3,meat
+panal de miel,50,,,2,honey-info
+para bajar de peso que puedo tomar,50,,,3,viandas-dieta
+para que sirve la miel,50,,,2,honey-info
+pastel chileno de choclo,50,,,5,bebidas-merienda-choclo
+pastel de choclo a la chilena,50,,,5,bebidas-merienda-choclo
+pastel de choclo chilena,50,,,5,bebidas-merienda-choclo
+pavo precio,50,,,3,meat
+peceto el kilo,50,,,3,meat
+pedidos ya delivery,50,2.46,7.08,1,delivery-navigational
+pira caldo receta,50,,,5,paraguaya-chipa
+polenta de choclo,50,,,5,bebidas-merienda-choclo
+pollo asado cerca de mi,50,,,3,meat
+precio de carne en stock,50,,,3,meat
+preparacion de chipa paraguaya,50,,,5,paraguaya-chipa
+q significa organico,50,,,3,abasto-produce
+que debo comer para bajar de peso rápidamente,50,,,3,viandas-dieta
+qué puedo almorzar hoy,50,,,5,bebidas-merienda-choclo
+queso azul precio,50,,,3,dairy
+queso blanco,50,,,3,dairy
+quesos tipos,50,,,3,dairy
+receta de chipa guasu en guaraní,50,,,5,paraguaya-chipa
+receta de empanada de choclo,50,,,5,bebidas-merienda-choclo
+receta de kiveve,50,,,5,paraguaya-chipa
+receta para chipa paraguaya,50,,,5,paraguaya-chipa
+recetas saludables y económicas,50,,,5,bebidas-merienda-choclo
+servicio de delivery,50,,,1,delivery-generic
+so o josopy,50,,,5,paraguaya-chipa
+supermercado argentino,50,,,2,other
+tomahawk precio,50,,,3,meat
+yogur de kefir,50,,,3,dairy
+yogur desnatado,50,,,3,dairy
+yogur griego natural sin azúcar,50,,,3,dairy
+yogur sin azúcar,50,,,3,dairy
+yogurt deslactosado,50,,,3,dairy
+zumo de naranja,50,,,5,bebidas-merienda-choclo
+5 recetas fáciles y económicas para cenar,40,,,5,bebidas-merienda-choclo
+almidon para mbeju,40,,,5,bebidas-merienda-choclo
+asado delivery,40,2.85,8.75,1,delivery-generic
+canastitas de choclo,40,,,5,bebidas-merienda-choclo
+carne precio,40,,,3,meat
+cenas saludables y económicas,40,,,5,bebidas-merienda-choclo
+chipa avati receta,40,,,5,paraguaya-chipa
+chipa guazu con choclo en lata,40,,,5,bebidas-merienda-choclo
+chipa guazú receta paraguay,40,,,5,paraguaya-chipa
+chipa guazu receta paraguaya,40,,,5,paraguaya-chipa
+chipa guazú receta paraguaya,40,,,5,paraguaya-chipa
+chipa licuadora,40,,,5,paraguaya-chipa
+choclo torta,40,,,5,bebidas-merienda-choclo
+comida delivery cerca,40,,,1,delivery-generic
+comida para llevar cerca de mi,40,,,1,delivery-generic
+comidas para llevar cerca de mi,40,,,1,delivery-generic
+como bajar de peso sin hacer ejercicios,40,0.29,1.74,3,viandas-dieta
+como hacer dieta para bajar de peso,40,0.22,1.29,3,viandas-dieta
+como hacer un deficit calorico,40,1.17,3.67,3,viandas-dieta
+como quemar grasa abdominal,40,,,3,viandas-dieta
+como quemar grasa del abdomen y cintura rápido,40,1.96,9.41,3,viandas-dieta
+crema de choclo,40,,,5,bebidas-merienda-choclo
+delivery asado,40,2.85,8.75,1,delivery-generic
+delivery cerca de mi ubicación,40,2.52,13.47,1,delivery-generic
+entraña precio,40,,,3,meat
+escoffiers,40,,,1,celebrity-chef
+falda carne precio,40,,,3,meat
+humita de choclo,40,,,5,bebidas-merienda-choclo
+ingredientes para chipa de almidon,40,,,5,bebidas-merienda-choclo
+jugo para bajar los trigliceridos,40,,,5,bebidas-merienda-choclo
+jugos para bajar el ácido úrico,40,,,5,bebidas-merienda-choclo
+jugos para deshacer piedras riñon,40,,,5,bebidas-merienda-choclo
+jugos para deshacer piedras riñón,40,,,5,bebidas-merienda-choclo
+jugos para diabeticos,40,,,5,bebidas-merienda-choclo
+jugos para subir las defensas rápidamente,40,,,5,bebidas-merienda-choclo
+kit asador personalizado,40,,,3,meat
+kit para asador,40,,,3,meat
+lista de precios mercado de abasto,40,,,3,abasto-produce
+lomito precio,40,,,3,meat
+masterchef españa,40,,,1,other
+menus de dietas para bajar de peso,40,,,3,viandas-dieta
+mercado abasto central,40,,,3,abasto-produce
+merienda dulces,40,,,5,bebidas-merienda-choclo
+meriendas para bajar de peso,40,,,5,bebidas-merienda-choclo
+ofertas de carnes,40,,,3,meat
+pierna de cerdo precio por kilo,40,,,3,meat
+precio de la carne,40,,,3,meat
+precio de peceto en stock,40,,,3,meat
+precio de tomate,40,,,3,abasto-produce
+precio del chorizo parrillero,40,,,3,meat
+precio del tomate hoy,40,,,3,abasto-produce
+que hago de comer hoy rápido y barato,40,,,5,bebidas-merienda-choclo
+recetas con mandioca,40,,,5,bebidas-merienda-choclo
+servicio de catering para eventos,40,3.93,5.31,1 2,catering
+terere mate,40,,,5,bebidas-merienda-choclo
+asada por kilo,30,,,3,meat
+asado por kilo,30,,,3,meat
+bife de chorizo precio,30,,,3,meat
+bocaditos para cumpleaños infantil,30,,,2,catering
+canasta básica de alimentos,30,,,3,abasto-produce
+carne de chancho precio,30,,,3,meat
+carne de hamburguesa precio,30,,,3,meat
+carne de oveja precio,30,,,3,meat
+carne de wagyu precio,30,,,3,meat
+carne en oferta,30,,,3,meat
+carne kobe precio,30,,,3,meat
+carne para hamburguesa precio,30,,,3,meat
+carne vacio precio,30,,,3,meat
+cena para bajar de peso en una semana,30,,,3,viandas-dieta
+chef ducasse,30,,,1,celebrity-chef
+chef profesional,30,,,1,chef
+como bajar rapidamente de peso,30,0.52,4.40,3,viandas-dieta
+cómo bajar rápidamente de peso,30,0.52,4.40,3,viandas-dieta
+como perder grasa corporal,30,0.97,3.93,3,viandas-dieta
+como se usa el parche para bajar de peso,30,,,3,viandas-dieta
+como vestirme para una boda civil,30,,,1,other
+como vestirme para una boda de dia,30,,,1,other
+delivery cercano,30,3.83,10.13,1,delivery-generic
+delivery de mcdonald's,30,3.05,12.09,1,delivery-navigational
+delivery de mcdonalds,30,3.05,12.09,1,delivery-navigational
+delivery de pizza cerca de mi ubicación,30,2.04,8.55,1,delivery-generic
+el huevo duro es bueno para la dieta,30,,,3,viandas-dieta
+érick jacquin,30,,,1,celebrity-chef
+hamburguesas delivery cerca de mi,30,,,1,delivery-generic
+matambre precio por kilo,30,,,3,meat
+menú de almuerzos economicos para la semana,30,,,3,viandas-dieta
+menu de almuerzos para la semana caseros,30,,,3,viandas-dieta
+menú dieta para bajar 5 kilos en una semana,30,,,3,viandas-dieta
+mercado de abasto precios,30,,,3,abasto-produce
+mercado de abastos precios,30,,,3,abasto-produce
+paleta de cerdo precio,30,,,3,meat
+panceta de cerdo precio,30,,,3,meat
+pizza hut pedidos,30,5.80,16.42,1,delivery-navigational
+plan para bajar de peso en 30 dias,30,0.37,2.65,3,viandas-dieta
+pollos asados,30,,,3,meat
+precio de carne wagyu,30,,,3,meat
+precio de la res,30,,,3,meat
+productos orgánicos,30,,,3,abasto-produce
+q comer para bajar la panza,30,,,3,viandas-dieta
+que comer para bajar la panza,30,,,3,viandas-dieta
+que consumir para bajar de peso,30,,,3,viandas-dieta
+remedios caseros para quitar el apetito y bajar de peso,30,,,3,viandas-dieta
+restaurantes delivery,30,,,1,delivery-generic
+servicio catering,30,,,1 2,catering
+servicio de catering para 100 personas precios,30,,,1 2,catering
+talleyrand catering,30,,,1,catering
+tomahawk carne precio,30,,,3,meat
+acurio,20,,,1,celebrity-chef
+agricultura organica,20,,,3,abasto-produce
+almuerzo delivery,20,,,1 3,delivery-generic viandas-dieta
+almuerzo ejecutivo,20,,,3,viandas-dieta
+almuerzos cerca de mi ubicación,20,,,1,delivery-generic
+bocuse chef,20,,,1,celebrity-chef
+cafe juan valdez organico,20,,,3,abasto-produce
+cafe organico juan valdez,20,,,3,abasto-produce
+canasta basica de productos,20,,,3,abasto-produce
+canasta basica que es,20,,,3,abasto-produce
+carne tomahawk precio,20,,,3,meat
+catering cerca de mí,20,,,2,catering
+chef auguste escoffier,20,,,1,celebrity-chef
+chef famosos,20,,,1,celebrity-chef
+chef mujer,20,,,1,chef
+chef paul bocuse,20,,,1,celebrity-chef
+chefs mujeres,20,,,1,chef
+comida con delivery,20,,,1,delivery-generic
+comida con delivery cerca de mi ubicación,20,3.24,19.86,1,delivery-generic
+comida para hacer dieta,20,,,3,viandas-dieta
+comidas con bajas calorias,20,,,3,viandas-dieta
+comidas con delivery,20,,,1,delivery-generic
+comidas para bajar de peso en una semana,20,,,3,viandas-dieta
+comidas para la semana,20,,,3,viandas-dieta
+como comer para bajar de peso,20,0.30,1.77,3,viandas-dieta
+como hacer para bajar la panza,20,1.40,16.09,3,viandas-dieta
+como hago para bajar de peso rapido,20,,,3,viandas-dieta
+como perder grasa,20,,,3,viandas-dieta
+cómo perder grasa,20,,,3,viandas-dieta
+como puedo hacer para bajar de peso,20,,,3,viandas-dieta
+como quemar grasa,20,,,3,viandas-dieta
+como vestirse en una boda de dia,20,,,1,other
+cortes de carnes premium,20,,,3,meat
+cortes premium de carne,20,,,3,meat
+costilla de res precio,20,,,3,meat
+delivery 24 horas,20,,,1,delivery-generic
+delivery abierto ahora,20,,,1,delivery-generic
+delivery de almuerzos,20,,,1,delivery-generic
+delivery de comida cerca,20,0.32,11.49,1,delivery-generic
+delivery de hamburguesas,20,,,1,delivery-generic
+delivery mas cercano,20,1.33,4.92,1,delivery-generic
+delivery pizza cerca de mi,20,,,1,delivery-generic
+dieta para bajar la panza y cintura,20,,,3,viandas-dieta
+domicilio cerca de mi,20,,,1,delivery-generic
+ensaladas para bajar de peso,20,,,3,viandas-dieta
+falda precio por kilo,20,,,3,meat
+kit de asado tramontina,20,,,3,meat
+kit parrillero tramontina,20,,,3,meat
+lomitos delivery,20,,,1,delivery-generic
+lomo vacuno precio,20,,,3,meat
+master chef colombia,20,,,1,other
+mejores chef del mundo,20,,,1,celebrity-chef
+menú de almuerzos para la semana,20,,,3,viandas-dieta
+menu para bodas,20,,,1,catering
+menú para bodas,20,,,1,catering
+menu para una boda,20,,,1,catering
+menus para la semana,20,,,3,viandas-dieta
+mini chef,20,,,1,other
+mujer chef,20,,,1,chef
+panceta precio,20,,,3,meat
+pavita sadia precio,20,,,3,meat
+pechuga de pollo precio por kilo,20,,,3,meat
+pedidos market,20,2.46,3.05,1,delivery-navigational
+pedir comida a domicilio,20,2.95,19.27,1,delivery-generic
+pierna de cerdo precio,20,,,3,meat
+pizza a domicilio cerca de mi,20,,,1,delivery-generic
+pizza con delivery cerca de mi,20,,,1,delivery-generic
+pizzas a domicilio,20,,,1,delivery-generic
+pollo asado parrilla,20,,,3,meat
+precio carne de cerdo hoy,20,,,3,meat
+precio de la carne hoy,20,,,3,meat
+precio de la costilla,20,,,3,meat
+precio de lechón de 10 kilos,20,,,3,meat
+precio de peceto,20,,,3,meat
+precio de picaña,20,,,3,meat
+precio de tomate hoy,20,,,3,abasto-produce
+precios de carnes en superseis,20,,,3,meat
+precios de verduras en el mercado de abastos,20,,,3,abasto-produce
+productos basicos de la canasta,20,,,3,abasto-produce
+q debo comer para bajar de peso,20,0.29,1.47,3,viandas-dieta
+que comer para bajar de peso rapido,20,,,3,viandas-dieta
+que comida puedo comer para bajar de peso,20,,,3,viandas-dieta
+que comidas puedo comer para bajar de peso,20,,,3,viandas-dieta
+que debo comer para bajar de peso,20,0.29,1.47,3,viandas-dieta
+que no comer para bajar de peso,20,,,3,viandas-dieta
+qué puedo comer para bajar de peso,20,,,3,viandas-dieta
+que puedo comer si estoy a dieta,20,,,3,viandas-dieta
+recetas saludables para bajar de peso,20,,,3,viandas-dieta
+restaurante delivery cerca de mi,20,,,1,delivery-generic
+restaurantes cerca de mi con delivery,20,,,1,delivery-generic
+restaurantes con delivery,20,,,1,delivery-generic
+restaurantes con delivery cerca de mi,20,,,1,delivery-generic
+restaurantes delivery cerca de mi,20,,,1,delivery-generic
+salemma precios de carnes,20,,,3,meat
+servicio de buffet para eventos,20,,,1 2,catering
+servicio de catering precios por persona,20,,,1 2,catering
+sushi cook,20,,,1,chef
+table chef,20,,,1,other
+tocino de cerdo precio,20,,,3,meat
+tomate el kilo precio,20,,,3,abasto-produce
+tomate pera precio,20,,,3,abasto-produce
+tomate por kilo precio,20,,,3,abasto-produce
+tomate precio por kilo,20,,,3,abasto-produce
+una dieta para bajar de peso,20,0.21,0.93,3,viandas-dieta
+viandas saludables a domicilio,20,,,3,viandas-dieta
+wagyu carne precio,20,,,3,meat
+a domicilio cerca de mi,10,,,1,delivery-generic
+a domicilio comida,10,,,1,delivery-generic
+aceite coco organico,10,,,3,abasto-produce
+aceite de coco organico comestible,10,,,3,abasto-produce
+alimento organico,10,,,3,abasto-produce
+almuerzo empresarial,10,,,2,catering
+almuerzos a domicilio,10,,,1,delivery-generic
+almuerzos a domicilio cerca de mi,10,,,1,delivery-generic
+antonio bachour,10,,,1,celebrity-chef
+arepas a domicilio,10,,,1,delivery-generic
+arroz organico,10,,,3,abasto-produce
+banquetes a domicilio,10,,,1,catering
+banquetes para eventos,10,,,1 2,catering
+banquetes para fiestas,10,,,1,catering
+barbecue chef,10,,,1,chef
+be chef,10,,,1,other
+bocadillos a domicilio,10,,,1,delivery-generic
+bocaditos para eventos,10,,,2,catering
+bocaditos por ciento,10,,,2,catering
+bodas com mx app,10,,,1,other
+bolson organico,10,,,3,abasto-produce
+buffet para bodas,10,,,1,catering
+buffet para eventos precios,10,,,1,catering
+cacao organico,10,,,3,abasto-produce
+cafe descafeinado organico,10,,,3,abasto-produce
+cafe organico instantaneo,10,,,3,abasto-produce
+caja de verduras a domicilio,10,,,3,abasto-produce
+cajas de fruta a domicilio,10,,,3,abasto-produce
+cajas de fruta y verdura a domicilio,10,,,3,abasto-produce
+carne a domicilio,10,,,3,meat
+carne para asado precio,10,,,3,meat
+carne por mayor,10,,,3,meat
+carnicería delivery,10,,,3,meat
+carnicería online,10,,,3,meat
+catering a domicilio,10,,,1,catering
+catering barato,10,,,1 2,catering
+catering barbacoa,10,,,2,catering
+catering boda,10,,,1 2,catering
+catering brunch,10,,,1,catering
+catering cocktail,10,,,1,catering
+catering coffee break,10,,,1 2,catering
+catering comida,10,,,1 2,catering
+catering comida mexicana,10,,,2,catering
+catering corporativo,10,,,1 2,catering
+catering cumpleaños,10,,,1 2,catering
+catering cumpleaños adultos,10,,,2,catering
+catering cumpleaños infantil,10,,,1 2,catering
+catering de bodas,10,,,2,catering
+catering de comida,10,,,1 2,catering
+catering de comida para eventos,10,,,2,catering
+catering de eventos,10,,,2,catering
+catering de pizzas,10,,,1,catering
+catering desayunos,10,,,1 2,catering
+catering desayunos empresariales,10,,,2,catering
+catering economico,10,,,2,catering
+catering empresarial,10,,,1 2,catering
+catering empresas,10,,,1 2,catering
+catering escolar,10,,,1,catering
+catering eventos,10,,,1 2,catering
+catering eventos corporativos,10,,,1 2,catering
+catering fin de año,10,,,2,catering
+catering fit,10,,,1,catering
+catering healthy,10,,,1,catering
+catering para 10 personas,10,,,1 2,catering
+catering para 100 personas precio,10,,,2,catering
+catering para 20 personas precio,10,,,1 2,catering
+catering para 30 personas,10,,,1 2,catering
+catering para 30 personas precio,10,,,1 2,catering
+catering para 40 personas,10,,,2,catering
+catering para 50 personas precios,10,,,1 2,catering
+catering para 60 personas precio,10,,,2,catering
+catering para bodas,10,,,1 2,catering
+catering para bodas pequeñas,10,,,1 2,catering
+catering para bodas precios,10,,,1 2,catering
+catering para casamiento,10,,,2,catering
+catering para comuniones,10,,,1 2,catering
+catering para cumpleaños,10,,,1 2,catering
+catering para cumpleaños adultos,10,,,1 2,catering
+catering para cumpleaños en casa,10,,,1 2,catering
+catering para cumpleaños infantiles,10,,,2,catering
+catering para empresas,10,,,1 2,catering
+catering para eventos a domicilio,10,,,1,catering
+catering para eventos corporativos,10,,,1 2,catering
+catering para eventos empresariales,10,,,1 2,catering
+catering para eventos pequeños,10,,,1 2,catering
+catering para eventos precios,10,,,1 2,catering
+catering para eventos zona sur,10,,,1 2,catering
+catering para fiestas,10,,,1 2,catering
+catering para producciones audiovisuales,10,,,2,catering
+catering pizza,10,,,1,catering
+catering pizza party,10,,,1,catering
+catering precios,10,,,1,catering
+catering premium,10,,,1,catering
+catering saludable,10,,,2,catering
+catering san marcos,10,,,1,catering
+catering santa cruz,10,,,1,catering
+catering service,10,,,1,catering
+catering sushi,10,,,1,catering
+catering vegano,10,,,1 2,catering
+catering vegetariano,10,,,1 2,catering
+catering y eventos,10,,,1 2,catering
+catering zona norte,10,,,1 2,catering
+cena a domicilio,10,,,1,delivery-generic
+cena a domicilio cerca de mi,10,,,1,delivery-generic
+cenas a domicilio,10,,,1,delivery-generic
+central de abastos,10,,,3,abasto-produce
+chef and dish,10,,,1,other
+chef bot,10,,,1,product-guide
+chef catering,10,,,1,catering
+chef cuisine,10,,,1,chef
+chef digital,10,,,1,other
+chef en casa,10,,,1,chef
+chef gourmet,10,,,1,chef
+chef in dish,10,,,1,other
+chef in house,10,,,1,chef
+chef privado,10,,,1,chef
+chef private,10,,,1,chef
+chef robot,10,,,1,product-guide
+chef saludable,10,,,1,chef
+chef station,10,,,1,other
+chino a domicilio,10,,,1,delivery-generic
+chocolate organico,10,,,3,abasto-produce
+cocina a domicilio,10,,,1,chef
+cocteleria para eventos,10,,,1,catering
+coffee break a domicilio,10,,,1 2,catering
+coffee break ejecutivo,10,,,2,catering
+coffee break eventos,10,,,2,catering
+coffee break para eventos,10,,,2,catering
+colaciones a domicilio,10,,,1,delivery-generic
+comida 24 horas a domicilio,10,,,1,delivery-generic
+comida 24 horas delivery,10,,,1,delivery-generic
+comida a casa,10,,,1,delivery-generic
+comida a delivery,10,,,1,delivery-generic
+comida a domicilio 24 horas,10,,,1,delivery-generic
+comida a domicilio 24 horas cerca de mí,10,,,1,delivery-generic
+comida a domicilio abierto ahora,10,,,1,delivery-generic
+comida a domicilio ahora,10,,,1,delivery-generic
+comida a domicilio cerca,10,,,1,delivery-generic
+comida a domicilio cerca de mí ubicación,10,,,1,delivery-generic
+comida a domicilio cerca de mí ubicación actual,10,,,1,delivery-generic
+comida a domicilio en mi ubicación,10,,,1,delivery-generic
+comida a domicilio near me,10,,,1,delivery-generic
+comida a domicilio san antonio,10,,,1,delivery-generic
+comida ahora abierto,10,,,1,delivery-generic
+comida barata a domicilio,10,,,1,delivery-generic
+comida boda,10,,,1,catering
+comida casa,10,,,1,other
+comida casera a domicilio,10,,,1,delivery-generic
+comida casera a domicilio cerca de mí,10,,,1,delivery-generic
+comida casera para llevar,10,,,1,delivery-generic
+comida catering,10,,,1 2,catering
+comida cerca de mi con delivery,10,,,1,delivery-generic
+comida cerca de mí delivery,10,,,1,delivery-generic
+comida china a domicilio,10,,,1,delivery-generic
+comida china a domicilio cerca de mí,10,,,1,delivery-generic
+comida china a domicilio cerca de mí ubicación,10,,,1,delivery-generic
+comida china cerca de mí delivery,10,,,1,delivery-generic
+comida china con delivery,10,,,1,delivery-generic
+comida china delivery,10,,,1,delivery-generic
+comida china delivery cerca de mí,10,,,1,delivery-generic
+comida china para llevar,10,,,1,delivery-generic
+comida china para llevar a domicilio,10,,,1,delivery-generic
+comida coreana a domicilio,10,,,1,delivery-generic
+comida de delivery,10,,,1,delivery-generic
+comida de entrega a domicilio,10,,,1,delivery-generic
+comida delivery abierto ahora,10,,,1,delivery-generic
+comida delivery cerca de mi ubicación,10,,,1,delivery-generic
+comida diaria a domicilio,10,,,1,delivery-generic
+comida dietetica a domicilio,10,,,1,delivery-generic
+comida domicilio cerca de mí,10,,,1,delivery-generic
+comida domicilio cerca de mi ubicación,10,,,1,delivery-generic
+comida en casa,10,,,1,other
+comida en delivery,10,,,1,delivery-generic
+comida en linea,10,,,1,delivery-generic
+comida entrega a domicilio,10,,,1,delivery-generic
+comida express cerca de mi,10,,,1,delivery-generic
+comida fit a domicilio,10,,,1,delivery-generic
+comida gourmet a domicilio,10,,,1,delivery-generic
+comida hecha a domicilio,10,,,1,delivery-generic
+comida llevar cerca de mi,10,,,1,delivery-generic
+comida mensual a domicilio,10,,,1,delivery-generic
+comida online a domicilio,10,,,1,delivery-generic
+comida para bodas,10,,,1,catering
+comida para casa,10,,,1,other
+comida para delivery,10,,,1,delivery-generic
+comida para delivery cerca de mi,10,,,1,delivery-generic
+comida para domicilio,10,,,1,delivery-generic
+comida para domicilio cerca de mi,10,,,1,delivery-generic
+comida para entregar a domicilio,10,,,1,delivery-generic
+comida para eventos,10,,,1,catering
+comida para eventos a domicilio,10,,,1,catering
+comida para eventos pequeños,10,,,1,catering
+comida para llevar cerca,10,,,1,delivery-generic
+comida para llevar cerca de mi ubicación,10,,,1,delivery-generic
+comida para ordenar cerca de mi,10,,,1,delivery-generic
+comida para pedir,10,,,1,delivery-generic
+comida para pedir a domicilio,10,2.65,10.03,1,delivery-generic
+comida para pedir a domicilio cerca de mí,10,,,1,delivery-generic
+comida para pedir cerca de mi,10,,,1,delivery-generic
+comida para pedir delivery,10,,,1,delivery-generic
+comida para traer a casa,10,,,1,delivery-generic
+comida pedir a domicilio,10,,,1,delivery-generic
+comida peruana delivery,10,,,1,delivery-generic
+comida por delivery,10,,,1,delivery-generic
+comida preparada a domicilio,10,,,1,delivery-generic
+comida preparada para llevar,10,,,1,delivery-generic
+comida rapida a domicilio,10,,,1,delivery-generic
+comida rapida a domicilio cerca de mi,10,,,1,delivery-generic
+comida rápida cerca de mí a domicilio,10,,,1,delivery-generic
+comida rapida cerca de mi con delivery,10,,,1,delivery-generic
+comida rapida con delivery cerca de mi,10,,,1,delivery-generic
+comida rapida delivery,10,,,1,delivery-generic
+comida rappi,10,,,1,delivery-navigational
+comida saludable a domicilio,10,,,1,delivery-generic
+comida saludable a domicilio cerca de mí,10,,,1,delivery-generic
+comida saludable delivery,10,,,1,delivery-generic
+comida saludable semanal a domicilio,10,,,1,delivery-generic
+comida sana a domicilio,10,,,1,delivery-generic
+comida semanal a domicilio,10,,,1,delivery-generic
+comida servicio a domicilio,10,,,1,delivery-generic
+comida sin sal a domicilio,10,,,1,delivery-generic
+comida take away cerca de mi,10,,,1,delivery-generic
+comida uber,10,,,1,delivery-navigational
+comida vegana a domicilio,10,,,1,delivery-generic
+comida vegana delivery,10,,,1,delivery-generic
+comida vegetariana a domicilio,10,,,1,delivery-generic
+comidas online delivery,10,,,1,delivery-generic
+comidas para empresas,10,,,2,catering
+comidas rápidas 24 horas,10,,,1,delivery-generic
+comidas rápidas cerca de mi ubicación,10,5.90,14.55,1,delivery-generic
+como organizar mi boda,10,,,1,other
+como organizar una boda,10,,,1,other
+como organizar una boda civil,10,,,1,other
+como organizar una boda sencilla,10,,,1,other
+como organizar una boda sencilla y económica,10,,,1,other
+compañias de delivery,10,,,1,delivery-generic
+compra de verduras y frutas online,10,,,3,abasto-produce
+comprar fruta online,10,,,3,abasto-produce
+comprar fruta y verdura online,10,,,3,abasto-produce
+comprar verduras online,10,,,3,abasto-produce
+cortes premium,10,,,3,meat
+cuánta carne por persona,10,,,3,meat
+cuantos bocaditos por persona,10,,,2,catering
+cultivos organicos,10,,,3,abasto-produce
+delivery a domicilio,10,,,1,delivery-generic
+delivery comida china cerca de mi,10,,,1,delivery-generic
+delivery de comida 24 horas,10,,,1,delivery-generic
+delivery de comida china,10,,,1,delivery-generic
+delivery de comida china cerca de mi,10,,,1,delivery-generic
+delivery de comida near me,10,,,1,delivery-generic
+delivery de comida saludable,10,,,1,delivery-generic
+delivery de comida san juan,10,,,1,delivery-generic
+delivery de frutas y verduras,10,,,3,abasto-produce
+delivery de pizza cerca de mi,10,,,1,delivery-generic
+delivery de starbucks,10,,,1,delivery-navigational
+delivery en new york,10,,,1,delivery-generic
+delivery frutas y verduras,10,,,3,abasto-produce
+delivery pago en efectivo,10,,,1,delivery-generic
+delivery para restaurantes,10,,,1,other
+delivery san miguel,10,,,1,delivery-generic
+delivery san miguel 24 horas,10,,,1,delivery-generic
+delivery verduras,10,,,3,abasto-produce
+despensa básica,10,,,3,abasto-produce
+dieta a domicilio,10,,,1,delivery-generic
+diner catering,10,,,1,catering
+domicilios comida,10,,,1,delivery-generic
+domicilios comidas rápidas cerca de mi ubicación,10,,,1,delivery-generic
+domicilios de comida,10,,,1,delivery-generic
+domicilios de comida cerca de mi,10,,,1,delivery-generic
+domicilios hamburguesas,10,,,1,delivery-generic
+domino's pizza a domicilio,10,,,1,delivery-navigational
+dominos entrega a domicilio,10,,,1,delivery-navigational
+doordash entrega de comida,10,,,1,delivery-navigational
+easy chef,10,,,1,other
+ecole ducasse,10,,,1,other
+el brote organico,10,,,3,abasto-produce
+empresa catering,10,,,1 2,catering
+empresas de catering,10,,,1 2,catering
+empresas de catering para eventos,10,,,1 2,catering
+empresas de comedores escolares,10,,,1,catering
+encargar comida a domicilio,10,,,1,delivery-generic
+ensaladas delivery,10,,,1,delivery-generic
+entrega a domicilio cerca de mi,10,,,1,delivery-generic
+entrega a domicilio comida,10,,,1,delivery-generic
+entrega de comida a domicilio,10,,,1,delivery-generic
+entrega de comida a domicilio cerca de mi,10,,,1,delivery-generic
+entrega de pizzas a domicilio,10,,,1,delivery-generic
+envio de comida a domicilio,10,,,1,delivery-generic
+envio de frutas a domicilio,10,,,3,abasto-produce
+escoffier le guide culinaire,10,,,1,product-guide
+estilo organico,10,,,3,abasto-produce
+eventos catering,10,,,1 2,catering
+fast catering,10,,,1,catering
+fruta a domicilio,10,,,3,abasto-produce
+fruta online,10,,,3,abasto-produce
+fruta organica,10,,,3,abasto-produce
+fruta organica a domicilio,10,,,3,abasto-produce
+frutas y verduras a domicilio,10,,,3,abasto-produce
+frutas y verduras a domicilio cerca de mi,10,,,3,abasto-produce
+frutas y verduras online,10,,,3,abasto-produce
+frutería a domicilio cerca de mi,10,,,3,abasto-produce
+frutería online,10,,,3,abasto-produce
+go catering,10,,,1,catering
+granola organica,10,,,3,abasto-produce
+grill chef,10,,,1,chef
+gusto chef,10,,,1,other
+hamburguesa a domicilio cerca de mi,10,,,1,delivery-generic
+hamburguesa a domicilio cerca de mí,10,,,1,delivery-generic
+hamburguesas a domicilio cerca de mí ubicación,10,,,1,delivery-generic
+hamburguesas delivery 24 horas,10,,,1,delivery-generic
+home cook,10,,,1,chef
+huevos a domicilio,10,,,3,abasto-produce
+huevos de campo a domicilio,10,,,3,abasto-produce
+infinity chefs,10,,,1,product-guide
+inscribirse en pedidos ya,10,,,1,delivery-navigational
+japones a domicilio,10,,,1,delivery-generic
+jugo de manzana organico,10,,,3,abasto-produce
+kebabs a domicilio,10,,,1,delivery-generic
+kentucky fried chicken a domicilio,10,,,3,meat
+kfc pedidos ya,10,,,1,delivery-navigational
+leche de almendra organica,10,,,3,abasto-produce
+leche de coco organica,10,,,3,abasto-produce
+leche organica,10,,,3,abasto-produce
+lechef,10,,,1,other
+lomo vetado oferta,10,,,3,meat
+lugares para pedir comida,10,,,1,delivery-generic
+lugares para pedir comida a domicilio,10,,,1,delivery-generic
+massimo bottura,10,,,1,celebrity-chef
+mcdonalds envio a domicilio,10,,,1,delivery-navigational
+meal delivery,10,,,1,delivery-generic
+menu a domicilio,10,,,1,delivery-generic
+menú de catering para eventos,10,,,2,catering
+mostaza pedidos ya,10,,,1,delivery-navigational
+my catering,10,,,1,catering
+ofertas de comida a domicilio,10,,,1,delivery-generic
+one chef,10,,,1,other
+ordenar comida a domicilio,10,,,1,delivery-generic
+paellas a domicilio,10,,,1,delivery-generic
+paellas a domicilio cerca de mí,10,,,1,delivery-generic
+paginas de comida a domicilio,10,,,1,delivery-generic
+paginas para pedir comida,10,,,1,delivery-generic
+paginas para pedir comida a domicilio,10,,,1,delivery-generic
+papas fritas delivery,10,,,1,delivery-generic
+para pedir pizza a domicilio,10,,,1,delivery-generic
+pasta a domicilio,10,,,1,delivery-generic
+pedido pizza a domicilio,10,,,1,delivery-generic
+pedidos a domicilio cerca de mi,10,,,1,delivery-generic
+pedidos comida,10,,,1,delivery-generic
+pedidos de comida,10,,,1,delivery-generic
+pedidos de comida a domicilio,10,2.98,7.08,1,delivery-generic
+pedidos de comida delivery,10,,,1,delivery-generic
+pedidos de pizza a domicilio,10,,,1,delivery-generic
+pedidos pizza hut a domicilio,10,,,1,delivery-navigational
+pedidos ya ayuda en linea,10,,,1,delivery-navigational
+pedidos ya comercio,10,,,1,delivery-navigational
+pedidos ya descuentos,10,,,1,delivery-navigational
+pedidos ya helados,10,,,1,delivery-navigational
+pedidos ya kentucky,10,,,1,delivery-navigational
+pedidos ya online,10,2.46,2.65,1,delivery-navigational
+pedidos ya pagos,10,,,1,delivery-navigational
+pedidos ya pizzas,10,,,1,delivery-navigational
+pedidos ya san bernardo,10,,,1,delivery-navigational
+pedidos ya san fernando,10,,,1,delivery-navigational
+pedir a domicilio,10,,,1,delivery-generic
+pedir almuerzo a domicilio,10,,,1,delivery-generic
+pedir bocadillos a domicilio,10,,,1,delivery-generic
+pedir cena a domicilio,10,,,1,delivery-generic
+pedir comida,10,,,1,delivery-generic
+pedir comida a domicilio 24 horas,10,,,1,delivery-generic
+pedir comida a domicilio cerca de mi,10,,,1,delivery-generic
+pedir comida a domicilio y pagar en efectivo,10,,,1,delivery-generic
+pedir comida ahora,10,,,1,delivery-generic
+pedir comida cerca de mi,10,,,1,delivery-generic
+pedir comida china,10,,,1,delivery-generic
+pedir comida china a domicilio,10,,,1,delivery-generic
+pedir comida delivery,10,,,1,delivery-generic
+pedir comida en linea,10,,,1,delivery-generic
+pedir comida online,10,,,1,delivery-generic
+pedir delivery kfc,10,,,1,delivery-navigational
+pedir delivery mcdonalds,10,,,1,delivery-navigational
+pedir kfc a domicilio,10,,,1,delivery-navigational
+pedir mcdonald's a domicilio,10,,,1,delivery-navigational
+pedir pizza a domicilio,10,,,1,delivery-generic
+pedir pizza a domicilio cerca de mi ubicación,10,,,1,delivery-generic
+pedir pizza hut a domicilio,10,,,1,delivery-navigational
+pedir verduras a domicilio,10,,,3,abasto-produce
+personal chef,10,,,1,chef
+petit chef,10,,,1,other
+pide comida a domicilio,10,,,1,delivery-generic
+pide ya delivery,10,,,1,delivery-navigational
+pizza 24 horas a domicilio,10,,,1,delivery-generic
+pizza 24 horas delivery,10,,,1,delivery-generic
+pizza cerca de mi con delivery,10,,,1,delivery-generic
+pizza cerca de mí delivery,10,,,1,delivery-generic
+pizza delivery cerca,10,,,1,delivery-generic
+pizza domicilio cerca de mi,10,,,1,delivery-generic
+pizza entrega a domicilio,10,,,1,delivery-generic
+pizza hut a domicilio,10,,,1,delivery-navigational
+pizza hut delivery cerca de mi,10,,,1,delivery-navigational
+pizza hut entrega a domicilio,10,,,1,delivery-navigational
+pizza hut pedidos ya,10,,,1,delivery-navigational
+pizza para pedir a domicilio,10,,,1,delivery-generic
+pizza party zona oeste,10,,,1,catering
+pizza pedidosya,10,,,1,delivery-navigational
+pizza pedir a domicilio,10,,,1,delivery-generic
+pizza servicio a domicilio,10,,,1,delivery-generic
+pizzas a domicilio cerca de mí ubicación,10,,,1,delivery-generic
+pizzas baratas a domicilio,10,,,1,delivery-generic
+pizzas cerca de mí a domicilio,10,,,1,delivery-generic
+pizzas para llevar,10,,,1,delivery-generic
+pizzas para llevar cerca de mi,10,,,1,delivery-generic
+pollo a domicilio,10,,,1 3,delivery-generic meat
+pollo asado a domicilio,10,,,3,meat
+pollo asado delivery,10,,,1,delivery-generic
+pollos asados a domicilio cerca de mí ubicación,10,,,3,meat
+precio catering,10,,,2,catering
+precio catering boda,10,,,1 2,catering
+precio de banquetes para 100 personas,10,,,1,catering
+precios de catering,10,,,2,catering
+proveedores de frutas y verduras,10,,,3,abasto-produce
+proveedores de verduras,10,,,3,abasto-produce
+quick chef tupperware,10,,,1,product-guide
+repartidor de comida a domicilio,10,,,1,other
+repartir comida,10,,,1,other
+reparto de comida,10,,,1,delivery-generic
+restaurante a domicilio cerca,10,,,1,delivery-generic
+restaurante con delivery cerca de mí,10,,,1,delivery-generic
+restaurante con delivery cerca de mi ubicación,10,,,1,delivery-generic
+restaurante popeyes,10,,,1,brand-restaurant
+restaurantes a domicilio,10,,,1,delivery-generic
+restaurantes a domicilio cerca de mi,10,,,1,delivery-generic
+restaurantes cerca de mi delivery,10,,,1,delivery-generic
+restaurantes cercanos con entrega a domicilio,10,,,1,delivery-generic
+restaurantes domicilio cerca de mi,10,,,1,delivery-generic
+restaurantes para pedir a domicilio,10,,,1,delivery-generic
+robot cook,10,,,1,product-guide
+royalcatering,10,,,1,product-guide
+sal organica,10,,,3,abasto-produce
+sandwich a domicilio,10,,,1,delivery-generic
+se puede pedir mcdonald's a domicilio,10,,,1,delivery-navigational
+servicio a domicilio 24 horas,10,,,1,delivery-generic
+servicio a domicilio cerca de mi,10,,,1,delivery-generic
+servicio a domicilio comida cerca de mi,10,,,1,delivery-generic
+servicio a domicilio de comida,10,,,1,delivery-generic
+servicio catering a domicilio,10,,,1,catering
+servicio catering eventos,10,,,2,catering
+servicio de banquetes para eventos,10,,,1 2,catering
+servicio de banquetes para fiestas,10,,,2,catering
+servicio de cafetería para eventos,10,,,2,catering
+servicio de catering a domicilio,10,,,1,catering
+servicio de catering para 50 personas,10,,,2,catering
+servicio de catering para cumpleaños,10,,,2,catering
+servicio de catering para empresas,10,,,1 2,catering
+servicio de catering para eventos precios,10,,,1 2,catering
+servicio de catering para fiestas,10,,,2,catering
+servicio de catering precios,10,,,1 2,catering
+servicio de catering zona sur,10,,,2,catering
+servicio de coffee break para empresas,10,,,2,catering
+servicio de coffee break para eventos,10,,,1 2,catering
+servicio de coffee break precio,10,,,1 2,catering
+servicio de comida,10,,,1,other
+servicio de comida a domicilio,10,,,1,delivery-generic
+servicio de comida a domicilio cerca de mi ubicación,10,,,1,delivery-generic
+servicio de comida para eventos,10,,,1 2,catering
+servicio de comida para fiestas,10,,,2,catering
+servicio de comida saludable a domicilio,10,,,1,delivery-generic
+servicio de lunch,10,,,1,catering
+servicio delivery,10,,,1,delivery-generic
+servicios de coffee break,10,,,1 2,catering
+siete sopas delivery,10,,,1,delivery-navigational
+sitios para pedir a domicilio,10,,,1,delivery-generic
+sopas a domicilio,10,,,1,delivery-generic
+sopas delivery,10,,,1,delivery-generic
+stevia organica,10,,,3,abasto-produce
+superchef,10,,,1,other
+telemundo top chef,10,,,1,other
+telemundo top chef vip,10,,,1,other
+the catering,10,,,1,catering
+tienda organica,10,,,3,abasto-produce
+top chef telemundo,10,,,1,other
+top chef vip telemundo,10,,,1,other
+traer comida a domicilio,10,,,1,delivery-generic
+tupperware chef,10,,,1,product-guide
+uber comida,10,,,1,delivery-navigational
+uber comida a domicilio,10,,,1,delivery-navigational
+uber de comida,10,,,1,delivery-navigational
+venta de frutas y verduras a domicilio,10,,,3,abasto-produce
+venta de productos organicos,10,,,3,abasto-produce
+venta de verduras a domicilio,10,,,3,abasto-produce
+verdulería a domicilio,10,,,3,abasto-produce
+verdura organica,10,,,3,abasto-produce
+verduras a domicilio,10,,,3,abasto-produce
+verduras a domicilio cerca de mi,10,,,3,abasto-produce
+verduras delivery,10,,,3,abasto-produce
+verduras orgánicas a domicilio,10,,,3,abasto-produce
+verduras por mayor,10,,,3,abasto-produce
+vip catering,10,,,1,catering
+yerba mate kraus,10,,,3,abasto-produce
+zanahoria organica,10,,,3,abasto-produce

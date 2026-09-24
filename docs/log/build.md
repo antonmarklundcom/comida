@@ -81,3 +81,44 @@ Finish by writing `docs/log/fable-review-package.md` per Anton's Fable directive
 - The five PHP test cases on Hostinger, after upload
 - `/terminos/` and `/privacidad/` reviewed by a lawyer
 - DNS: domain not pointed anywhere yet. Do not deploy and do not touch any domain.
+
+## P1e design parity (Opus 5.5, 2026-09-24)
+
+- Tap targets raised to 48px: carousel dots (visual dot unchanged, hit area 48px), flexible-date and consent rows, footer links, catering-menu side links, guide TOC links.
+- Paprika limited to primary CTAs, focus rings, the brand dot and the single statement highlight: nav hover, drawer "Ver todo", occasion-tile "go" and link arrows now use ink; checkbox accent uses olive.
+- Kept by decision: `--gold` and `--char` (approved), the Google Fonts Fraunces load (self-hosting needs a font download Anton has not approved; flagged).
+
+## 2026-09-24 — Opus 5.5 build session (no Codex, per Anton)
+
+Direction change from Anton: SEO traffic and time on site first; catering, viandas and later fresh-food delivery monetise the audience. KWP rounds 1-4 confirmed as Paraguay data; merged in `plan/research/kwp-all.csv` (`node scripts/kwp-merge.mjs`). Revenue and growth plan: `plan/12-GROWTH-AND-REVENUE.md`.
+
+| Phase | Result |
+|---|---|
+| P1c | Two-screen lead form (home, /presupuesto/), supplier form (/proveedores/), viandas form; `php/lead-forward.php` to the real VenderCRM contract (X-Api-Key, idempotency_key, 201/200); WhatsApp fallback with the brief on any failure; no-JS path via 303 redirects; localhost mock; GA4 hook (off until an ID exists); `.htaccess`. `php -l` clean on PHP 8.3; `scripts/php-handler-test.mjs` 15/15 against a mock CRM. |
+| P1d | README, `deploy/make-zip.ps1` (ZipFile API, forward slashes), `comida-preview` in `C:\Claude 1\.claude\launch.json`, `docs/php-tests.md`. |
+| P1e | Tap targets 48px, paprika restricted (see section above). |
+| Content engine | `engine/collections.mjs`: one module per page under `sites/comida/content/{recipes,guides,cuts,viandas}`; templates `recipe.mjs` (kilo/portion scaler, saved checklists, step timers, modo cocina with Wake Lock, print), `article.mjs` (guides, cuts, viandas; TOC, facts, tables, calculators), `hub-list.mjs` (/recetas/ search, filters, "¿Qué cocino hoy?"). Recipe and Article JSON-LD. `scripts/validate-content.mjs`. |
+| Content | 47 recipes (6 more from KWP round 4: empanada de mandioca, lomito árabe, sandwich de lomito, pizza casera, tacos, empanadas de choclo), 8 guides (incl. `/mercado-de-abasto/` with sourced facts, 3 calculators), 10 meat cuts, 3 hubs; written by 6 parallel Opus subagents from `plan/prompts/CONTENT-WRITER.md`, audited by the manager. |
+| P2 | `/viandas/` + saludables, para-oficina, precios: built, noindex, out of sitemap and nav until `gates.viandasPartnerSigned`. |
+| P3 | `restaurants` collection and `/asado/`, `/restaurantes/` reserved (published false, never emitted); envelope rule in the verifier; commented asado.com.py 301 in `.htaccess`. |
+| P4 | Guides built (bocaditos, comida por persona, carne por persona, qué preguntar a un catering) plus queso Paraguay, canasta básica, comida típica paraguaya, Mercado de Abasto. |
+| P5 | `scripts/qa-gate.mjs` 16 gates PASS; zip 8.3 MB, 225 files. |
+| P6 | Replaced by the manager's own review (`docs/log/opus-final-review.md`); Anton will review manually with Fable or Codex later. |
+| Tests | `verify.test.mjs` fixed (runs without args; stale "unpublished link" case now targets a real unpublished route) and extended with "link to noindex page": 15/15 rejected. |
+
+Counts at the end of the session: **93 HTML / 86 sitemap URLs**, verify 25,843 checks, 1,501 substantive paragraphs, 0 shared; zip 8.3 MB, 231 files; QA gate 16/16; PHP test 15/15; mutation tests 15/15; 390px overflow sweep 86/86 clean.
+
+### Opus-specific issues logged (Anton asked for this)
+
+1. The Bash tool on this laptop drops backslashes inside heredocs (`\d` became `d`, `\` became `\`). Two regexes broke silently (verifier date check, zip path replace). Fix: write code with regexes through the Write/Edit tools only.
+2. A blind `sed` accent fix changed a correct impersonal "se hornea" into "se horneá". Caught on re-read; avoid global text replacements in Spanish copy.
+3. Browser pane screenshots come back blank or mis-scaled when the pane is hidden or after programmatic scrolling; DOM checks (bounding boxes, a 390px iframe sweep) were used instead.
+4. One content subagent repeatedly wrote a missing `}` after table objects, which broke the whole build while it worked; parallel writers must never run the build, and the manager should expect transient import errors until they finish.
+
+## 2026-09-24 (later) — VenderCRM contract and KWP round 5
+
+- Anton supplied the VenderCRM lead-endpoint list (kept outside the repo; it holds live keys, none copied anywhere). comida.com.py exists and is live as site `comida`.
+- Handler changes to match it: `idempotency_key` is now one per filled-in form (hidden `idem`, set by `forms.js` on load; server falls back to a random key), because VenderCRM drops a reused key as a duplicate; success = HTTP 200/201 per the contract. PHP test now 16/16 (new case: same phone, new submission).
+- KWP round 5 saved (`plan/research/kwp-round5.csv`); master `kwp-all.csv` = 1,713 unique keywords from 5 rounds.
+- 15 new pages from round 5 (two Opus writers): pastel mandi'o, kiveve, ka'i ladrillo, kosereva, mbaipy, locro paraguayo, pira caldo, chipa mestizo (1/2/5 kilos), cocido paraguayo, pan dulce, clericó, dulce de leche casero, tarta de choclo; guides tereré (UNESCO 2020 inscription confirmed and cited) and qué cocinar hoy.
+- Counts: **108 HTML / 101 sitemap URLs**; verify 30k+ checks; 1,807 substantive paragraphs, 0 shared; QA gate 16/16; zip 8.4 MB; 390px sweep 101/101 clean.

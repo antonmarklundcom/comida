@@ -2,7 +2,7 @@ const ALLOWED_SITE_IDS = new Set(['seguro', 'prestamo', 'fixture-a', 'fixture-b'
 
 const TOP_LEVEL_KEYS = new Set([
   'id', 'domain', 'origin', 'locale', 'brand', 'theme', 'operator', 'navigation',
-  'chefPartnerSigned', 'coverage', 'footer', 'analytics', 'ads', 'blog', 'images', 'legal', 'seo', 'build'
+  'chefPartnerSigned', 'viandasPartnerSigned', 'coverage', 'footer', 'analytics', 'ads', 'blog', 'images', 'legal', 'seo', 'build'
 ]);
 
 export const OPERATOR_FIELDS = ['email', 'phone', 'whatsapp', 'hours', 'legalName', 'ruc'];

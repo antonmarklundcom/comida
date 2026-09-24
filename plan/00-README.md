@@ -1,5 +1,7 @@
 # comida.com.py — plan index
 
+**Status 2026-09-24 (Opus 5.5 build):** the site is built: 108 pages (60 recipes, 8 guides, 10 meat cuts, catering, viandas behind a gate). Direction is now SEO traffic and time on site first, monetised by catering, viandas and later fresh delivery. Read `12-GROWTH-AND-REVENUE.md` for the current plan, `docs/log/build.md` for state, `docs/log/opus-final-review.md` for launch blockers, and `plan/research/kwp-all.csv` for every keyword measured.
+
 Status 2026-09-19 (v2): plan written by Fable 5.1, critiqued by Codex gpt-6-astra (`codex-input/CODEX-CRITIQUE.md`), critique merged by Fable. **Read `08-V2-DECISIONS.md` first**: it records what was accepted, the KWP evidence, the 20-route launch manifest and the open questions. Files 01–06 were edited to match; where they still disagree with 08, 08 wins. No site code exists yet.
 
 Changelog v1 → v2: launch cut from 24 to 20 routes with one city page; commission 10% on the first introduced event with 90-day attribution; public price numbers removed until three supplier quotes exist; traffic forecast replaced by a 20-request pilot; GBP dropped; engine adaptation specified against the real prestamo verifier; form shortened; schema and legal references corrected.
@@ -32,4 +34,5 @@ comida.com.py is an exact-match generic domain for the whole food vertical in Pa
 Static HTML on Hostinger, no CI minutes · WhatsApp-first, voseo · no fabricated proof, reviews or partner logos · AI images labelled illustrative · prices in one config with a version date · leads to VenderCRM via the tenant endpoint · WhatsApp click is not a lead · Codex at low effort unless Anton says otherwise · Fable never spawned.
 
 10. `10-FOOD-PORTFOLIO-STRATEGY.md` — portfolio vs single hub decision (2026-09-19): deepen comida alone, guides not recipes, asado.com.py redirected to /asado/ (revised in §11), no domain purchases before gate G3.
+12. `12-GROWTH-AND-REVENUE.md` — 2026-09-24: KWP rounds 3-4, traffic path to the top food site in Paraguay, revenue and profit by line in USD, fresh-delivery plan, next phases G1-G5.
 11. `11-REVENUE-AND-VALUATION.md` — money plan after KWP round 2 (2026-09-20): months 1–6 referral only (catering, chef, viandas partner), then restaurants, carne, recipes for audience and valuation; grocery and beef boxes only as white label after month 12. Raw KWP pastes in `research/`.
