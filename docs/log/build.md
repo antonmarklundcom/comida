@@ -159,3 +159,14 @@ PRs #1 (launch build) and #2 (growth ideas 1-20) merged into master by Anton's e
 ## 2026-09-25 — KWP round 6
 
 Meat, pork, poultry and river-fish round saved as `plan/research/kwp-round6.csv` and merged (1,953 unique keywords). Clothing/sewing noise from the falda/aguja/paleta seeds left out; seed rows marked mixed intent. Page plan: `plan/13-MEAT-FISH-PAGE-PLAN.md` (33 pages, ~22k monthly searches without a page). Social cards: all 120 generated (the earlier '56 of 120' note is outdated).
+
+## 2026-09-25 — "meat deep" batch (8 parallel Opus writers, manager audit)
+
+68 new pages from every meat KWP round plus the remaining keyword gaps, built on branch meat-deep:
+- 22 cuts: tapa de cuadril, colita de cuadril, cuadrada, bola de lomo, carnaza, garrón, marucha, bife ancho, tapa de asado, nalga, aguja, costilla de vaca, tomahawk, chuletón, wagyu, panceta, lechón, matambrito de cerdo, pernil, carré, cordero, cabrito.
+- 12 meat and fish guides: asado a la parrilla, parrillada, churrasquería, parrilla para asadito, cortes de carne vacuna, cortes de cerdo, cortes de pollo, carne magra, pescados de río, surubí, pacú, dorado (fishing-ban facts only from MADES Resolución 523/2025, as a dated example).
+- 21 meat and fish recipes (tapa de cuadril al horno, matambre arrollado, pernil, lechón, cordero, tomahawk, asado de tira, panceta crocante, costillas BBQ, suprema rellena, alitas, surubí, pacú, dorado…).
+- Other keyword gaps: tipos de queso, ideas de torta de cumpleaños, queso cottage casero, jugos para niños, 4 light recipes, 3 healthy collections (+3 recetarios), 5 catering landing pages (/catering/{asado,empanadas,pizza,hamburguesas,lechon}-para-eventos/) with the quote form prefilled.
+- Updates: costillar page now targets "costilla de cerdo"; matambre, bondiola, Navidad, Fin de año, Semana Santa and the meat-per-person guide (pork, lamb, chicken, fish rows) link the new pages; /carne/ hub lists the meat guides.
+- /recetas/ hub slimmed (recipe cards without the one-line text): 93.3 → 77.8 KB; new QA gate fails any page over 90 KB (paginate hubs before adding ~50 more recipes).
+Counts: **266 HTML / 251 sitemap URLs**, verify 82k checks, 4,471 substantive paragraphs, 0 shared; PHP 24/24; QA gate 18/18; 390 px sweep 251/251. No new images (credits not approved for this batch).

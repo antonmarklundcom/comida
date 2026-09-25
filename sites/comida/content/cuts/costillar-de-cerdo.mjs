@@ -4,7 +4,7 @@ export default {
   published:true, indexable:true, updatedAt:'2026-09-24', verifiedAt:'2026-09-24',
   source:'Guía de la redacción de comida.com.py, basada en la práctica de carnicería y parrilla del Río de la Plata',
   label:'Costillar de cerdo',
-  seoTitle:'Costillar de cerdo: cómo elegirlo y hacerlo',
+  seoTitle:'Costilla y costillar de cerdo: cómo hacerlo',
   meta:'Costillar de cerdo: qué partes tiene, cómo elegirlo, tiempos a la parrilla y al horno para que se suelte del hueso, cuánto comprar y qué cambia su precio.',
   h1:'Costillar de cerdo: a la parrilla o al horno, tierno hasta el hueso',
   cardText:'Costillas de cerdo que se hacen despacio hasta que la carne se suelta del hueso.',
@@ -71,7 +71,7 @@ export default {
     ]}
   ],
   recipes:['receta-sopa-paraguaya','receta-chipa-guazu','receta-guiso-paraguayo'],
-  related:['guia-cuanta-carne-por-persona','corte-bondiola-de-cerdo','corte-vacio','corte-matambre'],
+  related:['guia-cuanta-carne-por-persona','guia-cortes-de-cerdo','corte-bondiola-de-cerdo','corte-panceta','corte-matambre'],
   faq:[
     ['¿Cuánto tarda un costillar de cerdo a la parrilla?','Entre una hora y media y dos horas a fuego suave, empezando con el hueso hacia abajo y terminando del lado de la carne.'],
     ['¿Cómo se hace el costillar de cerdo al horno para que quede tierno?','Tapado con papel aluminio a 160 °C durante una hora y media a dos horas, y después destapado a 200 °C entre 20 y 30 minutos para dorar.'],

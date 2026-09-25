@@ -106,7 +106,12 @@ const existing = [
       "occ-coffee-break",
       "occ-bocaditos",
       "occ-cumpleanos",
-      "city-asuncion"
+      "city-asuncion",
+      "catering-asado-para-eventos",
+      "catering-empanadas-para-eventos",
+      "catering-pizza-para-eventos",
+      "catering-hamburguesas-para-eventos",
+      "catering-lechon-para-eventos"
     ],
     "waMessage": "Hola, ¿me ayudás a elegir un catering para mi evento?"
   },

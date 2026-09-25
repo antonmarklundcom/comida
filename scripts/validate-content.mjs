@@ -19,7 +19,7 @@ const ids=new Set();for(const [,m] of all)ids.add(m.id);
 // Core pages (catering, support) from the manifest's static part.
 {const src=fs.readFileSync(path.join(root,'sites/comida/routes.mjs'),'utf8');for(const m of src.matchAll(/"id": "([^"]+)"/g))ids.add(m[1])}
 // Other writers may be mid-save: a file that does not parse yet is skipped here (it fails its own validation).
-for(const dir of ['recipes','guides','cuts','viandas','ingredients','seasons','products','_incoming/recipes','_incoming/ingredients','_incoming/seasons'])if(fs.existsSync(path.join(base,dir)))for(const f of fs.readdirSync(path.join(base,dir)).filter(f=>f.endsWith('.mjs'))){try{ids.add((await import(pathToFileURL(path.join(base,dir,f)).href)).default.id)}catch{}}
+for(const dir of ['recipes','guides','cuts','viandas','ingredients','seasons','products','_incoming/recipes','_incoming/ingredients','_incoming/seasons','_incoming/guides','_incoming/cuts'])if(fs.existsSync(path.join(base,dir)))for(const f of fs.readdirSync(path.join(base,dir)).filter(f=>f.endsWith('.mjs'))){try{ids.add((await import(pathToFileURL(path.join(base,dir,f)).href)).default.id)}catch{}}
 for(const [file,m] of all){
   n++;const tag=path.relative(root,file)+': ',err=s=>errors.push(tag+s),warn=s=>warnings.push(tag+s);
   for(const k of ['id','slug','kind','label','seoTitle','meta','h1','source','verifiedAt','updatedAt','intro'])if(!m[k])err('missing '+k);

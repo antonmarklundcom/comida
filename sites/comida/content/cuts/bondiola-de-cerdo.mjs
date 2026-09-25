@@ -71,8 +71,8 @@ export default {
       'Todavía no hay en el sitio una receta que tenga a la bondiola como protagonista. Donde encaja mejor es en una mesa de asado con sopa paraguaya y chipa guazú, o en sándwiches con pan casero. Si sobra carne, desmechala y usala para rellenar empanadas o una tarta.'
     ]}
   ],
-  recipes:['receta-sopa-paraguaya','receta-chipa-guazu','receta-pan-casero','receta-empanadas-de-carne'],
-  related:['guia-cuanta-carne-por-persona','corte-costillar-de-cerdo','corte-vacio','corte-matambre'],
+  recipes:['receta-bondiola-al-horno','receta-bondiola-desmechada','receta-sopa-paraguaya','receta-chipa-guazu','receta-pan-casero','receta-empanadas-de-carne'],
+  related:['guia-cuanta-carne-por-persona','guia-cortes-de-cerdo','corte-costillar-de-cerdo','corte-panceta','corte-matambrito-de-cerdo'],
   faq:[
     ['¿Qué parte del cerdo es la bondiola?','Es el cuello, la masa muscular que va desde la nuca hasta el comienzo del lomo, por encima de la paleta.'],
     ['¿Cuánto tarda una bondiola entera a la parrilla?','Una pieza de 1,5 a 2 kilos tarda entre dos y dos horas y media a fuego suave e indirecto. Está lista cuando el jugo sale claro y el centro llega a 63 a 70 °C.'],

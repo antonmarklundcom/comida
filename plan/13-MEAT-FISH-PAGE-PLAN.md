@@ -1,5 +1,7 @@
 # 13 — Meat, pork, poultry and river-fish pages from KWP round 6 (2026-09-25)
 
+**Status 2026-09-25: BUILT** (68 pages incl. extra meat guides from earlier rounds; see docs/log/build.md). Still open from this plan: photos (~19 images), Mercado carne items (lechón, pernil, pack con tapa de cuadril), fish pre-orders (only with a supplier).
+
 Source: `plan/research/kwp-round6.csv` (merged into `kwp-all.csv`). Paraguay, monthly searches. Seeds "falda", "aguja", "paleta" and "tortuguita" returned mostly clothing, sewing or candy ideas: those rows were not saved, and the seed rows are marked "mixed intent" (do not plan pages on their volume). "Dorado" is shared by the fish and brand/restaurant names.
 
 ## What round 6 says
