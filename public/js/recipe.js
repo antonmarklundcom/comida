@@ -57,8 +57,12 @@
   document.querySelectorAll('[data-hub-filter]').forEach(function(box){
     var cards=[].slice.call(document.querySelectorAll('.rcards-hub .rcard')),input=box.querySelector('input'),chips=box.querySelectorAll('[data-cat]'),count=box.querySelector('.hub-count'),cat='';
     function norm(s){return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'')}
-    function run(){var q=norm(input.value.trim()),n=0;cards.forEach(function(c){var ok=(!cat||(' '+c.getAttribute('data-cats')+' ').indexOf(' '+cat+' ')>-1)&&(!q||norm(c.getAttribute('data-name')).indexOf(q)>-1);c.hidden=!ok;if(ok)n++});count.textContent=n+(n===1?' receta':' recetas')}
-    input.addEventListener('input',run);
+    // Idea 4: every word must match the name or an ingredient ("pollo papa", "queso paraguay, choclo").
+    var ings=null,loading=false;
+    function loadIngs(){if(loading)return;loading=true;fetch('/data/recipes.json').then(function(r){return r.json()}).then(function(d){ings={};d.forEach(function(x){ings[x.path]=norm(x.ingredients.map(function(i){return i.item}).join(' '))});run()}).catch(function(){})}
+    function run(){var q=norm(input.value.trim()),terms=q.split(/[\s,]+/).filter(function(t){return t&&t!=='y'&&t!=='con'&&t!=='de'}),n=0;cards.forEach(function(c){var name=norm(c.getAttribute('data-name')),hay=name+' '+(ings&&ings[c.getAttribute('href')]||'');var ok=(!cat||(' '+c.getAttribute('data-cats')+' ').indexOf(' '+cat+' ')>-1)&&(!q||name.indexOf(q)>-1||terms.length&&terms.every(function(t){return hay.indexOf(t)>-1}));c.hidden=!ok;if(ok)n++});count.textContent=n+(n===1?' receta':' recetas')}
+    input.addEventListener('focus',loadIngs);
+    input.addEventListener('input',function(){loadIngs();run()});
     chips.forEach(function(ch){ch.addEventListener('click',function(){cat=ch.getAttribute('data-cat');chips.forEach(function(x){x.setAttribute('aria-pressed',x===ch)});run()})});
     var rnd=box.querySelector('[data-random]');if(rnd)rnd.addEventListener('click',function(){var vis=cards.filter(function(c){return !c.hidden});if(!vis.length)return;var pick=vis[Math.floor(Math.random()*vis.length)];track('random_recipe',{});location.assign(pick.getAttribute('href'))});
     run();

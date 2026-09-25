@@ -1,10 +1,11 @@
 import {esc,attr} from '../engine/escape.mjs';
 import {breadcrumbs} from './content.mjs';
-import {ingredientLine,minutes,sectionHtml,faqHtml,sourceLine,cardGrid,tableHtml,qtyText} from './recipe-lib.mjs';
+import {ingredientLine,minutes,sectionHtml,faqHtml,sourceLine,cardGrid,tableHtml,qtyText,shareRow} from './recipe-lib.mjs';
 import {subscribeForm} from './lead-form.mjs';
 import mercado from '../sites/comida/mercado.mjs';
+import {matchRecipes} from './article.mjs';
 // Recipe page: built for cooking with the phone in the kitchen (scaler, checklists, timers, screen awake).
-export default function recipe({page:r,route,routes,pages,picture,wa}){
+export default function recipe({page:r,route,routes,pages,picture,wa,config}){
   const y=r.yield,total=(r.times.prep||0)+(r.times.cook||0)+(r.times.rest||0);
   const scaler=`<div class="scaler" data-scaler data-base="${attr(y.base)}" data-mode="${attr(y.mode)}"><span class="scaler-label" id="sc-l">${y.mode==='kilos'?'Cantidad de receta':'Porciones'}</span><div class="scaler-ctrl" role="group" aria-labelledby="sc-l">${y.options.map(o=>`<button type="button" class="chip-btn" data-factor="${attr(o/y.base)}" aria-pressed="${o===y.base}">${esc(y.mode==='kilos'?fmtKilos(o):String(o))}</button>`).join('')}</div><p class="scaler-note">${esc(y.note)}</p></div>`;
   const ingredients=r.ingredients.map((g,gi)=>`<div class="ing-group">${g.group?`<h3>${esc(g.group)}</h3>`:''}<ul class="checklist">${g.items.map((ing,i)=>`<li><label><input type="checkbox" data-save="i${gi}-${i}"><span class="ing" data-q="${ing.q??''}" data-u="${attr(ing.u||'u')}"${ing.scale===false?' data-fixed':''}>${ingredientLine(ing)}</span></label></li>`).join('')}</ul></div>`).join('');
@@ -14,10 +15,10 @@ export default function recipe({page:r,route,routes,pages,picture,wa}){
   const guides=(r.guides||[]).map(id=>pages.find(p=>p.id===id)).filter(Boolean);
   return `<main id="top" class="content-page recipe-page"><div class="wrap narrow">${breadcrumbs(route,routes)}
 <header class="recipe-head"><p class="eyebrow">${esc(r.course||'Receta')}${r.cuisine?' · '+esc(r.cuisine):''}</p><h1>${esc(r.h1)}</h1>${r.intro.map(p=>`<p class="lead">${esc(p)}</p>`).join('')}
-<dl class="facts"><div><dt>Preparación</dt><dd>${esc(minutes(r.times.prep))}</dd></div><div><dt>Cocción</dt><dd>${esc(minutes(r.times.cook)||'Sin cocción')}</dd></div>${r.times.rest?`<div><dt>Reposo</dt><dd>${esc(minutes(r.times.rest))}</dd></div>`:''}<div><dt>Total</dt><dd>${esc(minutes(total))}</dd></div><div><dt>Rinde</dt><dd>${esc(y.yieldText)}</dd></div><div><dt>Dificultad</dt><dd>${esc(r.difficulty)}</dd></div></dl>
+<dl class="facts"><div><dt>Preparación</dt><dd>${esc(minutes(r.times.prep))}</dd></div><div><dt>Cocción</dt><dd>${esc(minutes(r.times.cook)||'Sin cocción')}</dd></div>${r.times.rest?`<div><dt>Reposo</dt><dd>${esc(minutes(r.times.rest))}</dd></div>`:''}<div><dt>Total</dt><dd>${esc(minutes(total))}</dd></div><div><dt>Rinde</dt><dd>${esc(y.yieldText)}</dd></div><div><dt>Dificultad</dt><dd>${esc(r.difficulty)}</dd></div></dl>${shareRow(r.h1,config.origin+route.path)}
 <nav class="jump" aria-label="En esta receta"><a href="#ingredientes">Ingredientes</a><a href="#preparacion">Preparación</a>${r.tips?.length?'<a href="#consejos">Consejos</a>':''}${r.faq?.length?'<a href="#preguntas">Preguntas</a>':''}<button type="button" class="linkish" data-print>Imprimir</button></nav></header>
 ${r.image?`<figure class="page-image">${picture(r.image,'(min-width:900px) 820px, 100vw',true)}<figcaption class="cap">Imagen ilustrativa</figcaption></figure>`:''}
-<div class="recipe-grid"><section class="ingredients" id="ingredientes" aria-labelledby="ing-h"><h2 id="ing-h">Ingredientes</h2>${scaler}${ingredients}<div class="ing-actions"><a class="btn btn-primary" data-order-recipe href="/mercado/?receta=${attr(r.slug)}">${mercado.open?'Pedí los ingredientes':'Consultá por los ingredientes'}</a><button type="button" class="linkish" data-save-recipe data-id="${attr(r.id)}" aria-pressed="false">Guardar receta</button><button type="button" class="linkish" data-clear>Desmarcar todo</button></div><p class="ing-hint">Te llevamos a casa lo que te falta; te confirmamos el total por WhatsApp.</p></section>
+<div class="recipe-grid"><section class="ingredients" id="ingredientes" aria-labelledby="ing-h"><h2 id="ing-h">Ingredientes</h2>${scaler}${ingredients}<div class="ing-actions"><a class="btn btn-primary" data-order-recipe href="/mercado/?receta=${attr(r.slug)}">${mercado.open?'Pedí los ingredientes':'Consultá por los ingredientes'}</a><button type="button" class="linkish" data-save-recipe data-id="${attr(r.id)}" aria-pressed="false">Guardar receta</button><button type="button" class="linkish" data-clear>Desmarcar todo</button></div><p class="ing-hint">Te llevamos a casa lo que te falta; te confirmamos el total por WhatsApp.</p>${ingredientLinks(r,routes,pages)}</section>
 <section class="method" id="preparacion" aria-labelledby="prep-h"><div class="method-head"><h2 id="prep-h">Preparación</h2><button type="button" class="btn btn-ghost cook-mode" data-cook aria-pressed="false">Modo cocina</button></div><p class="cook-hint">El modo cocina mantiene la pantalla encendida y agranda la letra mientras cocinás.</p>${steps}</section></div>
 ${kiloTable?`<section class="art-sec" id="por-kilo"><h2>${esc(r.kiloTable.title)}</h2>${kiloTable}</section>`:''}
 ${r.tips?.length?`<section class="art-sec" id="consejos"><h2>${esc(r.tipsTitle||'Consejos para que salga bien')}</h2><ul class="ticks">${r.tips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></section>`:''}
@@ -34,3 +35,5 @@ ${related.length?`<section class="art-sec">${cardGrid(related,routes,{heading:'O
 </div></main>`;
 }
 function fmtKilos(k){return k===0.5?'½ kilo':k===1?'1 kilo':String(k).replace('.',',')+' kilos'}
+// Idea 9: link each recipe to the "recetas con …" pages of the ingredients it uses (those pages had no content links).
+function ingredientLinks(r,routes,pages){const links=pages.filter(p=>p.kind==='ingredient'&&matchRecipes(p,pages).some(x=>x.id===r.id)).map(p=>({p,route:routes.find(x=>x.id===p.id&&x.published&&x.indexable)})).filter(x=>x.route);return links.length?`<p class="ing-links">Más recetas con ${links.map(({p,route})=>`<a href="${attr(route.path)}">${esc(p.label.replace(/^Recetas con /i,''))}</a>`).join(', ')}</p>`:''}

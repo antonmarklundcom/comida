@@ -12,7 +12,7 @@ You are the implementation worker. A Claude Code manager session dispatches phas
 7. Static output only: HTML, CSS, vanilla JS and one PHP handler. No frameworks, no build-time network calls, no CI files under `.github/`.
 
 ## Environment
-- Build: `node engine/build-site.mjs --site=comida` · verify: `node engine/verify.mjs --site=comida` · content: `node scripts/validate-content.mjs` · duplicates: `node scripts/check-duplicates.mjs` · QA: `node scripts/qa-gate.mjs` · PHP: `node scripts/php-handler-test.mjs` · preview: `comida-preview` in `C:/Claude 1/.claude/launch.json`, port 8093.
+- Build: `node engine/build-site.mjs --site=comida` · verify: `node engine/verify.mjs --site=comida` · content: `node scripts/validate-content.mjs` · duplicates: `node scripts/check-duplicates.mjs` · QA: `node scripts/qa-gate.mjs` · browser: `node scripts/browser-check.mjs` (skips without Playwright) · PHP: `node scripts/php-handler-test.mjs` · preview: `comida-preview` in `C:/Claude 1/.claude/launch.json`, port 8093.
 - Content modules live in `sites/comida/content/{recipes,guides,cuts,viandas}/`, one file per page; the route manifest loads them. Parallel writers must not run the build (it wipes `dist/`); they run the content validator only.
 - Node 24 is installed. PHP 8.3 is at `C:/php/php.exe`.
 - The Bash tool on this laptop drops backslashes inside heredocs: write code with regexes through file-writing tools, not heredocs.

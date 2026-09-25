@@ -54,6 +54,7 @@
     pl.addEventListener('change',function(e){var t=e.target;if(t.hasAttribute('data-pick')){if(t.checked){menu[t.getAttribute('data-pick')]=1;track('planner_add',{})}else delete menu[t.getAttribute('data-pick')];renderMenu()}if(t.hasAttribute('data-factor-for')){menu[t.getAttribute('data-factor-for')]=parseFloat(t.value);renderMenu()}});
     pl.addEventListener('click',function(e){var t=e.target;if(t.hasAttribute&&t.hasAttribute('data-remove')){delete menu[t.getAttribute('data-remove')];renderMenu();renderList()}});
     var ord=pl.querySelector('[data-order]');ord.addEventListener('click',function(e){e.preventDefault();track('planner_order',{});location.assign('/mercado/?lista=planificador#formulario')});
+    var wab=pl.querySelector('[data-send-wa]');if(wab)wab.addEventListener('click',function(){var items=sumList();if(!items.length){status.textContent='Elegí al menos una receta para armar la lista.';return}var txt='Lista de compras (comida.com.py):\n'+items.map(function(t){return '- '+t}).join('\n');track('list_whatsapp',{items:items.length});window.open('https://api.whatsapp.com/send?text='+encodeURIComponent(txt),'_blank','noopener')});
     pl.querySelector('[data-copy]').addEventListener('click',function(){var txt='Lista de compras (comida.com.py):\n'+sumList().map(function(t){return '- '+t}).join('\n');(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){status.textContent='Lista copiada.'}).catch(function(){status.textContent='No se pudo copiar; seleccioná la lista a mano.'})});
   }
 
