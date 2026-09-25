@@ -10,6 +10,7 @@ export default {
   cardText:'Matambrito de cerdo dorado al horno y cubierto con salsa, queso y orégano.',
   course:'Plato principal', cuisine:'Casera', category:['carne','horno','fiesta'],
   keywords:['matambrito de cerdo a la pizza','matambre de cerdo a la pizza','matambrito a la pizza','matambrito de cerdo al horno','matambrito de cerdo'],
+  image:45,
   intro:[
     'El matambrito de cerdo a la pizza tiene una ventaja enorme sobre la versión vacuna: no pasa por la olla. Es una lámina fina de carne con una capa de grasa de un lado, tan tierna que se cocina entera en el horno en menos de una hora. Primero se dora sola, con una marinada de limón, ajo y pimentón, y después se cubre con salsa de tomate, mozzarella y orégano hasta que el queso burbujea.',
     'Cada matambrito pesa en general entre 600 y 900 gramos, así que para 6 personas hacen falta dos o tres piezas. Si querés saber cómo reconocer uno bueno en la carnicería o en qué se diferencia del matambre de vaca, está explicado en la página del corte; acá vamos directo a la asadera.'

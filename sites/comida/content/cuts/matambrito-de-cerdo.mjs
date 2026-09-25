@@ -10,6 +10,7 @@ export default {
   cardText:'La lámina fina y tierna del cerdo que se hace en media hora sobre las brasas.',
   category:['carne','fiesta','rapida'],
   keywords:['matambrito de cerdo','matambrito','matambritos','matambrito de cerdo a la pizza','matambrito de cerdo al horno','matambrito de cerdo precio'],
+  image:45,
   intro:[
     'El matambrito de cerdo es la versión porcina del matambre: una lámina de carne fina que se separa de las costillas del chancho. A diferencia del matambre de vaca, es tierno de entrada, así que no necesita hervirse ni tiernizarse. Sobre las brasas se hace en poco tiempo y queda jugoso, con los bordes dorados y un sabor suave que admite limón, ajo, mostaza o una cubierta de pizza.',
     'Es uno de los cortes de cerdo más pedidos para la parrilla del fin de semana porque es rápido, rinde y le gusta a los chicos. En esta página vas a ver cómo reconocerlo, cómo cocinarlo sin que se seque, cuántos matambritos comprar y qué cambia su precio.'

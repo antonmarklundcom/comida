@@ -11,6 +11,7 @@ export default {
   cardText:'Estilos de decoración por dificultad, porciones según el molde y un plan día por día.',
   category:['dulce','fiesta'],
   keywords:['torta de cumpleaños','tortas para hombres','torta para hombre','tortas para mujer','tortas de cumpleaños para mujer','tortas para niñas','torta para mamá','tortas para hombre sencillas','decoración de torta para hombre'],
+  image:52,
   intro:[
     'La torta es la foto del cumpleaños, y casi siempre la decide una pregunta: ¿qué le gusta a quien cumple? Antes de pensar en figuras o colores, conviene definir un estilo, calcular cuántas porciones necesitás y ser honesto con el tiempo y la mano que tenés para decorar.',
     'En esta guía encontrás ideas descritas en palabras, ordenadas por estilo y por dificultad, para tortas de hombre, de mujer, de niñas y de mamá, sin personajes ni marcas. También una tabla de porciones según el tamaño del molde y un plan para repartir el trabajo. La base de todas puede ser nuestra receta de torta de cumpleaños casera.'
