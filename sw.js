@@ -2,7 +2,7 @@
    HTML, CSS, JS and data: network first (always fresh after a deploy), cached copy when offline.
    Images and fonts: cache first (their URLs never change content). Never touches PHP or form posts.
    VERSION is stamped by engine/build-site.mjs on every build. */
-var VERSION='comida-8ebefe414917';
+var VERSION='comida-d9594eff38b2';
 var CORE=['/','/recetas/','/css/tokens.css','/css/fonts.css','/css/site.css','/js/site.js','/js/forms.js','/js/recipe.js','/js/kitchen.js','/data/recipes.json','/icon.svg'];
 self.addEventListener('install',function(e){e.waitUntil(caches.open(VERSION).then(function(c){return c.addAll(CORE)}).then(function(){return self.skipWaiting()}))});
 self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(keys){return Promise.all(keys.filter(function(k){return k!==VERSION}).map(function(k){return caches.delete(k)}))}).then(function(){return self.clients.claim()}))});
