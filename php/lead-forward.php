@@ -26,7 +26,7 @@ const COMIDA_FORMS = ['cliente', 'proveedor', 'viandas', 'pedido', 'suscripcion'
 // Keep in sync with sites/comida/mercado.mjs (zones and product ids).
 const COMIDA_ORDER_ZONES = ['Asunción', 'Fernando de la Mora', 'Luque', 'San Lorenzo', 'Lambaré', 'Otra zona (consultar)'];
 const COMIDA_ORDER_DAYS = ['Viernes', 'Sábado'];
-const COMIDA_PRODUCTS = ['canasta-chica', 'canasta-mediana', 'canasta-grande', 'queso-1', 'queso-2', 'huevos', 'pack-asado', 'pack-semana'];
+const COMIDA_PRODUCTS = ['canasta-chica', 'canasta-mediana', 'canasta-grande', 'queso-1', 'queso-2', 'huevos', 'pack-asado', 'pack-semana', 'carne-costilla', 'carne-vacio', 'carne-tapa-de-cuadril', 'carne-entrana', 'carne-milanesa', 'carne-molida', 'cerdo-bondiola', 'cerdo-costillar', 'pollo-entero', 'chorizo-parrillero', 'pescado-surubi', 'pescado-pacu', 'pescado-dorado'];
 
 $wantsJson = str_contains($_SERVER['HTTP_ACCEPT'] ?? '', 'application/json');
 

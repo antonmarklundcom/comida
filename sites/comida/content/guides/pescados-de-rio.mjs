@@ -111,7 +111,7 @@ export default {
     ['¿Cuánto pescado calcular por persona?','Como estimación de la redacción, unos 300 g de postas o filetes por adulto, o entre 400 y 500 g si el pescado va entero, porque cabeza, espinas y piel pesan. Ajustalo según lo que haya en la mesa.']
   ],
   recipes:['receta-surubi-a-la-parrilla','receta-pacu-a-la-parrilla','receta-dorado-al-horno','receta-pira-caldo'],
-  related:['guia-surubi','guia-pacu','guia-dorado','guia-mercado-de-abasto','coleccion-semana-santa','guia-comida-tipica-paraguaya','guia-cuanta-comida-por-persona'],
+  related:['producto-pescado','guia-surubi','guia-pacu','guia-dorado','guia-mercado-de-abasto','coleccion-semana-santa','guia-comida-tipica-paraguaya','guia-cuanta-comida-por-persona'],
   ctaTitle:'¿Pescado para un evento o una reunión grande?',
   ctaText:'Si querés servir pescado de río o una parrillada mixta en tu evento, contanos la fecha, la zona y la cantidad de invitados y te ayudamos a consultar catering en Gran Asunción.',
   waMessage:'Hola, quiero consultar catering con pescado de río para un evento.'

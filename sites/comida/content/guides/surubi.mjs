@@ -94,7 +94,7 @@ export default {
     ['¿Se puede congelar el surubí?','Sí. Congelalo el día de la compra, en postas o filetes envueltos por separado, y usalo dentro de los tres meses. Descongelalo en la heladera, no sobre la mesada.']
   ],
   recipes:['receta-surubi-a-la-parrilla','receta-pira-caldo','receta-milanesas'],
-  related:['guia-pescados-de-rio','guia-pacu','guia-dorado','guia-mercado-de-abasto','coleccion-semana-santa'],
+  related:['producto-pescado','guia-pescados-de-rio','guia-pacu','guia-dorado','guia-mercado-de-abasto','coleccion-semana-santa'],
   ctaTitle:'¿Surubí a la parrilla para tu evento?',
   ctaText:'Si querés sumar pescado de río a la parrillada de un cumpleaños o un evento, contanos la fecha, la zona y la cantidad de invitados y te ayudamos a consultar catering en Gran Asunción.',
   waMessage:'Hola, quiero consultar catering con surubí a la parrilla para un evento.'

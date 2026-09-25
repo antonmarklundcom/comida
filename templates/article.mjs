@@ -4,7 +4,7 @@ import {sectionHtml,faqHtml,sourceLine,cardGrid,tableHtml} from './recipe-lib.mj
 import {leadForm,orderForm,recetarioForm,subscribeForm} from './lead-form.mjs';
 import mercado from '../sites/comida/mercado.mjs';
 // Which product the order form preselects on each /mercado/ page.
-const PRESELECT={'producto-canasta':['canasta-mediana'],'producto-queso':['queso-1'],'producto-carne':['pack-asado']};
+const PRESELECT={'producto-canasta':['canasta-mediana'],'producto-queso':['queso-1'],'producto-carne':['pack-asado'],'producto-pescado':['pescado-surubi']};
 // Guides, meat cuts and viandas share one long-form layout: facts box, sections, optional tool, FAQ, related.
 export function article({page:a,route,routes,pages,picture,wa,config}){
   const facts=a.facts?.length?`<dl class="facts facts-wide">${a.facts.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>`:'';
