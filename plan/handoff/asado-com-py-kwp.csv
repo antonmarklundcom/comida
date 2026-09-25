@@ -1,0 +1,430 @@
+keyword,volume,cpc_low_sek,cpc_high_sek,comida_page
+hamburguesas cerca de mi,8100,5.50,14.25,
+churrasqueria,4400,,,/guias/churrasqueria/
+lomito,4400,4.07,10.81,/recetas/sandwich-de-lomito/
+carne,3600,,,
+dorado (mixed intent: fish and brands),2900,,,
+osobuco,2900,,,/recetas/osobuco-a-la-olla/
+picaña,2900,,,/recetas/picana-a-la-parrilla/
+surubí,2900,,,/guias/surubi/
+parrilla para asadito,2400,0.19,1.87,/guias/parrilla-para-asadito/
+punto carne,2400,,,
+tapa cuadril,2400,,,/recetas/tapa-de-cuadril-al-horno/
+asado ala olla,1900,,,
+asado en olla,1900,,,/recetas/asado-a-la-olla/
+bife de chorizo,1900,,,/carne/bife-de-chorizo/
+bondiola de cerdo,1900,,,/recetas/bondiola-al-horno/
+carniceria,1900,,,
+estofado de carne,1900,,,/recetas/estofado-de-carne/
+matambre,1900,,,/carne/matambre/
+parrilladas,1900,0.20,4.26,/guias/parrillada/
+peceto,1900,,,/recetas/peceto-al-horno/
+bondiola,1600,,,/carne/bondiola-de-cerdo/
+cerdo,1600,,,/guias/cortes-de-cerdo/
+cordero,1600,,,/recetas/cordero-al-horno/
+matambre a la pizza,1600,,,/recetas/matambre-a-la-pizza/
+matambre ala pizza,1600,,,
+panceta,1600,,,/recetas/panceta-crocante/
+brasa y leña,1300,,,
+chipa asador,1300,,,/recetas/chipa-asador/
+el dorado restaurante,1300,,,
+entraña,1300,,,/recetas/entrana-a-la-parrilla/
+hamburguesas caseras,1300,,,/recetas/hamburguesas-caseras/
+ojo de bife,1300,,,/carne/ojo-de-bife/
+restaurante el dorado,1300,,,
+sandwich de lomito,1300,,,/recetas/sandwich-de-lomito/
+hamburgueseria,1000,3.29,7.27,
+lasaña de carne,1000,,,/recetas/lasana-de-carne/
+milanesa de pollo,1000,,,/recetas/milanesas/
+vacío,1000,,,/recetas/vacio-a-la-parrilla/
+canelones de carne,880,,,/recetas/canelones/
+carne de vacuno,880,,,
+carne magra,880,,,/guias/carne-magra/
+cuadril,880,,,/carne/tapa-de-cuadril/
+cuadrilo,880,,,/carne/tapa-de-cuadril/
+lechón,880,,,/catering/lechon-para-eventos/
+magra carne,880,,,/guias/carne-magra/
+tomahawk carne,880,,,/recetas/tomahawk-a-la-parrilla/
+aguja (mixed intent: mostly sewing),720,,,
+asado ala parrilla,720,,,/guias/asado-a-la-parrilla/
+carniceria la familia,720,,,
+chuleta,720,,,/recetas/chuletas-de-cerdo/
+chuleton,720,,,/carne/chuleton/
+colita cuadril,720,,,/recetas/colita-de-cuadril-a-la-parrilla/
+costilla de cerdo,720,,,/carne/costillar-de-cerdo/
+costillar de cerdo,720,,,/recetas/costillar-de-cerdo-al-horno/
+costillas de cerdos,720,,,
+la familia carniceria,720,,,
+lomito de cerdo,720,,,
+lomo de cerdo,720,,,/recetas/lomo-de-cerdo-al-horno/
+milanesas de carne,720,,,/recetas/milanesas/
+bifes de carne,590,,,
+carnaza negra,590,,,/carne/carnaza/
+carne de res,590,,,/guias/cortes-de-carne-vacuna/
+carne molida,590,,,
+chuleta de cerdo,590,,,/recetas/chuletas-de-cerdo/
+corte de carnes,590,,,/guias/cortes-de-carne-vacuna/
+cortes de carne,590,,,/guias/cortes-de-carne-vacuna/
+croqueta de carne,590,,,/recetas/croquetas-de-carne/
+empanadas de carne,590,,,/recetas/empanadas-de-carne/
+pan de carne,590,,,/recetas/pan-de-carne/
+peceto vitel tone,590,,,/recetas/vitel-tone/
+vacio carne,590,,,
+bola de lomo,480,,,/carne/bola-de-lomo/
+bolo de lomo,480,,,/carne/bola-de-lomo/
+carniceria santa ana,480,,,
+garron de vaca,480,,,/carne/garron/
+lomito árabe,480,,,/recetas/lomito-arabe/
+marucha,480,,,/carne/marucha/
+matambre relleno,480,,,/recetas/matambre-arrollado/
+matambrito de cerdo,480,,,/recetas/matambrito-de-cerdo-a-la-pizza/
+bondiola de vaca,390,,,
+carne de cerdo,390,,,/guias/cortes-de-cerdo/
+garrón,390,,,/carne/garron/
+pacu pescado,390,,,/guias/pescados-de-rio/
+pacú pescado,390,,,/guias/pescados-de-rio/
+parrillada en asuncion,390,,,/guias/parrillada/
+pernil de cerdo,390,,,/recetas/pernil-de-cerdo-al-horno/
+bife ancho,320,,,/carne/ojo-de-bife/
+brasas,320,,,
+carnaza blanca,320,,,/carne/carnaza/
+carne de caballo,320,,,
+carne de wagyu,320,,,/carne/wagyu/
+como hacer asado a la olla,320,,,/recetas/asado-a-la-olla/
+hamburguesas de mcdonalds,320,,,
+hamburguesas gourmet,320,,,
+matambre de cerdo,320,,,
+panes para hamburguesa,320,,,
+peceto precio,320,,,/carne/peceto/
+picanha,320,,,/carne/picana/
+carne para asada,260,,,
+carne para asado,260,,,/guias/cuanta-carne-por-persona/
+chuleton de vaca,260,,,/carne/chuleton/
+churrasquería en asunción,260,,,/guias/churrasqueria/
+corte tomahawk,260,,,/recetas/tomahawk-a-la-parrilla/
+entraña de vaca,260,,,
+hamburguesa de pollo,260,,,/recetas/hamburguesa-de-pollo/
+hamburguesas mcdonald,260,,,
+hamburguesas mcdonalds,260,,,
+lechon a la parrilla,260,,,/recetas/lechon-al-horno/
+nalga,260,,,/carne/nalga/
+panceta de cerdo,260,,,/recetas/panceta-crocante/
+pescado pacu,260,,,/guias/pacu/
+supermercado stock ofertas de carnes hoy,260,,,
+tapa cuadril al horno,260,,,/recetas/tapa-de-cuadril-al-horno/
+tapa de asado,260,,,/carne/tapa-de-asado/
+aguja carne,210,,,/carne/aguja/
+carne aguja,210,,,/carne/aguja/
+carnicería 3 hermanos,210,,,
+carniceria jr,210,,,
+carniceria los amigos,210,,,
+corte americano carne,210,,,/guias/cortes-de-carne-vacuna/
+cortes de carne vacuna,210,,,/guias/cortes-de-carne-vacuna/
+costillar precio,210,,,/carne/costillar-de-cerdo/
+costillas de cerdo al horno,210,,,/recetas/costillas-de-cerdo-a-la-barbacoa/
+hamburguesas a la parrilla,210,,,
+kit de asado,210,,,
+los amigos carniceria,210,,,
+pacu pez,210,,,/guias/pacu/
+pernil,210,,,/recetas/pernil-de-cerdo-al-horno/
+picanha grill,210,,,
+solomillo de cerdo,210,,,/recetas/solomillo-de-cerdo/
+wagyu carne,210,,,/carne/wagyu/
+asado de tira,170,,,/recetas/asado-de-tira-a-la-parrilla/
+cabrito,170,,,/carne/cabrito/
+carne de hamburguesa,170,,,
+carne de kobe,170,,,
+carne de oveja,170,,,
+carne de pollo,170,,,
+carne de vaca partes,170,,,
+carne kobe,170,,,
+carne marucha,170,,,/carne/marucha/
+carne molida precio,170,,,
+carne vacuna,170,,,
+carniceria aaa,170,,,
+carnicería aaa,170,,,
+carniceria el amigo,170,,,
+carniceria san antonio,170,,,
+cerdo en ingles,170,,,
+colita cuadril al horno,170,,,/recetas/colita-de-cuadril-a-la-parrilla/
+colita de cuadril,170,,,/recetas/colita-de-cuadril-a-la-parrilla/
+colitadecuadril,170,,,/carne/colita-de-cuadril/
+costilla de vaca,170,,,/carne/costilla-de-vaca/
+costilla grill de cerdo,170,,,
+costillar de cerdo precio,170,,,
+costillar de novillo,170,,,/carne/costilla-de-vaca/
+hamburguesa de carne,170,,,
+marucha carne,170,,,/carne/marucha/
+matambre de vaca,170,,,
+osobuco precio,170,,,/carne/osobuco/
+panceta ahumada,170,,,/carne/panceta/
+picaña precio,170,,,/carne/picana/
+tapa cuadril precio,170,,,/carne/tapa-de-cuadril/
+tapa de cuadril,170,,,/recetas/tapa-de-cuadril-al-horno/
+arrollado de matambre,140,,,/recetas/matambre-arrollado/
+bife de vacio,140,,,
+bola de lomo precio,140,,,/carne/bola-de-lomo/
+carne de bufala,140,,,
+carne de chancho,140,,,/guias/cortes-de-cerdo/
+carne molida de pollo,140,,,
+carne para hamburguesa,140,,,
+carniceria el rancho,140,,,
+carnicería los hermanos,140,,,
+carniceria san isidro,140,,,
+carniceria san jose,140,,,
+carnicería san jose,140,,,
+carnicería san miguel,140,,,
+carnicerias san jose,140,,,
+carré de cerdo,140,,,/carne/carre-de-cerdo/
+cerdo iberico,140,,,
+churrascos,140,,,
+como se hace asado a la olla,140,,,
+costillar,140,,,
+costillar al horno,140,,,/recetas/costillar-de-cerdo-al-horno/
+kit asador,140,,,
+picaña a la parrilla,140,,,/recetas/picana-a-la-parrilla/
+queso de cerdo,140,,,
+tapa cuadril a la parrilla,140,,,/carne/tapa-de-cuadril/
+bondiola de cerdo precio,110,,,
+carne de cordero,110,,,/recetas/cordero-al-horno/
+codillo de cerdo,110,,,
+codillos de cerdo,110,,,
+costilla vacuna,110,,,/carne/costilla-de-vaca/
+matambre arrollado,110,,,/recetas/matambre-arrollado/
+pacú,110,,,/guias/pacu/
+precio de carne en frigorífico,110,,,
+precio de costilla en chortitzer,110,,,
+precio de costilla en superseis,110,,,
+surubi pez,110,,,/guias/surubi/
+bondiolas de cerdo al horno,90,,,
+carne de cerdo precio,90,,,
+costilla a la parrilla,90,,,/recetas/asado-de-tira-a-la-parrilla/
+lomo de cerdo precio,90,,,
+matambre precio,90,,,/carne/matambre/
+matambrito de cerdo a la pizza,90,,,/recetas/matambrito-de-cerdo-a-la-pizza/
+pizza de matambre,90,,,
+bife angosto,70,,,/carne/bife-de-chorizo/
+bondiola que es,70,,,
+carne wagyu precio,70,,,/carne/wagyu/
+colita cuadril a la parrilla,70,,,/recetas/colita-de-cuadril-a-la-parrilla/
+cordero oveja,70,,,/carne/cordero/
+costillar de cerdo a la parrilla,70,,,/carne/costillar-de-cerdo/
+hamburguesas delivery,70,4.52,11.80,
+kit asado tramontina,70,0.34,1.41,
+kit asador tramontina,70,0.34,1.41,
+lechon precio,70,,,/carne/lechon/
+lechón precio,70,,,/carne/lechon/
+matambre a la parrilla,70,,,/carne/matambre/
+matambre al horno,70,,,
+matambre de carne,70,,,
+matambre vacuno,70,,,
+ofertas de carnes hoy,70,,,
+pernil de cerdo al horno,70,,,/recetas/pernil-de-cerdo-al-horno/
+precio de costilla,70,,,
+precio de costillar,70,,,
+tapa asado,70,,,
+tocino de cerdo,70,,,
+alas de pollo a la parrilla,50,,,
+asado de costillar,50,,,
+asado lechon,50,,,/recetas/lechon-al-horno/
+bondiola desmechada,50,,,/recetas/bondiola-desmechada/
+carne matambre,50,,,
+chortitzer carne precio,50,,,
+costilla de chancho,50,,,
+costilla el kilo,50,,,
+costillar de res,50,,,
+costillas de cerdo en barbacoa,50,,,/recetas/costillas-de-cerdo-a-la-barbacoa/
+falda parrillera precio,50,,,
+grasa de cerdo precio,50,,,
+kit asado,50,,,
+lechon a la estaca,50,,,/carne/lechon/
+lechon asado,50,,,/recetas/lechon-al-horno/
+matambre a la pizza a la parrilla,50,,,/recetas/matambre-a-la-pizza/
+matambre a la pizza al horno,50,,,/recetas/matambre-a-la-pizza/
+matambre al horno relleno,50,,,/recetas/matambre-arrollado/
+matambre arrollado hervido,50,,,/recetas/matambre-arrollado/
+matambre de cerdo a la pizza,50,,,/recetas/matambrito-de-cerdo-a-la-pizza/
+matambre de cerdo precio,50,,,
+matambre de pollo,50,,,
+matambre pizza horno,50,,,
+matambrito de cerdo precio,50,,,/carne/matambrito-de-cerdo/
+molino de carne precio,50,,,
+ofertas de carnes en supermercados hoy,50,,,
+peceto el kilo,50,,,/carne/peceto/
+pollo asado cerca de mi,50,,,
+precio de carne en stock,50,,,
+tapa cuadril de cerdo,50,,,
+tomahawk precio,50,,,/carne/tomahawk/
+alita a la parrilla,40,,,
+arrollado de cerdo,40,,,
+asado delivery,40,2.85,8.75,
+bacon es panceta,40,,,/carne/panceta/
+bacon panceta,40,,,
+carne cuadril,40,,,/carne/tapa-de-cuadril/
+carne precio,40,,,
+carne tapa cuadril,40,,,
+costilla de cerdo a la olla,40,,,
+costilla madurada,40,,,
+delivery asado,40,2.85,8.75,
+dorado de mar,40,,,/guias/dorado/
+entraña precio,40,,,/carne/entrana/
+falda carne precio,40,,,
+jugos para deshacer piedras riñon,40,,,
+kit asador personalizado,40,,,
+kit para asador,40,,,
+lechon faenado,40,,,
+lechon vivo,40,,,
+lechón vivo,40,,,
+lomito precio,40,,,
+matambrito de cerdo al horno,40,,,/recetas/matambrito-de-cerdo-a-la-pizza/
+ofertas de carnes,40,,,
+panceta bacon,40,,,/carne/panceta/
+pierna de cerdo precio por kilo,40,,,
+pollo a la barbacoa,40,,,
+precio de la carne,40,,,
+precio de peceto en stock,40,,,
+precio del chorizo parrillero,40,,,
+asada por kilo,30,,,
+asado por kilo,30,,,
+asar costillas,30,,,
+bife de chorizo precio,30,,,
+bondiola de cerdo que es,30,,,
+carne costilla,30,,,
+carne de chancho precio,30,,,
+carne de hamburguesa precio,30,,,
+carne de oveja precio,30,,,
+carne de wagyu precio,30,,,
+carne en oferta,30,,,
+carne kobe precio,30,,,
+carne para hamburguesa precio,30,,,
+carne vacio precio,30,,,/carne/vacio/
+colita cuadril precio,30,,,/carne/colita-de-cuadril/
+colita de cuadril al horno,30,,,/recetas/colita-de-cuadril-a-la-parrilla/
+cordero horno,30,,,/recetas/cordero-al-horno/
+costilla asada,30,,,
+costilla de lomo,30,,,
+costilla para asado,30,,,/recetas/asado-de-tira-a-la-parrilla/
+costilla vacuna al horno,30,,,
+costillar ahumado,30,,,
+costillas ahumada,30,,,
+costillas de vaca al horno,30,,,
+el pacu,30,,,/guias/pacu/
+hamburguesas delivery cerca de mi,30,,,
+matambre a la olla,30,,,
+matambre arrollado de la abuela,30,,,
+matambre atado,30,,,
+matambre precio por kilo,30,,,
+matambre que es,30,,,
+matambre relleno de carne,30,,,
+paleta de cerdo precio,30,,,
+panceta de cerdo precio,30,,,
+panceta tocino,30,,,
+pechito de cerdo,30,,,/carne/costillar-de-cerdo/
+pernil ahumado,30,,,
+pollos asados,30,,,
+precio de carne wagyu,30,,,/carne/wagyu/
+tiras de costilla,30,,,
+tomahawk carne precio,30,,,
+asado de oveja,20,,,
+bola de lomo carne,20,,,
+bondiola a la cerveza,20,,,/recetas/bondiola-desmechada/
+bondiola a la parrilla,20,,,/carne/bondiola-de-cerdo/
+bondiola ahumada,20,,,
+bondiola de cerdo a la parrilla,20,,,
+bondiola precio,20,,,
+caldo de matambre,20,,,
+carne bola de lomo,20,,,/carne/bola-de-lomo/
+carne de búfalo,20,,,
+carne tomahawk precio,20,,,
+cordero asado,20,,,/carne/cordero/
+cordero parrilla,20,,,
+cortes de carnes premium,20,,,
+cortes premium de carne,20,,,
+costilla a la olla,20,,,
+costilla al disco,20,,,
+costilla al horno con papel aluminio,20,,,
+costilla de cerdo agridulce,20,,,
+costilla de cerdo cruda,20,,,
+costilla de oveja,20,,,
+costilla de res precio,20,,,
+costilla deshuesada,20,,,
+costillar a la olla,20,,,
+costillas a la estaca,20,,,
+costillas bbq,20,,,/recetas/costillas-de-cerdo-a-la-barbacoa/
+costillas de oveja,20,,,
+costillas de ternera,20,,,
+costillitas bbq,20,,,/recetas/costillas-de-cerdo-a-la-barbacoa/
+delivery de hamburguesas,20,,,
+kit de asado tramontina,20,,,
+kit parrillero tramontina,20,,,
+lechon al horno,20,,,/recetas/lechon-al-horno/
+lechon entero,20,,,/carne/lechon/
+lomitos delivery,20,,,
+lomo vacuno precio,20,,,
+matambre a la leche,20,,,
+matambre a la napolitana,20,,,
+matambre de cerdo al horno,20,,,
+matambre de cerdo que parte es,20,,,
+matambre de chancho,20,,,
+matambre de vaca precio,20,,,
+matambre vacuno a la pizza,20,,,
+matambrito de cerdo a la parrilla,20,,,
+pacu pescado de rio,20,,,/guias/pacu/
+panceta cruda,20,,,
+panceta fresca,20,,,
+panceta precio,20,,,
+pernil de cerdo precio,20,,,
+pierna de cerdo precio,20,,,
+pizza a la matambre,20,,,
+pollo asado parrilla,20,,,
+precio carne de cerdo hoy,20,,,
+precio de la carne hoy,20,,,
+precio de la costilla,20,,,
+precio de lechón de 10 kilos,20,,,/carne/lechon/
+precio de peceto,20,,,
+precio de picaña,20,,,
+precios de carnes en superseis,20,,,
+relleno de matambre,20,,,
+ribs de cerdo,20,,,
+salemma precios de carnes,20,,,
+tapa de nalga,20,,,/carne/nalga/
+tocino de cerdo precio,20,,,
+wagyu carne precio,20,,,
+alitas bbq,10,,,/recetas/alitas-de-pollo-al-horno/
+asado colita de cuadril,10,,,/carne/colita-de-cuadril/
+bife ancho como preparar,10,,,/carne/bife-ancho/
+bife ancho precio,10,,,/carne/bife-ancho/
+bife ancho que es,10,,,/carne/bife-ancho/
+bife ancho que parte es,10,,,/carne/bife-ancho/
+bife ancho recetas,10,,,/carne/bife-ancho/
+bife ancho y bife angosto,10,,,/carne/bife-ancho/
+bife angosto con hueso,10,,,
+bife angosto parrilla,10,,,
+bife angosto precio,10,,,
+bife de costilla angosto,10,,,
+bola de lomo otros nombres,10,,,/carne/bola-de-lomo/
+bola de lomo parte de la vaca,10,,,/carne/bola-de-lomo/
+bola de lomo precio por kilo,10,,,/carne/bola-de-lomo/
+carne a domicilio,10,,,
+carne cuadril para que sirve,10,,,
+carne cuadril precio,10,,,
+carne para asado precio,10,,,
+carne por mayor,10,,,
+carnicería delivery,10,,,
+carnicería online,10,,,
+catering barbacoa,10,,,
+coccion colita de cuadril al horno,10,,,
+cocinar colita de cuadril,10,,,/carne/colita-de-cuadril/
+cordero entero,10,,,
+cordero guisado,10,,,
+cortes premium,10,,,
+cuánta carne por persona,10,,,/guias/cuanta-carne-por-persona/
+domicilios hamburguesas,10,,,
+hamburguesa a domicilio cerca de mi,10,,,
+hamburguesa a domicilio cerca de mí,10,,,
+hamburguesas a domicilio cerca de mí ubicación,10,,,
+hamburguesas delivery 24 horas,10,,,
+lomo vetado oferta,10,,,
+pollo asado a domicilio,10,,,
+pollo asado delivery,10,,,
+pollos asados a domicilio cerca de mí ubicación,10,,,

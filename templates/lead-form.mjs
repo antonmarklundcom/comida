@@ -73,7 +73,7 @@ export function orderForm({mercado,wa,source,preselect=[],waMessage}){
  return `<form class="card-form lead-form order-form" data-lead-form data-single action="${ENDPOINT}" method="post" novalidate>
 <div class="lf-head"><h2 id="${p}-h">${mercado.open?'Hacé tu pedido':'Anotate para el próximo reparto'}</h2><p class="hint">Cierre de pedidos: ${esc(mercado.cutoff)}. Entregas: ${esc(mercado.deliveryDays.join(' y ').toLowerCase())}. Te confirmamos el total por WhatsApp antes de comprar.</p></div>
 ${hidden('pedido',source)}
-<fieldset><legend>Qué querés recibir</legend><div class="order-items">${mercado.products.map(product).join('')}</div></fieldset>
+${Object.entries(mercado.groups).map(([g,title])=>{const its=mercado.products.filter(it=>it.group===g);return its.length?`<fieldset><legend>${esc(title)}</legend><div class="order-items">${its.map(product).join('')}</div></fieldset>`:''}).join('')}
 <div class="fields">
 <div class="field"><label class="lbl" for="${p}-zona">Zona de entrega</label><select id="${p}-zona" name="zona" required><option value="">Elegí tu zona</option>${zones.map(z=>`<option>${esc(z)}</option>`).join('')}</select></div>
 <div class="field"><label class="lbl" for="${p}-dia">Día de entrega</label><select id="${p}-dia" name="dia" required>${mercado.deliveryDays.map(d=>`<option>${esc(d)}</option>`).join('')}</select></div>

@@ -170,3 +170,11 @@ Meat, pork, poultry and river-fish round saved as `plan/research/kwp-round6.csv`
 - Updates: costillar page now targets "costilla de cerdo"; matambre, bondiola, Navidad, Fin de año, Semana Santa and the meat-per-person guide (pork, lamb, chicken, fish rows) link the new pages; /carne/ hub lists the meat guides.
 - /recetas/ hub slimmed (recipe cards without the one-line text): 93.3 → 77.8 KB; new QA gate fails any page over 90 KB (paginate hubs before adding ~50 more recipes).
 Counts: **266 HTML / 251 sitemap URLs**, verify 82k checks, 4,471 substantive paragraphs, 0 shared; PHP 24/24; QA gate 18/18; 390 px sweep 251/251. No new images (credits not approved for this batch).
+
+## 2026-09-25: Mercado meat and fish, photos generated, asado.com.py keyword handoff (Opus 5.5)
+
+- 33 photos generated for the meat deep pages (GPT Image 2.5 Sunburst, medium, 1k, 4:3, 0.5 credit each = 16.5; ledger checked: 33 lines at 05:18:18-05:19:42Z; running total 60.0 = cap). Converting them with webimg was blocked on the laptop by the auto-mode classifier (npx from GitHub). The images are not placed yet: the job list is in `plan/handoff/photos-2026-09-25-jobs.csv` and the ready prompt for a cloud session is `plan/handoff/photos-cloud-prompt.md`.
+- Mercado: the order form is now grouped (verduras, queso, carne, pescado). 10 meat, pork and chicken items and 3 river-fish items were added, all `available:false` ("a consultar") until a supplier is confirmed. The PHP allowlist matches (QA gate).
+- New page /mercado/pescado-semana-santa/: an Easter fish pre-order list (interest only, no payment, no promised date), linked from the fish guides.
+- `plan/handoff/asado-com-py-kwp.md` and `.csv`: 429 meat and grill keywords (about 139,580 searches a month) grouped for asado.com.py, with the comida page already targeting each phrase and the rules for splitting the two sites.
+- Checks: 267 HTML / 252 sitemap URLs, verify 82,726 checks, 0 shared paragraphs, PHP 24/24, QA gate 18/18.
