@@ -38,11 +38,13 @@ ensaladas rusa,3600,,,3,recipes
 pollerias cerca de mi,3600,5.41,14.75,2,restaurant-nearme
 yogurt griego,3600,1.69,7.25,3,dairy
 cesar ensalada,2900,,,3,recipes
+dorado (mixed intent: fish and brands),2900,,,6,pollo-pescado-otros
 ensalada cesar,2900,,,3,recipes
 osobuco,2900,,,2 3,meat-cut recipes
 picaña,2900,,,2 3,meat-cut recipes
 pizza napolitana,2900,,,4,pizza-empanada-carne
 superseis online,2900,2.09,10.52,2,supermarket-brand
+surubí,2900,,,6,pollo-pescado-otros
 jugo para ninos,2400,0.13,3.74,5,bebidas-merienda-choclo
 kfc cerca de mi,2400,,,2,restaurant-brand
 parrilla para asadito,2400,0.19,1.87,2,other
@@ -50,6 +52,7 @@ pizzabrosa,2400,5.26,9.02,4,pizza-empanada-carne
 punto carne,2400,,,2 4,meat-butcher-brand pizza-empanada-carne
 supermercado edward,2400,,,2,supermarket-brand
 tacos,2400,,,4,pizza-empanada-carne
+tapa cuadril,2400,,,6,vacuno
 torta de cumoleaños,2400,,,5,tortas-pan-fiestas
 torta de cumpleaños,2400,,,5,tortas-pan-fiestas
 torta de cunpleaños,2400,,,5,tortas-pan-fiestas
@@ -58,7 +61,7 @@ tortilla paraguay,2400,,,2 3,recipe recipes
 asado ala olla,1900,,,2 3,meat-cooking recipes
 asado en olla,1900,,,2 3 4,meat-cooking recipes pizza-empanada-carne
 bife de chorizo,1900,,,2,meat-cut
-bondiola de cerdo,1900,,,3,recipes
+bondiola de cerdo,1900,,,3 6,recipes cerdo
 carniceria,1900,,,2,meat-butcher-brand
 chipa soo,1900,,,3,recipes
 comida saludables,1900,,,3,recipes
@@ -66,6 +69,7 @@ desayunos saludables,1900,0.09,6.09,3,recipes
 empanada de mandioca,1900,,,4 5,pizza-empanada-carne bebidas-merienda-choclo
 estofado de carne,1900,,,3,recipes
 kiveve,1900,,,5,paraguaya-chipa
+matambre,1900,,,6,matambre-cortes
 mbeju receta,1900,,,2 3,recipe recipes
 muslo de pollo,1900,14.88,14.88,3,recipes
 parrilladas,1900,0.20,4.26,2,restaurant-editorial
@@ -78,15 +82,19 @@ torta para hombre,1900,,,5,tortas-pan-fiestas
 tortas para hombres,1900,,,5,tortas-pan-fiestas
 albóndigas,1600,,,3,recipes
 boloñesa salsa,1600,,,3,recipes
+bondiola,1600,,,6,cerdo
 cena saludable,1600,0.76,5.09,3,recipes
 cenas saludables,1600,0.76,5.09,3,recipes
 cerdo,1600,,,2 4,meat-cut pizza-empanada-carne
+cordero,1600,,,6,pollo-pescado-otros
 guiso de arroz,1600,,,3,recipes
 ingrediente para chipa,1600,,,2,recipe
 ingredientes para chipa,1600,,,3,dairy
 ingredientes para chipacitos,1600,,,3 5,dairy paraguaya-chipa
-matambre a la pizza,1600,,,3,recipes
+matambre a la pizza,1600,,,3 6,recipes matambre-cortes
+matambre ala pizza,1600,,,6,matambre-cortes
 mercado central de abasto,1600,,,3,abasto-produce
+panceta,1600,,,6,cerdo
 pollo frito,1600,3.57,14.88,3,recipes
 queso cottage,1600,1.18,2.78,3,dairy
 queso paraguay,1600,,,3 4,dairy pizza-empanada-carne
@@ -100,6 +108,7 @@ chipas paraguayas,1300,,,2,recipe
 comida paraguaya,1300,,,3,recipes
 comidas del paraguay,1300,,,2,recipe
 como en casa,1300,,,1,brand-restaurant
+cuadrada,1300,,,6,matambre-cortes
 el dorado restaurante,1300,,,2,restaurant-brand
 empanadas don oso,1300,,,4,pizza-empanada-carne
 entraña,1300,,,2,meat-cut
@@ -145,6 +154,7 @@ reviro paraguay,1000,,,2,recipe
 salpicon de pollo,1000,,,3,recipes
 supermercados near me,1000,,,2,other
 tortillas,1000,,,4,pizza-empanada-carne
+vacío,1000,,,6,matambre-cortes
 yogurt natural,1000,,,3,dairy
 canelones de carne,880,,,3,recipes
 carne de vacuno,880,,,2 4,meat-cut pizza-empanada-carne
@@ -153,11 +163,15 @@ cecinas,880,,,2 4,meat-cut pizza-empanada-carne
 chef ramsay gordon,880,,,1,celebrity-chef
 cocido paraguayo,880,,,5,bebidas-merienda-choclo
 croquetas,880,,,3,recipes
+cuadril,880,,,6,vacuno
+cuadrilo,880,,,6,vacuno
 deficit calorico,880,0.94,4.05,3,viandas-dieta
 don vito empanadas,880,4.66,15.67,4,pizza-empanada-carne
+falda (mixed intent: mostly clothing),880,,,6,matambre-cortes
 ka i ladrillo,880,,,5,paraguaya-chipa
 la fortuna lacteos,880,,,3,dairy
 las teresas eventos & catering,880,,,2,catering
+lechón,880,,,6,cerdo
 magra carne,880,,,2 4,meat-cut pizza-empanada-carne
 mbeju ingredientes,880,,,2 3,recipe recipes
 merienda saludable,880,,,3,recipes
@@ -174,10 +188,12 @@ restaurante paraiso,880,,,2,restaurant-brand
 rica pizza,880,,,4,pizza-empanada-carne
 roquefort queso,880,,,3,dairy
 supermercado guaraní,880,,,2,supermarket-brand
+suprema de pollo,880,14.89,14.89,6,pollo-pescado-otros
 tallarin de pollo,880,,,3,recipes
 tomahawk carne,880,,,2 4,meat-cut pizza-empanada-carne
 tortas para mujer,880,,,5,tortas-pan-fiestas
 wrap de pollo,880,,,3,recipes
+aguja (mixed intent: mostly sewing),720,,,6,matambre-cortes
 asado ala parrilla,720,,,2,meat-cooking
 caldo de pollo,720,,,3,recipes
 carniceria la familia,720,,,2,meat-butcher-brand
@@ -187,8 +203,11 @@ chipa almidón,720,,,2 3,recipe recipes
 chipa kavure,720,,,3,recipes
 chuleta,720,,,2 3 4,meat-cut recipes pizza-empanada-carne
 chuleton,720,,,2 4,meat-cut pizza-empanada-carne
+colita cuadril,720,,,6,vacuno
 comidas típicas del paraguay,720,,,2,recipe
+costilla de cerdo,720,,,6,cerdo
 costillar de cerdo,720,,,3,recipes
+costillas de cerdos,720,,,6,cerdo
 delivery cerca de mi,720,3.44,15.40,1,delivery-generic
 la familia carniceria,720,,,2,meat-butcher-brand
 la italiana pizzeria,720,5.45,12.20,4,pizza-empanada-carne
@@ -215,6 +234,7 @@ bifes de carne,590,,,2,meat-cut
 bizcochuelo casero,590,,,3,recipes
 bizcochuelo facil,590,,,3,recipes
 calabresa pizza,590,,,4,pizza-empanada-carne
+carnaza negra,590,,,6,vacuno
 carne de res,590,,,2 3 4,meat-cut recipes pizza-empanada-carne
 carne molida,590,,,2 3 4,meat-cut recipes pizza-empanada-carne
 chuleta de cerdo,590,,,2 3 4,meat-cut recipes pizza-empanada-carne
@@ -234,6 +254,7 @@ merienda,590,,,5,bebidas-merienda-choclo
 modernas tortas para mujeres,590,,,5,tortas-pan-fiestas
 mujer tortas de cumpleaños,590,,,5,tortas-pan-fiestas
 nuggets de pollo,590,,,3,recipes
+paleta (mixed intent),590,,,6,matambre-cortes
 pan de carne,590,,,2 3 4,meat-cooking recipes pizza-empanada-carne
 peceto vitel tone,590,,,3,recipes
 pizza asuncion,590,5.55,17.20,2,restaurant-editorial
@@ -249,12 +270,15 @@ restaurante hooters,590,,,2,restaurant-brand
 restaurantes cerca,590,0.75,11.21,2,restaurant-nearme
 tacos mexicanos,590,,,4,pizza-empanada-carne
 tortas de olimpia,590,,,5,tortas-pan-fiestas
+tortuguita (mixed intent: also a candy),590,,,6,matambre-cortes
 vacio carne,590,,,2 4,meat-cut pizza-empanada-carne
 viandas,590,,,2,viandas
 yogur,590,,,3,dairy
 yogur griego trebol,590,,,3,dairy
 yogur natural,590,,,3,dairy
 areco empanadas,480,,,4,pizza-empanada-carne
+bola de lomo,480,,,6,vacuno
+bolo de lomo,480,,,6,vacuno
 boloñesa,480,,,3,recipes
 buey,480,,,2 4,meat-cut pizza-empanada-carne
 carniceria santa ana,480,,,2,meat-butcher-brand
@@ -266,11 +290,15 @@ comidas típicas de paraguay,480,,,2,recipe
 cuartirolo queso,480,,,3,dairy
 empanadas de pollo,480,,,3 4,recipes pizza-empanada-carne
 fugazzeta,480,,,4,pizza-empanada-carne
+garron de vaca,480,,,6,matambre-cortes
 ingrediente sopa paraguaya,480,,,2,recipe
 jugos ades,480,,,5,bebidas-merienda-choclo
 lacteos,480,,,3,dairy
 locro paraguayo,480,,,5,paraguaya-chipa
 lomito árabe,480,,,4,pizza-empanada-carne
+marucha,480,,,6,matambre-cortes
+matambre relleno,480,,,6,matambre-cortes
+matambrito de cerdo,480,,,6,matambre-cortes
 mbaipy,480,,,5,paraguaya-chipa
 mbeju mestizo,480,,,2,recipe
 mejor restaurante de asuncion,480,,,2,restaurant-editorial
@@ -303,7 +331,9 @@ yogur griego lactolanda,480,,,3,dairy
 10 comidas típicas de paraguay,390,,,2,recipe
 100montaditos,390,,,2,restaurant-brand
 20 comidas típicas del paraguay,390,,,2,recipe
-bondiola de vaca,390,,,2,meat-cut
+alas de pollo,390,,,6,pollo-pescado-otros
+alitas de pollo,390,,,6,pollo-pescado-otros
+bondiola de vaca,390,,,2 6,meat-cut cerdo
 cafetería cercana,390,,,2,restaurant-nearme
 carne de cerdo,390,,,2 4,meat-cut pizza-empanada-carne
 cena rapida y economica,390,,,5,bebidas-merienda-choclo
@@ -319,6 +349,7 @@ domino's pizza cerca de mí,390,,,4,pizza-empanada-carne
 empanada casera,390,,,4,pizza-empanada-carne
 empanada de huevo,390,,,4,pizza-empanada-carne
 empanadas de choclo,390,,,4 5,pizza-empanada-carne bebidas-merienda-choclo
+garrón,390,,,6,matambre-cortes
 ingrediente de la chipa,390,,,2,recipe
 ingrediente para sopa paraguaya,390,,,2,recipe
 ingredientes chipa guazu,390,,,5,paraguaya-chipa
@@ -329,10 +360,12 @@ lugares para merendar cerca de mi,390,,,2,restaurant-nearme
 megapizza,390,,,4,pizza-empanada-carne
 miel honey,390,,,2,honey-info
 mujer crema tortas de cumpleaños,390,,,5,tortas-pan-fiestas
+pacu pescado,390,,,6,pollo-pescado-otros
+pacú pescado,390,,,6,pollo-pescado-otros
 pan dulce casero,390,,,5,tortas-pan-fiestas
 panes de arroz,390,,,5,tortas-pan-fiestas
 parrillada en asuncion,390,,,2,restaurant-editorial
-pernil de cerdo,390,,,2 4,meat-cut pizza-empanada-carne
+pernil de cerdo,390,,,2 4 6,meat-cut pizza-empanada-carne cerdo
 pizza cerca,390,7.14,13.29,4,pizza-empanada-carne
 pizza napoles,390,,,4,pizza-empanada-carne
 pizzerías cercanas,390,7.08,13.17,2,restaurant-nearme
@@ -346,8 +379,13 @@ yogurt griego natural,390,,,3,dairy
 yogurt trebol,390,,,3,dairy
 5 recetas faciles y economicas,320,,,5,bebidas-merienda-choclo
 5 recetas fáciles y económicas,320,,,5,bebidas-merienda-choclo
+ala de pollo,320,,,6,pollo-pescado-otros
+alita de pollo,320,,,6,pollo-pescado-otros
+alitas,320,,,6,pollo-pescado-otros
 beirut restaurante,320,,,2,restaurant-brand
+bife ancho,320,,,6,vacuno
 brasas,320,,,2,restaurant-brand
+carnaza blanca,320,,,6,vacuno
 carne de caballo,320,,,2 4,meat-cut pizza-empanada-carne
 carne de wagyu,320,,,2 4,meat-cut pizza-empanada-carne
 carni,320,,,2 4,meat-butcher-brand pizza-empanada-carne
@@ -368,6 +406,7 @@ la toscana pizzeria,320,,,4,pizza-empanada-carne
 líder supermercado,320,,,2,supermarket-brand
 lugares de comida cerca de mi,320,5.21,17.50,2,restaurant-nearme
 lugares para comer,320,,,2,restaurant-editorial
+matambre de cerdo,320,,,6,matambre-cortes
 miel negra,320,,,2,honey-info
 panes de sandwich,320,,,5,tortas-pan-fiestas
 panes para hamburguesa,320,,,5,tortas-pan-fiestas
@@ -435,14 +474,20 @@ jugos naturales,260,,,5,bebidas-merienda-choclo
 la cuina,260,,,2,restaurant-brand
 la pizzeria,260,,,4,pizza-empanada-carne
 las delicias restaurante,260,,,2,restaurant-brand
+lechon a la parrilla,260,,,6,cerdo
 lugares para almorzar cerca de mi,260,,,2,restaurant-nearme
+matambrito,260,,,6,matambre-cortes
+matambritos,260,,,6,cerdo
 mia pizza,260,,,2,restaurant-brand
 miel de caña,260,,,2,honey-info
+nalga,260,,,6,vacuno
 napoles pizzeria,260,,,4,pizza-empanada-carne
 pan de papá,260,,,5,tortas-pan-fiestas
 pan dulce bauducco,260,,,5,tortas-pan-fiestas
+panceta de cerdo,260,,,6,cerdo
 pastel mandi o receta,260,,,5,paraguaya-chipa
 pastel para hombre sencillo,260,,,5,tortas-pan-fiestas
+pescado pacu,260,,,6,pollo-pescado-otros
 pizza peperoni,260,,,4,pizza-empanada-carne
 pizza primavera,260,,,4,pizza-empanada-carne
 pizza pulcinella,260,,,4,pizza-empanada-carne
@@ -459,6 +504,8 @@ sopa paraguaya receta original,260,,,2,recipe
 supermercado luisito online,260,3.24,10.52,2,supermarket-brand
 supermercado stock ofertas de carnes hoy,260,,,2,supermarket-offers
 supermercados cercanos,260,,,2,other
+tapa cuadril al horno,260,,,6,vacuno
+tapa de asado,260,,,6,matambre-cortes
 ternera,260,,,2 4,meat-cut pizza-empanada-carne
 torta de choclo,260,,,5,bebidas-merienda-choclo
 torta de goku,260,,,5,tortas-pan-fiestas
@@ -496,7 +543,8 @@ comida tradicional de paraguay,210,,,2,recipe
 comidas de paraguay,210,,,2,recipe
 corte americano carne,210,,,2,meat-cut
 cortes de carne vacuna,210,,,2,meat-cut
-costillar precio,210,,,2 3,meat-price meat
+costillar precio,210,,,2 3 6,meat-price meat cerdo
+costillas de cerdo al horno,210,,,6,cerdo
 decoración de torta para hombre,210,,,5,tortas-pan-fiestas
 desayunos saludables para bajar de peso,210,0.72,3.47,3,viandas-dieta
 donde comer cerca de mi,210,,,2,restaurant-nearme
@@ -517,12 +565,15 @@ los amigos carniceria,210,,,2,meat-butcher-brand
 miga de pan,210,,,5,tortas-pan-fiestas
 muslo de pollo precio,210,,,2 3,meat-price meat
 negroni restaurante,210,,,2,restaurant-brand
+pacu pez,210,,,6,pollo-pescado-otros
 pan dulce casero fácil y económico,210,,,5,tortas-pan-fiestas
 pan dulce navidad,210,,,5,tortas-pan-fiestas
 pan dulce navideño,210,,,5,tortas-pan-fiestas
 payagua mascada receta,210,,,2,recipe
+pernil,210,,,6,cerdo
 picanha grill,210,,,2,restaurant-brand
 pollo en ingles,210,,,2,other
+pollo fritas,210,,,6,pollo-pescado-otros
 preparacion de chipa,210,,,2 5,recipe paraguaya-chipa
 q comer para bajar de peso,210,0.32,2.12,3,viandas-dieta
 que comer para bajar de peso,210,0.32,2.12,3,viandas-dieta
@@ -554,6 +605,7 @@ wagyu carne,210,,,2,meat-cut
 yogurt sin lactosa,210,,,3,dairy
 aroma pan,170,,,5,tortas-pan-fiestas
 asado de tira,170,,,2,meat-cut
+cabrito,170,,,6,pollo-pescado-otros
 california supermercado,170,,,2,supermarket-brand
 carne de hamburguesa,170,,,2,meat-cooking
 carne de kobe,170,,,2,meat-cut
@@ -561,6 +613,7 @@ carne de oveja,170,,,2,meat-cut
 carne de pollo,170,,,2,meat-cut
 carne de vaca partes,170,,,2,meat-cut
 carne kobe,170,,,2,meat-cut
+carne marucha,170,,,6,matambre-cortes
 carne molida precio,170,,,2 3,meat-price meat
 carne vacuna,170,,,2,meat-cut
 carniceria aaa,170,,,2,meat-butcher-brand
@@ -570,12 +623,17 @@ carniceria san antonio,170,,,2,meat-butcher-brand
 cena para bajar de peso,170,1.19,4.07,3,viandas-dieta
 cerdo en ingles,170,,,2,other
 chef vip,170,,,1,other
+colita cuadril al horno,170,,,6,vacuno
+colita de cuadril,170,,,6,vacuno
+colitadecuadril,170,,,6,vacuno
 comida a domicilio,170,3.15,15.93,1 2,delivery-generic other
 comida japonesa asuncion,170,,,2,restaurant-editorial
 comida para bajar de peso,170,0.45,2.80,3,viandas-dieta
 comida para llevar,170,,,1,delivery-generic
 comidas saludables para bajar de peso,170,0.40,5.41,3,viandas-dieta
-costillar de cerdo precio,170,,,2 3,meat-price meat
+costilla de vaca,170,,,6,vacuno
+costilla grill de cerdo,170,,,6,cerdo
+costillar de cerdo precio,170,,,2 3 6,meat-price meat cerdo
 costillar de novillo,170,,,2,meat-cut
 croqueta de mandioca,170,,,5,bebidas-merienda-choclo
 dia supermercado,170,,,2,supermarket-brand
@@ -586,7 +644,7 @@ ingredientes receta de chipa paraguaya,170,,,2 5,recipe paraguaya-chipa
 la estacion restaurante,170,,,2,restaurant-brand
 manteca paraguaya,170,,,2,recipe
 marucha carne,170,,,2,meat-cut
-matambre de vaca,170,,,2,meat-cut
+matambre de vaca,170,,,2 6,meat-cut matambre-cortes
 mcdonald cerca,170,,,2,restaurant-brand
 mejor restaurante asuncion,170,,,2,restaurant-editorial
 mejores restaurantes asuncion,170,,,2,restaurant-editorial
@@ -595,8 +653,10 @@ miel de maple,170,,,2,honey-info
 miel maple,170,,,2,honey-info
 organicos,170,,,3,abasto-produce
 osobuco precio,170,,,2 3,meat-price meat
+panceta ahumada,170,,,6,cerdo
 panes de maiz,170,,,5,tortas-pan-fiestas
 picaña precio,170,,,2 3,meat-price meat
+pollo entero,170,,,6,pollo-pescado-otros
 queso en fetas,170,,,3,dairy
 queso light,170,,,3,dairy
 queso y miel,170,,,3,dairy
@@ -616,6 +676,7 @@ supermercado dia,170,,,2,supermarket-brand
 supermercado stock online,170,,,2,supermarket-brand
 sushibar,170,,,2,restaurant-editorial
 tapa cuadril precio,170,,,2 3,meat-price meat
+tapa de cuadril,170,,,6,vacuno
 taqueria cerca de mi,170,,,2,restaurant-nearme
 temaki sushi,170,,,2,restaurant-brand
 torta cumpleaños,170,,,5,tortas-pan-fiestas
@@ -629,9 +690,13 @@ yogurt griego sin lactosa,170,,,3,dairy
 yogurt natural sin azucar,170,,,3,dairy
 aceite de coco organico,140,,,3,abasto-produce
 almuerzo para bajar de peso,140,,,3,viandas-dieta
+arrollado de matambre,140,,,6,matambre-cortes
 bife de vacio,140,,,2,meat-cut
+bola de lomo precio,140,,,6,vacuno
 canasta básica,140,,,3,abasto-produce
 canastabasica,140,,,3,abasto-produce
+carne de bufala,140,,,6,pollo-pescado-otros
+carne de chancho,140,,,6,cerdo
 carne molida de pollo,140,,,2,meat-cut
 carne para hamburguesa,140,,,2,meat-cut
 carniceria el rancho,140,,,2,meat-butcher-brand
@@ -641,6 +706,7 @@ carniceria san jose,140,,,2,meat-butcher-brand
 carnicería san jose,140,,,2,meat-butcher-brand
 carnicería san miguel,140,,,2,meat-butcher-brand
 carnicerias san jose,140,,,2,meat-butcher-brand
+carré de cerdo,140,,,6,cerdo
 catering para eventos,140,3.55,5.11,1 2,catering
 cerdo iberico,140,,,2,meat-cut
 chef a domicilio,140,,,1,chef
@@ -654,6 +720,8 @@ churrascos,140,,,2,meat-cooking
 comida a domicilio cerca de mi,140,0.61,13.27,1,delivery-generic
 comidas navideñas,140,,,5,tortas-pan-fiestas
 como se hace asado a la olla,140,,,2,meat-cooking
+costillar,140,,,6,cerdo
+costillar al horno,140,,,6,cerdo
 cumpleaños torta de futbol,140,,,5,tortas-pan-fiestas
 desayuno paraguayo,140,,,5,bebidas-merienda-choclo
 dulce de maní paraguaya,140,,,2,recipe
@@ -695,6 +763,7 @@ receta de pastel mandi o,140,,,5,paraguaya-chipa
 salsa de choclo,140,,,5,bebidas-merienda-choclo
 supermercado stock 24 horas,140,,,2,supermarket-brand
 supermercado stock ofertas,140,,,2,supermarket-offers
+tapa cuadril a la parrilla,140,,,6,vacuno
 tematica torta para papa,140,,,5,tortas-pan-fiestas
 torta navideña,140,,,5,tortas-pan-fiestas
 tortas de cumpleaños para niñas sencillas,140,,,5,tortas-pan-fiestas
@@ -704,17 +773,23 @@ yogur griego sin azucar,140,,,3,dairy
 yogurt lactolanda light,140,,,3,dairy
 yogurt sin azucar,140,,,3,dairy
 abejas meliponas,110,,,2,honey-info
+alas en el horno,110,,,6,pollo-pescado-otros
+alitas al horno,110,,,6,pollo-pescado-otros
 bolillo,110,,,5,tortas-pan-fiestas
-bondiola de cerdo precio,110,,,3,meat
+bondiola de cerdo precio,110,,,3 6,meat cerdo
 candy supermercado,110,,,2,supermarket-brand
 canela con miel,110,,,2,honey-info
+carne de cordero,110,,,6,pollo-pescado-otros
 chipa almidon ingredientes,110,,,5,bebidas-merienda-choclo
 chipa almidón ingredientes,110,,,5,paraguaya-chipa
 chipa guazu paraguaya,110,,,5,paraguaya-chipa
 chipa guazu paraguayo,110,,,5,paraguaya-chipa
 chipa mestizo receta,110,,,5,paraguaya-chipa
 clerico receta,110,,,5,tortas-pan-fiestas
+codillo de cerdo,110,,,6,cerdo
+codillos de cerdo,110,,,6,cerdo
 como eliminar la grasa abdominal,110,0.33,3.63,3,viandas-dieta
+costilla vacuna,110,,,6,vacuno
 descuentos en supermercados hoy,110,,,2,supermarket-offers
 dulce de leche como hacerlo,110,,,5,paraguaya-chipa
 empanada de mandioca paraguaya,110,,,5,bebidas-merienda-choclo
@@ -724,6 +799,7 @@ ingrediente para chipa paraguaya,110,,,5,paraguaya-chipa
 ingredientes para la chipa,110,,,3 5,dairy paraguaya-chipa
 limon con miel,110,,,2,honey-info
 limon con miel para la tos,110,,,2,honey-info
+matambre arrollado,110,,,6,matambre-cortes
 meliponas,110,,,2,honey-info
 mesa de dulces sencilla,110,,,5,tortas-pan-fiestas
 miel con ajo para que sirve,110,,,2,honey-info
@@ -732,6 +808,7 @@ miel de melipona,110,,,2,honey-info
 miel en ingles,110,,,2,honey-info
 miel en inglés,110,,,2,honey-info
 nutrivital viandas saludables,110,,,3,viandas-dieta
+pacú,110,,,6,pollo-pescado-otros
 pan bauducco,110,,,5,tortas-pan-fiestas
 pan dulce las colonias,110,,,5,tortas-pan-fiestas
 pan dulce mazzei,110,,,5,tortas-pan-fiestas
@@ -760,6 +837,7 @@ supermercado grande,110,,,2,other
 supermercado mas,110,,,2,supermarket-brand
 supermercados mas,110,,,2,supermarket-brand
 superseis ofertas,110,,,2,supermarket-offers
+surubi pez,110,,,6,pollo-pescado-otros
 torta de corazon para mujer,110,,,5,tortas-pan-fiestas
 torta de navidad,110,,,5,tortas-pan-fiestas
 torta linda para mujer,110,,,5,tortas-pan-fiestas
@@ -772,10 +850,12 @@ yogur light,110,,,3,dairy
 yogur probiótico,110,,,3,dairy
 yogur yogurt,110,,,3,dairy
 yogurt sin lactosa lactolanda,110,,,3,dairy
+bondiolas de cerdo al horno,90,,,6,cerdo
 canasta basica familiar,90,,,3,abasto-produce
 carne de cerdo precio,90,,,3,meat
 chipa kavure receta,90,,,5,paraguaya-chipa
 comida delivery,90,2.46,16.12,1,delivery-generic
+costilla a la parrilla,90,,,6,cerdo
 dulce de leche como se hace,90,,,5,paraguaya-chipa
 el chef,90,,,1,other
 empanada de mandioca receta,90,,,5,bebidas-merienda-choclo
@@ -789,7 +869,8 @@ jugos para bajar los triglicéridos altos rápidamente,90,,,5,bebidas-merienda-c
 la miel engorda,90,,,2,honey-info
 lomo de cerdo precio,90,,,3,meat
 manjar casero,90,,,5,paraguaya-chipa
-matambre precio,90,,,3,meat
+matambre precio,90,,,3 6,meat matambre-cortes
+matambrito de cerdo a la pizza,90,,,6,matambre-cortes
 melaza de caña,90,,,2,honey-info
 menú del día,90,,,3,viandas-dieta
 menu el dia,90,,,3,viandas-dieta
@@ -798,6 +879,7 @@ merienda keto,90,,,5,bebidas-merienda-choclo
 merienda para la tarde,90,,,5,bebidas-merienda-choclo
 miel con carpincho,90,,,2,honey-info
 pireca receta paraguaya,90,,,5,paraguaya-chipa
+pizza de matambre,90,,,6,matambre-cortes
 preparacion de la chipa paraguaya,90,,,5,paraguaya-chipa
 productos lácteos,90,,,3,dairy
 q cocinar hoy,90,,,5,bebidas-merienda-choclo
@@ -821,7 +903,9 @@ yogurt griego precio,90,,,3,dairy
 yogurt para bebe,90,,,3,dairy
 yogurt para bebes,90,,,3,dairy
 actimel yogur,70,,,3,dairy
+bife angosto,70,,,6,vacuno
 bocaditos salados para cumpleaños,70,,,2,catering
+bondiola que es,70,,,6,cerdo
 carne wagyu precio,70,,,3,meat
 chef francis mallmann,70,,,1,celebrity-chef
 chipa a la licuadora,70,,,5,paraguaya-chipa
@@ -829,6 +913,7 @@ chipa almidon receta,70,,,5,paraguaya-chipa
 chipa almidón receta,70,,,3,dairy
 chipa de almidón receta original,70,,,5,paraguaya-chipa
 chipa receta paraguaya,70,,,5,paraguaya-chipa
+colita cuadril a la parrilla,70,,,6,vacuno
 comida con delivery cerca de mi,70,5.70,20.25,1,delivery-generic
 comida delivery cerca de mí,70,5.70,20.25,1,delivery-generic
 comidas para dietas,70,,,3,viandas-dieta
@@ -838,6 +923,8 @@ como hacer deficit calorico,70,0.48,2.60,3,viandas-dieta
 como hacer pastel mandi o,70,,,5,paraguaya-chipa
 como perder grasa abdominal,70,1.21,4.60,3,viandas-dieta
 como quemar grasa de la panza,70,1.36,4.45,3,viandas-dieta
+cordero oveja,70,,,6,pollo-pescado-otros
+costillar de cerdo a la parrilla,70,,,6,cerdo
 cuantos bocaditos se calcula por persona,70,,,2,catering
 cuatro fuegos catering,70,,,1,catering
 delivery comida cerca de mi,70,4.82,16.42,1,delivery-generic
@@ -849,8 +936,13 @@ jengibre con limon y miel,70,,,2,honey-info
 jugo de naranja natural,70,,,5,bebidas-merienda-choclo
 kit asado tramontina,70,0.34,1.41,3,meat
 kit asador tramontina,70,0.34,1.41,3,meat
+lechon precio,70,,,6,cerdo
 lechón precio,70,,,3,meat
 marta elena catering,70,,,1,catering
+matambre a la parrilla,70,,,6,matambre-cortes
+matambre al horno,70,,,6,matambre-cortes
+matambre de carne,70,,,6,matambre-cortes
+matambre vacuno,70,,,6,matambre-cortes
 menus semana,70,,,3,viandas-dieta
 mercado de abastos cerca de mi,70,,,3,abasto-produce
 merienda saludable para bajar de peso,70,,,5,bebidas-merienda-choclo
@@ -860,10 +952,12 @@ para bajar,70,,,3,viandas-dieta
 para bajar la panza,70,,,3,viandas-dieta
 parmesano reggiano,70,,,3,dairy
 pedidosya market,70,2.46,2.65,2,supermarket-brand
+pernil de cerdo al horno,70,,,6,cerdo
 pizza delivery cerca de mi,70,0.39,17.50,1,delivery-generic
 plan de alimentacion para bajar de peso,70,0.34,3.51,3,viandas-dieta
-pollo entero precio,70,,,3,meat
+pollo entero precio,70,,,3 6,meat pollo-pescado-otros
 precio de costilla,70,,,3,meat
+precio de costillar,70,,,6,cerdo
 precio del queso parmesano,70,,,3,dairy
 producto derivado de la leche,70,,,3,dairy
 q puedo comer hoy,70,,,5,bebidas-merienda-choclo
@@ -892,9 +986,12 @@ supermercado santa teresa,70,,,2,supermarket-brand
 supermercado stock asunción,70,,,2,supermarket-brand
 supermercado tata,70,,,2,supermarket-brand
 superseis asuncion,70,,,2,supermarket-brand
+suprema rellena,70,,,6,pollo-pescado-otros
 ta ta supermercado,70,,,2,supermarket-brand
+tapa asado,70,,,6,matambre-cortes
 tarta de choclo y cebolla y queso,70,,,5,bebidas-merienda-choclo
 terere literario,70,,,5,bebidas-merienda-choclo
+tocino de cerdo,70,,,6,cerdo
 tomate cherry precio,70,,,3,abasto-produce
 yerba mate organica,70,,,3,abasto-produce
 yogur griego para que sirve,70,,,3,dairy
@@ -904,9 +1001,16 @@ yogurt griego natural sin azucar,70,,,3,dairy
 abasto mercado,50,,,3,abasto-produce
 abastos mercado,50,,,3,abasto-produce
 ajo con miel,50,,,2,honey-info
+alas de pollo a la parrilla,50,,,6,pollo-pescado-otros
+alitas de pollo al horno,50,,,6,pollo-pescado-otros
+alitas de pollo precio,50,,,6,pollo-pescado-otros
 almuerzo saludable para bajar de peso,50,,,3,viandas-dieta
+asado de costillar,50,,,6,cerdo
+asado lechon,50,,,6,cerdo
 azucar morena organica,50,,,3,abasto-produce
+bondiola desmechada,50,,,6,cerdo
 cafe organico,50,,,3,abasto-produce
+carne matambre,50,,,6,matambre-cortes
 changomás,50,,,2,supermarket-brand
 chef david muñoz,50,,,1,celebrity-chef
 chef de cocina,50,,,1,chef
@@ -926,6 +1030,10 @@ cómo bajar rápido de peso,50,,,3,viandas-dieta
 como hacer para bajar de peso,50,0.22,1.65,3,viandas-dieta
 cómo hacer para bajar de peso,50,0.22,1.65,3,viandas-dieta
 cómo se hace pastel mandi o,50,,,5,paraguaya-chipa
+costilla de chancho,50,,,6,cerdo
+costilla el kilo,50,,,6,cerdo
+costillar de res,50,,,6,cerdo
+costillas de cerdo en barbacoa,50,,,6,cerdo
 cuantas calorias debo consumir para bajar de peso,50,0.50,2.75,3,viandas-dieta
 david muñoz,50,,,1,celebrity-chef
 deficit calorico como hacerlo,50,0.91,4.17,3,viandas-dieta
@@ -952,8 +1060,18 @@ jugos para el higado graso,50,,,5,bebidas-merienda-choclo
 kit asado,50,,,3,meat
 la miel,50,,,2,honey-info
 la miel con limon para que sirve,50,,,2,honey-info
+lechon a la estaca,50,,,6,cerdo
+lechon asado,50,,,6,cerdo
 masa para empanada de mandioca,50,,,5,bebidas-merienda-choclo
-matambre de cerdo precio,50,,,3,meat
+matambre a la pizza a la parrilla,50,,,6,matambre-cortes
+matambre a la pizza al horno,50,,,6,matambre-cortes
+matambre al horno relleno,50,,,6,matambre-cortes
+matambre arrollado hervido,50,,,6,matambre-cortes
+matambre de cerdo a la pizza,50,,,6,matambre-cortes
+matambre de cerdo precio,50,,,3 6,meat matambre-cortes
+matambre de pollo,50,,,6,matambre-cortes
+matambre pizza horno,50,,,6,matambre-cortes
+matambrito de cerdo precio,50,,,6,matambre-cortes
 merienda salada,50,,,5,bebidas-merienda-choclo
 miel con propoleo,50,,,2,honey-info
 miel de abeja en ayunas,50,,,2,honey-info
@@ -993,6 +1111,8 @@ recetas saludables y económicas,50,,,5,bebidas-merienda-choclo
 servicio de delivery,50,,,1,delivery-generic
 so o josopy,50,,,5,paraguaya-chipa
 supermercado argentino,50,,,2,other
+suprema de pollo rellena,50,,,6,pollo-pescado-otros
+tapa cuadril de cerdo,50,,,6,vacuno
 tomahawk precio,50,,,3,meat
 yogur de kefir,50,,,3,dairy
 yogur desnatado,50,,,3,dairy
@@ -1001,10 +1121,16 @@ yogur sin azúcar,50,,,3,dairy
 yogurt deslactosado,50,,,3,dairy
 zumo de naranja,50,,,5,bebidas-merienda-choclo
 5 recetas fáciles y económicas para cenar,40,,,5,bebidas-merienda-choclo
+alita a la parrilla,40,,,6,pollo-pescado-otros
 almidon para mbeju,40,,,5,bebidas-merienda-choclo
+arrollado de cerdo,40,,,6,matambre-cortes
 asado delivery,40,2.85,8.75,1,delivery-generic
+bacon es panceta,40,,,6,cerdo
+bacon panceta,40,,,6,cerdo
 canastitas de choclo,40,,,5,bebidas-merienda-choclo
+carne cuadril,40,,,6,vacuno
 carne precio,40,,,3,meat
+carne tapa cuadril,40,,,6,vacuno
 cenas saludables y económicas,40,,,5,bebidas-merienda-choclo
 chipa avati receta,40,,,5,paraguaya-chipa
 chipa guazu con choclo en lata,40,,,5,bebidas-merienda-choclo
@@ -1021,9 +1147,12 @@ como hacer dieta para bajar de peso,40,0.22,1.29,3,viandas-dieta
 como hacer un deficit calorico,40,1.17,3.67,3,viandas-dieta
 como quemar grasa abdominal,40,,,3,viandas-dieta
 como quemar grasa del abdomen y cintura rápido,40,1.96,9.41,3,viandas-dieta
+costilla de cerdo a la olla,40,,,6,cerdo
+costilla madurada,40,,,6,vacuno
 crema de choclo,40,,,5,bebidas-merienda-choclo
 delivery asado,40,2.85,8.75,1,delivery-generic
 delivery cerca de mi ubicación,40,2.52,13.47,1,delivery-generic
+dorado de mar,40,,,6,pollo-pescado-otros
 entraña precio,40,,,3,meat
 escoffiers,40,,,1,celebrity-chef
 falda carne precio,40,,,3,meat
@@ -1037,15 +1166,24 @@ jugos para diabeticos,40,,,5,bebidas-merienda-choclo
 jugos para subir las defensas rápidamente,40,,,5,bebidas-merienda-choclo
 kit asador personalizado,40,,,3,meat
 kit para asador,40,,,3,meat
+lechon faenado,40,,,6,cerdo
+lechon vivo,40,,,6,cerdo
+lechón vivo,40,,,6,cerdo
 lista de precios mercado de abasto,40,,,3,abasto-produce
 lomito precio,40,,,3,meat
 masterchef españa,40,,,1,other
+matambrito de cerdo al horno,40,,,6,matambre-cortes
 menus de dietas para bajar de peso,40,,,3,viandas-dieta
 mercado abasto central,40,,,3,abasto-produce
 merienda dulces,40,,,5,bebidas-merienda-choclo
 meriendas para bajar de peso,40,,,5,bebidas-merienda-choclo
 ofertas de carnes,40,,,3,meat
+panceta bacon,40,,,6,cerdo
 pierna de cerdo precio por kilo,40,,,3,meat
+pollo a la barbacoa,40,,,6,pollo-pescado-otros
+pollo entero al horno,40,,,6,pollo-pescado-otros
+pollo entero en el horno,40,,,6,pollo-pescado-otros
+pollo entero horneado,40,,,6,pollo-pescado-otros
 precio de la carne,40,,,3,meat
 precio de peceto en stock,40,,,3,meat
 precio de tomate,40,,,3,abasto-produce
@@ -1057,10 +1195,13 @@ servicio de catering para eventos,40,3.93,5.31,1 2,catering
 terere mate,40,,,5,bebidas-merienda-choclo
 asada por kilo,30,,,3,meat
 asado por kilo,30,,,3,meat
+asar costillas,30,,,6,cerdo
 bife de chorizo precio,30,,,3,meat
 bocaditos para cumpleaños infantil,30,,,2,catering
+bondiola de cerdo que es,30,,,6,cerdo
 canasta básica de alimentos,30,,,3,abasto-produce
-carne de chancho precio,30,,,3,meat
+carne costilla,30,,,6,cerdo
+carne de chancho precio,30,,,3 6,meat cerdo
 carne de hamburguesa precio,30,,,3,meat
 carne de oveja precio,30,,,3,meat
 carne de wagyu precio,30,,,3,meat
@@ -1071,27 +1212,47 @@ carne vacio precio,30,,,3,meat
 cena para bajar de peso en una semana,30,,,3,viandas-dieta
 chef ducasse,30,,,1,celebrity-chef
 chef profesional,30,,,1,chef
+colita cuadril precio,30,,,6,vacuno
+colita de cuadril al horno,30,,,6,vacuno
 como bajar rapidamente de peso,30,0.52,4.40,3,viandas-dieta
 cómo bajar rápidamente de peso,30,0.52,4.40,3,viandas-dieta
 como perder grasa corporal,30,0.97,3.93,3,viandas-dieta
 como se usa el parche para bajar de peso,30,,,3,viandas-dieta
 como vestirme para una boda civil,30,,,1,other
 como vestirme para una boda de dia,30,,,1,other
+cordero horno,30,,,6,pollo-pescado-otros
+costilla asada,30,,,6,cerdo
+costilla de lomo,30,,,6,cerdo
+costilla para asado,30,,,6,cerdo
+costilla vacuna al horno,30,,,6,cerdo
+costillar ahumado,30,,,6,cerdo
+costillas ahumada,30,,,6,cerdo
+costillas de vaca al horno,30,,,6,cerdo
 delivery cercano,30,3.83,10.13,1,delivery-generic
 delivery de mcdonald's,30,3.05,12.09,1,delivery-navigational
 delivery de mcdonalds,30,3.05,12.09,1,delivery-navigational
 delivery de pizza cerca de mi ubicación,30,2.04,8.55,1,delivery-generic
 el huevo duro es bueno para la dieta,30,,,3,viandas-dieta
+el pacu,30,,,6,pollo-pescado-otros
 érick jacquin,30,,,1,celebrity-chef
 hamburguesas delivery cerca de mi,30,,,1,delivery-generic
-matambre precio por kilo,30,,,3,meat
+matambre a la olla,30,,,6,matambre-cortes
+matambre arrollado de la abuela,30,,,6,matambre-cortes
+matambre atado,30,,,6,matambre-cortes
+matambre precio por kilo,30,,,3 6,meat matambre-cortes
+matambre que es,30,,,6,matambre-cortes
+matambre relleno de carne,30,,,6,matambre-cortes
 menú de almuerzos economicos para la semana,30,,,3,viandas-dieta
 menu de almuerzos para la semana caseros,30,,,3,viandas-dieta
 menú dieta para bajar 5 kilos en una semana,30,,,3,viandas-dieta
 mercado de abasto precios,30,,,3,abasto-produce
 mercado de abastos precios,30,,,3,abasto-produce
 paleta de cerdo precio,30,,,3,meat
-panceta de cerdo precio,30,,,3,meat
+panceta de cerdo precio,30,,,3 6,meat cerdo
+panceta tocino,30,,,6,cerdo
+pata muslo,30,,,6,pollo-pescado-otros
+pechito de cerdo,30,,,6,cerdo
+pernil ahumado,30,,,6,cerdo
 pizza hut pedidos,30,5.80,16.42,1,delivery-navigational
 plan para bajar de peso en 30 dias,30,0.37,2.65,3,viandas-dieta
 pollos asados,30,,,3,meat
@@ -1103,20 +1264,35 @@ que comer para bajar la panza,30,,,3,viandas-dieta
 que consumir para bajar de peso,30,,,3,viandas-dieta
 remedios caseros para quitar el apetito y bajar de peso,30,,,3,viandas-dieta
 restaurantes delivery,30,,,1,delivery-generic
+salsa búfalo,30,,,6,pollo-pescado-otros
 servicio catering,30,,,1 2,catering
 servicio de catering para 100 personas precios,30,,,1 2,catering
+supremas napolitanas,30,,,6,pollo-pescado-otros
 talleyrand catering,30,,,1,catering
+tiras de costilla,30,,,6,cerdo
 tomahawk carne precio,30,,,3,meat
 acurio,20,,,1,celebrity-chef
 agricultura organica,20,,,3,abasto-produce
+alas de pollo en salsa,20,,,6,pollo-pescado-otros
+alitas de pollo fritas,20,,,6,pollo-pescado-otros
 almuerzo delivery,20,,,1 3,delivery-generic viandas-dieta
 almuerzo ejecutivo,20,,,3,viandas-dieta
 almuerzos cerca de mi ubicación,20,,,1,delivery-generic
+asado de oveja,20,,,6,pollo-pescado-otros
 bocuse chef,20,,,1,celebrity-chef
+bola de lomo carne,20,,,6,vacuno
+bondiola a la cerveza,20,,,6,cerdo
+bondiola a la parrilla,20,,,6,cerdo
+bondiola ahumada,20,,,6,cerdo
+bondiola de cerdo a la parrilla,20,,,6,cerdo
+bondiola precio,20,,,6,cerdo
 cafe juan valdez organico,20,,,3,abasto-produce
 cafe organico juan valdez,20,,,3,abasto-produce
+caldo de matambre,20,,,6,matambre-cortes
 canasta basica de productos,20,,,3,abasto-produce
 canasta basica que es,20,,,3,abasto-produce
+carne bola de lomo,20,,,6,vacuno
+carne de búfalo,20,,,6,pollo-pescado-otros
 carne tomahawk precio,20,,,3,meat
 catering cerca de mí,20,,,2,catering
 chef auguste escoffier,20,,,1,celebrity-chef
@@ -1124,6 +1300,7 @@ chef famosos,20,,,1,celebrity-chef
 chef mujer,20,,,1,chef
 chef paul bocuse,20,,,1,celebrity-chef
 chefs mujeres,20,,,1,chef
+codillo,20,,,6,cerdo
 comida con delivery,20,,,1,delivery-generic
 comida con delivery cerca de mi ubicación,20,3.24,19.86,1,delivery-generic
 comida para hacer dieta,20,,,3,viandas-dieta
@@ -1139,9 +1316,24 @@ cómo perder grasa,20,,,3,viandas-dieta
 como puedo hacer para bajar de peso,20,,,3,viandas-dieta
 como quemar grasa,20,,,3,viandas-dieta
 como vestirse en una boda de dia,20,,,1,other
+cordero asado,20,,,6,pollo-pescado-otros
+cordero parrilla,20,,,6,pollo-pescado-otros
 cortes de carnes premium,20,,,3,meat
 cortes premium de carne,20,,,3,meat
+costilla a la olla,20,,,6,cerdo
+costilla al disco,20,,,6,cerdo
+costilla al horno con papel aluminio,20,,,6,cerdo
+costilla de cerdo agridulce,20,,,6,cerdo
+costilla de cerdo cruda,20,,,6,cerdo
+costilla de oveja,20,,,6,cerdo
 costilla de res precio,20,,,3,meat
+costilla deshuesada,20,,,6,cerdo
+costillar a la olla,20,,,6,cerdo
+costillas a la estaca,20,,,6,cerdo
+costillas bbq,20,,,6,cerdo
+costillas de oveja,20,,,6,cerdo
+costillas de ternera,20,,,6,cerdo
+costillitas bbq,20,,,6,cerdo
 delivery 24 horas,20,,,1,delivery-generic
 delivery abierto ahora,20,,,1,delivery-generic
 delivery de almuerzos,20,,,1,delivery-generic
@@ -1153,11 +1345,22 @@ dieta para bajar la panza y cintura,20,,,3,viandas-dieta
 domicilio cerca de mi,20,,,1,delivery-generic
 ensaladas para bajar de peso,20,,,3,viandas-dieta
 falda precio por kilo,20,,,3,meat
+grasa de chancho precio,20,,,6,cerdo
 kit de asado tramontina,20,,,3,meat
 kit parrillero tramontina,20,,,3,meat
+lechon al horno,20,,,6,cerdo
+lechon entero,20,,,6,cerdo
 lomitos delivery,20,,,1,delivery-generic
 lomo vacuno precio,20,,,3,meat
 master chef colombia,20,,,1,other
+matambre a la leche,20,,,6,matambre-cortes
+matambre a la napolitana,20,,,6,matambre-cortes
+matambre de cerdo al horno,20,,,6,matambre-cortes
+matambre de cerdo que parte es,20,,,6,matambre-cortes
+matambre de chancho,20,,,6,matambre-cortes
+matambre de vaca precio,20,,,6,matambre-cortes
+matambre vacuno a la pizza,20,,,6,matambre-cortes
+matambrito de cerdo a la parrilla,20,,,6,matambre-cortes
 mejores chef del mundo,20,,,1,celebrity-chef
 menú de almuerzos para la semana,20,,,3,viandas-dieta
 menu para bodas,20,,,1,catering
@@ -1166,13 +1369,19 @@ menu para una boda,20,,,1,catering
 menus para la semana,20,,,3,viandas-dieta
 mini chef,20,,,1,other
 mujer chef,20,,,1,chef
-panceta precio,20,,,3,meat
+pacu pescado de rio,20,,,6,pollo-pescado-otros
+panceta cruda,20,,,6,cerdo
+panceta fresca,20,,,6,cerdo
+panceta precio,20,,,3 6,meat cerdo
+pata muslo de pollo,20,,,6,pollo-pescado-otros
 pavita sadia precio,20,,,3,meat
 pechuga de pollo precio por kilo,20,,,3,meat
 pedidos market,20,2.46,3.05,1,delivery-navigational
 pedir comida a domicilio,20,2.95,19.27,1,delivery-generic
+pernil de cerdo precio,20,,,6,cerdo
 pierna de cerdo precio,20,,,3,meat
 pizza a domicilio cerca de mi,20,,,1,delivery-generic
+pizza a la matambre,20,,,6,matambre-cortes
 pizza con delivery cerca de mi,20,,,1,delivery-generic
 pizzas a domicilio,20,,,1,delivery-generic
 pollo asado parrilla,20,,,3,meat
@@ -1194,22 +1403,29 @@ que debo comer para bajar de peso,20,0.29,1.47,3,viandas-dieta
 que no comer para bajar de peso,20,,,3,viandas-dieta
 qué puedo comer para bajar de peso,20,,,3,viandas-dieta
 que puedo comer si estoy a dieta,20,,,3,viandas-dieta
+receta con suprema de pollo,20,,,6,pollo-pescado-otros
 recetas saludables para bajar de peso,20,,,3,viandas-dieta
+relleno de matambre,20,,,6,matambre-cortes
 restaurante delivery cerca de mi,20,,,1,delivery-generic
 restaurantes cerca de mi con delivery,20,,,1,delivery-generic
 restaurantes con delivery,20,,,1,delivery-generic
 restaurantes con delivery cerca de mi,20,,,1,delivery-generic
 restaurantes delivery cerca de mi,20,,,1,delivery-generic
+ribs de cerdo,20,,,6,cerdo
 salemma precios de carnes,20,,,3,meat
 servicio de buffet para eventos,20,,,1 2,catering
 servicio de catering precios por persona,20,,,1 2,catering
+suprema de pollo a la crema,20,,,6,pollo-pescado-otros
+suprema de pollo a la mostaza,20,,,6,pollo-pescado-otros
 sushi cook,20,,,1,chef
 table chef,20,,,1,other
+tapa de nalga,20,,,6,vacuno
 tocino de cerdo precio,20,,,3,meat
 tomate el kilo precio,20,,,3,abasto-produce
 tomate pera precio,20,,,3,abasto-produce
 tomate por kilo precio,20,,,3,abasto-produce
 tomate precio por kilo,20,,,3,abasto-produce
+tortuguita de chocolate,20,,,6,matambre-cortes
 una dieta para bajar de peso,20,0.21,0.93,3,viandas-dieta
 viandas saludables a domicilio,20,,,3,viandas-dieta
 wagyu carne precio,20,,,3,meat
@@ -1218,21 +1434,38 @@ a domicilio comida,10,,,1,delivery-generic
 aceite coco organico,10,,,3,abasto-produce
 aceite de coco organico comestible,10,,,3,abasto-produce
 alimento organico,10,,,3,abasto-produce
+alitas bbq,10,,,6,pollo-pescado-otros
+alitas en freidora de aire,10,,,6,pollo-pescado-otros
+alitas picantes,10,,,6,pollo-pescado-otros
 almuerzo empresarial,10,,,2,catering
 almuerzos a domicilio,10,,,1,delivery-generic
 almuerzos a domicilio cerca de mi,10,,,1,delivery-generic
 antonio bachour,10,,,1,celebrity-chef
 arepas a domicilio,10,,,1,delivery-generic
 arroz organico,10,,,3,abasto-produce
+asado colita de cuadril,10,,,6,vacuno
 banquetes a domicilio,10,,,1,catering
 banquetes para eventos,10,,,1 2,catering
 banquetes para fiestas,10,,,1,catering
 barbecue chef,10,,,1,chef
 be chef,10,,,1,other
+bife ancho como preparar,10,,,6,vacuno
+bife ancho precio,10,,,6,vacuno
+bife ancho que es,10,,,6,vacuno
+bife ancho que parte es,10,,,6,vacuno
+bife ancho recetas,10,,,6,vacuno
+bife ancho y bife angosto,10,,,6,vacuno
+bife angosto con hueso,10,,,6,vacuno
+bife angosto parrilla,10,,,6,vacuno
+bife angosto precio,10,,,6,vacuno
+bife de costilla angosto,10,,,6,vacuno
 bocadillos a domicilio,10,,,1,delivery-generic
 bocaditos para eventos,10,,,2,catering
 bocaditos por ciento,10,,,2,catering
 bodas com mx app,10,,,1,other
+bola de lomo otros nombres,10,,,6,vacuno
+bola de lomo parte de la vaca,10,,,6,vacuno
+bola de lomo precio por kilo,10,,,6,vacuno
 bolson organico,10,,,3,abasto-produce
 buffet para bodas,10,,,1,catering
 buffet para eventos precios,10,,,1,catering
@@ -1243,6 +1476,8 @@ caja de verduras a domicilio,10,,,3,abasto-produce
 cajas de fruta a domicilio,10,,,3,abasto-produce
 cajas de fruta y verdura a domicilio,10,,,3,abasto-produce
 carne a domicilio,10,,,3,meat
+carne cuadril para que sirve,10,,,6,vacuno
+carne cuadril precio,10,,,6,vacuno
 carne para asado precio,10,,,3,meat
 carne por mayor,10,,,3,meat
 carnicería delivery,10,,,3,meat
@@ -1335,7 +1570,9 @@ chef saludable,10,,,1,chef
 chef station,10,,,1,other
 chino a domicilio,10,,,1,delivery-generic
 chocolate organico,10,,,3,abasto-produce
+coccion colita de cuadril al horno,10,,,6,vacuno
 cocina a domicilio,10,,,1,chef
+cocinar colita de cuadril,10,,,6,vacuno
 cocteleria para eventos,10,,,1,catering
 coffee break a domicilio,10,,,1 2,catering
 coffee break ejecutivo,10,,,2,catering
@@ -1453,6 +1690,8 @@ compra de verduras y frutas online,10,,,3,abasto-produce
 comprar fruta online,10,,,3,abasto-produce
 comprar fruta y verdura online,10,,,3,abasto-produce
 comprar verduras online,10,,,3,abasto-produce
+cordero entero,10,,,6,pollo-pescado-otros
+cordero guisado,10,,,6,pollo-pescado-otros
 cortes premium,10,,,3,meat
 cuánta carne por persona,10,,,3,meat
 cuantos bocaditos por persona,10,,,2,catering
@@ -1651,6 +1890,7 @@ restaurantes para pedir a domicilio,10,,,1,delivery-generic
 robot cook,10,,,1,product-guide
 royalcatering,10,,,1,product-guide
 sal organica,10,,,3,abasto-produce
+salsa para alitas,10,,,6,pollo-pescado-otros
 sandwich a domicilio,10,,,1,delivery-generic
 se puede pedir mcdonald's a domicilio,10,,,1,delivery-navigational
 servicio a domicilio 24 horas,10,,,1,delivery-generic

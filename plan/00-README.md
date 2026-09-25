@@ -34,5 +34,6 @@ comida.com.py is an exact-match generic domain for the whole food vertical in Pa
 Static HTML on Hostinger, no CI minutes · WhatsApp-first, voseo · no fabricated proof, reviews or partner logos · AI images labelled illustrative · prices in one config with a version date · leads to VenderCRM via the tenant endpoint · WhatsApp click is not a lead · Codex at low effort unless Anton says otherwise · Fable never spawned.
 
 10. `10-FOOD-PORTFOLIO-STRATEGY.md` — portfolio vs single hub decision (2026-09-19): deepen comida alone, guides not recipes, asado.com.py redirected to /asado/ (revised in §11), no domain purchases before gate G3.
+13. `13-MEAT-FISH-PAGE-PLAN.md` — 2026-09-25: KWP round 6 (cuts, pork, poultry, river fish): ~22,000 monthly searches with no page yet; 33-page build batch in priority order.
 12. `12-GROWTH-AND-REVENUE.md` — 2026-09-24: KWP rounds 3-4, traffic path to the top food site in Paraguay, revenue and profit by line in USD, fresh-delivery plan, next phases G1-G5.
 11. `11-REVENUE-AND-VALUATION.md` — money plan after KWP round 2 (2026-09-20): months 1–6 referral only (catering, chef, viandas partner), then restaurants, carne, recipes for audience and valuation; grocery and beef boxes only as white label after month 12. Raw KWP pastes in `research/`.

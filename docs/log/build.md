@@ -155,3 +155,7 @@ Counts: **195 HTML / 183 sitemap URLs**; PHP test 24/24; QA gate 17/17 (new gate
 ## 2026-09-24 (end of session)
 
 PRs #1 (launch build) and #2 (growth ideas 1-20) merged into master by Anton's explicit request; merged master re-checked green (195 HTML / 183 sitemap URLs, verify 59,409 checks, 0 shared paragraphs). Deploy branch `hostinger` pushed (built site only). Social cards: 56 of 120 generated when the session ended; rerun `node scripts/social-cards.mjs`. Continuation prompt for the next chat: `docs/log/next-session-prompt.md`.
+
+## 2026-09-25 — KWP round 6
+
+Meat, pork, poultry and river-fish round saved as `plan/research/kwp-round6.csv` and merged (1,953 unique keywords). Clothing/sewing noise from the falda/aguja/paleta seeds left out; seed rows marked mixed intent. Page plan: `plan/13-MEAT-FISH-PAGE-PLAN.md` (33 pages, ~22k monthly searches without a page). Social cards: all 120 generated (the earlier '56 of 120' note is outdated).
