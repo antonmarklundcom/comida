@@ -72,8 +72,8 @@ export default {
       'La receta de matambre a la pizza del sitio explica el método completo, con el tiernizado en leche y el gratinado final. Para la mesa, van bien la ensalada rusa y la sopa paraguaya. Las sobras frías, en fetas finas, son un buen relleno de sándwich en pan casero.'
     ]}
   ],
-  recipes:['receta-matambre-a-la-pizza','receta-ensalada-rusa','receta-sopa-paraguaya','receta-pan-casero'],
-  related:['guia-cuanta-carne-por-persona','corte-vacio','corte-peceto','corte-costillar-de-cerdo'],
+  recipes:['receta-matambre-a-la-pizza','receta-matambre-arrollado','receta-matambrito-de-cerdo-a-la-pizza','receta-ensalada-rusa','receta-sopa-paraguaya','receta-pan-casero'],
+  related:['guia-cuanta-carne-por-persona','corte-matambrito-de-cerdo','corte-vacio','corte-peceto','guia-cortes-de-carne-vacuna'],
   faq:[
     ['¿De qué parte de la vaca es el matambre?','Es la capa de carne que está entre el cuero y las costillas, sobre el costillar y el vacío.'],
     ['¿Cómo se ablanda el matambre?','Con tiempo. Se puede cocinar lento a la parrilla o darle una cocción previa en leche o en caldo antes de terminarlo al horno o a la brasa.'],

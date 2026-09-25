@@ -87,6 +87,16 @@ export default {
       ],
       after:['Los tiempos son orientativos y dependen del corte, del grosor, de la altura de la parrilla y del calor de las brasas. Lo más confiable es mirar el color, tocar la firmeza y, si tenés, usar un termómetro de cocina.']
     },
+    {id:'otras-carnes', title:'Cerdo, cordero, pollo y pescado por persona',
+      paragraphs:['No todo asado es de vaca. Cuando el grupo prefiere cerdo, cordero, pollo o un pescado de río, el cálculo cambia por el hueso, la grasa y lo que rinde cada pieza. Estas son estimaciones editoriales para un adulto con apetito normal; sumá un margen si la carne es lo único que se sirve.'],
+      table:{caption:'Cantidad cruda orientativa por adulto', head:['Carne','Por persona','Qué tener en cuenta'], rows:[
+        ['Bondiola, carré o matambrito de cerdo','300 a 350 g','Cortes sin hueso: rinden casi todo lo que se compra.'],
+        ['Costilla o costillar de cerdo','450 a 550 g','El hueso pesa: calculá más cantidad cruda.'],
+        ['Lechón entero','600 a 800 g','Por el peso del animal con hueso, piel y cabeza.'],
+        ['Cordero o cabrito','450 a 550 g','Piezas con hueso; la paleta rinde menos que la pierna.'],
+        ['Pollo en presas','400 a 500 g','Muslos y pata muslo con hueso; la suprema, unos 250 g.'],
+        ['Pescado de río entero (surubí, pacú, dorado)','400 a 500 g','Con cabeza y espinas; en filete o postas, unos 250 g.']],
+        note:'Estimaciones de la redacción para orientarte; ajustalas a tu grupo y a las guarniciones.'}},
     {id:'guarniciones', title:'Guarniciones que acompañan el asado',
       paragraphs:[
         'En Paraguay el asado casi nunca se sirve sin mandioca hervida y sopa paraguaya o chipa guazú. Estas guarniciones llenan y permiten quedarse en la franja liviana de carne sin que nadie se quede con hambre. Sumá una o dos ensaladas frescas, como tomate y cebolla, lechuga o ensalada rusa, y pan o chipa.',
