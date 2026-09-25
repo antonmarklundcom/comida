@@ -36,3 +36,5 @@ export function cardGrid(items,routes,{heading,headingTag='h2'}={}){
 }
 function tone(id){let h=0;for(const c of id)h=(h*31+c.charCodeAt(0))>>>0;return h%4}
 function kindLabel(it){return it.kind==='recipe'?(it.course||'Receta'):it.kind==='cut'?'Corte':it.kind==='guide'?'Guía':it.kind==='vianda'?'Viandas':'Catering'}
+// Share row (idea 3): WhatsApp works everywhere; the native share sheet button shows only where the browser supports it.
+export function shareRow(title,url){const text=title+' '+url;return `<div class="share-row"><a class="share-wa" href="https://api.whatsapp.com/send?text=${attr(encodeURIComponent(text))}" target="_blank" rel="noopener" data-share-wa>Compartir por WhatsApp</a><button type="button" class="linkish" data-share data-title="${attr(title)}" data-url="${attr(url)}" hidden>Compartir…</button></div>`}

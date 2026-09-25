@@ -12,6 +12,10 @@ node scripts/check-duplicates.mjs            # no substantive paragraph may repe
 node scripts/validate-content.mjs            # schema, length and voseo checks for content modules
 node scripts/php-handler-test.mjs            # PHP handler end-to-end against a mock VenderCRM (needs PHP 8.1+)
 node scripts/qa-gate.mjs --report            # pre-deploy gate; writes docs/log/qa-report.md
+node scripts/browser-check.mjs               # every page at 390 px with the CSP applied (needs Playwright; skips without it)
+node scripts/link-report.mjs --write         # pages with few content links + suggested sources; docs/log/link-report.md
+node scripts/freshness-report.mjs --write    # stale pages + season pages to refresh; docs/log/freshness-report.md
+node scripts/place-photos.mjs                # places the 33-photo batch after webimg conversion (see plan/handoff/photos-laptop-steps.md)
 powershell -File deploy/make-zip.ps1         # build + verify + deploy/comida.com.py.zip
 node scripts/deploy-branch.mjs               # build + all gates, commit dist to branch `hostinger`, push (Hostinger Git deploy)
 node scripts/gsc-report.mjs <csv-folder>     # monthly Search Console review → docs/log/gsc-report-<date>.md

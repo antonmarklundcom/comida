@@ -1,6 +1,6 @@
 import {esc,attr,jsonLd} from '../engine/escape.mjs';
 import {breadcrumbs,briefHref} from './content.mjs';
-import {sectionHtml,faqHtml,sourceLine,cardGrid,tableHtml} from './recipe-lib.mjs';
+import {sectionHtml,faqHtml,sourceLine,cardGrid,tableHtml,shareRow} from './recipe-lib.mjs';
 import {leadForm,orderForm,recetarioForm,subscribeForm} from './lead-form.mjs';
 import mercado from '../sites/comida/mercado.mjs';
 // Which product the order form preselects on each /mercado/ page.
@@ -15,7 +15,7 @@ export function article({page:a,route,routes,pages,picture,wa,config}){
   const form=a.kind==='product'?`<section class="page-form" data-shared="process" id="formulario" aria-labelledby="of-h">${orderForm({mercado,wa,source:route.path,preselect:PRESELECT[a.id]||[],waMessage:a.waMessage})}</section>`:a.kind==='collection'&&a.recetario?`<section class="page-form" data-shared="process" id="recetario" aria-labelledby="rf-h">${recetarioForm({slug:a.slug,title:a.recetario.title,blurb:a.recetario.blurb,source:route.path})}</section>`:a.form==='viandas'?`<section class="page-form" data-shared="process" id="formulario" aria-labelledby="vf-h">${viandasForm({config,wa,source:route.path,waMessage:a.waMessage})}</section>`:'';
   const cta=a.cta===false||a.kind==='product'?'':a.kind==='collection'||a.kind==='ingredient'?`<section class="page-form" data-shared="process" aria-labelledby="sf-h">${subscribeForm({source:route.path})}</section>`:`<section class="soft-cta" data-shared="process"><h2>${esc(a.ctaTitle||'¿Organizás un evento?')}</h2><p>${esc(a.ctaText||'Contanos la fecha, la zona y cuántas personas esperás. Te ayudamos a consultar catering en Gran Asunción.')}</p><div class="cta-row"><a class="btn btn-primary" href="${attr(a.form==='viandas'?'#formulario':briefHref(route,a))}">${esc(a.ctaLabel||'Pedí un presupuesto')}</a><a class="btn btn-ghost" href="${attr(wa(a.waMessage))}">Escribinos por WhatsApp</a></div></section>`;
   return `<main id="top" class="content-page article-page"><div class="wrap narrow">${breadcrumbs(route,routes)}
-<header class="recipe-head"><p class="eyebrow">${esc(a.eyebrow||({cut:'Cortes de carne',vianda:'Viandas',ingredient:'Recetas por ingrediente',collection:'Recetas de temporada',product:'Mercado'}[a.kind]||'Guía'))}</p><h1>${esc(a.h1)}</h1>${a.intro.map(p=>`<p class="lead">${esc(p)}</p>`).join('')}${facts}</header>
+<header class="recipe-head"><p class="eyebrow">${esc(a.eyebrow||({cut:'Cortes de carne',vianda:'Viandas',ingredient:'Recetas por ingrediente',collection:'Recetas de temporada',product:'Mercado'}[a.kind]||'Guía'))}</p><h1>${esc(a.h1)}</h1>${a.intro.map(p=>`<p class="lead">${esc(p)}</p>`).join('')}${facts}${shareRow(a.h1,config.origin+route.path)}</header>
 ${a.image?`<figure class="page-image">${picture(a.image,'(min-width:900px) 820px, 100vw',true)}<figcaption class="cap">Imagen ilustrativa</figcaption></figure>`:''}
 ${a.estimate?`<p class="estimate-note">${esc(a.estimate)}</p>`:''}
 ${a.kind==='ingredient'&&recipes.length?`<section class="art-sec" id="recetas">${cardGrid(recipes,routes,{heading:a.recipesTitle||a.label})}</section>`:''}
