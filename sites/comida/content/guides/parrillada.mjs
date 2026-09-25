@@ -11,7 +11,7 @@ export default {
   cardText:'Cortes, achuras y chorizos servidos juntos, calientes y al centro de la mesa.',
   category:['carne','fiesta'],
   keywords:['parrillada','parrilladas','parrillada completa','parrillada en asuncion','parrillada para 4 personas','que lleva una parrillada'],
-  image:20,
+  image:62,
   intro:[
     'La parrillada es una forma de servir el asado: en lugar de repartir la carne en platos, todo llega junto al centro de la mesa sobre una parrillita con brasas o un brasero, y cada uno se sirve lo que quiere mientras la comida se mantiene caliente. En las parrilladas de Asunción y del interior es el pedido de siempre para compartir en familia o con amigos.',
     'Acá te contamos qué suele incluir una parrillada completa, cómo varía según quién la arme, cuánto calcular por persona y cómo recrearla en casa, incluidas las achuras, que son la parte que más dudas genera. No hablamos de locales puntuales: la idea es que puedas armar la tuya o saber qué preguntar cuando la pedís.'

@@ -10,6 +10,8 @@ export default {
   cardText:'Alitas con piel crocante al horno, para bañar en salsa barbacoa o picante.',
   course:'Plato principal', cuisine:'Casera', category:['pollo','horno','fiesta'],
   keywords:['alitas de pollo','alitas','alitas al horno','alitas de pollo al horno','alitas bbq','alitas picantes','alitas en freidora de aire','salsa para alitas'],
+
+  image:81,
   intro:[
     'Las alitas de pollo al horno pueden quedar tan crocantes como las fritas si se cuida una sola cosa: la piel tiene que estar seca. Esta receta usa un truco sencillo, una cucharada de polvo de hornear mezclada con la sal, que ayuda a que la piel se dore y se llene de burbujas, y dos temperaturas: primero baja, para derretir la grasa de debajo de la piel, y después alta, para que cruja.',
     'Salen doradas y listas para comer solas con limón o para bañar en una salsa barbacoa o picante justo antes de servir. Para 6 personas como plato principal se calculan unos 2 kilos de alitas; si van como picada junto a otras cosas, rinden para el doble de gente.'

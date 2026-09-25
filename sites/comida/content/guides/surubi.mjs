@@ -11,6 +11,8 @@ export default {
   cardText:'El pez de cuero de carne firme y sin espinas finas: cómo comprarlo y cocinarlo.',
   category:['paraguaya','saludable'],
   keywords:['surubí','surubi','surubi pez','surubí pescado','surubí a la parrilla','milanesa de surubí','postas de surubí'],
+
+  image:55,
   intro:[
     'El surubí es probablemente el pescado de río más querido en Paraguay. Es un pez de cuero, sin escamas, de cuerpo largo con manchas o rayas oscuras, que vive en el río Paraguay, el Paraná y sus afluentes. Su carne es blanca, firme y de sabor suave, y lo que la hace tan práctica es que no tiene espinas finas metidas en el músculo: solo el espinazo central y las espinas de las aletas.',
     'Por eso es el pescado que más se ve en postas y filetes, el que se hace en milanesa para los chicos y el que manda en la parrilla cuando hay pescado. En esta guía te contamos cómo reconocerlo, qué cortes pedir, cómo limpiarlo en casa y qué cocción aprovecha mejor su textura.'

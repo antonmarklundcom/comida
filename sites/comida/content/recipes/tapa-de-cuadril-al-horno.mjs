@@ -10,6 +10,8 @@ export default {
   cardText:'La tapa de cuadril sellada y asada sobre papas, rosada adentro y con la grasa crocante.',
   course:'Plato principal', cuisine:'Casera', category:['carne','horno','fiesta'],
   keywords:['tapa cuadril al horno','tapa de cuadril al horno','tapa cuadril','tapa de cuadril','picaña al horno','tapa de cuadril con papas'],
+
+  image:57,
   intro:[
     'La tapa de cuadril es la pieza triangular con una capa gruesa de grasa que en Paraguay muchos piden como picaña. En el horno rinde igual de bien que en la parrilla si se respeta una idea: primero derretir y dorar la grasa en una sartén caliente, después terminar la carne a temperatura moderada hasta que el centro quede rosado. Las papas van debajo y se cocinan en la grasa que suelta la pieza.',
     'La receta es para 6 personas con una tapa de cuadril grande, de alrededor de 1,8 kilos. Es un plato de domingo que se puede dejar listo para meter al horno mientras llegan los invitados, y lo que sobra se aprovecha frío en fetas finas.'

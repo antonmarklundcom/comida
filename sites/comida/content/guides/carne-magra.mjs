@@ -11,6 +11,8 @@ export default {
   cardText:'Los cortes con menos grasa y las técnicas para que queden jugosos.',
   category:['carne'],
   keywords:['carne magra','magra carne','cortes de carne magra','carne sin grasa','cortes magros de res'],
+
+  image:72,
   intro:[
     'En la carnicería, carne magra quiere decir carne con poca grasa visible, ni en la superficie ni entre las fibras. Hay cortes magros en el vacuno, en el cerdo y en el pollo, y todos comparten el mismo desafío en la cocina: sin grasa que los proteja, pasan de jugosos a secos en pocos minutos.',
     'Esta guía reúne los cortes con menos grasa de cada animal y las técnicas que funcionan para cocinarlos bien: cortes finos y fuego rápido, marinadas, cocción lenta con líquido, reposo y termómetro. Es una guía de cocina, no de nutrición: si seguís una dieta por indicación médica, consultá con tu profesional de salud.'

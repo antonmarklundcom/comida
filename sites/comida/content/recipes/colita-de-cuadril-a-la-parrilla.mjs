@@ -10,6 +10,8 @@ export default {
   cardText:'Un corte magro y sabroso, pincelado con salmuera de ajo y cortado contra la fibra.',
   course:'Plato principal', cuisine:'Casera', category:['carne','fiesta'],
   keywords:['colita de cuadril a la parrilla','colita cuadril a la parrilla','colita de cuadril','colita cuadril','colita cuadril al horno','colita de cuadril al horno'],
+
+  image:77,
   intro:[
     'La colita de cuadril es la punta baja del cuadril: una pieza con forma de lágrima, gruesa en el medio y fina en las puntas, con poca grasa y mucho sabor. Como es magra, en la parrilla se aprovecha mejor con fuego medio, pinceladas de salmuera para que no se reseque y un punto jugoso. Pasada de cocción se vuelve seca; bien hecha, es de las carnes más ricas del asado.',
     'Esta receta es para 6 personas con dos colitas medianas. Al final vas a encontrar cómo hacerla al horno para los días de lluvia, y por qué hay que cortarla en dos antes de fetearla.'

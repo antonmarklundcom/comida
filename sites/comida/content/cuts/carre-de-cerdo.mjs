@@ -10,6 +10,8 @@ export default {
   cardText:'El lomo del cerdo con sus costillas: se hornea entero o se corta en chuletas.',
   category:['carne','horno','fiesta'],
   keywords:['carré de cerdo','carre de cerdo','carré de cerdo al horno','carré de cerdo a la parrilla','carré con hueso'],
+
+  image:67,
   intro:[
     'El carré de cerdo es la pieza del lomo con las costillas todavía unidas. Si se corta entre hueso y hueso, salen las chuletas; si se deja entero, es una pieza para hornear o asar que se sirve en porciones con su hueso. Es magro, tierno y de sabor suave, así que el desafío no es ablandarlo sino evitar que se seque.',
     'En esta página vas a ver cómo se relaciona con el lomo y las chuletas, cómo pedirlo en la carnicería, tiempos y temperaturas para el horno y la parrilla, cuánto comprar por persona y qué hace variar su precio.'

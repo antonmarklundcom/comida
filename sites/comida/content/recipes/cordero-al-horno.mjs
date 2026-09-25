@@ -10,6 +10,8 @@ export default {
   cardText:'Pierna de cordero marinada, horneada despacio hasta que se separa del hueso.',
   course:'Plato principal', cuisine:'Casera', category:['carne','horno','fiesta'],
   keywords:['cordero','cordero al horno','cordero horno','carne de cordero','pierna de cordero al horno','cómo hacer cordero al horno'],
+
+  image:65,
   intro:[
     'El cordero tiene un sabor más marcado que la carne vacuna y una grasa que perfuma todo lo que está cerca. En el horno de casa la pieza más agradecida es la pierna: tiene hueso, que da sabor, y suficiente carne para una mesa de 6. Esta receta la cocina despacio, tapada, hasta que la carne se separa del hueso con una cuchara, y la dora al final junto con batatas y cebollas.',
     'La noche anterior se deja marinando con ajo, romero, limón y vino blanco. Al día siguiente el horno hace casi todo el trabajo. Si preferís el cordero rosado, más parecido a un bife, en las variaciones está la versión corta con temperaturas.'

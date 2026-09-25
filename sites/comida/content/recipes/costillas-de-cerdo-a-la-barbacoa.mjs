@@ -10,6 +10,8 @@ export default {
   cardText:'Costillas lentas al horno, pintadas con salsa barbacoa hecha en casa.',
   course:'Plato principal', cuisine:'Casera', category:['carne','horno','fiesta'],
   keywords:['costillas de cerdo','costillas de cerdo a la barbacoa','costillas bbq','costillas de cerdo en barbacoa','costillas de cerdo al horno','salsa barbacoa casera','costillitas bbq'],
+
+  image:84,
   intro:[
     'Las costillas de cerdo a la barbacoa son costillas cocidas despacio hasta que la carne se afloja del hueso y después cubiertas, capa por capa, con una salsa espesa, dulce, ácida y apenas ahumada. La salsa se hace en casa en veinte minutos con tomate, cebolla, azúcar negra, vinagre y especias, sin frascos comprados, y se puede ajustar más picante o más dulce.',
     'La receta está pensada para el horno de casa, con la opción de terminar las costillas sobre la parrilla para sumar humo. Con 2,5 kilos de costillas en plancha comen 6 personas. La salsa rinde de sobra: una parte va a la carne y otra se sirve aparte en la mesa.'

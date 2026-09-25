@@ -12,6 +12,8 @@ export default {
   cardText:'Cuántas docenas de empanadas pedir, qué sabores combinar y cómo servirlas calientes.',
   category:['fiesta','paraguaya'],
   keywords:['empanadas para eventos','empanadas por docena para eventos','empanada de mandioca','empanadas de carne','empanadas de choclo','catering de empanadas'],
+
+  image:61,
   intro:[
     'Las empanadas resuelven muchas fiestas paraguayas porque se comen con la mano, gustan a grandes y chicos y aguantan bien una espera corta. Para un evento, sin embargo, la cuenta cambia: ya no se trata de una fuente en la mesa del domingo, sino de docenas que tienen que llegar calientes, en el sabor correcto y al ritmo de los invitados.',
     'Esta página te ayuda a decidir el formato, estimar cuántas docenas pedir y armar la consulta. comida.com.py recibe tu pedido y consulta disponibilidad con caterings de la zona; el catering que elijas es quien te envía la propuesta, acuerda el servicio con vos y te factura.'

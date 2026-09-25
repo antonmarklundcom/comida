@@ -10,6 +10,8 @@ export default {
   cardText:'El lechón adobado de un día para otro y horneado en etapas hasta que el cuero cruje.',
   course:'Plato principal', cuisine:'Paraguaya', category:['carne','horno','fiesta','paraguaya'],
   keywords:['lechón al horno','lechon al horno','lechón asado','asado lechon','lechón para fin de año','lechón a la parrilla'],
+
+  image:74,
   intro:[
     'El lechón al horno es la estrella de muchas mesas de fin de año y de los cumpleaños grandes en Paraguay. Un cerdito joven, abierto y adobado de un día para otro, se hornea en etapas largas: primero despacio y húmedo para que la carne se ablande, después con el cuero hacia arriba y horno fuerte para que quede dorado y crocante.',
     'Las cantidades se calculan por kilo de lechón ya faenado y limpio. Elegí 4, 8 o 12 kilos y el adobo se recalcula. Los tiempos de cada etapa son para piezas de alrededor de 2 kilos, que es lo que entra en una asadera de horno familiar; cada paso tiene su temporizador.'

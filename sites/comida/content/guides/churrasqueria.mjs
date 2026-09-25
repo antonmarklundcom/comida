@@ -11,7 +11,7 @@ export default {
   cardText:'Espetos que pasan por la mesa y se cortan al momento: el churrasco explicado.',
   category:['carne','fiesta'],
   keywords:['churrasqueria','churrasquería','churrasquería en asunción','espeto corrido','rodizio','churrasco en espeto'],
-  image:23,
+  image:54,
   intro:[
     'Una churrasquería es un restaurante de carnes al estilo del sur de Brasil, donde la carne se asa ensartada en espetos, unas varillas largas de metal, y los mozos la llevan a la mesa para cortarla en el momento. Por la cercanía con Brasil, el formato es muy conocido en Paraguay y se volvió una opción habitual para festejos.',
     'En esta guía explicamos qué es el espeto corrido, qué cortes suelen pasar por la mesa, en qué se diferencia de una parrillada y cómo recrear la experiencia en casa con espetos, carbón y un poco de organización. No nombramos locales ni hablamos de precios: la idea es entender el formato para disfrutarlo mejor o para copiarlo en tu patio.'

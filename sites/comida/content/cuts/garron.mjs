@@ -10,6 +10,8 @@ export default {
   cardText:'El corte de la pata que, con paciencia, termina en la carne más tierna.',
   category:['carne','paraguaya'],
   keywords:['garron de vaca','garrón','garrón de vaca'],
+
+  image:79,
   intro:[
     'El garrón es la parte baja de la pata del vacuno, entre la rodilla y la pezuña. Es un corte lleno de tendones, nervios y colágeno, de los que no se pueden hacer rápido: a la parrilla o en la sartén queda duro como una suela. Pero cocinado despacio, con líquido, se transforma en una carne suave, gelatinosa y muy sabrosa.',
     'Es el mismo corte del que sale el osobuco, y por eso muchos los confunden. En esta página te explicamos qué los diferencia, cómo elegir un buen garrón, cómo cocinarlo entero o en trozos, cuánto rinde y por qué es uno de los cortes que más conviene en una cocina de olla.'

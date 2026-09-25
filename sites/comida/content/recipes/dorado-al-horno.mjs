@@ -10,6 +10,8 @@ export default {
   cardText:'Dorado de río entero, horneado sobre papas, cebolla y locote con ajo y limón.',
   course:'Plato principal', cuisine:'Paraguaya', category:['paraguaya','horno','fiesta'],
   keywords:['dorado al horno','dorado pescado al horno','dorado de río al horno','receta de dorado al horno','pescado entero al horno'],
+
+  image:83,
   intro:[
     'Cocinar el dorado de río entero en el horno es la manera más sencilla de disfrutar su sabor sin pelearse con las espinas. La piel lo protege y lo mantiene jugoso, las verduras de abajo se cocinan en los jugos del pescado y, al final, la carne se levanta del espinazo en dos grandes filetes. Todo sale de una sola asadera y el plato queda completo.',
     'La receta está pensada para un dorado de unos 2,5 kg, que alcanza para seis personas con las papas y verduras. Si tu pescado es más chico o más grande, el tiempo cambia: más abajo tenés una tabla orientativa. Para reconocer un dorado fresco y entender sus espinas, tenés nuestra guía del dorado de río.'

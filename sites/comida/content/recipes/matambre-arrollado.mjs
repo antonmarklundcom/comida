@@ -10,6 +10,8 @@ export default {
   cardText:'El matambre relleno de huevo, zanahoria y locote, tierno, en rodajas frías o calientes.',
   course:'Plato principal', cuisine:'Casera', category:['carne','fiesta','horno'],
   keywords:['matambre relleno','arrollado de matambre','matambre arrollado','matambre arrollado hervido','matambre al horno relleno','matambre relleno al horno'],
+
+  image:78,
   intro:[
     'El matambre arrollado es un matambre vacuno abierto, cubierto con un relleno de colores, enrollado, atado y cocido lentamente en un caldo hasta que la carne se vuelve tierna. Al cortarlo aparece el espiral de carne con huevo duro, zanahoria y locote. Frío es un clásico de las mesas de Navidad y Año Nuevo; caliente y dorado al horno es un plato de domingo.',
     'Esta receta hace las dos cosas: primero se hierve, que es lo que lo ablanda, y después se dora en el horno. Si lo querés como fiambre, te explicamos cómo prensarlo para que las rodajas salgan firmes. Las cantidades son para 6 personas con un matambre entero.'

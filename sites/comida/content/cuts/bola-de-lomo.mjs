@@ -10,6 +10,8 @@ export default {
   cardText:'Carne magra y tierna de la pierna: milanesas, horno y carne picada.',
   category:['carne','horno'],
   keywords:['bola de lomo','bolo de lomo','bola de lomo precio','carne bola de lomo','bola de lomo parte de la vaca','bola de lomo otros nombres','bola de lomo precio por kilo'],
+
+  image:72,
   intro:[
     'La bola de lomo es uno de los cortes magros más versátiles de la carnicería. A pesar del nombre, no tiene nada que ver con el lomo: sale de la pierna trasera y es una pieza redondeada, de carne pareja y bastante tierna para ser de esa zona. Muchos la buscan como bolo de lomo, que es la misma carne dicha de otra forma.',
     'Sirve para milanesas, carne al horno, bifes a la plancha, brochetas y carne picada magra. Acá te contamos de qué parte sale, qué otros nombres tiene, cómo sacarle el mejor provecho y en qué fijarte cuando la comprás.'

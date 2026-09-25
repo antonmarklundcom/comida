@@ -11,6 +11,8 @@ export default {
   cardText:'Carne grasa y sabrosa, ideal a la brasa: cómo elegir, abrir y cocinar el pacú.',
   category:['paraguaya','carne'],
   keywords:['pacu pescado','pacú pescado','pescado pacu','pacu pez','pacú','pacu pescado de rio','el pacu'],
+
+  image:82,
   intro:[
     'El pacú es el pescado de río que más se asocia con la parrilla en Paraguay. Tiene el cuerpo alto, ancho y aplanado, de color gris oscuro con reflejos plateados, y una carne blanca con bastante grasa entre las fibras. Esa grasa es la que lo hace tan sabroso y la que lo mantiene jugoso sobre las brasas, donde otros pescados se secan.',
     'Pertenece a la misma familia que las pirañas, aunque se alimenta sobre todo de frutos y semillas que caen al agua, y eso se nota en su sabor, suave y un poco dulce. En esta guía te explicamos cómo distinguir un buen pacú, qué pedir en la pescadería, cómo manejar sus espinas y qué preparaciones le sacan el mejor partido.'

@@ -12,6 +12,8 @@ export default {
   cardText:'Estación de hamburguesas o mini burgers: cuántas calcular y cómo organizar la fila.',
   category:['fiesta','carne','rapida'],
   keywords:['hamburguesas para eventos','estación de hamburguesas','mini hamburguesas para fiestas','food truck para eventos','catering de hamburguesas','hamburguesas caseras'],
+
+  image:73,
   intro:[
     'Una estación de hamburguesas cambia el clima de una fiesta. El olor de la plancha, el pan que se tuesta y la posibilidad de elegir qué poner adentro convierten la comida en un momento que los invitados buscan, igual que pasa en la fila de un food truck. Funciona en cumpleaños de quince, fiestas de egresados, eventos de empresa y casamientos que buscan algo más informal para la madrugada.',
     'En esta página vas a ver los formatos posibles, una estimación de cuántas hamburguesas calcular y lo que conviene aclarar con el proveedor. comida.com.py recibe tu pedido y consulta disponibilidad con caterings; el catering que elijas te presenta su propuesta, acuerda el servicio con vos y te factura.'

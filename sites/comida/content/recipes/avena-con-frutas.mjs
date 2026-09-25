@@ -9,6 +9,8 @@ export default {
   cardText:'Avena cocida con leche y canela, con banana, mango o frutillas encima.',
   course:'Merienda', cuisine:'Casera', category:['saludable','rapida'],
   keywords:['avena con frutas','avena cocida','avena con leche','desayunos saludables','avena de la noche anterior'],
+
+  image:63,
   intro:[
     'La avena con frutas es un desayuno de olla chica: copos de avena cocidos unos minutos en leche con una pizca de sal y canela, hasta que se vuelven cremosos, y fruta fresca por encima. Sale tibia, se prepara mientras se calienta el agua del cocido y se adapta a lo que haya en la frutera.',
     'La receta da dos tazones generosos. Al final encontrás la versión fría, que se deja armada en frascos la noche anterior para quienes salen temprano y no tienen tiempo de cocinar a la mañana.'

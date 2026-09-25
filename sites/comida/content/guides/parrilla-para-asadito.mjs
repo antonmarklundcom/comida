@@ -11,6 +11,8 @@ export default {
   cardText:'Hierro, ladrillo, portátil, gas o cilindro: cuál conviene para tu patio.',
   category:['carne'],
   keywords:['parrilla para asadito','parrilla para asado','parrilla portatil','parrilla de ladrillo','parrilla de hierro','parrilla cilindro'],
+
+  image:58,
   intro:[
     'La parrilla para asadito es la que se usa para el asado de todos los fines de semana: la de la familia, la del patio del departamento, la que se lleva al quincho de un amigo. No tiene que ser enorme ni cara, pero sí tiene que calzar con tu espacio, con la cantidad de gente que suele venir y con el tiempo que querés dedicarle a mantenerla.',
     'En esta guía repasamos los tipos más comunes que se ven en Paraguay, qué material conviene en cada parte, cómo calcular el tamaño según el grupo y cómo cuidarla para que dure. No recomendamos marcas ni comercios: la idea es que sepas qué mirar cuando vayas a comprar o a encargar una.'

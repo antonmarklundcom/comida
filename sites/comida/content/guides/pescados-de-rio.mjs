@@ -11,6 +11,8 @@ export default {
   cardText:'Surubí, dorado, pacú y boga: cómo reconocer el pescado fresco y qué hacer con cada uno.',
   category:['paraguaya','saludable'],
   keywords:['pescados de río','pescado de río','pescados de río de paraguay','surubí','pacú pescado','dorado pescado','boga pescado','pescado para semana santa'],
+
+  image:56,
   intro:[
     'Paraguay no tiene mar, pero tiene ríos grandes y una cocina que sabe aprovecharlos. Del río Paraguay, del Paraná y de sus afluentes salen el surubí, el dorado, el pacú, la boga, el bagre y el mandi\'i, pescados que llegan a la mesa a la parrilla, al horno, en milanesa o en caldo. Cada uno tiene su carácter: hay carnes firmes y sin espinas chicas, otras grasosas y sabrosas, otras delicadas pero llenas de espinas finas.',
     'Esta guía sirve para comprar con criterio y cocinar sin desperdiciar. Te contamos cómo distinguir las especies más comunes, qué mirar para saber si el pescado está fresco, cómo limpiarlo y guardarlo, qué receta le va mejor a cada uno y qué pasa con la veda pesquera que fija cada año el Ministerio del Ambiente. Para cada especie grande tenés además una guía propia, más detallada.'

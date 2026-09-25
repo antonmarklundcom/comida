@@ -12,6 +12,8 @@ export default {
   cardText:'Lechón al horno o a la parrilla: cuántos kilos pedir y cómo servirlo en tu fiesta.',
   category:['carne','fiesta','paraguaya'],
   keywords:['lechón','lechón para fiestas','lechón para fin de año','lechon a la parrilla','lechón al horno','catering de lechón'],
+
+  image:74,
   intro:[
     'El lechón es el plato de las grandes ocasiones en muchas casas paraguayas, sobre todo en las fiestas de fin de año. Llega entero a la mesa, con el cuero dorado y crocante, y se corta delante de todos. Justamente por eso no es una comida que se improvise: un lechón para veinte o cincuenta personas necesita horno o parrilla del tamaño correcto, horas de cocción y alguien que sepa trozarlo.',
     'Esta página te ayuda a elegir cómo servirlo, calcular cuántos kilos pedir y ordenar la consulta. comida.com.py recibe tu pedido y consulta disponibilidad con caterings que trabajan con lechón; el catering que elijas te envía la propuesta, acuerda el servicio con vos y te factura.'

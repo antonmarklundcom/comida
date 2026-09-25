@@ -9,6 +9,8 @@ export default {
   cardText:'Garbanzos, verduras crocantes y un aliño de limón y comino. Rinde para la vianda.',
   course:'Ensalada', cuisine:'Casera', category:['saludable','rapida'],
   keywords:['ensalada de garbanzos','ensalada de garbanzo','garbanzos','cena saludable','ensalada para vianda'],
+
+  image:69,
   intro:[
     'La ensalada de garbanzos es de las que mejoran con el reposo: los garbanzos absorben el aliño de limón, aceite y comino, y las verduras crudas le dan frescura y crocante. Se sirve fría como plato único en una cena de calor, acompaña un pollo a la plancha y se lleva en la vianda sin que se ponga aguada.',
     'Podés hacerla con garbanzos secos, remojados la noche anterior y cocidos en casa, o con garbanzos de lata bien enjuagados. La receta da cuatro porciones de plato principal o seis de acompañamiento.'

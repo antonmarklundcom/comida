@@ -10,6 +10,8 @@ export default {
   cardText:'La pierna del cerdo que se hornea para Navidad y se sirve en sándwiches.',
   category:['carne','fiesta','horno'],
   keywords:['pernil de cerdo','pernil','pernil de cerdo al horno','pernil para navidad','sandwich de pernil'],
+
+  image:80,
   intro:[
     'El pernil es la pierna trasera del cerdo: una pieza grande, con un hueso central, carne abundante y una capa de grasa y cuero por fuera. Es el corte clásico de las mesas de Navidad y Año Nuevo, y también de los sándwiches de pernil que se sirven en cumpleaños, casamientos y eventos de empresa. Horneado lento, queda tierno, se corta en fetas o se desmenuza fácil.',
     'Por su tamaño, un pernil necesita planificación: hay que encargarlo, adobarlo con tiempo y darle varias horas de horno. En esta página vas a ver cómo elegirlo, entero o deshuesado, cómo adobarlo, cuánto tarda según el peso, cuántas personas comen con uno y qué cambia su precio.'

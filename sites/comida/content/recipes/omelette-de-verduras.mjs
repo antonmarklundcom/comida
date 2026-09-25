@@ -9,6 +9,8 @@ export default {
   cardText:'Huevos batidos con locote, tomate, espinaca y queso, doblados en la sartén.',
   course:'Plato principal', cuisine:'Casera', category:['saludable','rapida'],
   keywords:['omelette de verduras','omelet de verduras','como hacer omelette','cena saludable','cena rápida y económica'],
+
+  image:70,
   intro:[
     'El omelette de verduras es la respuesta a la pregunta de qué cenar cuando no hay tiempo: huevos batidos, un salteado corto de locote, tomate y espinaca, un poco de queso y una sartén caliente. Se cocina en menos de cinco minutos por porción, se dobla al medio y llega al plato jugoso por dentro.',
     'A diferencia de la tortilla de verduras, que se da vuelta entera y se cocina de los dos lados, el omelette se hace con pocos huevos, se cocina de un solo lado y se dobla sobre el relleno. La receta da dos omelettes, uno por persona, que se preparan uno después del otro.'

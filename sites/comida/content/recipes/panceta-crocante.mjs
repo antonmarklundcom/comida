@@ -10,6 +10,8 @@ export default {
   cardText:'Panceta de cerdo tierna por dentro, con el cuero bien crocante arriba.',
   course:'Plato principal', cuisine:'Casera', category:['carne','horno','fiesta'],
   keywords:['panceta','panceta crocante','panceta de cerdo','panceta al horno','panceta a la parrilla','panceta de cerdo al horno'],
+
+  image:66,
   intro:[
     'La panceta es la panza del cerdo: capas alternadas de carne y grasa, casi siempre con el cuero de un lado. Bien cocinada es una de las piezas más sabrosas del animal, porque la grasa se derrite despacio, humedece la carne y deja arriba una corteza que cruje. Esta receta tiene dos caminos: en el horno, en una pieza entera con el cuero inflado, o en tiras sobre la parrilla para compartir en el asado.',
     'El secreto en los dos casos es el mismo: un cuero seco, sal, calor moderado primero para derretir la grasa y un golpe de calor fuerte al final. Con 1,8 kilos de panceta cruda comen 6 personas como plato principal; si va de entrada junto con otras carnes, rinde para bastantes más.'

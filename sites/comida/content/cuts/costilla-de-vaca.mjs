@@ -10,7 +10,7 @@ export default {
   cardText:'La costilla vacuna, en tira o entera: el corte que no falta en el asado.',
   category:['carne','fiesta'],
   keywords:['costilla de vaca','costilla vacuna','asado de tira','carne para asado','costillar de novillo','costilla a la parrilla'],
-  image:12,
+  image:86,
   intro:[
     'La costilla de vaca es la base de casi cualquier asado paraguayo. Se vende de varias maneras: el costillar entero, en tiras cortadas a lo ancho de los huesos, que es el asado de tira, o en bloques más chicos. Tiene hueso, grasa entre las fibras y bastante colágeno, así que gana sabor con fuego suave y paciencia.',
     'Acá vas a ver cómo se llaman las distintas presentaciones, qué pedirle al carnicero según tu parrilla, cuánto tarda cada una, cuánta costilla calcular por persona y qué hace que dos costillas del mismo mostrador tengan precios distintos.'
