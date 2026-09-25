@@ -10,7 +10,7 @@ export default {
   cardText:'La pieza con grasa del cuadril: al horno o a la parrilla, y cómo pedirla bien.',
   category:['carne','fiesta','horno'],
   keywords:['tapa cuadril','tapa de cuadril','cuadril','cuadrilo','carne cuadril','tapa cuadril al horno','tapa cuadril a la parrilla','tapa cuadril precio'],
-  image:23,
+  image:57,
   intro:[
     'Tapa cuadril es uno de los nombres que más se buscan en las carnicerías de Paraguay, y también uno de los que más confusión trae. En teoría es la misma pieza que la picaña: el músculo triangular con una capa de grasa que cubre el cuadril. En la práctica, según quién la corte, puede llegar más limpia, más grande o con parte del cuadril pegado.',
     'En esta página te explicamos qué es el cuadril completo, dónde está la tapa, cómo distinguirla de lo que se vende como picaña, cómo hacerla al horno y a la parrilla sin que se seque, cuánto comprar y qué mueve su precio.'

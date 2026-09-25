@@ -9,6 +9,8 @@ export default {
   cardText:'Sandía, manzana y pera, mango y frutilla con banana: jugos y licuados para chicos.',
   course:'Merienda', cuisine:'Casera', category:['saludable','rapida'],
   keywords:['jugo para ninos','jugos para niños','jugos naturales para niños','licuados para niños','merienda para niños'],
+
+  image:59,
   intro:[
     'Un jugo casero para chicos no necesita más que fruta madura, agua o leche fría y una licuadora. Estas cuatro combinaciones están pensadas para el gusto infantil: sabores suaves, colores llamativos y texturas que se toman con sorbete, sin semillas molestas ni pedacitos que traben.',
     'Son dos jugos y dos licuados. Los jugos, de sandía y de manzana con pera, refrescan en la tarde de calor; los licuados, de mango con leche y de frutilla con banana y yogur, llenan más y sirven como merienda. Cada combinación rinde unos cuatro vasos chicos.'

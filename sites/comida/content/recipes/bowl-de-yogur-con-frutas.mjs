@@ -9,6 +9,8 @@ export default {
   cardText:'Yogur natural, fruta fresca y granola crocante hecha en casa.',
   course:'Merienda', cuisine:'Casera', category:['saludable','rapida'],
   keywords:['bowl de yogur','yogur con frutas','yogur con granola','granola casera','merienda saludable','desayunos saludables'],
+
+  image:64,
   intro:[
     'Un bowl de yogur con frutas se arma en cinco minutos: una base de yogur natural o griego bien frío, fruta fresca cortada y un puñado de granola crocante por encima. Lo que lo hace especial es el contraste entre lo cremoso, lo jugoso y lo tostado, y eso depende sobre todo de la granola.',
     'Por eso la receta incluye una granola casera de avena, maní y semillas tostada en el horno, que rinde para varias semanas de desayunos. Con la granola ya hecha y el yogur en la heladera, el bowl queda listo mientras se calienta el agua del mate o del cocido.'

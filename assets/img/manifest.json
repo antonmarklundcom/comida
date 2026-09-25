@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:59:16.287Z",
+  "generated_at": "2026-09-25T22:37:14.535Z",
   "images": [
     {
       "filename_base": "mesa-buffet-catering-evento-asuncion",
@@ -2137,6 +2137,1293 @@
         }
       ],
       "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/bondiola-de-cerdo-al-horno-640.avif 640w, assets/img/bondiola-de-cerdo-al-horno-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/bondiola-de-cerdo-al-horno-640.webp 640w, assets/img/bondiola-de-cerdo-al-horno-1024.webp 1024w\">\n  <img src=\"assets/img/bondiola-de-cerdo-al-horno-640.webp\" alt=\"Bondiola de cerdo al horno cortada en rodajas jugosas sobre una tabla, con papas asadas\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "espetos-de-picanha-churrasqueria-asuncion",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051819_e391e4d3-1e73-440d-8ac2-2635ea660dc2.png",
+      "prompt": "churrasqueria espetos",
+      "alt_text": "Espetos de picaña y chorizo sobre las brasas en una churrasquería de Asunción, con un corte recién servido",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "espetos-de-picanha-churrasqueria-asuncion-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 33.2
+        },
+        {
+          "file": "espetos-de-picanha-churrasqueria-asuncion-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 41.2
+        },
+        {
+          "file": "espetos-de-picanha-churrasqueria-asuncion-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 59.4
+        },
+        {
+          "file": "espetos-de-picanha-churrasqueria-asuncion-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 78.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/espetos-de-picanha-churrasqueria-asuncion-640.avif 640w, assets/img/espetos-de-picanha-churrasqueria-asuncion-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/espetos-de-picanha-churrasqueria-asuncion-640.webp 640w, assets/img/espetos-de-picanha-churrasqueria-asuncion-1024.webp 1024w\">\n  <img src=\"assets/img/espetos-de-picanha-churrasqueria-asuncion-640.webp\" alt=\"Espetos de picaña y chorizo sobre las brasas en una churrasquería de Asunción, con un corte recién servido\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "surubi-a-la-parrilla-postas",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051819_00a11d89-ff24-4c65-8045-42373f3a8d22.png",
+      "prompt": "surubi a la parrilla",
+      "alt_text": "Postas de surubí a la parrilla con marcas de brasa, limón y chimichurri en un quincho paraguayo",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "surubi-a-la-parrilla-postas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 41.8
+        },
+        {
+          "file": "surubi-a-la-parrilla-postas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 48.9
+        },
+        {
+          "file": "surubi-a-la-parrilla-postas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 72.5
+        },
+        {
+          "file": "surubi-a-la-parrilla-postas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 93.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/surubi-a-la-parrilla-postas-640.avif 640w, assets/img/surubi-a-la-parrilla-postas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/surubi-a-la-parrilla-postas-640.webp 640w, assets/img/surubi-a-la-parrilla-postas-1024.webp 1024w\">\n  <img src=\"assets/img/surubi-a-la-parrilla-postas-640.webp\" alt=\"Postas de surubí a la parrilla con marcas de brasa, limón y chimichurri en un quincho paraguayo\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "pescados-de-rio-surubi-pacu-dorado",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051818_18b6ba98-051a-4a51-b9f5-a15fdd7e189a.png",
+      "prompt": "pescados de rio en hielo",
+      "alt_text": "Surubí, pacú y dorado enteros sobre hielo en un puesto de pescado de Asunción",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "pescados-de-rio-surubi-pacu-dorado-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 46.4
+        },
+        {
+          "file": "pescados-de-rio-surubi-pacu-dorado-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 59
+        },
+        {
+          "file": "pescados-de-rio-surubi-pacu-dorado-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 85.4
+        },
+        {
+          "file": "pescados-de-rio-surubi-pacu-dorado-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 115
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/pescados-de-rio-surubi-pacu-dorado-640.avif 640w, assets/img/pescados-de-rio-surubi-pacu-dorado-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/pescados-de-rio-surubi-pacu-dorado-640.webp 640w, assets/img/pescados-de-rio-surubi-pacu-dorado-1024.webp 1024w\">\n  <img src=\"assets/img/pescados-de-rio-surubi-pacu-dorado-640.webp\" alt=\"Surubí, pacú y dorado enteros sobre hielo en un puesto de pescado de Asunción\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "tapa-de-cuadril-al-horno-en-rodajas",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051818_8033278a-3fb8-4fd2-afd5-b916955e23cf.png",
+      "prompt": "tapa de cuadril al horno",
+      "alt_text": "Tapa de cuadril al horno cortada en rodajas rosadas con su capa de grasa dorada y papas asadas",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "tapa-de-cuadril-al-horno-en-rodajas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 36.3
+        },
+        {
+          "file": "tapa-de-cuadril-al-horno-en-rodajas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 45.3
+        },
+        {
+          "file": "tapa-de-cuadril-al-horno-en-rodajas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 67.4
+        },
+        {
+          "file": "tapa-de-cuadril-al-horno-en-rodajas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 88.9
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/tapa-de-cuadril-al-horno-en-rodajas-640.avif 640w, assets/img/tapa-de-cuadril-al-horno-en-rodajas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/tapa-de-cuadril-al-horno-en-rodajas-640.webp 640w, assets/img/tapa-de-cuadril-al-horno-en-rodajas-1024.webp 1024w\">\n  <img src=\"assets/img/tapa-de-cuadril-al-horno-en-rodajas-640.webp\" alt=\"Tapa de cuadril al horno cortada en rodajas rosadas con su capa de grasa dorada y papas asadas\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "asaditos-en-parrilla-portatil-paraguay",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051818_3c7019a5-8e8d-477e-938c-fa83bcf5e779.png",
+      "prompt": "parrilla para asadito",
+      "alt_text": "Asaditos en palitos dorándose sobre una parrilla portátil a carbón, con mandioca al costado",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "asaditos-en-parrilla-portatil-paraguay-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 24.4
+        },
+        {
+          "file": "asaditos-en-parrilla-portatil-paraguay-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 31.7
+        },
+        {
+          "file": "asaditos-en-parrilla-portatil-paraguay-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 41.7
+        },
+        {
+          "file": "asaditos-en-parrilla-portatil-paraguay-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 57.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/asaditos-en-parrilla-portatil-paraguay-640.avif 640w, assets/img/asaditos-en-parrilla-portatil-paraguay-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/asaditos-en-parrilla-portatil-paraguay-640.webp 640w, assets/img/asaditos-en-parrilla-portatil-paraguay-1024.webp 1024w\">\n  <img src=\"assets/img/asaditos-en-parrilla-portatil-paraguay-640.webp\" alt=\"Asaditos en palitos dorándose sobre una parrilla portátil a carbón, con mandioca al costado\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "jugos-naturales-de-frutas-para-ninos",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051818_6ea21ff6-4450-4e94-b233-3cdd43ac3c29.png",
+      "prompt": "jugos para ninos",
+      "alt_text": "Cuatro vasos de jugos naturales de naranja, frutilla, mango y sandía con frutas cortadas alrededor",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "jugos-naturales-de-frutas-para-ninos-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 25.5
+        },
+        {
+          "file": "jugos-naturales-de-frutas-para-ninos-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 32.4
+        },
+        {
+          "file": "jugos-naturales-de-frutas-para-ninos-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 42.3
+        },
+        {
+          "file": "jugos-naturales-de-frutas-para-ninos-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 59
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/jugos-naturales-de-frutas-para-ninos-640.avif 640w, assets/img/jugos-naturales-de-frutas-para-ninos-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/jugos-naturales-de-frutas-para-ninos-640.webp 640w, assets/img/jugos-naturales-de-frutas-para-ninos-1024.webp 1024w\">\n  <img src=\"assets/img/jugos-naturales-de-frutas-para-ninos-640.webp\" alt=\"Cuatro vasos de jugos naturales de naranja, frutilla, mango y sandía con frutas cortadas alrededor\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "cortes-de-pollo-crudos-en-tabla",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051818_418fc6ee-70ea-4001-862d-d245f7761963.png",
+      "prompt": "cortes de pollo",
+      "alt_text": "Cortes de pollo crudos sobre una tabla: suprema, muslos, patas, pata muslo y alitas con ajo y limón",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "cortes-de-pollo-crudos-en-tabla-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 29.9
+        },
+        {
+          "file": "cortes-de-pollo-crudos-en-tabla-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 42.4
+        },
+        {
+          "file": "cortes-de-pollo-crudos-en-tabla-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 61.3
+        },
+        {
+          "file": "cortes-de-pollo-crudos-en-tabla-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 85.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/cortes-de-pollo-crudos-en-tabla-640.avif 640w, assets/img/cortes-de-pollo-crudos-en-tabla-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/cortes-de-pollo-crudos-en-tabla-640.webp 640w, assets/img/cortes-de-pollo-crudos-en-tabla-1024.webp 1024w\">\n  <img src=\"assets/img/cortes-de-pollo-crudos-en-tabla-640.webp\" alt=\"Cortes de pollo crudos sobre una tabla: suprema, muslos, patas, pata muslo y alitas con ajo y limón\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "empanadas-para-eventos-bandejas-catering",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051818_dd9dcbbb-5882-417b-8e1f-bb38ed7938c2.png",
+      "prompt": "empanadas para eventos",
+      "alt_text": "Bandejas de empanadas doradas para un evento, algunas abiertas con relleno de carne",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "empanadas-para-eventos-bandejas-catering-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 30.5
+        },
+        {
+          "file": "empanadas-para-eventos-bandejas-catering-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 39.4
+        },
+        {
+          "file": "empanadas-para-eventos-bandejas-catering-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 49.8
+        },
+        {
+          "file": "empanadas-para-eventos-bandejas-catering-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 68.7
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/empanadas-para-eventos-bandejas-catering-640.avif 640w, assets/img/empanadas-para-eventos-bandejas-catering-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/empanadas-para-eventos-bandejas-catering-640.webp 640w, assets/img/empanadas-para-eventos-bandejas-catering-1024.webp 1024w\">\n  <img src=\"assets/img/empanadas-para-eventos-bandejas-catering-640.webp\" alt=\"Bandejas de empanadas doradas para un evento, algunas abiertas con relleno de carne\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "parrillada-completa-en-brasero-quincho",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051819_02176f29-65e5-40ea-9262-b74cf41aa0a9.png",
+      "prompt": "parrillada",
+      "alt_text": "Parrillada completa en un brasero de mesa con costilla, vacío, chorizo, morcilla y pollo, con mandioca",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "parrillada-completa-en-brasero-quincho-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 33
+        },
+        {
+          "file": "parrillada-completa-en-brasero-quincho-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 42.1
+        },
+        {
+          "file": "parrillada-completa-en-brasero-quincho-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 59.5
+        },
+        {
+          "file": "parrillada-completa-en-brasero-quincho-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 81.5
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/parrillada-completa-en-brasero-quincho-640.avif 640w, assets/img/parrillada-completa-en-brasero-quincho-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/parrillada-completa-en-brasero-quincho-640.webp 640w, assets/img/parrillada-completa-en-brasero-quincho-1024.webp 1024w\">\n  <img src=\"assets/img/parrillada-completa-en-brasero-quincho-640.webp\" alt=\"Parrillada completa en un brasero de mesa con costilla, vacío, chorizo, morcilla y pollo, con mandioca\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "avena-con-frutas-banana-y-mamon",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051818_05eda9b8-d1db-42fd-807d-259091f39d23.png",
+      "prompt": "avena con frutas",
+      "alt_text": "Bowl de avena cremosa con banana, mamón, frutillas, miel y canela en una mesa de desayuno",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "avena-con-frutas-banana-y-mamon-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 28.6
+        },
+        {
+          "file": "avena-con-frutas-banana-y-mamon-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 39.1
+        },
+        {
+          "file": "avena-con-frutas-banana-y-mamon-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 52.1
+        },
+        {
+          "file": "avena-con-frutas-banana-y-mamon-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 76.8
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/avena-con-frutas-banana-y-mamon-640.avif 640w, assets/img/avena-con-frutas-banana-y-mamon-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/avena-con-frutas-banana-y-mamon-640.webp 640w, assets/img/avena-con-frutas-banana-y-mamon-1024.webp 1024w\">\n  <img src=\"assets/img/avena-con-frutas-banana-y-mamon-640.webp\" alt=\"Bowl de avena cremosa con banana, mamón, frutillas, miel y canela en una mesa de desayuno\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "bowl-de-yogur-con-frutas-y-granola",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051818_71681b60-40c6-4754-a52a-e0293282cb8e.png",
+      "prompt": "bowl de yogur con frutas",
+      "alt_text": "Bowl de yogur natural con mango, piña, kiwi, frutillas y granola visto desde arriba",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "bowl-de-yogur-con-frutas-y-granola-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 34.7
+        },
+        {
+          "file": "bowl-de-yogur-con-frutas-y-granola-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 43.6
+        },
+        {
+          "file": "bowl-de-yogur-con-frutas-y-granola-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 62.2
+        },
+        {
+          "file": "bowl-de-yogur-con-frutas-y-granola-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 83.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/bowl-de-yogur-con-frutas-y-granola-640.avif 640w, assets/img/bowl-de-yogur-con-frutas-y-granola-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/bowl-de-yogur-con-frutas-y-granola-640.webp 640w, assets/img/bowl-de-yogur-con-frutas-y-granola-1024.webp 1024w\">\n  <img src=\"assets/img/bowl-de-yogur-con-frutas-y-granola-640.webp\" alt=\"Bowl de yogur natural con mango, piña, kiwi, frutillas y granola visto desde arriba\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "pierna-de-cordero-al-horno-con-papas",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051819_e8cc197c-3fee-4e07-a3b8-9995a8e0f40e.png",
+      "prompt": "cordero al horno",
+      "alt_text": "Pierna de cordero al horno dorada con ajo y romero, papas y cebollas en la asadera",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "pierna-de-cordero-al-horno-con-papas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 33.7
+        },
+        {
+          "file": "pierna-de-cordero-al-horno-con-papas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 41
+        },
+        {
+          "file": "pierna-de-cordero-al-horno-con-papas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 60.5
+        },
+        {
+          "file": "pierna-de-cordero-al-horno-con-papas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 79
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/pierna-de-cordero-al-horno-con-papas-640.avif 640w, assets/img/pierna-de-cordero-al-horno-con-papas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/pierna-de-cordero-al-horno-con-papas-640.webp 640w, assets/img/pierna-de-cordero-al-horno-con-papas-1024.webp 1024w\">\n  <img src=\"assets/img/pierna-de-cordero-al-horno-con-papas-640.webp\" alt=\"Pierna de cordero al horno dorada con ajo y romero, papas y cebollas en la asadera\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "panceta-crocante-en-tabla",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_9002a993-06b1-4d4c-b6b0-d21e34229d14.png",
+      "prompt": "panceta crocante",
+      "alt_text": "Panceta crocante cortada en trozos gruesos con cuero dorado, lima y mandioca sobre una tabla",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "panceta-crocante-en-tabla-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 44.5
+        },
+        {
+          "file": "panceta-crocante-en-tabla-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 53.6
+        },
+        {
+          "file": "panceta-crocante-en-tabla-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 84.2
+        },
+        {
+          "file": "panceta-crocante-en-tabla-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 107.8
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/panceta-crocante-en-tabla-640.avif 640w, assets/img/panceta-crocante-en-tabla-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/panceta-crocante-en-tabla-640.webp 640w, assets/img/panceta-crocante-en-tabla-1024.webp 1024w\">\n  <img src=\"assets/img/panceta-crocante-en-tabla-640.webp\" alt=\"Panceta crocante cortada en trozos gruesos con cuero dorado, lima y mandioca sobre una tabla\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "cortes-de-cerdo-crudos-carniceria",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_3207b51c-244c-41c5-8c15-93d4813eb13f.png",
+      "prompt": "cortes de cerdo",
+      "alt_text": "Cortes de cerdo crudos en una carnicería: bondiola, carré, costillar, matambrito y pernil",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "cortes-de-cerdo-crudos-carniceria-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 30.2
+        },
+        {
+          "file": "cortes-de-cerdo-crudos-carniceria-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 40.5
+        },
+        {
+          "file": "cortes-de-cerdo-crudos-carniceria-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 52.9
+        },
+        {
+          "file": "cortes-de-cerdo-crudos-carniceria-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 73.9
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/cortes-de-cerdo-crudos-carniceria-640.avif 640w, assets/img/cortes-de-cerdo-crudos-carniceria-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/cortes-de-cerdo-crudos-carniceria-640.webp 640w, assets/img/cortes-de-cerdo-crudos-carniceria-1024.webp 1024w\">\n  <img src=\"assets/img/cortes-de-cerdo-crudos-carniceria-640.webp\" alt=\"Cortes de cerdo crudos en una carnicería: bondiola, carré, costillar, matambrito y pernil\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "tabla-de-quesos-con-queso-paraguay",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051916_32f648db-0141-4a96-9343-9e6a977fd8ed.png",
+      "prompt": "tipos de queso",
+      "alt_text": "Tabla con distintos tipos de queso, queso Paraguay fresco al frente, chipa, uvas y nueces",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "tabla-de-quesos-con-queso-paraguay-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 25.9
+        },
+        {
+          "file": "tabla-de-quesos-con-queso-paraguay-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 35.1
+        },
+        {
+          "file": "tabla-de-quesos-con-queso-paraguay-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 44.2
+        },
+        {
+          "file": "tabla-de-quesos-con-queso-paraguay-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 64.5
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/tabla-de-quesos-con-queso-paraguay-640.avif 640w, assets/img/tabla-de-quesos-con-queso-paraguay-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/tabla-de-quesos-con-queso-paraguay-640.webp 640w, assets/img/tabla-de-quesos-con-queso-paraguay-1024.webp 1024w\">\n  <img src=\"assets/img/tabla-de-quesos-con-queso-paraguay-640.webp\" alt=\"Tabla con distintos tipos de queso, queso Paraguay fresco al frente, chipa, uvas y nueces\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "ensalada-de-garbanzos-con-tomate-y-huevo",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_31b63537-620d-4453-b3b0-f69c3e440201.png",
+      "prompt": "ensalada de garbanzos",
+      "alt_text": "Ensalada de garbanzos con tomate, cebolla morada, pepino, perejil y huevo duro en un bowl",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "ensalada-de-garbanzos-con-tomate-y-huevo-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 32
+        },
+        {
+          "file": "ensalada-de-garbanzos-con-tomate-y-huevo-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 40.3
+        },
+        {
+          "file": "ensalada-de-garbanzos-con-tomate-y-huevo-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 58.2
+        },
+        {
+          "file": "ensalada-de-garbanzos-con-tomate-y-huevo-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 79.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/ensalada-de-garbanzos-con-tomate-y-huevo-640.avif 640w, assets/img/ensalada-de-garbanzos-con-tomate-y-huevo-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/ensalada-de-garbanzos-con-tomate-y-huevo-640.webp 640w, assets/img/ensalada-de-garbanzos-con-tomate-y-huevo-1024.webp 1024w\">\n  <img src=\"assets/img/ensalada-de-garbanzos-con-tomate-y-huevo-640.webp\" alt=\"Ensalada de garbanzos con tomate, cebolla morada, pepino, perejil y huevo duro en un bowl\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "omelette-de-verduras-en-sarten",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_ca891c09-fa40-4d4e-b928-be2b330cfeaf.png",
+      "prompt": "omelette de verduras",
+      "alt_text": "Omelette de verduras con espinaca, tomate, morrón y queso derretido en una sartén de hierro",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "omelette-de-verduras-en-sarten-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 26
+        },
+        {
+          "file": "omelette-de-verduras-en-sarten-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 33.4
+        },
+        {
+          "file": "omelette-de-verduras-en-sarten-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 45.1
+        },
+        {
+          "file": "omelette-de-verduras-en-sarten-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 62.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/omelette-de-verduras-en-sarten-640.avif 640w, assets/img/omelette-de-verduras-en-sarten-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/omelette-de-verduras-en-sarten-640.webp 640w, assets/img/omelette-de-verduras-en-sarten-1024.webp 1024w\">\n  <img src=\"assets/img/omelette-de-verduras-en-sarten-640.webp\" alt=\"Omelette de verduras con espinaca, tomate, morrón y queso derretido en una sartén de hierro\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "queso-cottage-casero-escurriendo",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_884f22c0-8ac5-4c99-b827-84d4c641c0d5.png",
+      "prompt": "queso cottage casero",
+      "alt_text": "Queso cottage casero escurriendo en un lienzo sobre un bowl, con leche y limones al lado",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "queso-cottage-casero-escurriendo-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 20.1
+        },
+        {
+          "file": "queso-cottage-casero-escurriendo-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 28.4
+        },
+        {
+          "file": "queso-cottage-casero-escurriendo-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 36.7
+        },
+        {
+          "file": "queso-cottage-casero-escurriendo-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 55.9
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/queso-cottage-casero-escurriendo-640.avif 640w, assets/img/queso-cottage-casero-escurriendo-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/queso-cottage-casero-escurriendo-640.webp 640w, assets/img/queso-cottage-casero-escurriendo-1024.webp 1024w\">\n  <img src=\"assets/img/queso-cottage-casero-escurriendo-640.webp\" alt=\"Queso cottage casero escurriendo en un lienzo sobre un bowl, con leche y limones al lado\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "cortes-de-carne-magra-cuadrada-nalga",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_cfa25079-e704-4fe6-bae7-2f2409af75a8.png",
+      "prompt": "carne magra",
+      "alt_text": "Cortes de carne vacuna magra sobre una tabla de carnicero: cuadrada, bola de lomo y nalga",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "cortes-de-carne-magra-cuadrada-nalga-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 37.1
+        },
+        {
+          "file": "cortes-de-carne-magra-cuadrada-nalga-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 46.8
+        },
+        {
+          "file": "cortes-de-carne-magra-cuadrada-nalga-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 71.8
+        },
+        {
+          "file": "cortes-de-carne-magra-cuadrada-nalga-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 95.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/cortes-de-carne-magra-cuadrada-nalga-640.avif 640w, assets/img/cortes-de-carne-magra-cuadrada-nalga-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/cortes-de-carne-magra-cuadrada-nalga-640.webp 640w, assets/img/cortes-de-carne-magra-cuadrada-nalga-1024.webp 1024w\">\n  <img src=\"assets/img/cortes-de-carne-magra-cuadrada-nalga-640.webp\" alt=\"Cortes de carne vacuna magra sobre una tabla de carnicero: cuadrada, bola de lomo y nalga\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "hamburguesas-para-eventos-estacion-catering",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_b23dacad-62e7-4e11-bd93-ec406cb93836.png",
+      "prompt": "hamburguesas para eventos",
+      "alt_text": "Estación de hamburguesas para un evento con medallones a la plancha, queso, lechuga y tomate",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "hamburguesas-para-eventos-estacion-catering-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 29.2
+        },
+        {
+          "file": "hamburguesas-para-eventos-estacion-catering-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 37.2
+        },
+        {
+          "file": "hamburguesas-para-eventos-estacion-catering-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 47.3
+        },
+        {
+          "file": "hamburguesas-para-eventos-estacion-catering-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 64.6
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/hamburguesas-para-eventos-estacion-catering-640.avif 640w, assets/img/hamburguesas-para-eventos-estacion-catering-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/hamburguesas-para-eventos-estacion-catering-640.webp 640w, assets/img/hamburguesas-para-eventos-estacion-catering-1024.webp 1024w\">\n  <img src=\"assets/img/hamburguesas-para-eventos-estacion-catering-640.webp\" alt=\"Estación de hamburguesas para un evento con medallones a la plancha, queso, lechuga y tomate\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "lechon-al-horno-entero-fiesta",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_0515bfa1-2730-4ab0-984a-c75108b1dbcd.png",
+      "prompt": "lechon al horno",
+      "alt_text": "Lechón entero al horno con cuero dorado y crocante en una fuente, con sopa paraguaya y mandioca",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "lechon-al-horno-entero-fiesta-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 37.9
+        },
+        {
+          "file": "lechon-al-horno-entero-fiesta-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 45.7
+        },
+        {
+          "file": "lechon-al-horno-entero-fiesta-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 70
+        },
+        {
+          "file": "lechon-al-horno-entero-fiesta-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 91.8
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/lechon-al-horno-entero-fiesta-640.avif 640w, assets/img/lechon-al-horno-entero-fiesta-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/lechon-al-horno-entero-fiesta-640.webp 640w, assets/img/lechon-al-horno-entero-fiesta-1024.webp 1024w\">\n  <img src=\"assets/img/lechon-al-horno-entero-fiesta-640.webp\" alt=\"Lechón entero al horno con cuero dorado y crocante en una fuente, con sopa paraguaya y mandioca\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "tomahawk-a-la-parrilla-cortado",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_401263fd-6b4d-4f62-9235-0a4244e060b4.png",
+      "prompt": "tomahawk",
+      "alt_text": "Bife tomahawk a la parrilla con su hueso largo, cortado y rosado por dentro, con sal gruesa",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "tomahawk-a-la-parrilla-cortado-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 39.4
+        },
+        {
+          "file": "tomahawk-a-la-parrilla-cortado-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 48.3
+        },
+        {
+          "file": "tomahawk-a-la-parrilla-cortado-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 73
+        },
+        {
+          "file": "tomahawk-a-la-parrilla-cortado-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 94.5
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/tomahawk-a-la-parrilla-cortado-640.avif 640w, assets/img/tomahawk-a-la-parrilla-cortado-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/tomahawk-a-la-parrilla-cortado-640.webp 640w, assets/img/tomahawk-a-la-parrilla-cortado-1024.webp 1024w\">\n  <img src=\"assets/img/tomahawk-a-la-parrilla-cortado-640.webp\" alt=\"Bife tomahawk a la parrilla con su hueso largo, cortado y rosado por dentro, con sal gruesa\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "suprema-de-pollo-rellena-en-rodajas",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_316069fd-bd82-46eb-9672-9b327d98d3df.png",
+      "prompt": "suprema rellena",
+      "alt_text": "Suprema de pollo rellena de jamón, queso y espinaca cortada en rodajas con puré de papas",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "suprema-de-pollo-rellena-en-rodajas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 21.3
+        },
+        {
+          "file": "suprema-de-pollo-rellena-en-rodajas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 27.4
+        },
+        {
+          "file": "suprema-de-pollo-rellena-en-rodajas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 35.6
+        },
+        {
+          "file": "suprema-de-pollo-rellena-en-rodajas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 51
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/suprema-de-pollo-rellena-en-rodajas-640.avif 640w, assets/img/suprema-de-pollo-rellena-en-rodajas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/suprema-de-pollo-rellena-en-rodajas-640.webp 640w, assets/img/suprema-de-pollo-rellena-en-rodajas-1024.webp 1024w\">\n  <img src=\"assets/img/suprema-de-pollo-rellena-en-rodajas-640.webp\" alt=\"Suprema de pollo rellena de jamón, queso y espinaca cortada en rodajas con puré de papas\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "colita-de-cuadril-a-la-parrilla",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051843_1561bb82-b7ed-4f6a-b7d8-8d80c5c10acc.png",
+      "prompt": "colita de cuadril",
+      "alt_text": "Colita de cuadril a la parrilla con marcas de brasa, una pieza cortada rosada y chimichurri",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "colita-de-cuadril-a-la-parrilla-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 34.9
+        },
+        {
+          "file": "colita-de-cuadril-a-la-parrilla-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 44.5
+        },
+        {
+          "file": "colita-de-cuadril-a-la-parrilla-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 63.5
+        },
+        {
+          "file": "colita-de-cuadril-a-la-parrilla-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 84.8
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/colita-de-cuadril-a-la-parrilla-640.avif 640w, assets/img/colita-de-cuadril-a-la-parrilla-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/colita-de-cuadril-a-la-parrilla-640.webp 640w, assets/img/colita-de-cuadril-a-la-parrilla-1024.webp 1024w\">\n  <img src=\"assets/img/colita-de-cuadril-a-la-parrilla-640.webp\" alt=\"Colita de cuadril a la parrilla con marcas de brasa, una pieza cortada rosada y chimichurri\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "matambre-arrollado-en-rodajas",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051916_bb4a2cd1-6f35-465f-ab7e-04721469ffb9.png",
+      "prompt": "matambre arrollado",
+      "alt_text": "Matambre arrollado cortado en rodajas con relleno de huevo, zanahoria y morrón, con ensalada rusa",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "matambre-arrollado-en-rodajas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 35.6
+        },
+        {
+          "file": "matambre-arrollado-en-rodajas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 44
+        },
+        {
+          "file": "matambre-arrollado-en-rodajas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 60
+        },
+        {
+          "file": "matambre-arrollado-en-rodajas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 80
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/matambre-arrollado-en-rodajas-640.avif 640w, assets/img/matambre-arrollado-en-rodajas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/matambre-arrollado-en-rodajas-640.webp 640w, assets/img/matambre-arrollado-en-rodajas-1024.webp 1024w\">\n  <img src=\"assets/img/matambre-arrollado-en-rodajas-640.webp\" alt=\"Matambre arrollado cortado en rodajas con relleno de huevo, zanahoria y morrón, con ensalada rusa\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "garron-osobuco-guisado-en-cazuela",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051916_433ac80a-9384-41fb-995f-14f5340f7ae7.png",
+      "prompt": "garron osobuco",
+      "alt_text": "Garrón en rodajas con su hueso y médula, guisado en salsa de tomate en una cazuela de barro",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "garron-osobuco-guisado-en-cazuela-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 34.8
+        },
+        {
+          "file": "garron-osobuco-guisado-en-cazuela-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 41.7
+        },
+        {
+          "file": "garron-osobuco-guisado-en-cazuela-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 65.9
+        },
+        {
+          "file": "garron-osobuco-guisado-en-cazuela-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 83.3
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/garron-osobuco-guisado-en-cazuela-640.avif 640w, assets/img/garron-osobuco-guisado-en-cazuela-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/garron-osobuco-guisado-en-cazuela-640.webp 640w, assets/img/garron-osobuco-guisado-en-cazuela-1024.webp 1024w\">\n  <img src=\"assets/img/garron-osobuco-guisado-en-cazuela-640.webp\" alt=\"Garrón en rodajas con su hueso y médula, guisado en salsa de tomate en una cazuela de barro\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "pernil-de-cerdo-al-horno-fiesta",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051916_59300102-c96b-4c83-9910-ed5e270e7158.png",
+      "prompt": "pernil de cerdo",
+      "alt_text": "Pernil de cerdo al horno glaseado y en parte feteado sobre una mesa de fin de año con pan",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "pernil-de-cerdo-al-horno-fiesta-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 42.8
+        },
+        {
+          "file": "pernil-de-cerdo-al-horno-fiesta-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 51
+        },
+        {
+          "file": "pernil-de-cerdo-al-horno-fiesta-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 77.4
+        },
+        {
+          "file": "pernil-de-cerdo-al-horno-fiesta-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 99.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/pernil-de-cerdo-al-horno-fiesta-640.avif 640w, assets/img/pernil-de-cerdo-al-horno-fiesta-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/pernil-de-cerdo-al-horno-fiesta-640.webp 640w, assets/img/pernil-de-cerdo-al-horno-fiesta-1024.webp 1024w\">\n  <img src=\"assets/img/pernil-de-cerdo-al-horno-fiesta-640.webp\" alt=\"Pernil de cerdo al horno glaseado y en parte feteado sobre una mesa de fin de año con pan\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "alitas-de-pollo-al-horno-crocantes",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051916_9929dcfe-c2de-4e56-a36f-402bad2377a4.png",
+      "prompt": "alitas al horno",
+      "alt_text": "Alitas de pollo al horno doradas y crocantes en una bandeja con lima y salsa para mojar",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "alitas-de-pollo-al-horno-crocantes-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 39
+        },
+        {
+          "file": "alitas-de-pollo-al-horno-crocantes-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 46.6
+        },
+        {
+          "file": "alitas-de-pollo-al-horno-crocantes-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 68.5
+        },
+        {
+          "file": "alitas-de-pollo-al-horno-crocantes-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 89.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/alitas-de-pollo-al-horno-crocantes-640.avif 640w, assets/img/alitas-de-pollo-al-horno-crocantes-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/alitas-de-pollo-al-horno-crocantes-640.webp 640w, assets/img/alitas-de-pollo-al-horno-crocantes-1024.webp 1024w\">\n  <img src=\"assets/img/alitas-de-pollo-al-horno-crocantes-640.webp\" alt=\"Alitas de pollo al horno doradas y crocantes en una bandeja con lima y salsa para mojar\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "pacu-a-la-parrilla-abierto",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051916_412359f5-abe1-41fa-bbb9-14ae08744083.png",
+      "prompt": "pacu a la parrilla",
+      "alt_text": "Pacú entero abierto a la parrilla, dorado sobre las brasas, con salsa criolla y limón",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "pacu-a-la-parrilla-abierto-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 49.1
+        },
+        {
+          "file": "pacu-a-la-parrilla-abierto-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 54.5
+        },
+        {
+          "file": "pacu-a-la-parrilla-abierto-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 86.8
+        },
+        {
+          "file": "pacu-a-la-parrilla-abierto-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 107.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/pacu-a-la-parrilla-abierto-640.avif 640w, assets/img/pacu-a-la-parrilla-abierto-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/pacu-a-la-parrilla-abierto-640.webp 640w, assets/img/pacu-a-la-parrilla-abierto-1024.webp 1024w\">\n  <img src=\"assets/img/pacu-a-la-parrilla-abierto-640.webp\" alt=\"Pacú entero abierto a la parrilla, dorado sobre las brasas, con salsa criolla y limón\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "dorado-al-horno-con-papas",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051917_a2dda4e5-a613-43da-8600-b43cb0239f21.png",
+      "prompt": "dorado al horno",
+      "alt_text": "Dorado entero al horno en una asadera con papas, tomate, cebolla, limón y perejil",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "dorado-al-horno-con-papas-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 39.7
+        },
+        {
+          "file": "dorado-al-horno-con-papas-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 46.9
+        },
+        {
+          "file": "dorado-al-horno-con-papas-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 69.6
+        },
+        {
+          "file": "dorado-al-horno-con-papas-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 88
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/dorado-al-horno-con-papas-640.avif 640w, assets/img/dorado-al-horno-con-papas-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/dorado-al-horno-con-papas-640.webp 640w, assets/img/dorado-al-horno-con-papas-1024.webp 1024w\">\n  <img src=\"assets/img/dorado-al-horno-con-papas-640.webp\" alt=\"Dorado entero al horno en una asadera con papas, tomate, cebolla, limón y perejil\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "costillas-de-cerdo-a-la-barbacoa",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051916_0b3311f4-ed73-4478-9382-11692c51afd1.png",
+      "prompt": "costillas bbq",
+      "alt_text": "Costillas de cerdo con salsa barbacoa brillante, cortadas en una tabla con mandioca frita",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "costillas-de-cerdo-a-la-barbacoa-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 44
+        },
+        {
+          "file": "costillas-de-cerdo-a-la-barbacoa-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 52.3
+        },
+        {
+          "file": "costillas-de-cerdo-a-la-barbacoa-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 81.5
+        },
+        {
+          "file": "costillas-de-cerdo-a-la-barbacoa-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 104.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/costillas-de-cerdo-a-la-barbacoa-640.avif 640w, assets/img/costillas-de-cerdo-a-la-barbacoa-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/costillas-de-cerdo-a-la-barbacoa-640.webp 640w, assets/img/costillas-de-cerdo-a-la-barbacoa-1024.webp 1024w\">\n  <img src=\"assets/img/costillas-de-cerdo-a-la-barbacoa-640.webp\" alt=\"Costillas de cerdo con salsa barbacoa brillante, cortadas en una tabla con mandioca frita\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "pizza-para-eventos-mesa-catering",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051942_8c08a815-0a12-40d6-b8d2-a819d146c195.png",
+      "prompt": "pizza para eventos",
+      "alt_text": "Pizzas recién horneadas cortadas en porciones sobre tablas en una mesa de evento con horno móvil",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "pizza-para-eventos-mesa-catering-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 31.7
+        },
+        {
+          "file": "pizza-para-eventos-mesa-catering-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 41.3
+        },
+        {
+          "file": "pizza-para-eventos-mesa-catering-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 53.9
+        },
+        {
+          "file": "pizza-para-eventos-mesa-catering-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 74.4
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/pizza-para-eventos-mesa-catering-640.avif 640w, assets/img/pizza-para-eventos-mesa-catering-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/pizza-para-eventos-mesa-catering-640.webp 640w, assets/img/pizza-para-eventos-mesa-catering-1024.webp 1024w\">\n  <img src=\"assets/img/pizza-para-eventos-mesa-catering-640.webp\" alt=\"Pizzas recién horneadas cortadas en porciones sobre tablas en una mesa de evento con horno móvil\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
+    },
+    {
+      "filename_base": "asado-de-tira-en-la-parrilla",
+      "source": "https://d8j0ntlcm91z4.cloudfront.net/user_349VrHjTFIpx9q71lpfpAXcLXvR/hf_20260925_051916_a71fb264-4617-4a5a-a228-20376b766ce9.png",
+      "prompt": "asado de tira",
+      "alt_text": "Tiras de asado de tira dorándose sobre la parrilla a carbón mientras una mano las da vuelta",
+      "naming_source": "fallback",
+      "aspect_ratio": "4:3",
+      "files": [
+        {
+          "file": "asado-de-tira-en-la-parrilla-640.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "kb": 41.3
+        },
+        {
+          "file": "asado-de-tira-en-la-parrilla-640.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "kb": 50
+        },
+        {
+          "file": "asado-de-tira-en-la-parrilla-1024.avif",
+          "format": "avif",
+          "width": 1024,
+          "height": 768,
+          "kb": 73.2
+        },
+        {
+          "file": "asado-de-tira-en-la-parrilla-1024.webp",
+          "format": "webp",
+          "width": 1024,
+          "height": 768,
+          "kb": 95.1
+        }
+      ],
+      "html_snippet": "<picture>\n  <source type=\"image/avif\" srcset=\"assets/img/asado-de-tira-en-la-parrilla-640.avif 640w, assets/img/asado-de-tira-en-la-parrilla-1024.avif 1024w\">\n  <source type=\"image/webp\" srcset=\"assets/img/asado-de-tira-en-la-parrilla-640.webp 640w, assets/img/asado-de-tira-en-la-parrilla-1024.webp 1024w\">\n  <img src=\"assets/img/asado-de-tira-en-la-parrilla-640.webp\" alt=\"Tiras de asado de tira dorándose sobre la parrilla a carbón mientras una mano las da vuelta\" width=\"640\" height=\"480\" loading=\"lazy\" decoding=\"async\">\n</picture>"
     }
   ]
 }

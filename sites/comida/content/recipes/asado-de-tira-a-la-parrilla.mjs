@@ -10,7 +10,7 @@ export default {
   cardText:'Tiras de costilla vacuna hechas despacio, primero del lado del hueso, con mandioca hervida.',
   course:'Plato principal', cuisine:'Paraguaya', category:['carne','fiesta','paraguaya'],
   keywords:['asado de tira','asado de tira a la parrilla','costilla para asado','costilla de vaca a la parrilla','costilla a la parrilla','tiempo de asado de tira'],
-  image:12,
+  image:86,
   intro:[
     'El asado de tira es la costilla vacuna cortada con sierra de través, en tiras que muestran varios huesitos en fila con carne y grasa entre ellos. En un asado paraguayo la costilla es casi obligatoria, y esta forma de cortarla es la más cómoda para la parrilla de casa: se cocina en menos de una hora y cada tira se reparte en porciones con uno o dos huesos.',
     'El secreto es la paciencia del lado del hueso. El hueso hace de escudo, la grasa de adentro se derrite de a poco y la carne queda húmeda. Las cantidades son para 6 personas e incluyen una fuente de mandioca hervida, el acompañamiento que nunca sobra.'

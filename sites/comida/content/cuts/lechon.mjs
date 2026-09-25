@@ -10,7 +10,7 @@ export default {
   cardText:'El cerdo joven entero de las fiestas: cuánto pedir, cómo encargarlo y cómo asarlo.',
   category:['carne','fiesta','horno'],
   keywords:['lechón','lechon a la parrilla','lechon a la estaca','lechon precio','lechón precio','lechon asado','lechon entero','precio de lechón de 10 kilos'],
-  image:12,
+  image:74,
   intro:[
     'El lechón es un cerdo joven que se cocina entero, abierto o en mitades, hasta que la carne se deshace y el cuero queda dorado y crujiente. En Paraguay es un plato de celebración: aparece en Navidad y Año Nuevo, en cumpleaños grandes, casamientos y fiestas de familia, casi siempre al centro de la mesa y con sopa paraguaya, mandioca y ensaladas al lado.',
     'Como no es algo que se compre de un día para otro, conviene saber cómo se encarga, qué peso pedir para la cantidad de invitados, qué método de cocción elegir según el lugar y el tiempo que tengas, y qué preguntar para comparar precios de forma justa.'

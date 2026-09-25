@@ -11,7 +11,7 @@ export default {
   cardText:'Fuego, brasas, tiempos por corte y el orden de salida de un buen asado.',
   category:['carne','fiesta'],
   keywords:['asado a la parrilla','asado ala parrilla','como hacer un asado','como hacer asado a la parrilla','tiempos de asado por corte'],
-  image:12,
+  image:62,
   intro:[
     'Un asado a la parrilla sale bien cuando se piensa como una secuencia y no como un solo momento. Primero se arma el fuego, después se ordena la brasa por zonas, entran los cortes lentos, más tarde los rápidos, y la mesa recibe carne en tandas mientras el parrillero sigue trabajando. Cuando esa secuencia se respeta, casi cualquier corte queda rico.',
     'Esta guía recorre ese camino completo: qué combustible usar, cómo encender sin productos que dejen olor, cuánto calor pide cada corte, una tabla con tiempos orientativos y el orden de salida que usan los parrilleros de casa. Al final vas a encontrar los errores más comunes y cómo corregirlos en el momento.'

@@ -10,6 +10,8 @@ export default {
   cardText:'La cría de la cabra, magra y tierna: a la parrilla, a la cruz o al horno.',
   category:['carne','fiesta','horno'],
   keywords:['cabrito','cabrito asado','cabrito a la parrilla','cabrito al horno','chivito'],
+
+  image:65,
   intro:[
     'El cabrito es la cría de la cabra, faenada joven, cuando su carne todavía es clara, tierna y de sabor delicado. Es una carne muy magra, con poca grasa bajo el cuero y entre los músculos, y eso marca todo lo demás: se cocina rápido por fuera, se seca si se descuida y agradece un adobo y un fuego suave.',
     'Acá vas a ver en qué se diferencia del chivo adulto, cómo reconocer un buen cabrito, cómo asarlo a la parrilla, a la cruz o al horno, cuánto comprar para una reunión y qué cambia su precio.'

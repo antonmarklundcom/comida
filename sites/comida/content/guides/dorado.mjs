@@ -11,6 +11,8 @@ export default {
   cardText:'El pez dorado del río Paraguay: sabroso, con espinas, y cómo cocinarlo entero.',
   category:['paraguaya','horno'],
   keywords:['dorado pescado','dorado de río','dorado pez','pescado dorado','dorado al horno','dorado a la parrilla','dorado de mar'],
+
+  image:83,
   intro:[
     'El dorado de río es uno de los peces más llamativos de la cuenca del Paraguay y del Paraná: tiene el cuerpo alargado y musculoso, cubierto de escamas de un amarillo dorado intenso, y una cabeza grande de boca poderosa. Es un cazador de otros peces y, por su fuerza, es muy apreciado en la pesca deportiva; en la zona ribereña hay quien lo llama el rey del río.',
     'En la cocina da una carne blanca, de sabor más marcado que el surubí, con una textura firme y jugosa. Su punto débil son las espinas: tiene muchas, finas y con forma de horquilla, repartidas en el lomo. En esta guía te explicamos cómo reconocerlo en la pescadería, por qué conviene cocinarlo entero y cómo servirlo para que se disfrute sin sustos.'

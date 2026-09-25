@@ -10,6 +10,8 @@ export default {
   cardText:'El corte magro y tierno de la pierna que manda en las milanesas.',
   category:['carne','horno'],
   keywords:['nalga','tapa de nalga'],
+
+  image:72,
   intro:[
     'La nalga es el músculo más grande de la pierna trasera del vacuno y uno de los cortes magros más tiernos de esa zona. Si alguna vez preguntaste en la carnicería cuál es la mejor carne para milanesa, lo más probable es que te hayan dicho nalga. También sirve para bifes finos, carne al horno, escalopes y brochetas.',
     'Encima de la nalga hay una capa de carne distinta, la tapa de nalga, que se vende por separado y se cocina de otra forma. En esta página te explicamos las dos, cómo elegirlas, cómo cocinarlas, cuánto comprar y qué cambia su precio.'

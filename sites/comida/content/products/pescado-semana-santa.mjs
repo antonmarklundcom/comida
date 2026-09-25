@@ -7,6 +7,8 @@ export default {
   meta:'Anotate para recibir surubí, pacú o dorado para Semana Santa en Gran Asunción. Pre-pedido sin pago: te avisamos por WhatsApp cuando confirmemos la entrega.',
   h1:'Pescado de río para Semana Santa',
   cardText:'Surubí, pacú y dorado: anotate al pre-pedido de Semana Santa.',
+
+  image:56,
   intro:[
     'En Semana Santa muchas familias paraguayas cambian la carne por pescado de río, y los mejores cortes se piden con tiempo. Estamos buscando un proveedor que entregue surubí, pacú y dorado con la cadena de frío completa hasta tu casa.',
     'Mientras tanto, anotate en el pre-pedido: elegí qué pescado te interesa y la zona de entrega. No pagás nada ahora; te escribimos por WhatsApp con la disponibilidad, la forma de corte y el día de entrega antes de confirmar.'

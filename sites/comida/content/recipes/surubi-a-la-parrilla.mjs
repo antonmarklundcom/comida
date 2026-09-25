@@ -10,6 +10,8 @@ export default {
   cardText:'Postas de surubí marinadas con ajo y limón, doradas a la brasa y con salsa criolla.',
   course:'Plato principal', cuisine:'Paraguaya', category:['paraguaya','fiesta','saludable'],
   keywords:['surubí a la parrilla','surubi a la parrilla','postas de surubí a la parrilla','surubí asado','pescado a la parrilla'],
+
+  image:55,
   intro:[
     'El surubí es el pescado ideal para quien recién se anima a poner pescado en la parrilla. Su carne firme no se desarma, no tiene espinas finas y el cuero de las postas hace de protección contra las brasas. Con una marinada corta de ajo, limón y aceite, fuego medio y una parrilla bien caliente y limpia, salen postas doradas por fuera y jugosas en el centro.',
     'La receta es para seis personas con postas de unos 300 g cada una. Incluye una salsa criolla fresca que corta la grasa del pescado y que podés preparar mientras se encienden las brasas. Si querés saber más sobre cómo elegir el surubí y qué corte pedir, tenés nuestra guía completa del surubí.'

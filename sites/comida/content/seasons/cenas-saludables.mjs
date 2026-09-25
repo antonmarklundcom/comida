@@ -9,6 +9,8 @@ export default {
   h1:'Cenas saludables: recetas caseras, livianas y rápidas',
   cardText:'Sopas, verduras, pollo y legumbres para cenar liviano y casero.',
   keywords:['cenas saludables','cena saludable','cena rápida y económica','cenas rapidas','qué puedo cenar hoy'],
+
+  image:69,
   intro:[
     'Una cena saludable, en esta colección, es una cena casera y liviana: con verduras en el plato, cocciones simples como el horno, la plancha o la olla, y porciones que no dejan pesado para dormir. No hablamos de dietas ni de bajar de peso, sino de recetas de todos los días que se hacen con lo que hay en la verdulería.',
     'Reunimos opciones para las noches de calor y de frío, desde un omelette que sale en diez minutos hasta un pira caldo o una cazuela que se hace en una olla. También hay ideas de cena rápida y económica y un plan para adelantar trabajo.'

@@ -12,6 +12,8 @@ export default {
   cardText:'Horno móvil o entrega: cuántas pizzas pedir por persona y cómo organizar la pizza party.',
   category:['fiesta','rapida'],
   keywords:['pizza para eventos','pizza party para cumpleaños','horno móvil de pizza','pizza party','catering de pizza','pizza para cumpleaños'],
+
+  image:85,
   intro:[
     'La pizza tiene algo que pocas comidas de fiesta tienen: el espectáculo de verla salir del horno. Por eso la pizza party se volvió una opción habitual para cumpleaños, reuniones de egresados y encuentros de empresa, sobre todo cuando se arma un horno en el patio y las pizzas salen una tras otra durante toda la noche.',
     'Acá vas a encontrar los formatos más comunes, una estimación de cuántas pizzas calcular y lo que conviene preguntar antes de reservar. comida.com.py recibe tu pedido y consulta disponibilidad con caterings; la propuesta, el contrato y la factura son del catering que elijas.'

@@ -10,6 +10,8 @@ export default {
   cardText:'Supremas con bolsillo de jamón y queso, doradas en sartén y terminadas al horno.',
   course:'Plato principal', cuisine:'Casera', category:['pollo','horno'],
   keywords:['suprema de pollo','suprema rellena','suprema de pollo rellena','receta con suprema de pollo','suprema de pollo al horno','suprema de pollo a la crema'],
+
+  image:76,
   intro:[
     'La suprema de pollo es la pechuga deshuesada y sin piel, cortada en dos medias piezas. Rellena, se convierte en un plato de fiesta con muy poco trabajo: se le abre un bolsillo por el costado, se mete jamón y queso, se dora en sartén para que tome color y se termina en el horno hasta que el centro está cocido y el queso, fundido.',
     'Esta receta calcula una suprema grande por persona, de unos 220 gramos. Explica cómo hacer el corte para que el relleno no se escape, en qué momento está cocida sin quedar seca y una salsa de crema rápida con el fondo de la sartén. Al final hay variaciones con queso Paraguay, espinaca o mostaza.'

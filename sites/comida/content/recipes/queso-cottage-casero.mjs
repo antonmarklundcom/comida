@@ -9,6 +9,8 @@ export default {
   cardText:'Granitos suaves y húmedos hechos en casa con dos litros de leche.',
   course:'Merienda', cuisine:'Casera', category:['saludable','rapida'],
   keywords:['queso cottage','queso cottage casero','como hacer queso cottage','receta de queso cottage'],
+
+  image:71,
   intro:[
     'El queso cottage es una cuajada fresca en granitos, suelta y húmeda, que se come tal cual o mezclada con un poco de crema. Hacerlo en casa lleva poca técnica: se entibia la leche, se corta con vinagre, se escurre la cuajada, se enjuaga con agua fría y se le da el punto de sal y cremosidad que te guste.',
     'Esta receta usa dos litros de leche entera pasteurizada y rinde alrededor de 250 a 300 gramos de queso, lo justo para varios desayunos. No reemplaza al queso Paraguay en la chipa ni en la sopa, pero es ideal para tostadas, ensaladas y bowls con fruta.'

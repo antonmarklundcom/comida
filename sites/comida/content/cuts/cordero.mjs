@@ -10,6 +10,8 @@ export default {
   cardText:'Pierna, paleta y costillar de cordero: cómo elegirlos y cómo asarlos.',
   category:['carne','fiesta','horno'],
   keywords:['cordero','carne de cordero','cordero asado','cordero oveja','cordero horno','cordero a la parrilla'],
+
+  image:65,
   intro:[
     'El cordero es la cría joven de la oveja, y su carne es más tierna y de sabor más suave que la de un animal adulto. Se vende entero, en medias reses o en cortes como la pierna, la paleta y el costillar. En la mesa paraguaya no es tan cotidiano como la vaca o el cerdo, pero aparece en fiestas, en asados especiales y en las mesas de fin de año.',
     'Acá vas a ver en qué se diferencian cordero, borrego, capón y oveja, qué corte conviene para cada método, cómo hacer un cordero asado a la parrilla, a la cruz o al horno, cuánto comprar por persona y qué cambia el precio.'

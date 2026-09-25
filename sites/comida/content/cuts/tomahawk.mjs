@@ -10,7 +10,7 @@ export default {
   cardText:'Un bife ancho grueso con el hueso de la costilla entero: se hace despacio y se comparte.',
   category:['carne','fiesta'],
   keywords:['tomahawk carne','corte tomahawk','tomahawk precio','tomahawk a la parrilla','bife ancho con hueso'],
-  image:23,
+  image:75,
   intro:[
     'El tomahawk es un bife ancho cortado bien grueso, con el hueso de la costilla completo y limpio de carne en la punta. Ese hueso largo le da la forma de hacha que explica el nombre en inglés. Por dentro es el mismo músculo del ojo de bife, con sus vetas de grasa y su centro tierno; lo que cambia es el tamaño y la presentación.',
     'Por su grosor no se cocina como un bife común: si lo tirás a fuego fuerte, se quema por fuera y queda crudo en el centro. En esta página vas a ver de dónde sale, cómo pedirlo, un método de dos fuegos que funciona en cualquier parrilla, cuántas personas comen con una pieza y qué hace que su precio sea alto.'

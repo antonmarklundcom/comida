@@ -10,6 +10,8 @@ export default {
   cardText:'El corte del vientre del cerdo: fresca a la parrilla, ahumada en fetas o crocante al horno.',
   category:['carne','fiesta','horno'],
   keywords:['panceta','panceta de cerdo','panceta ahumada','bacon es panceta','panceta bacon','panceta a la parrilla'],
+
+  image:66,
   intro:[
     'La panceta es el vientre del cerdo: capas alternadas de grasa y carne, con o sin cuero. En la carnicería se consigue fresca, para hacer a la parrilla o al horno, y en la fiambrería aparece curada, salada o ahumada, en fetas finas o en trozo. Es un corte sabroso y rendidor que en poco tiempo pasa de blando a crocante si se le da el calor adecuado.',
     'Acá vas a ver en qué se diferencian la panceta fresca, la salada y la ahumada, si el bacon es lo mismo que la panceta, cómo cocinarla para que quede crujiente y no gomosa, cuánto comprar por persona y qué hace variar su precio.'

@@ -10,7 +10,7 @@ export default {
   cardText:'Un corte chico, tierno y rendidor que se hace en menos de una hora.',
   category:['carne','fiesta','horno'],
   keywords:['colita cuadril','colita de cuadril','colitadecuadril','colita cuadril al horno','colita de cuadril al horno','colita cuadril a la parrilla','asado colita de cuadril','cocinar colita de cuadril','colita cuadril precio'],
-  image:12,
+  image:77,
   intro:[
     'La colita de cuadril es la punta alargada del cuadril: una pieza de forma más o menos triangular, magra por dentro y con un borde de grasa de un lado. Es tierna, tiene buen sabor y, por su tamaño, entra justo en una asadera familiar o en un rincón de la parrilla.',
     'Es un corte agradecido, pero tiene un detalle que conviene conocer antes de cortarla: la fibra cambia de dirección a mitad de la pieza. Acá vas a ver cómo reconocerla, cómo hacerla al horno y a la parrilla, cómo cortarla bien y cuánto comprar.'

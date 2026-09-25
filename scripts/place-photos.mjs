@@ -3,8 +3,9 @@
 // Usage: node scripts/place-photos.mjs [--dry-run]   (safe to run twice: existing ids are skipped)
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), '..');
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dry = process.argv.includes('--dry-run');
 const CSV = 'plan/handoff/photos-2026-09-25-jobs.csv';
 const MANIFEST = 'docs/imagery-manifest.json';

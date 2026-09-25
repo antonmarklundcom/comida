@@ -9,6 +9,8 @@ export default {
   h1:'Merienda saludable: recetas caseras para grandes y chicos',
   cardText:'Jugos, licuados, yogur con fruta y panqueques de avena para la tarde.',
   keywords:['merienda saludable','meriendas saludables','meriendas saludables para niños','merienda para niños','merienda para la tarde'],
+
+  image:64,
   intro:[
     'La merienda es la comida que más se improvisa, y por eso termina muchas veces en un paquete de galletitas. Esta colección reúne meriendas caseras y livianas, con fruta fresca, yogur, leche y avena, que se preparan rápido o se dejan listas de antemano. Saludable, acá, quiere decir casero y con fruta; no hablamos de dietas.',
     'Hay opciones para tomar, como jugos y licuados, y opciones para comer con cuchara o con la mano. Muchas sirven también para la merienda de los chicos después de la escuela, con consejos para adaptarlas a los más pequeños.'

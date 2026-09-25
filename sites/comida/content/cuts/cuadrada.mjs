@@ -10,6 +10,8 @@ export default {
   cardText:'Carne magra de la pierna, ideal para milanesas, horno y olla.',
   category:['carne','horno'],
   keywords:['cuadrada','carne cuadrada'],
+
+  image:72,
   intro:[
     'La cuadrada es un corte magro de la pierna trasera del vacuno. No tiene la fama de la picaña ni del vacío, pero es de las carnes más usadas en la cocina de todos los días: milanesas, carne al horno, estofados y rellenos. Su nombre viene de la forma que tiene la pieza limpia, un bloque alargado con lados bastante rectos.',
     'Como es firme y tiene poca grasa, pide un poco de cuidado: cortada fina y cocinada rápido queda bien, cocinada lento con líquido queda tierna, y a mitad de camino se vuelve seca. Acá te explicamos cuál es cuál, y cómo pedirla cuando en la carnicería le dicen de otra forma.'

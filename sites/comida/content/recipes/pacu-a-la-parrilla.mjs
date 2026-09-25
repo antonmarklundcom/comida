@@ -10,6 +10,8 @@ export default {
   cardText:'El pacú abierto sobre las brasas, con piel crocante, o relleno con sofrito y queso.',
   course:'Plato principal', cuisine:'Paraguaya', category:['paraguaya','fiesta','carne'],
   keywords:['pacú a la parrilla','pacu a la parrilla','pacú relleno','pacu relleno a la parrilla','pacú asado','pacu pescado a la parrilla'],
+
+  image:82,
   intro:[
     'El pacú a la parrilla es un clásico de los domingos junto al río y de la Semana Santa en muchas casas paraguayas. El pescado se abre en mariposa, se condimenta con ajo y limón y se cocina con la piel hacia las brasas, despacio, hasta que la grasa se derrite, la piel queda crocante y la carne se separa sola de las costillas. No hace falta más que sal, limón y buena brasa.',
     'Esta receta usa un pacú entero de unos 3 kilos para seis personas. Abajo tenés también la versión rellena, la otra forma tradicional, con un sofrito de cebolla, locote y tomate con queso Paraguay dentro del pescado. Para elegir un buen pacú y entender sus espinas, mirá nuestra guía del pacú.'

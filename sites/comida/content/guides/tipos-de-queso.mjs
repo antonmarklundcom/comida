@@ -11,6 +11,8 @@ export default {
   cardText:'Cottage, mozzarella, cremoso, sardo, roquefort y más: usos en la cocina y conservación.',
   category:['horno','rapida'],
   keywords:['tipos de queso','queso cottage','queso mozzarella','roquefort queso','cuartirolo queso','queso cremoso','sardo queso','queso burrata','queso gouda','gruyere queso','queso reggianito','queso fresco'],
+
+  image:68,
   intro:[
     'En la heladera de una casa paraguaya casi siempre hay queso Paraguay, pero en la góndola aparecen muchos otros: queso cottage para el desayuno, mozzarella para la pizza, cremoso para la milanesa napolitana, sardo y reggianito para rallar sobre la pasta, roquefort para una salsa y, cada vez más, burrata, gouda o gruyere para una picada.',
     'Cada uno tiene una humedad, un punto de sal y una forma de fundir distintos. Esta guía los ordena de más fresco a más duro, te dice en qué receta rinde cada uno y cómo guardarlos para que no se sequen ni se llenen de moho antes de tiempo.'

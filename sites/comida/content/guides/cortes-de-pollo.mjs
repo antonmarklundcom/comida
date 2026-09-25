@@ -11,6 +11,8 @@ export default {
   cardText:'Qué corte de pollo comprar para cada receta y cuánto calcular por persona.',
   category:['pollo'],
   keywords:['suprema de pollo','muslo de pollo','pata muslo','alitas de pollo','alas de pollo','pollo entero','cortes de pollo'],
+
+  image:60,
   intro:[
     'El pollo es la carne más versátil de la cocina diaria: se hace al horno, a la parrilla, frito, en guiso, en caldo o en milanesa, y cada preparación sale mejor con el corte indicado. La suprema rinde para milanesas y rellenos, la pata muslo aguanta horno largo sin secarse, las alitas son para picar y el pollo entero es lo más rendidor para una familia.',
     'En esta guía repasamos cada corte de pollo que se consigue en carnicerías y despensas de Paraguay, qué diferencia hay entre pechuga y suprema o entre muslo y pata muslo, cuánto calcular por persona y cómo cocinar cada uno para que quede jugoso y bien cocido.'

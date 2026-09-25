@@ -10,6 +10,8 @@ export default {
   cardText:'El pernil marinado con cerveza y ajo, horneado despacio y glaseado para la mesa de fiesta.',
   course:'Plato principal', cuisine:'Casera', category:['carne','horno','fiesta'],
   keywords:['pernil','pernil de cerdo','pernil de cerdo al horno','pernil al horno','pernil para navidad','pernil para sándwiches'],
+
+  image:80,
   intro:[
     'El pernil es la pata trasera del cerdo, la misma pieza de la que sale el jamón. Horneado despacio es uno de los platos más buscados para la cena de Navidad y de Año Nuevo: rinde mucho, se prepara con anticipación y sirve tanto caliente en la mesa como frío en sándwiches al día siguiente. Esta versión se marina con cerveza, ajo y pimentón, se hornea tapada varias horas y se termina con un glaseado de miel y mostaza.',
     'Las cantidades son para 6 personas con un trozo de pernil con hueso de unos 2,5 kilos. Para una familia grande, elegí 12 porciones y pedí un pernil de 5 kilos: los tiempos se alargan y te lo indicamos en cada paso.'

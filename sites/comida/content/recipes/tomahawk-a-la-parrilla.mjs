@@ -10,6 +10,8 @@ export default {
   cardText:'El bife ancho con el hueso largo, dorado afuera, rosado adentro y cortado en la mesa.',
   course:'Plato principal', cuisine:'Casera', category:['carne','fiesta'],
   keywords:['tomahawk','tomahawk carne','corte tomahawk','tomahawk a la parrilla','cómo hacer tomahawk','tomahawk sellado inverso'],
+
+  image:75,
   intro:[
     'El tomahawk es un bife ancho cortado con el hueso de la costilla entero y limpio, largo como un mango. Es grueso, de cinco a seis centímetros, pesa más de un kilo y tiene la grasa entreverada del ojo de bife. Por su tamaño no se hace como un bife común: necesita dorarse fuerte y después terminar a fuego suave para que el centro llegue al punto sin que la costra se queme.',
     'Con dos piezas medianas comen 6 personas, cortadas en fetas y servidas en tabla. Abajo explicamos también el sellado inverso, el método que muchos parrilleros prefieren para cortes de este grosor.'

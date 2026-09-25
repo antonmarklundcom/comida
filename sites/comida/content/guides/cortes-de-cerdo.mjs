@@ -11,6 +11,8 @@ export default {
   cardText:'Bondiola, carré, costillar, matambrito y pernil: el chancho de punta a punta.',
   category:['carne'],
   keywords:['cerdo','carne de cerdo','carne de chancho','cortes de cerdo','cortes de carne de cerdo','chancho'],
+
+  image:67,
   intro:[
     'En Paraguay el cerdo, o chancho como se dice en casa, está en la mesa de todos los días y en las fiestas grandes: chuletas a la plancha un martes, bondiola a la parrilla el domingo, lechón para las fiestas de fin de año. Es una carne rendidora y sabrosa, con cortes muy distintos entre sí, desde los magros y tiernos hasta los que tienen grasa y hueso y piden horas de fuego suave.',
     'Esta guía te muestra de dónde sale cada corte de cerdo, cuál conviene para parrilla, horno u olla y cómo cocinarlo para que quede jugoso y seguro. Cada corte y cada receta tiene su página con el paso a paso.'

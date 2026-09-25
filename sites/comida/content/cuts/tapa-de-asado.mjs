@@ -10,6 +10,8 @@ export default {
   cardText:'La capa de carne que cubre las costillas: sabrosa y de cocción lenta.',
   category:['carne','horno','fiesta'],
   keywords:['tapa de asado'],
+
+  image:86,
   intro:[
     'La tapa de asado es la capa de carne que cubre por fuera las costillas delanteras del vacuno. Es un corte plano, con fibras largas, vetas de grasa y una membrana de un lado. Tiene muchísimo sabor, pero no es tierna de entrada: si la tratás como un bife, queda dura.',
     'Bien llevada, en cambio, es de las carnes más ricas y rendidoras de la carnicería. Acá te contamos de dónde sale, cómo limpiarla, tres formas de cocinarla con tiempos y señales, cuánto comprar y qué tener en cuenta con el precio.'

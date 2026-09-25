@@ -10,6 +10,8 @@ export default {
   cardText:'El bife grueso con hueso que en Paraguay se pide como bife ancho con hueso.',
   category:['carne','fiesta'],
   keywords:['chuleton','chuleton de vaca','chuletón','chuleton a la parrilla','bife ancho con hueso'],
+
+  image:75,
   intro:[
     'Chuletón es la palabra con que en España se llama a un bife grueso de vaca con su hueso de costilla. En las carnicerías paraguayas no siempre se usa ese nombre, así que muchas veces hay que pedirlo por lo que es: un bife ancho con hueso, cortado de cuatro a seis centímetros. Es un corte para compartir, con mucha grasa intramuscular y un sabor intenso.',
     'También se confunde con la chuleta, que en Paraguay suele ser un bife fino de cerdo o de vaca con hueso. En esta página vas a ver qué es exactamente el chuletón, cómo pedirlo sin malentendidos, cómo cocinarlo a la parrilla o en una plancha de hierro, cuánto comprar y qué cambia su precio.'

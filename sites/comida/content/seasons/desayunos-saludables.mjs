@@ -9,6 +9,8 @@ export default {
   h1:'Desayunos saludables: recetas caseras con fruta, avena y huevo',
   cardText:'Avena, yogur, fruta, huevos y licuados para empezar el día con algo casero.',
   keywords:['desayunos saludables','desayuno saludable','desayunos caseros','ideas de desayuno','desayuno rápido'],
+
+  image:63,
   intro:[
     'En esta colección, saludable quiere decir algo simple: desayunos caseros, livianos, con fruta fresca, lácteos, avena o huevo, hechos en tu cocina y sin productos de paquete. No son dietas ni planes para bajar de peso, sino recetas para desayunar rico y variado durante la semana.',
     'Reunimos opciones calientes y frías, rápidas para los días de semana y más tranquilas para el fin de semana, con recetas que se pueden adelantar la noche anterior. Al final hay un plan para organizar la semana y preguntas frecuentes.'
