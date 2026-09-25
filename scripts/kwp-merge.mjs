@@ -23,6 +23,7 @@ const ROUNDS=[
   [3,'kwp-round3.csv',r=>({topic:r.list,low:r.cpc_low_sek,high:r.cpc_high_sek})],
   [4,'kwp-round4.csv',r=>({topic:r.list,low:r.cpc_low_sek,high:r.cpc_high_sek})],
   [5,'kwp-round5.csv',r=>({topic:r.list,low:r.cpc_low_sek,high:r.cpc_high_sek})],
+  [6,'kwp-round6.csv',r=>({topic:r.list,low:r.cpc_low_sek,high:r.cpc_high_sek})],
 ];
 const all=new Map();let rowsIn=0;
 for(const [n,file,map] of ROUNDS){

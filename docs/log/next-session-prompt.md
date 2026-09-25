@@ -8,13 +8,13 @@ You are continuing the comida.com.py project in a local run. Work only in `C:\Cl
 
 REPO: https://github.com/antonmarklundcom/comida.git, branch `master`. Confirm with `git remote -v`, `git status` and `git log --oneline -5` before anything else. The last session ended with PRs #1, #2 and #3 merged into master. If master differs from origin, stop and tell me.
 
-READ FIRST (in this order): `AGENTS.md`, `docs/log/build.md` (full state, standing overrides and the Opus issues log), `plan/12-GROWTH-AND-REVENUE.md` (current plan), `docs/log/opus-final-review.md` (launch blockers), `README.md` (commands, mercado, deploy), `plan/prompts/CONTENT-WRITER.md` (the brief for content subagents).
+READ FIRST (in this order): `AGENTS.md`, `plan/13-MEAT-FISH-PAGE-PLAN.md` (the next build batch, from KWP round 6), `docs/log/build.md` (full state, standing overrides and the Opus issues log), `plan/12-GROWTH-AND-REVENUE.md` (current plan), `docs/log/opus-final-review.md` (launch blockers), `README.md` (commands, mercado, deploy), `plan/prompts/CONTENT-WRITER.md` (the brief for content subagents).
 
 STATE AT HANDOFF (2026-09-24):
 - Static site + one PHP handler, built by `node engine/build-site.mjs --site=comida`. 195 HTML pages / 183 in the sitemap: 120 recipes, 10 guides, 10 meat cuts, 12 `/recetas-con/` ingredient pages, 5 seasonal collections, catering pages, `/mercado/` (canasta, queso Paraguay, carne a consultar), `/planificador/`, printable recetarios, viandas (noindex behind a partner gate).
 - Content lives in one module per page under `sites/comida/content/{recipes,guides,cuts,ingredients,seasons,products,viandas}`; the route manifest loads them. Mercado settings: `sites/comida/mercado.mjs` (keep in sync with the constants in `php/lead-forward.php`; the QA gate checks it).
 - Forms post to `php/lead-forward.php` → VenderCRM (`X-Api-Key`, per-submission `idempotency_key`, 200/201 = accepted). Lead types: cliente, proveedor, viandas, pedido, suscripcion, recetario. A live test lead was accepted on 2026-09-24. The CRM key lives only in `comida-private/config.php` next to `public_html` on Hostinger (Anton has the folder in Downloads). Never print, commit or copy any key.
-- KWP: all rounds merged in `plan/research/kwp-all.csv` (1,713 unique keywords; Paraguay data from a Swedish Ads account, CPC in SEK). Add a new round as `plan/research/kwp-roundN.csv` with columns `list,keyword,volume,cpc_low_sek,cpc_high_sek`, add it to `ROUNDS` in `scripts/kwp-merge.mjs`, run `node scripts/kwp-merge.mjs`.
+- KWP: all rounds merged in `plan/research/kwp-all.csv` (1,953 unique keywords from 6 rounds; Paraguay data from a Swedish Ads account, CPC in SEK). Add a new round as `plan/research/kwp-roundN.csv` with columns `list,keyword,volume,cpc_low_sek,cpc_high_sek`, add it to `ROUNDS` in `scripts/kwp-merge.mjs`, run `node scripts/kwp-merge.mjs`.
 - Images: `docs/imagery-manifest.json` has 53 entries (ids 30-53 are recipe photos). Higgsfield spend is 43.5 of a 60-credit cap: never generate images without my explicit OK in the chat, and follow the higgsfield-image-pipeline and webimg-pipeline skills (GPT Image 2.5 Sunburst, medium, 1k for recipe photos, ledger check after every batch).
 - Deploy: `node scripts/deploy-branch.mjs` builds, runs every gate and pushes the built site only to branch `hostinger` (Hostinger Git deploy). Zip alternative: `deploy/make-zip.ps1`.
 - Abasto weekly price table is built but OFF (`sites/comida/abasto-precios.mjs`), pending my decision on AGENTS.md rule 5.
@@ -37,7 +37,7 @@ BACKLOG (from the last session, ranked):
 5. Mercado products: frozen empanadas and pizza dough by the dozen, queso Paraguay monthly subscription, recipe kits (all ingredients of one recipe in one order).
 6. Restaurant guides by dish and neighbourhood (pizzerías, lomiterías, churrasquerías, dónde comer en Villa Morra) — only from real visits (`docs/restaurant-visit-checklist.md`).
 7. Recipe index by time (15/30/60 minutes) and by main ingredient; weekly "menú de la semana" page.
-8. Finish the social cards (`node scripts/social-cards.mjs`), then a posting plan for Instagram/Pinterest.
+8. Social cards are done (120 in social/); next is a posting plan for Instagram/Pinterest.
 9. Password-protected admin view of mercado orders and recipe feedback (PHP, reads the private state_dir).
 10. Expand the viandas pages before the partner gate opens; Guaraní names on Paraguayan recipes.
 
