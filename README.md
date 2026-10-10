@@ -65,6 +65,8 @@ Copy a module from the same folder, change `id`, `slug` (= file name), texts and
 
 ## Forms and VenderCRM
 
+New CRM setup: use canonical VENDERCRM_URL (HTTPS base origin) and VENDERCRM_API_KEY in persistent ../private/vendercrm.php or the server environment. See docs/VENDERCRM-CONFIGURATION.md. The old comida-private settings below remain fallback and retain operational extras/per-form keys.
+
 The browser never talks to VenderCRM. Forms post to `/php/lead-forward.php`, which reads its settings from a private file **outside `public_html`**:
 
 1. On Hostinger, create the folder `/home/<hostinger-user>/domains/comida.com.py/comida-private/` (next to `public_html`, never inside it) and in it `config.php`:
