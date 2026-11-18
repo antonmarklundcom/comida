@@ -200,6 +200,18 @@ if (clean($_POST['consent'] ?? '', 3) !== 'si') respond(false, ['error' => 'inva
 // ---- private config ---------------------------------------------------------
 $configPath = getenv('COMIDA_CONFIG_PATH') ?: COMIDA_PRIVATE_CONFIG;
 $config = is_readable($configPath) ? (require $configPath) : null;
+try {
+    require_once __DIR__ . '/lib/vendercrm-config.php';
+    $canonicalCrm = \VenderCRM\Config::optional(dirname(__DIR__));
+    if ($canonicalCrm) {
+        if (!is_array($config)) $config = [];
+        $config['crm_url'] = $canonicalCrm->doctor()['url'];
+        $config['api_key'] = $canonicalCrm->apiKey();
+    }
+} catch (\Throwable $error) {
+    error_log('comida lead-forward: invalid canonical configuration');
+    respond(false, ['error'=>'config', 'whatsapp'=>$fallback], 503);
+}
 if (!is_array($config) || empty($config['crm_url']) || empty($config['api_key'])) {
     error_log('comida lead-forward: private config missing or incomplete');
     respond(false, ['error' => 'config', 'whatsapp' => $fallback], 503);
